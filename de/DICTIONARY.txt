@@ -1,0 +1,165 @@
+------------------------------------------------------------------------------
+Dictionary of terms we should standardise upon
+------------------------------------------------------------------------------
+
+$Id: DICTIONARY.txt,v 1.13.2.5 2007/08/05 11:43:41 timcn Exp $
+
+
+Agreed-upon strings
+-------------------
+
+This is a list of terms we should consistently use throughout the translation.
+Please keep the list in alphabetical order for better readability.
+
+Note: Tab size is 4.
+
+access control  Zugriffskontroll
+account				Benutzerkonto
+activated			aktiviert
+active				aktiv
+add					hinzufügen
+administer			verwalten
+administrator		Administrator
+anonymous			Gast
+approved			freigegeben
+archive				Archiv
+article				Artikel
+attachment			Anhang
+authorized individual	berechtigte Person
+block				Block
+blog				Weblog
+body				Haupttext
+book outline		Inhaltsverzeichnis
+browse				durchsuchen
+capture				aufzeichnen
+categorize			kategorisieren
+category			Kategorie
+chapter				Kapitel
+check				auswerten; sicherstellen
+checkboxes			Ankreuzfeld
+child				untergeordnet
+clean URLs			lesbare URLs
+collaborative		gemeinschaftlich
+configuration		Konfiguration
+content				Inhalt
+content types		Inhaltstypen
+create				erstellen
+created				erstellt
+cron				Cron
+customization		Anpassung
+date				Datum
+debugging			Auffinden von Fehlern
+default				Standard-
+delete				löschen
+deleted				gelöscht
+display mode		Ansicht
+displayed			angezeigt
+e-mail				E-Mail
+edit				bearbeiten
+event				Ereignis
+expanded view		vollständige Ansicht
+feed				Newsfeed
+filter (n.)			Filter
+filter (v.)			filtern
+form				Formular
+forum				Forum
+forums				Foren
+fully-qualified		vollständig
+handbook			Handbuch
+handbook page		Handbuchseite
+help text			Hilfetext
+home				Startseite
+hyperlink			Verweis
+information			Informationen
+input format		Eingabeformat
+interval			Intervall
+item				Element
+last				neueste
+legacy				Rückwärtskompatibilität
+link				Verweis
+location			Adresse
+log					Protokoll
+log in				anmelden
+log message			Protokollnachricht
+log out				abmelden
+main page			Startseite
+menu item			Menüpunkt
+message				Nachricht
+message type		Nachrichtentyp
+moderate			moderieren
+moderator			Moderator
+module				Modul
+move				verschieben
+never				nie
+news feed			Newsfeed
+next				nächstes
+node				[umschreiben]
+notice				Mitteilung
+on a regular basis	regelmäßig
+options				Optionen
+organize			gliedern
+orphan				verwaist
+outline				Gliederung
+overview			Übersicht
+page				Seite
+parent				übergeordnet
+parse error			Verarbeitungsfehler
+permission			Berechtigung
+poll				Umfrage
+post				Beitrag
+post (n.)			Beitrag
+post (v.)			speichern/beitragen
+post type			Inhaltstyp
+previous			vorheriges
+printer-friendly	druckerfreundlich
+promote	to front page	Auf der Startseite anzeigen
+public				öffentlich
+publication			Veröffentlichung
+publish				veröffentlichen
+queue				Warteschlange
+RDF feed			RDF-Newsfeed
+register			registrieren
+reply (n.)			Antwort
+reply (v.)			antworten
+result				Ergebnis
+role				Rolle
+RSS feed			RSS-Newsfeed
+search output		Suchergebnis
+section				Abschnitt
+session				Sitzung
+setting				Einstellung
+severity			Schweregrad
+sibling				nebengeordnet
+site				Website
+story				Artikel
+string				Zeichenkette
+submission queue	Beitragswarteschlange
+submit				speichern
+syndicate			abgleichen
+system				System-
+system event		Systemereignis
+tab					Reiter
+taxonomy			Taxonomie
+teaser				Anrisstext
+themable			anpassbar, Design anpassbar
+theme				Theme
+threaded view		Themenansicht
+threshold			Grenzwert
+throttle			Lastreduzierung
+title				Titel
+topic				Thema
+trackback			Trackback
+unpublished			unveröffentlicht
+update				aktualisieren
+URL					URL
+user				Benutzer
+user profile		Benutzerprofil
+view				ansehen; betrachten
+visitor				Besucher
+vital				unerlässlich
+waiting				wartend
+warning				Warnung
+watchdog			Wächter
+weight				Reihenfolge
+who's online		Momentan online
+workflow			Arbeitsablauf

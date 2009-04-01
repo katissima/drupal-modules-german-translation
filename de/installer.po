@@ -1,0 +1,553 @@
+# $Id: installer.po,v 1.1.2.13 2008/08/16 16:07:03 timcn Exp $
+#
+# German translation of Drupal (installer)
+# Copyright (c) 2004-2008 by the German translation team
+# Generated from files:
+#  install.php,v 1.34.2.5 2008/07/09 21:48:41 drumm
+#  database.mysql.inc,v 1.66.2.2 2007/10/19 21:49:26 drumm
+#  database.mysqli.inc,v 1.32.2.4 2008/07/16 18:55:38 drumm
+#  database.pgsql.inc,v 1.43.2.2 2008/07/16 19:12:52 drumm
+#  install.inc,v 1.31.2.2 2007/10/06 22:38:28 drumm
+#  install.mysql.inc,v 1.4 2006/12/27 13:02:34 drumm
+#  install.mysqli.inc,v 1.6 2006/12/27 13:02:34 drumm
+#  install.pgsql.inc,v 1.2 2006/12/27 13:02:34 drumm
+#  locale.inc,v 1.105.2.5 2007/12/17 01:53:52 drumm
+#  theme.inc,v 1.337.2.5 2008/07/09 21:48:41 drumm
+#  unicode.inc,v 1.23.2.2 2007/05/21 01:09:21 drumm
+#  system.install,v 1.69.2.11 2008/02/25 02:25:36 drumm
+#  default.profile,v 1.4.2.1 2007/03/25 22:59:33 drumm
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: installer\n"
+"POT-Creation-Date: 2008-08-16 14:43+0200\n"
+"PO-Revision-Date: 2009-04-01 11:57+0100\n"
+"Last-Translator: Konstantin Käfer <kkaefer@gmail.com>\n"
+"Language-Team: German Drupal translation team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: install.php:93
+msgid "All necessary changes to %file have been made, so you should now remove write permissions to this file. Failure to remove write permissions to this file is a security risk."
+msgstr "Alle an %file notwendigen Änderungen wurden gemacht, weshalb die Schreibberechtigung für diese Datei entfernt werden sollte. Wenn dies nicht geschieht, stellt sie ein Sicherheitsrisiko dar."
+
+#: install.php:96
+msgid "All necessary changes to %file have been made. It has been set to read-only for security."
+msgstr "Alle notwendigen Änderungen an %file sind erfolgt. Sie wurde aus Sicherheitsgründen auf nur-lesbar gesetzt."
+
+#: install.php:168
+msgid "The @drupal installer requires write permissions to %file during the installation process."
+msgstr "Der @drupal-Installer benötigt Schreibberechtigungen auf %file während des Installationsvorgangs."
+
+#: install.php:170
+msgid "Drupal database setup"
+msgstr "Drupal-Datenbanksetup"
+
+#: install.php:176
+msgid "Database configuration"
+msgstr "Datenbankkonfiguration"
+
+#: install.php:189
+msgid "Your web server does not appear to support any common database types. Check with your hosting provider to see if they offer any databases that <a href=\"@drupal-databases\">Drupal supports</a>."
+msgstr "Der Webserver unterstützt offensichtlich keine bekannten Datenbanktypen. Überprüfen sie, ob ihr Provider von <a href=\"@drupal-databases\">Drupal unterstützte</a> Datenbanken anbietet."
+
+#: install.php:195
+msgid "Basic options"
+msgstr "Grundeinstellungen"
+
+#: install.php:196
+msgid "To set up your @drupal database, enter the following information."
+msgstr "Um die @drupal-Datenbank einzurichten, werden folgende Informationen benötigt."
+
+#: install.php:204
+msgid "Database type"
+msgstr "Datenbank-Typ"
+
+#: install.php:208
+msgid "The type of database your @drupal data will be stored in."
+msgstr "Der Typ der Datenbank, mit der die @drupal-Daten gespeichert werden."
+
+#: install.php:210
+msgid "The name of the database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
+msgstr "Der Name der Datenbank, in der die @drupal-Daten gespeichert werden. Sie muss auf dem Server vorhanden sein, bevor @drupal installiert werden kann."
+
+#: install.php:219
+msgid "The name of the %db_type database your @drupal data will be stored in. It must exist on your server before @drupal can be installed."
+msgstr "Der Name der %db_type-Datenbank, in der die @drupal-Daten gespeichert werden. Sie muss auf dem Server vorhanden sein, bevor @drupal installiert werden kann."
+
+#: install.php:226
+msgid "Database name"
+msgstr "Datenbank-Name"
+
+#: install.php:237
+msgid "Database username"
+msgstr "Datenbank-Benutzer"
+
+#: install.php:247
+msgid "Database password"
+msgstr "Datenbank-Passwort"
+
+#: install.php:255
+msgid "Advanced options"
+msgstr "Erweiterte Einstellungen"
+
+#: install.php:258
+msgid "These options are only necessary for some sites. If you're not sure what you should enter here, leave the default settings or check with your hosting provider."
+msgstr "Diese Optionen sind nur für einige Seiten notwendig. Wenn Sie nicht sicher sind, was Sie hier eintragen sollen, behalten sie die Standardeinstellungen oder wenden sie sich an Ihren Webhosting-Anbieter."
+
+#: install.php:264
+msgid "Database host"
+msgstr "Datenbank-Host"
+
+#: install.php:269
+msgid "If your database is located on a different server, change this."
+msgstr "Wenn die Datenbank auf einem anderen Server läuft, muss dies hier angegeben werden."
+
+#: install.php:275
+msgid "Database port"
+msgstr "Datenbank-Port"
+
+#: install.php:279
+msgid "If your database server is listening to a non-standard port, enter its number."
+msgstr "Wenn der Datenbankserver auf einem Nicht-Standard-Port läuft, muss dies hier angegeben werden."
+
+#: install.php:285
+msgid "Table prefix"
+msgstr "Tabellenpräfix"
+
+#: install.php:289
+msgid "If more than one @drupal web site will be sharing this database, enter a table prefix for your @drupal site here."
+msgstr "Wenn mehr als eine @drupal-Website diese Datenbank benutzen soll, muss ein Tabellenpräfix für die @drupal-Site eingegeben werden."
+
+#: install.php:294;435;491
+msgid "Save configuration"
+msgstr "Konfiguration speichern"
+
+#: install.php:321
+msgid "You have configured @drupal to use the default username and password. This is not allowed for security reasons."
+msgstr "@drupal wurde so konfiguriert, dass es das voreingestellte Passwort und Benutzer verwendet. Dies ist aus Sicherheitsgründen nicht möglich."
+
+#: install.php:326
+msgid "The database table prefix you have entered, %db_prefix, is invalid. The table prefix can only contain alphanumeric characters or underscores."
+msgstr "Der Tabellenpräfix %db_prefix ist ungültig. Der Tabellenpräfix darf nur alphanumerische Zeichen oder Unterstriche enthalten."
+
+#: install.php:330
+msgid "Database port must be a number."
+msgstr "Der Datenbank-Port muss eine Zahl sein."
+
+#: install.php:340
+msgid "In your %settings_file file you have configured @drupal to use a %db_type server, however your PHP installation currently does not support this database type."
+msgstr "In der %settings_file-Datei wurde eingestellt, dass @drupal einen %db_type-Server verwenden soll, allerdings unterstützt die momentane PHP-Installation diesen Datenbank-Typ nicht."
+
+#: install.php:353
+msgid "In order for Drupal to work and to proceed with the installation process you must resolve all permission issues reported above. We were able to verify that we have permission for the following commands: %commands. For more help with configuring your database server, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what any of this means you should probably contact your hosting provider."
+msgstr "Damit Drupal richtig funktioniert und mit dem Installationsvorgang fortfahren kann, müssen alle obenstehenden Rechte-Probleme beseitigt werden. Wir können bestätigen, dass wir Zugang zu folgenden Befehlen haben: %commands. Für weitergehende Hilfe zur Konfiguration des Datenbank-Servers gibt es das <a href=\"http://drupal.org/node/258\">Installations- und Aktualisierungs-Handbuch (engl.)</a>. Wenn Sie nicht wissen, was das hier alles bedeutet, sollten Sie ihren Webhosting-Provider kontaktieren."
+
+#: install.php:408
+msgid "Select an installation profile"
+msgstr "Wählen Sie ein Installationsprofil aus"
+
+#: install.php:466
+msgid "Choose your preferred language"
+msgstr "Wählen Sie die bevorzugte Sprache"
+
+#: install.php:479
+msgid "(@language)"
+msgstr "(@language)"
+
+#: install.php:485
+msgid "(built-in)"
+msgstr "(eingebaut)"
+
+#: install.php:501
+msgid "No profiles available"
+msgstr "Keine Profile verfügbar"
+
+#: install.php:502
+msgid "We were unable to find any installer profiles. Installer profiles tell us what modules to enable and what schema to install in the database. A profile is necessary to continue with the installation process."
+msgstr "Es können keine Installationsprofile gefunden werden. Installationsprofile bestimmen, welche Module aktiviert werden und welche Datenbankschemata installiert werden. Ein Profil wird benötigt, um mit dem Installationsvorgang fortzufahren."
+
+#: install.php:514
+msgid "Drupal already installed"
+msgstr "Drupal bereits installiert"
+
+#: install.php:515
+msgid "<ul><li>To start over, you must empty your existing database and replace the appropriate <em>settings.php</em> with an unmodified copy.</li><li>To install to a different database, edit the appropriate <em>settings.php</em> file in the <em>sites</em> folder.</li><li>To upgrade an existing installation, proceed to the <a href=\"@base-url/update.php\">update script</a>.</li></ul>"
+msgstr "<ul><li>Um neu zu beginnen, muss die vorhanden Datenbank geleert werden und die entsprechende <em>settings.php</em>-Datei mit einer unmodifizierten Version ersetzt werden.</li><li>Um in eine andere Datenbank zu installieren, muss die entsprechende <em>settings.php</em>-Datei im <em>sites</em>-Ordner bearbeitet werden.</li></li>Um eine vorhanden Installation zu aktualisieren, verwenden Sie die <a href=\"@base-url/update.php\">Updatefunktion</a>.</li></ul>"
+
+#: install.php:526
+msgid "Modules missing"
+msgstr "Module fehlen"
+
+#: install.php:527
+msgid "One or more required modules are missing. Please check the error messages and <a href=\"!url\">try again</a>."
+msgstr "Eines oder mehrere benötigte Module fehlen. Überprüfen Sie die Fehlermeldungen und <a href=\"!url\">versuchen Sie es erneut</a>."
+
+#: install.php:547
+msgid "@drupal installation complete"
+msgstr "@drupal-Installation fertiggestellt"
+
+#: install.php:548
+msgid "Congratulations, @drupal has been successfully installed."
+msgstr "Glückwunsch, @drupal wurde erfolgreich installiert."
+
+#: install.php:563
+msgid "Please review the messages above before continuing on to <a href=\"@url\">your new site</a>."
+msgstr "Bitte beachten Sie die obenstehenden Nachrichten bevor sie <a href=\"@url\">Ihre neue Website</a> besuchen."
+
+#: install.php:563
+msgid "You may now visit <a href=\"@url\">your new site</a>."
+msgstr "Sie können jetzt <a href=\"@url\">Ihre neue Website</a> besuchen."
+
+#: install.php:582
+msgid "Currently using !item !version"
+msgstr "Momentan wird !item !version verwendet"
+
+#: install.php:586
+msgid "Incompatible environment"
+msgstr "Inkompatible Umgebung"
+
+#: (duplicate) includes/database.mysql.inc:24
+#: includes/database.mysqli.inc:27
+msgid "MySQL database"
+msgstr "MySQL-Datenbank"
+
+#: (duplicate) includes/database.mysql.inc:30
+#: includes/database.mysqli.inc:33
+msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
+msgstr "Der MySQL-Server ist zu alt. Drupal benötigt mindestens MySQL %version."
+
+#: (duplicate) includes/database.pgsql.inc:23
+msgid "PostgreSQL database"
+msgstr "PostgreSQL-Datenbank"
+
+#: (duplicate) includes/database.pgsql.inc:29
+msgid "Your PostgreSQL Server is too old. Drupal requires at least PostgreSQL %version."
+msgstr "Der PostgreSQL-Server ist zu alt. Drupal benötigt mindestens PostgreSQL %version."
+
+#: (duplicate) includes/database.pgsql.inc:405
+msgid "Your PostgreSQL database is set up with the wrong character encoding (%encoding). It is possible it will not work as expected. It is advised to recreate it with UTF-8/Unicode encoding. More information can be found in the <a href=\"@url\">PostgreSQL documentation</a>."
+msgstr "Die PostgreSQL-Datenbank hat einen falschen Zeichensatz (%encoding). Möglicherweise funktioniert sie nicht wie erwartet. Deshalb sollte sie mit dem UTF-8/Unicode-Zeichensatz neu erstellt werden. Weiter Informationen dazu gibt es in der <a href=\"@url\">PostgreSQL-Dokumentation (engl.)</a>."
+
+#: includes/install.inc:229
+msgid "Failed to modify %settings, please verify the file permissions."
+msgstr "%settings konnte nicht verändert werden, bitte überprüfen Sie die Dateiberechtigungen."
+
+#: includes/install.inc:233
+msgid "Failed to open %settings, please verify the file permissions."
+msgstr "%settings konnte nicht geöffnet werden, bitte überprüfen Sie die Dateiberechtigungen"
+
+#: includes/install.inc:287
+msgid "The %module module is required but was not found. Please move it into the <em>modules</em> subdirectory."
+msgstr "Das %module-Modul wird benötigt, konnte aber nicht gefunden werden. Es muss sich im <em>modules</em>-Unterverzeichnis befinden."
+
+#: includes/install.mysql.inc:24
+msgid "PHP MySQL support not enabled."
+msgstr "Die MySQL-Unterstützung von PHP ist nicht aktiviert."
+
+#: includes/install.mysql.inc:44
+#: includes/install.mysqli.inc:39
+msgid "Failure to connect to your MySQL database server. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct username and password?</li><li>Are you sure that you have typed the correct database hostname?</li><li>Are you sure that the database server is running?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
+msgstr "Es konnte keine Verbindung zur MySQL-Datenbank hergestellt werden. MySQL liefert die folgende Meldung: %error.<ul><li>Sind Sie sicher, dass Sie den richtigen Benutzernamen und das richtige Passwort verwenden?</li><li>Stimmt der Datenbankname?</li><li>Läuft der Datenbankserver?</li></ul>Für weitergehende Hilfe zur Konfiguration des Datenbank-Servers gibt es das <a href=\"http://drupal.org/node/258\">Installations- und Aktualisierungs-Handbuch (engl.)</a>. Wenn Sie nicht wissen, was das hier alles bedeutet, sollten Sie ihren Webhosting-Provider kontaktieren."
+
+#: includes/install.mysql.inc:50
+#: includes/install.mysqli.inc:45
+msgid "We were able to connect to the MySQL database server (which means your username and password are valid) but not able to select your database. MySQL reports the following message: %error.<ul><li>Are you sure you have the correct database name?</li><li>Are you sure the database exists?</li><li>Are you sure the username has permission to access the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
+msgstr "Es konnte eine Verbindung zur MySQL-Datenbank hergestellt (das heißt, der Benutzername und das Passwort sind richtig), aber die Datenbank nicht ausgewählt werden. MySQL liefert die folgende Meldung: %error.<ul><li>Stimmt der Datenbankname?</li><li>Ist die Datenbank vorhanden?</li><li>Hat der Benutzer die Berechtigung, auf die Datenbank zuzugreifen?</li></ul>Für weitergehende Hilfe zur Konfiguration des Datenbank-Servers gibt es das <a href=\"http://drupal.org/node/258\">Installations- und Aktualisierungs-Handbuch (engl.)</a>. Wenn Sie nicht wissen, was das hier alles bedeutet, sollten Sie ihren Webhosting-Provider kontaktieren."
+
+#: includes/install.mysql.inc:60
+#: includes/install.mysqli.inc:55
+msgid "We were unable to create a test table on your MySQL database server with the command %query. MySQL reports the following message: %error.<ul><li>Are you sure the configured username has the necessary MySQL permissions to create tables in the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
+msgstr "Auf dem MySQL-Datenbank-Server konnte mit dem Befehl %query keine Testtabelle erstellt werden. MySQL liefert die folgende Meldung: %error.<ul><li>Hat der eingestellte Benutzer die notwendigen MySQL-Rechte, um Tabellen in der Datenbank zu erstellen?</li></ul>Für weitergehende Hilfe zur Konfiguration des Datenbank-Servers gibt es das <a href=\"http://drupal.org/node/258\">Installations- und Aktualisierungs-Handbuch (engl.)</a>. Wenn Sie nicht wissen, was das hier alles bedeutet, sollten Sie ihren Webhosting-Provider kontaktieren."
+
+#: includes/install.mysql.inc:71
+#: includes/install.mysqli.inc:66
+msgid "We were unable to insert a value into a test table on your MySQL database server. We tried inserting a value with the command %query and MySQL reported the following error: %error."
+msgstr "In die Testtabelle auf dem MySQL-Datenbank-Server konnte kein Wert eingefügt werden. Es wurde versucht, einen Wert mit dem Befehl %query einzufügen und MySQL meldete den folgenden Fehler: %error."
+
+#: includes/install.mysql.inc:82
+#: includes/install.mysqli.inc:77
+msgid "We were unable to update a value in a test table on your MySQL database server. We tried updating a value with the command %query and MySQL reported the following error: %error."
+msgstr "In die Testtabelle auf dem MySQL-Datenbank-Server konnte kein Wert aktualisiert werden. Es wurde versucht, einen Wert mit dem Befehl %query zu aktualisieren und MySQL meldete den folgenden Fehler: %error."
+
+#: includes/install.mysql.inc:93
+#: includes/install.mysqli.inc:88
+msgid "We were unable to lock a test table on your MySQL database server. We tried locking a table with the command %query and MySQL reported the following error: %error."
+msgstr "Die Testtabelle auf dem MySQL-Datenbank-Server konnte nicht gesperrt werden. Es wurde versucht, eine Tabelle mit dem Befehl %query zu sperren und MySQL meldete den folgenden Fehler: %error."
+
+#: includes/install.mysql.inc:104
+#: includes/install.mysqli.inc:99
+msgid "We were unable to unlock a test table on your MySQL database server. We tried unlocking a table with the command %query and MySQL reported the following error: %error."
+msgstr "Die Testtabelle auf dem MySQL-Datenbank-Server konnte nicht entsperrt werden. Es wurde versucht, eine Tabelle mit dem Befehl %query zu entsperren und MySQL meldete den folgenden Fehler: %error."
+
+#: includes/install.mysql.inc:115
+#: includes/install.mysqli.inc:110
+msgid "We were unable to delete a value from a test table on your MySQL database server. We tried deleting a value with the command %query and MySQL reported the following error: %error."
+msgstr "Aus der Testtabelle auf dem MySQL-Datenbank-Server konnte kein Wert gelöscht werden. Es wurde versucht, einen Wert mit dem Befehl %query zu löschen und MySQL meldete den folgenden Fehler: %error."
+
+#: includes/install.mysql.inc:126
+#: includes/install.mysqli.inc:121
+msgid "We were unable to drop a test table from your MySQL database server. We tried dropping a table with the command %query and MySQL reported the following error %error."
+msgstr "Die Testtabelle auf dem MySQL-Datenbank-Server konnte nicht gelöscht werden. Es wurde versucht, die Tabelle mit dem Befehl %query zu löschen und MySQL meldete den folgenden Fehler: %error."
+
+#: includes/install.mysqli.inc:24
+msgid "PHP MySQLi support not enabled."
+msgstr "Die MySQLi-Unterstützung von PHP ist nicht aktiviert."
+
+#: includes/install.pgsql.inc:24
+msgid "PHP PostgreSQL support not enabled."
+msgstr "Die PostgreSQL-Unterstützung von PHP ist nicht aktiviert."
+
+#: includes/install.pgsql.inc:43
+msgid "Failure to connect to your PostgreSQL database server. PostgreSQL reports the following message: %error.<ul><li>Are you sure you have the correct username and password?</li><li>Are you sure that you have typed the correct database hostname?</li><li>Are you sure that the database server is running?</li><li>Are you sure you typed the correct database name?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
+msgstr "Es konnte keine Verbindung zur PostgreSQL-Datenbank hergestellt werden. PostgreSQL liefert die folgende Meldung: %error.<ul><li>Sind Sie sicher, dass Sie den richtigen Benutzernamen und das richtige Passwort verwenden?</li><li>Stimmt der Datenbankname?</li><li>Läuft der Datenbankserver?</li></ul>Für weitergehende Hilfe zur Konfiguration des Datenbank-Servers gibt es das <a href=\"http://drupal.org/node/258\">Installations- und Aktualisierungs-Handbuch (engl.)</a>. Wenn Sie nicht wissen, was das hier alles bedeutet, sollten Sie ihren Webhosting-Provider kontaktieren."
+
+#: includes/install.pgsql.inc:53
+msgid "We were unable to create a test table on your PostgreSQL database server with the command %query. PostgreSQL reports the following message: %error.<ul><li>Are you sure the configured username has the necessary PostgreSQL permissions to create tables in the database?</li></ul>For more help, see the <a href=\"http://drupal.org/node/258\">Installation and upgrading handbook</a>. If you are unsure what these terms mean you should probably contact your hosting provider."
+msgstr "Auf dem PostgreSQL-Datenbank-Server konnte mit dem Befehl %query keine Testtabelle erstellt werden. PostgreSQL liefert die folgende Meldung: %error.<ul><li>Hat der eingestellte Benutzer die notwendigen MySQL-Rechte, um Tabellen in der Datenbank zu erstellen?</li></ul>Für weitergehende Hilfe zur Konfiguration des Datenbank-Servers gibt es das <a href=\"http://drupal.org/node/258\">Installations- und Aktualisierungs-Handbuch (engl.)</a>. Wenn Sie nicht wissen, was das hier alles bedeutet, sollten Sie ihren Webhosting-Provider kontaktieren."
+
+#: includes/install.pgsql.inc:64
+msgid "We were unable to insert a value into a test table on your PostgreSQL database server. We tried inserting a value with the command %query and PostgreSQL reported the following error: %error."
+msgstr "In die Testtabelle auf dem PostgreSQL-Datenbank-Server konnte kein Wert eingefügt werden. Es wurde versucht, einen Wert mit dem Befehl %query einzufügen und PostgreSQL meldete den folgenden Fehler: %error."
+
+#: includes/install.pgsql.inc:75
+msgid "We were unable to update a value in a test table on your PostgreSQL database server. We tried updating a value with the command %query and PostgreSQL reported the following error: %error."
+msgstr "In die Testtabelle auf dem PostgreSQL-Datenbank-Server konnte kein Wert aktualisiert werden. Es wurde versucht, einen Wert mit dem Befehl %query zu aktualisieren und PostgreSQL meldete den folgenden Fehler: %error."
+
+#: includes/install.pgsql.inc:86
+msgid "We were unable to lock a test table on your PostgreSQL database server. We tried locking a table with the command %query and PostgreSQL reported the following error: %error."
+msgstr "Die Testtabelle auf dem PostgreSQL-Datenbank-Server konnte nicht gesperrt werden. Es wurde versucht, eine Tabelle mit dem Befehl %query zu sperren und PostgreSQL meldete den folgenden Fehler: %error."
+
+#: includes/install.pgsql.inc:97
+msgid "We were unable to unlock a test table on your PostgreSQL database server. We tried unlocking a table with the command %query and PostgreSQL reported the following error: %error."
+msgstr "Die Testtabelle auf dem PostgreSQL-Datenbank-Server konnte nicht entsperrt werden. Es wurde versucht, eine Tabelle mit dem Befehl %query zu entsperren und PostgreSQL meldete den folgenden Fehler: %error."
+
+#: includes/install.pgsql.inc:108
+msgid "We were unable to delete a value from a test table on your PostgreSQL database server. We tried deleting a value with the command %query and PostgreSQL reported the following error: %error."
+msgstr "Aus der Testtabelle auf dem PostgreSQL-Datenbank-Server konnte kein Wert gelöscht werden. Es wurde versucht, einen Wert mit dem Befehl %query zu löschen und PostgreSQL meldete den folgenden Fehler: %error."
+
+#: includes/install.pgsql.inc:119
+msgid "We were unable to drop a test table from your PostgreSQL database server. We tried dropping a table with the command %query and PostgreSQL reported the following error %error."
+msgstr "Die Testtabelle auf dem PostgreSQL-Datenbank-Server konnte nicht gelöscht werden. Es wurde versucht, die Tabelle mit dem Befehl %query zu löschen und PostgreSQL meldete den folgenden Fehler: %error."
+
+#: (duplicate) includes/locale.inc:518
+msgid "The translation import failed, because the file %filename could not be read."
+msgstr "Der Import der Übersetzung ist fehlgeschlagen: Datei %filename konnte nicht gelesen werden."
+
+#: (duplicate) includes/locale.inc:547
+msgid "The translation file %filename contains an error: \"msgstr\" was expected but not found on line %line."
+msgstr "Die Übersetzungsdatei %filename ist fehlerhaft: \"msgstr\" in Zeile %line erwartet, aber nicht gefunden."
+
+#: (duplicate) includes/locale.inc:553
+msgid "The translation file %filename contains an error: \"msgid_plural\" was expected but not found on line %line."
+msgstr "Die Übersetzungsdatei %filename ist fehlerhaft: \"msgid_plural\" in Zeile %line erwartet, aber nicht gefunden."
+
+#: (duplicate) includes/locale.inc:559
+#: ;577 ;589 ;597 ;611 ;620
+msgid "The translation file %filename contains a syntax error on line %line."
+msgstr "Die Übersetzungsdatei %filename ist fehlerhaft: Syntaxfehler in Zeile %line."
+
+#: (duplicate) includes/locale.inc:571
+msgid "The translation file %filename contains an error: \"msgid\" is unexpected on line %line."
+msgstr "Die Übersetzungsdatei %filename“ ist fehlerhaft: Unerwartetes \"msgid\" in Zeile %line."
+
+#: (duplicate) includes/locale.inc:585
+msgid "The translation file %filename contains an error: \"msgstr[]\" is unexpected on line %line."
+msgstr "Die Übersetzungsdatei %filename ist fehlerhaft: Unerwartetes \"msgstr[]\" in Zeile %line."
+
+#: (duplicate) includes/locale.inc:605
+msgid "The translation file %filename contains an error: \"msgstr\" is unexpected on line %line."
+msgstr "Die Übersetzungsdatei %filename ist fehlerhaft: Unerwartetes \"msgstr\" in Zeile %line."
+
+#: (duplicate) includes/locale.inc:633
+msgid "The translation file %filename contains an error: there is an unexpected string on line %line."
+msgstr "Die Übersetzungsdatei %filename ist fehlerhaft: Unerwartete Zeichenkette in Zeile %line."
+
+#: (duplicate) includes/locale.inc:644
+msgid "The translation file %filename ended unexpectedly at line %line."
+msgstr "Die Übersetzungsdatei %filename endete unerwartet in Zeile %line."
+
+#: includes/theme.inc:479
+msgid "The following errors must be resolved before you can continue the installation process"
+msgstr "Die folgenden Fehler müssen beseitigt werden bevor die Installation fortgesetzt werden kann."
+
+#: includes/theme.inc:479
+msgid "The following error must be resolved before you can continue the installation process"
+msgstr "Der folgende Fehler muss beseitigt werden bevor die Installation fortgesetzt werden kann."
+
+#: includes/theme.inc:485
+msgid "The following installation warnings should be carefully reviewed, but in most cases may be safely ignored"
+msgstr "Die folgenden Installationswarnungen sollten mit Sorgfalt überprüft werden, können aber in den meisten Fällen problemlos ignoriert werden."
+
+#: includes/theme.inc:485
+msgid "The following installation warning should be carefully reviewed, but in most cases may be safely ignored"
+msgstr "Die folgende Installationswarnung sollte mit Sorgfalt überprüft werden, kann aber in den meisten Fällen problemlos ignoriert werden."
+
+#: (duplicate) includes/unicode.inc:48
+msgid "The PCRE library in your PHP installation is outdated. This will cause problems when handling Unicode text. If you are running PHP 4.3.3 or higher, make sure you are using the PCRE library supplied by PHP. Please refer to the <a href=\"@url\">PHP PCRE documentation</a> for more information."
+msgstr "Die PCRE-Bibliothek der PHP-Installation ist veraltet. Dies führt zu Problemen bei der Verarbeitung von Unicode-kodiertem Text. Für PHP 4.3.3 oder neuer sollte die mitgelieferte PCRE-Bibliothek verwendet werden. Lesen Sie die <a href=\"@url\">PCRE-Dokumentation von PHP</a> für nähere Informationen."
+
+#: (duplicate) includes/unicode.inc:53
+msgid "Operations on Unicode strings are emulated on a best-effort basis. Install the <a href=\"@url\">PHP mbstring extension</a> for improved Unicode support."
+msgstr "Veränderungen an Unicode-Zeichenketten werden so gut wie möglich nachgebildet. Installieren Sie die <a href=\"@url\">PHP mbstring-Erweiterung</a> für bessere Unicode-Unterstützung."
+
+#: (duplicate) includes/unicode.inc:58
+msgid "Multibyte string function overloading in PHP is active and must be disabled. Check the php.ini <em>mbstring.func_overload</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
+msgstr "Die Überladung der Funktionen für Mehrbyte-Zeichenketten ist aktiviert und muss deaktiviert werden. Überprüfen Sie dazu die <em>mbstring.func_overload</em>-Einstellung in der php.ini. Lesen Sie die <a href=\"@url\">mbstring-Dokumentation von PHP</a> für nähere Informationen."
+
+#: (duplicate) includes/unicode.inc:61
+msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.encoding_translation</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
+msgstr "Die Umwandlung der Eingabe in Mehrbyte-Zeichenketten ist aktiviert und muss deaktiviert werden. Überprüfen Sie dazu die <em>mbstring.encoding_translation</em>-Einstellung in der php.ini. Lesen Sie die <a href=\"@url\">mbstring-Dokumentation von PHP</a> für nähere Informationen."
+
+#: (duplicate) includes/unicode.inc:64
+msgid "Multibyte string input conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_input</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
+msgstr "Die Umwandlung der Eingabe in Mehrbyte-Zeichenketten ist aktiviert und muss deaktiviert werden. Überprüfen Sie dazu die <em>mbstring.http_input</em>-Einstellung in der php.ini. Lesen Sie die <a href=\"@url\">mbstring-Dokumentation von PHP</a> für nähere Informationen."
+
+#: (duplicate) includes/unicode.inc:67
+msgid "Multibyte string output conversion in PHP is active and must be disabled. Check the php.ini <em>mbstring.http_output</em> setting. Please refer to the <a href=\"@url\">PHP mbstring documentation</a> for more information."
+msgstr "Die Umwandlung der Ausgabe in Mehrbyte-Zeichenketten ist aktiviert und muss deaktiviert werden. Überprüfen Sie dazu die <em>mbstring.http_output</em>-Einstellung in der php.ini. Lesen Sie die <a href=\"@url\">mbstring-Dokumentation von PHP</a> für nähere Informationen."
+
+#: (duplicate) includes/unicode.inc:84
+msgid "Standard PHP"
+msgstr "Standard-PHP"
+
+#: (duplicate) includes/unicode.inc:85
+msgid "PHP Mbstring Extension"
+msgstr "PHP mbstring-Erweiterung"
+
+#: (duplicate) includes/unicode.inc:86
+msgid "Error"
+msgstr "Fehler"
+
+#: (duplicate) includes/unicode.inc:96
+msgid "Unicode library"
+msgstr "Unicode-Bibliothek"
+
+#: (duplicate) modules/system/system.install:19
+msgid "Drupal"
+msgstr "Drupal"
+
+#: (duplicate) modules/system/system.install:29
+msgid "Web server"
+msgstr "Webserver"
+
+#: (duplicate) modules/system/system.install:35
+msgid "PHP"
+msgstr "PHP"
+
+#: (duplicate) modules/system/system.install:39
+msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
+msgstr "Die PHP-Installation ist zu alt. Drupal benötigt mindestens PHP %version."
+
+#: (duplicate) modules/system/system.install:45
+msgid "PHP register globals"
+msgstr "PHP Register Globals"
+
+#: (duplicate) modules/system/system.install:54
+msgid "<em>register_globals</em> is enabled. Drupal requires this configuration directive to be disabled. Your site may not be secure when <em>register_globals</em> is enabled. The PHP manual has instructions for <a href=\"http://php.net/configuration.changes\">how to change configuration settings</a>."
+msgstr "<em>register_globals</em> ist aktiviert. Drupal funktioniert nur, wenn diese Funktion abgeschaltet ist. Die Website könnte unsicher sein wenn <em>register_globals</em> aktiviert ist. Das PHP-Handbuch enthält eine Anleitung für die <a href=\"http://php.net/configuration.changes\">Änderung der Konfiguration</a>."
+
+#: (duplicate) modules/system/system.install:56
+msgid "Enabled ('@value')"
+msgstr "Aktiviert (‚@value‘)"
+
+#: (duplicate) modules/system/system.install:59
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: (duplicate) modules/system/system.install:72
+msgid "Not protected"
+msgstr "Ungeschützt"
+
+#: (duplicate) modules/system/system.install:74
+msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
+msgstr "Die Datei %file ist nicht vor Veränderungen geschützt und stellt ein Sicherheitsrisiko dar. Die Dateiberechtigung muss auf nicht beschreibbar gesetzt werden."
+
+#: (duplicate) modules/system/system.install:79
+msgid "Protected"
+msgstr "Geschützt"
+
+#: (duplicate) modules/system/system.install:82
+msgid "Configuration file"
+msgstr "Konfigurationsdatei"
+
+#: (duplicate) modules/system/system.install:90
+msgid "Last run !time ago"
+msgstr "Zuletzt vor !time ausgeführt"
+
+#: (duplicate) modules/system/system.install:94
+msgid "Cron has not run. It appears cron jobs have not been setup on your system. Please check the help pages for <a href=\"@url\">configuring cron jobs</a>."
+msgstr "Cron wurde nicht ausgeführt. Anscheinend wurde der Cron-Job nicht richtig eingerichtet. Auf der <a href=\"@url\">Hilfe-Seite</a> finden sich Anleitungen zum Konfigurieren von Cron."
+
+#: (duplicate) modules/system/system.install:96
+msgid "Never run"
+msgstr "Nie ausgeführt"
+
+#: (duplicate) modules/system/system.install:102
+msgid "Cron maintenance tasks"
+msgstr "Cron-Wartungsaufgaben"
+
+#: (duplicate) modules/system/system.install:112
+msgid "The directory %directory does not exist."
+msgstr "Das Verzeichnis %directory ist nicht vorhanden."
+
+#: (duplicate) modules/system/system.install:115
+msgid "The directory %directory is not writable."
+msgstr "Das Verzeichnis %directory ist nicht beschreibbar."
+
+#: (duplicate) modules/system/system.install:118
+msgid "Not writable"
+msgstr "Nicht beschreibbar"
+
+#: (duplicate) modules/system/system.install:120
+msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
+msgstr "Das richtige Verzeichnis muss auf der <a href=\"@admin-file-system\">Einstellungsseite für das Dateisystem</a> angegeben werden oder die Berechtigungen des aktuellen Verzeichnisses so geändert werden, dass es beschreibbar ist."
+
+#: (duplicate) modules/system/system.install:126
+msgid "Writable (<em>public</em> download method)"
+msgstr "Beschreibbar (<em>öffentliche</em> Download-Art)"
+
+#: (duplicate) modules/system/system.install:131
+msgid "Writable (<em>private</em> download method)"
+msgstr "Beschreibbar (<em>private</em> Download-Art)"
+
+#: (duplicate) modules/system/system.install:135
+msgid "File system"
+msgstr "Dateisystem"
+
+#: (duplicate) modules/system/system.install:141
+msgid "Database schema"
+msgstr "Datenbankschema"
+
+#: (duplicate) modules/system/system.install:143
+msgid "Up to date"
+msgstr "Aktuell"
+
+#: (duplicate) modules/system/system.install:153
+msgid "Out of date"
+msgstr "Veraltet"
+
+#: (duplicate) modules/system/system.install:154
+msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
+msgstr "Einige Module müssen ihr Datenbankschema aktualisieren. Das <a href=\"@update\">Skript zur Aktualisierung der Datenbank</a> sollte sofort ausgeführt werden."
+
+#: profiles/default/default.profile:42
+msgid "Page"
+msgstr "Seite"
+
+#: profiles/default/default.profile:44
+msgid "If you want to add a static page, like a contact page or an about page, use a page."
+msgstr "Eine Seite kann für statischen Inhalt, wie z.B. eine Kontakt- oder Über uns-Seite benutzt werden."
+
+#: profiles/default/default.profile:51
+msgid "Story"
+msgstr "Artikel"
+
+#: profiles/default/default.profile:53
+msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
+msgstr "Artikel sind die einfachste Form von Inhalt: Sie haben einen Titel, einen Anrisstext und den eigentlichen Haupttext. Der Anrisstext ist auch ein Teil des Haupttextes. Artikel können zum Beispiel für Weblogs und News-Artikel verwendet werden."
+

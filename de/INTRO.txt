@@ -1,0 +1,77 @@
+==============================================================================
+Introduction
+==============================================================================
+
+$Id: INTRO.txt,v 1.3.4.3 2007/08/05 11:43:41 timcn Exp $
+
+This is the German translation of Drupal.
+
+If you have any comments, criticism or suggestions, please file a bug
+at http://drupal.org/project/de or discuss them on #drupal in IRC.
+
+
+Information for translators
+===========================
+
+# There are three different types of placeholders:
+  * %placeholder: The string is wrapped in a theme_placeholder()
+    (em tags by default). Also, it's piped through check_plain() to
+    prevent XSS.
+  * @placeholder: The string is piped through check_plain() to prevent XSS.
+  * !placeholder: The string is returned as it is.
+  
+  You should be careful when updating the translation to correctly replace
+  those placeholders.
+
+# Be careful, a lot of *fuzzy* strings have sentences removed or added
+  or <p> tags removed.
+
+# Typographical notes
+  * If a placeholder begins with %, don't wrap it in curly quotes. Also,
+    remove curly quotes from all % placeholders.
+  * Generally don't wrap any placeholders in quotes if it's not wrapped in the
+    original string.
+  * **Use curly quotes instead of the "inch" signs**: „Wort“ and ‚Wort‘
+  * For apostrophes, use ’ instead of the plain '.
+  * For dashes, use either the regular dash: -, the en dash: – or the
+      em dash —.
+  * For an ellipsis, use ….
+
+# Stylistic advice
+  * Never use informal language.
+  * Try to avoid using "Sie" or "Ihr" by rephrasing the sentence, e.g.:  
+      "Do you really want to delete %placeholder?" becomes
+      "Soll %placeholder wirklich gelöscht werden?".  
+    If passive constructions or other stylistic methods to avoid a direct
+    address are too complex or sound weird, you can use "Sie" or "Ihr".
+    Remember to always write them with a capital first letter.
+  * Don't clutch at a direct translation. Sometimes you just can't translate
+    an English expression in German without paraphrasing it. Also, the English
+    version is not always written in a good style.
+
+
+
+Files
+=====
+
+ * CONTRIBUTORS.txt contains a list of all people who have contributed to
+   the German translation.
+
+ * DICTIONARY.txt contains a list of common terms we should standardize
+   upon to get a consistent translation.
+
+ * INTRO.txt: this file.
+
+ * README.txt contains installation instructions for the de.po file
+   (only present in the tarballs generated at drupal.org).
+
+ * TODO.txt contains a TODO list of items which still need some work.
+
+
+Useful Links
+============
+
+ * http://dict.leo.org
+ * http://www.uebersetzungsfallen.de
+ * http://praegnanz.de/essays/typo-im-web-ein-sonder-zeichen-setzen
+

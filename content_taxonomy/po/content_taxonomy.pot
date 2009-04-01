@@ -1,0 +1,391 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  content_taxonomy.module,v 1.2.2.16 2008/05/18 20:30:36 mh86
+#  content_taxonomy_activeselect.module,v 1.1.4.2 2007/08/13 14:17:55 mh86
+#  content_taxonomy_options.module,v 1.1.4.7 2007/08/13 14:17:55 mh86
+#  content_taxonomy_autocomplete.module,v 1.2.2.4 2007/09/03 07:50:27 mh86
+#  content_taxonomy_facets.module,v 1.1.2.1 2008/05/19 09:14:05 mh86
+#  content_taxonomy_hs.module,v 1.1.2.1 2008/07/07 09:10:24 mh86
+#  content_taxonomy_views_hs.module,v 1.1.2.1 2008/07/07 09:10:24 mh86
+#  content_taxonomy.info,v 1.1.2.2 2007/06/18 23:06:35 dww
+#  content_taxonomy_views.module,v 1.1.4.2 2008/01/29 11:30:39 mh86
+#  content_taxonomy_views_hs.info,v 1.1.2.1 2008/07/07 09:10:24 mh86
+#  content_taxonomy_activeselect.info,v 1.1.2.4 2007/06/18 23:06:35 dww
+#  content_taxonomy_autocomplete.info,v 1.1.2.4 2007/06/18 23:06:35 dww
+#  content_taxonomy_hs.info,v 1.1.2.1 2008/07/07 09:10:24 mh86
+#  content_taxonomy_options.info,v 1.1.2.5 2007/06/18 23:06:35 dww
+#  content_taxonomy_facets.info: n/a
+#  content_taxonomy.info,v 1.1.2.1 2007/03/01 18:50:33 mh86
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-08 16:55+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: content_taxonomy.module:16
+msgid "Defines a field type for referencing a taxonomy term. <em>Note: Requires content.module.</em>"
+msgstr ""
+
+#: content_taxonomy.module:38
+msgid "Save options"
+msgstr ""
+
+#: content_taxonomy.module:40
+msgid "Save as tag"
+msgstr ""
+
+#: content_taxonomy.module:41
+msgid "Save in cck table"
+msgstr ""
+
+#: content_taxonomy.module:42
+msgid "Both"
+msgstr ""
+
+#: content_taxonomy.module:48
+msgid "Specify terms to show"
+msgstr ""
+
+#: content_taxonomy.module:63
+msgid "Vocabulary"
+msgstr ""
+
+#: content_taxonomy.module:70
+msgid "Terms"
+msgstr ""
+
+#: content_taxonomy.module:78
+msgid "Depth of taxonomy tree"
+msgstr ""
+
+#: content_taxonomy.module:80
+msgid "leave blank for unlimited depth"
+msgstr ""
+
+#: content_taxonomy.module:261
+msgid "Name of top taxonomy term"
+msgstr ""
+
+#: content_taxonomy.module:262
+msgid "ID of top taxonomy term"
+msgstr ""
+
+#: content_taxonomy.module:263
+msgid "Name of top terms vocabulary"
+msgstr ""
+
+#: content_taxonomy.module:264
+msgid "ID of top terms vocabulary"
+msgstr ""
+
+#: content_taxonomy.module:0
+msgid "content_taxonomy"
+msgstr ""
+
+#: content_taxonomy_activeselect.module:16
+msgid "Defines a widget type for content_taxonomy with activeselects. <em>Note: Requires content.module.</em>"
+msgstr ""
+
+#: content_taxonomy_activeselect.module:50
+msgid "Activeselect"
+msgstr ""
+
+#: content_taxonomy_activeselect.module:52 content_taxonomy_options.module:57
+msgid ""
+msgstr ""
+
+#: content_taxonomy_activeselect.module:57
+msgid "Label for second bar"
+msgstr ""
+
+#: content_taxonomy_activeselect.module:63
+msgid "Third bar"
+msgstr ""
+
+#: content_taxonomy_activeselect.module:70
+msgid "Label for third bar"
+msgstr ""
+
+#: content_taxonomy_activeselect.module:0
+msgid "content_taxonomy_activeselect"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:15
+msgid "Defines a widget type for content_taxonomy with autocomplete. <em>Note: Requires content.module.</em>"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:42
+msgid "Autocomplete"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:48
+msgid "How to manage new inputed terms from a user?"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:50
+msgid "Allow and insert new terms into the taxonomy tree"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:51
+msgid "Deny any new terms"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:88
+msgid "You can provide only one value"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:93
+msgid "New tags are not allowed"
+msgstr ""
+
+#: content_taxonomy_autocomplete.module:0
+msgid "content_taxonomy_autocomplete"
+msgstr ""
+
+#: content_taxonomy_facets.module:0
+msgid "content_taxonomy_facets"
+msgstr ""
+
+#: content_taxonomy_hs.module:32
+msgid "Hierarchical Select configuration for !field"
+msgstr ""
+
+#: content_taxonomy_hs.module:51
+msgid "This setting is now managed by the Hierarchical Select widget\n        configuration!"
+msgstr ""
+
+#: content_taxonomy_hs.module:109 content_taxonomy_views_hs.module:218
+msgid "vocabulary"
+msgstr ""
+
+#: content_taxonomy_hs.module:110 content_taxonomy_views_hs.module:219
+msgid "vocabularies"
+msgstr ""
+
+#: content_taxonomy_hs.module:111 content_taxonomy_views_hs.module:220
+msgid "term"
+msgstr ""
+
+#: content_taxonomy_hs.module:112 content_taxonomy_views_hs.module:221
+msgid "terms"
+msgstr ""
+
+#: content_taxonomy_hs.module:113 content_taxonomy_views_hs.module:222
+msgid "term type"
+msgstr ""
+
+#: content_taxonomy_hs.module:128 content_taxonomy_views_hs.module:237
+msgid "Save"
+msgstr ""
+
+#: content_taxonomy_hs.module:161;162
+msgid "Save field settings"
+msgstr ""
+
+#: content_taxonomy_hs.module:203
+msgid "Due to limitations of CCK, there is a separate form to\n        <a href=\"!url\"> configure this Hierarchical Select widget's\n        settings.</a>"
+msgstr ""
+
+#: content_taxonomy_hs.module:209
+msgid "The %multiple_values field setting is now managed by the Hierarchical\n        Select module: it will be enabled when either the %enable_the_dropbox\n        or %save_term_lineage settings (or both) are enabled."
+msgstr ""
+
+#: content_taxonomy_hs.module:214
+msgid "Multiple values"
+msgstr ""
+
+#: content_taxonomy_hs.module:215
+msgid "Enable the dropbox"
+msgstr ""
+
+#: content_taxonomy_hs.module:216
+msgid "Save term lineage"
+msgstr ""
+
+#: content_taxonomy_hs.module:222
+msgid "Hierarchical Select configuration"
+msgstr ""
+
+#: content_taxonomy_hs.module:407;433 content_taxonomy_views_hs.module:322;350 content_taxonomy.info:0
+msgid "Content Taxonomy"
+msgstr ""
+
+#: content_taxonomy_hs.module:408;435
+msgid "Node"
+msgstr ""
+
+#: content_taxonomy_hs.module:0
+msgid "content_taxonomy_hs"
+msgstr ""
+
+#: content_taxonomy_options.module:16
+msgid "Defines a widget type for content_taxonomy for options (selects, radios/checkboxes). <em>Note: Requires content.module.</em>"
+msgstr ""
+
+#: content_taxonomy_options.module:55
+msgid "OptGroups"
+msgstr ""
+
+#: content_taxonomy_options.module:62
+msgid "Parent for grouping in first bar"
+msgstr ""
+
+#: content_taxonomy_options.module:147
+msgid "The field %d is required"
+msgstr ""
+
+#: content_taxonomy_options.module:212
+msgid "---"
+msgstr ""
+
+#: content_taxonomy_options.module:0
+msgid "content_taxonomy_options"
+msgstr ""
+
+#: content_taxonomy_views.module:16
+msgid "Views support for content_taxonomy. <em>Note: Requires views.module.</em>"
+msgstr ""
+
+#: content_taxonomy_views.module:102
+msgid "Show value"
+msgstr ""
+
+#: content_taxonomy_views.module:107
+msgid "Group multiple values"
+msgstr ""
+
+#: content_taxonomy_views.module:108
+msgid "Do not group multiple values"
+msgstr ""
+
+#: content_taxonomy_views.module:133
+msgid "The argument will filter by a taxonomy term ID. For this argument, set the option to the depth to search. (Does not support summary, sort and link)"
+msgstr ""
+
+#: content_taxonomy_views.module:139
+msgid "The argument will filter by a taxonomy term name. For this argument, set the option to the depth to search. (Does not support summary, sort and link)"
+msgstr ""
+
+#: content_taxonomy_views.module:0
+msgid "content_taxonomy_views"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:22
+msgid "Hierarchical Select configuration for !view"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:112
+msgid "Configure Hierarchical Select"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:137
+msgid "The Views module is new enough."
+msgstr ""
+
+#: content_taxonomy_views_hs.module:142
+msgid "The Views module is outdated."
+msgstr ""
+
+#: content_taxonomy_views_hs.module:143
+msgid "The version of Views that you have installed is either\n        older than May 11, 2008, or doesn't have the obligatory patch applied.\n        Please apply the <a href=\"!patch_url\">patch</a> or update to a newer\n        version of the Views module!"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:153 content_taxonomy_views_hs.info:0
+msgid "Hierarchical Select Content Taxonomy Views"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:262;293
+msgid "all"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:323
+msgid "View"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:352
+msgid "view"
+msgstr ""
+
+#: content_taxonomy_views_hs.module:0
+msgid "content_taxonomy_views_hs"
+msgstr ""
+
+#: content_taxonomy.info:0
+msgid "Defines a field type for taxonomy terms"
+msgstr ""
+
+#: content_taxonomy.info:0 content_taxonomy_activeselect.info:0 content_taxonomy_autocomplete.info:0 content_taxonomy_hs.info:0 content_taxonomy_options.info:0
+msgid "CCK"
+msgstr ""
+
+#: content_taxonomy_activeselect.info:0
+msgid "Content Taxonomy ActiveSelect"
+msgstr ""
+
+#: content_taxonomy_activeselect.info:0
+msgid "Defines a activeselect widget type for content_taxonomy"
+msgstr ""
+
+#: content_taxonomy_autocomplete.info:0
+msgid "Content Taxonomy Autocomplete"
+msgstr ""
+
+#: content_taxonomy_autocomplete.info:0
+msgid "Defines a autocomplete widget type for content_taxonomy"
+msgstr ""
+
+#: content_taxonomy_facets.info:0
+msgid "Content Taxonomy Facets"
+msgstr ""
+
+#: content_taxonomy_facets.info:0
+msgid "Exposes Content Taxonomy fields as facets."
+msgstr ""
+
+#: content_taxonomy_facets.info:0
+msgid "Faceted Search"
+msgstr ""
+
+#: content_taxonomy_hs.info:0
+msgid "Hierarchical Select Content Taxonomy"
+msgstr ""
+
+#: content_taxonomy_hs.info:0
+msgid "Use Hierarchical Select as the widget for Content Taxonomy CCK fields."
+msgstr ""
+
+#: content_taxonomy_options.info:0
+msgid "Content Taxonomy Options"
+msgstr ""
+
+#: content_taxonomy_options.info:0
+msgid "Defines a option widget type for content_taxonomy for selects, radios/checkboxes"
+msgstr ""
+
+#: content_taxonomy_views.info:0
+msgid "Content Taxonomy Views"
+msgstr ""
+
+#: content_taxonomy_views.info:0
+msgid "Views support for content taxonomy fields"
+msgstr ""
+
+#: content_taxonomy_views.info:0 content_taxonomy_views_hs.info:0
+msgid "Views"
+msgstr ""
+
+#: content_taxonomy_views_hs.info:0
+msgid "Use Hierarchical Select for Content Taxonomy exposed filters in Views."
+msgstr ""
+

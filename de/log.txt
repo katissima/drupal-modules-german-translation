@@ -1,0 +1,3 @@
+03:49:18: /home/thomas/dev/trainerakademie/de/de.po:94: nplurals = 2...
+03:49:18: /home/thomas/dev/trainerakademie/de/de.po:8912: ...but some messages have only one plural form
+03:49:18: msgfmt: found 1 fatal error

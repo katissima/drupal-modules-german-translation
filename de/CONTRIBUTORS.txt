@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------
+Contributors to the German translation
+------------------------------------------------------------------------------
+
+$Id: CONTRIBUTORS.txt,v 1.11.2.2 2007/08/06 10:12:04 schwarz Exp $
+
+Uwe Hermann <uwe@hermann-uwe.de>
+Konstantin Käfer <kkaefer@gmail.com>
+Michael Conrad <micha@conrad.ath.cx>
+Tobias Maier <tobias.maier@gmail.com>
+Martin Otten <martin.otten@koeln.de>
+Kaspar Manz <kaspar@xeophin.net>
+Madman <admin@retroreview.de>
+Rüdiger Arp <ruediger@gmx.net>
+Peter Santo <drupalde.20.linulo@recursor.net>
+Björn Voss <bjoern@drupalcenter.de>
+René Schwarz <mail@rene-schwarz.com>
+Franz Heinzmann <http://drupal.org/user/21850>
+Alexander Hass <http://drupal.org/user/85918>
+

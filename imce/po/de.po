@@ -1,0 +1,528 @@
+# $Id$
+# LANGUAGE translation of Drupal (general)
+# Copyright 2009 NAME <thomas@VoiceHero.net>
+# Generated from files:
+# imce.module,v 1.8.2.30 2007/05/14 17:57:39 ufku
+# imce.info,v 1.1.2.3 2006/12/21 09:58:55 ufku
+# , fuzzy
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-25 16:50+0100\n"
+"PO-Revision-Date: 2009-04-01 11:57+0100\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Language-Team: German <thomas@voicehero.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+
+#: imce.module:46
+msgid "IMCE settings"
+msgstr "IMCE Konfiguration"
+
+#: imce.module:47
+msgid "Control how your image/file browser works."
+msgstr "Einstellungen für Bilder- bzw. Dateimanager."
+
+#: imce.module:52
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: imce.module:56;628
+msgid "Sub-folder tool"
+msgstr "Werkzeug für Unterverzeichnisse"
+
+#: imce.module:73
+msgid "Personal files"
+msgstr "Persönliche Datei"
+
+#: imce.module:102
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: imce.module:122;174
+msgid "filename"
+msgstr "Dateiname"
+
+#: imce.module:122
+msgid "size"
+msgstr "Größe"
+
+#: imce.module:122;175
+msgid "dimensions"
+msgstr "Maße"
+
+#: imce.module:122
+msgid "date"
+msgstr "Datum"
+
+#: imce.module:122
+msgid "operations"
+msgstr "Operationen"
+
+#: imce.module:132
+msgid "File was deleted due to quota exceed!"
+msgstr "Datei wurde gelöscht!"
+
+#: imce.module:139
+msgid "delete"
+msgstr "löschen"
+
+#: imce.module:143
+msgid "Directory is empty."
+msgstr "Verzeichnis ist leer."
+
+#: imce.module:154
+msgid "Up"
+msgstr "Hinauf"
+
+#: imce.module:154
+msgid "Go"
+msgstr "Ausführen"
+
+#: imce.module:163
+msgid "Upload File"
+msgstr "Hochladen"
+
+#: imce.module:164
+msgid "Scale if necessary"
+msgstr "Skalieren falls nötig"
+
+#: imce.module:165
+msgid "Create thumbnail"
+msgstr "Vorschaubild erstellen"
+
+#: imce.module:167;536
+msgid "Dimensions for scaling"
+msgstr "Maße für die Skalierung"
+
+#: imce.module:167;167
+msgid "Quota"
+msgstr "Beschränkung"
+
+#: imce.module:167
+msgid "Unlimited"
+msgstr "ohne Beschränkung"
+
+#: imce.module:167
+msgid "Limits"
+msgstr "Begrenzung"
+
+#: imce.module:167;601
+msgid "File size"
+msgstr "Dateigröße"
+
+#: imce.module:167
+msgid "Dimensions"
+msgstr "Maße"
+
+#: imce.module:172
+msgid "Resize image"
+msgstr "Bild anpassen"
+
+#: imce.module:176
+msgid "Create a copy"
+msgstr "Kopie erstellen"
+
+#: imce.module:184
+msgid "Image/File Browser"
+msgstr "Manager für Bilder / Dateien"
+
+#: imce.module:189
+msgid "Are you sure want to delete this file?"
+msgstr "Wollen Sie diese Datei wirklich löschen?"
+
+#: imce.module:190
+msgid "view"
+msgstr "Ansicht"
+
+#: imce.module:191
+msgid "add"
+msgstr "hinzufügen"
+
+#: imce.module:192
+msgid "Display"
+msgstr "Anzeige"
+
+#: imce.module:192
+msgid "all"
+msgstr "alle"
+
+#: imce.module:192
+msgid "images"
+msgstr "Bilder"
+
+#: imce.module:192
+msgid "non-images"
+msgstr "keine Bilder"
+
+#: imce.module:203
+msgid "Keyboard shortcuts"
+msgstr "Tastaturkürzel"
+
+#: imce.module:203
+msgid "UP(previous), DOWN(next), DELETE, INSERT(add)"
+msgstr "nach oben, nach unten, löschen, hinzufügen"
+
+#: imce.module:208
+msgid "Directory"
+msgstr "Verzeichnis"
+
+#: imce.module:210
+msgid "User"
+msgstr "Benutzer"
+
+#: imce.module:210
+msgid "logout"
+msgstr "Abmelden"
+
+#: imce.module:231
+msgid "No files were uploaded."
+msgstr "Es wurden keine Dateien hochgeladen."
+
+#: imce.module:238
+msgid "File upload error. Could not move uploaded file."
+msgstr "Fehler beim Hochladen einer Datei: die Datei konnte nicht verschoben werden."
+
+#: imce.module:247
+msgid "Invalid filename."
+msgstr "Unzulässiger Dateiname"
+
+#: imce.module:255;283
+msgid "Only images with .jpg, .gif, and .png extensions are allowed."
+msgstr "Bilddateien können nur .jpg,·.gif,·und·.png als Dateiendung haben."
+
+#: imce.module:261
+msgid "Error scaling image."
+msgstr "Fehler bei Skalieren des Bildes"
+
+#: imce.module:267
+msgid "Image was scaled to allowed dimensions."
+msgstr "Bild wurde auf die vorgegebene Größe angepasst."
+
+#: imce.module:270;363
+#, fuzzy
+msgid "Image dimensions exceed the limit."
+msgstr "Das Bild ist größer als zulässig."
+
+#: imce.module:278
+msgid "Invalid file extension. Allowed extensions are .jpg, .gif, .png, !ext"
+msgstr "Zulässig sind nur diese Dateiendungen: .jpg,·.gif,·.png,·!ext"
+
+#: imce.module:289
+msgid "File size exceeds upload limit."
+msgstr "Die Datei ist größer als zulässig."
+
+#: imce.module:294;377
+msgid "You dont have enough free space."
+msgstr "Es steht nicht ausreichend freier Platz zur Verfügung."
+
+#: imce.module:302;384
+msgid "Error copying the file."
+msgstr "Fehler beim Kopieren der Datei."
+
+#: imce.module:310
+msgid "Upload successful."
+msgstr "Hochladen abgeschlossen."
+
+#: imce.module:324
+msgid "Thumbnail created."
+msgstr "Vorschaubild erstellt."
+
+#: imce.module:327
+msgid "Thumbnail can not be created."
+msgstr "Vorschaubild konnte nicht erzeugt werden."
+
+#: imce.module:338
+msgid "File deleted successfully."
+msgstr "Datei wurde gelöscht."
+
+#: imce.module:341
+msgid "Error deleting file."
+msgstr "Fehler beim Löschen der Datei."
+
+#: imce.module:352
+msgid "File does not exist."
+msgstr "Datei existiert nicht."
+
+#: imce.module:359
+msgid "File type is not supported."
+msgstr "Dateityp wird nicht unterstützt."
+
+#: imce.module:370
+msgid "Error resizing image."
+msgstr "Fehler beim Anpassen der Größe des Bildes."
+
+#: imce.module:392
+msgid "Resizing successful."
+msgstr "Bild auf die Größe angepasst."
+
+#: imce.module:401
+msgid "Error opening directory"
+msgstr "Fehler beim Öffnen des Verzeichnis."
+
+#: imce.module:444
+msgid "Directory error!"
+msgstr "Verzeichnisfehler!"
+
+#: imce.module:536;540;571;587
+msgid "Width"
+msgstr "Breite"
+
+#: imce.module:536;540;571;587
+msgid "Height"
+msgstr "Höhe"
+
+#: imce.module:538
+#, fuzzy
+msgid "These dimensions will be used while scaling down newly uploaded big images."
+msgstr "Diese Maße wurden benutzt zum Anpassen größerer Bilder."
+
+#: imce.module:540;587
+msgid "Thumbnail dimensions"
+msgstr "Größe für Vorschaubilder"
+
+#: imce.module:542;593
+msgid "You can enable automatic thumbnail creation from newly uploaded images. To disable leave the fields blank."
+msgstr "Automatisch Vorschaubilder erzeugen."
+
+#: imce.module:544
+msgid "Your upload directory"
+msgstr "Ihr Verzeichnis"
+
+#: imce.module:544
+msgid "This directory must be relative to <strong>!filepath</strong> directory. So if you want to use <strong>!filepath/foldername</strong>, just enter <strong>foldername</strong> here. You may also enter <strong>/</strong> to use the file system root. If you leave it blank, u1 will be used."
+msgstr "Das Verzeichnis muss relativ zu <strong>!filepath</strong>. Wenn also <strong>!filepath/verzeichnis</strong> genutzt werden soll, so ist 'verzeichnis' hier einzugeben. Wird es leer gelassen wird u1 genutzt."
+
+#: imce.module:546;636
+msgid "Enable extras"
+msgstr "Extras aktivieren"
+
+#: imce.module:546;638
+msgid "This javascript package includes browsing enhancements like file sorting, keyboard shortcuts, file filtering, etc."
+msgstr "Das Javascript Paket erlaubt das Sortieren von Dateien, bringt Tastaturkürzel, Filter etc. "
+
+#: imce.module:553
+msgid "delete files"
+msgstr "Gelöschte Dateien"
+
+#: imce.module:555
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: imce.module:559
+msgid "upload files"
+msgstr "Hochgeladene Dateien"
+
+#: imce.module:564
+msgid "limitless upload"
+msgstr "unlimitiertes Hochladen"
+
+#: imce.module:566
+msgid "Enable/disable access for file upload and deletion in user directories. Limitless upload disables controlling filesize, image dimensions and quota."
+msgstr "Zulassen von Hochladen und Löschen von Dateien in Verzeichnissen von Benutzern."
+
+#: imce.module:571
+msgid "Image dimensions"
+msgstr "Maße für Bilder"
+
+#: imce.module:577
+#, fuzzy
+msgid "Define the maximum dimensions for an image to be uploaded."
+msgstr "Maximale Größe für hochgeladene Bilder (Ansichtsgröße)."
+
+#: imce.module:580
+msgid "Enable scaling of newly uploaded images."
+msgstr "Skalieren frisch hochgeladener Bilder."
+
+#: imce.module:582
+msgid "If a newly uploaded image has dimensions exceeding the limit, it will be scaled down instead of giving an error."
+msgstr "Wenn ein frisch hochgeladenes Bild die zulässigen Maße überschreitet, so wird es auf die maximal zulässige Größe geschrumpft."
+
+#: imce.module:596
+#, fuzzy
+msgid "Enable custom resizing."
+msgstr "Skalierung durch Benutzer steuerbar."
+
+#: imce.module:598
+msgid "Users will be able to resize their images to any size up to allowed dimensions."
+msgstr "Benutzer können die Größe von Bildern bis zur maximalen Größe eigenständig skalieren."
+
+#: imce.module:603
+msgid "Define the maximum file size(KB) for an image to be uploaded."
+msgstr "Maximale Bildgröße in KB."
+
+#: imce.module:606
+msgid "Upload quota"
+msgstr "Beschränkung beim Hochladen"
+
+#: imce.module:608
+msgid "Define the total upload quota(KB) per user."
+msgstr "Speicherplatz pro Benutzer in KB."
+
+#: imce.module:611
+msgid "Prefix for personal folder names"
+msgstr "Präfix für Verzeichnisse der Benutzer"
+
+#: imce.module:613
+msgid "Define the prefix that user IDs will be appended in order to create personal folders. Ex: entering \"u\" will result in folder names like u1, u14 etc. If you leave it blank, user IDs will be used as folder names."
+msgstr "Präfix für die Verzeichnisse der Benutzer gefolgt von der ID des Benutzers wird daraus der Verzeichnisname erstellt. Wird kein Präfix angegeben, so wird nur die ID für den Verzeichnisnamen verwendet."
+
+#: imce.module:616
+msgid "Use a shared folder"
+msgstr "Nutzung eines gemeinsamen Verzeichnisses"
+
+#: imce.module:618
+msgid "If you want all your users to <strong>use a common folder instead of personal folders</strong>, here you can define that folder name (ex. images). Notice that shared upload means shared quota. If you are happy with personal folders leave this field blank."
+msgstr "Sollen die Benutzer ein <strong>gemeinsames, statt persönlicher Verzeichnisse</strong> nutzen, so geben Sie hier den Namen an. Hinweis: Eine Beschränkung für Verzeichnisse wird auch hier angewandt. Sollen Nutzer persönliche Verzeichnisse nutzen, so bleibt dieses Feld leer."
+
+#: imce.module:621
+msgid "Enable sub-folder navigation."
+msgstr "Navigation durch die Verzeichnisse."
+
+#: imce.module:623
+msgid "This option allows users to manage multiple folders under their main folder. Only the users who have at least one sub-folder can use this feature."
+msgstr "Benutzer können in ihrem Verzeichnis Unterverzeichnisse verwalten."
+
+#: imce.module:626
+msgid "Default sub-folder names"
+msgstr "Vorgabe für den Namen von Unterverzeichnissen"
+
+#: imce.module:628
+msgid "Enter comma separated sub-folder names that will be created automatically, if the sub-folder navigation is enabled. Each user of this role will have these folders in their main folder by default. Additional folders can be created using !subfoldertool. You should note that total user quota increases with every new sub-folder because the quotation is per folder basis."
+msgstr "Ist die Verwaltung von Unterverzeichnissen aktiviert kann eine Liste von Unterverzeichnissen angegeben werden, die mit Kommata getrennt werden, dann werden diese Unterverzeichnisse automatisch für jeden Benutzer angelegt."
+
+#: imce.module:631
+#, fuzzy
+msgid "Non-image file support"
+msgstr "Unterstützung von Dateien (keine Bilder)"
+
+#: imce.module:633
+msgid "Although IMCE is mainly designed to browse images, it supports uploading and browsing of any file type. If you like to use this feature, define your <strong>allowed non-image file extensions</strong> here with a comma between them. Ex .doc, .pdf, .zip.  Note that, image upload limits also apply for these files. For a pure image browser leave this field blank."
+msgstr "Auch wenn IMCE vor allem zum Verwalten von Bildern genutzt wird, können damit letztlich alle Dateien verwaltet werden. Dazu sollten die <strong>erlaubten Dateiendungen</strong> festgelegt werden. z.B. .doc, .pdf, .xls, .ppt . Bleibt dieses Feld leer, so verwaltet IMCE aussschließlich Bilder."
+
+#: imce.module:650
+msgid "Common settings"
+msgstr "Gemeinsame Einstellungen"
+
+#: imce.module:652
+msgid "Enable tinyMCE support"
+msgstr "Unterstützung für tinyMCE"
+
+#: imce.module:654
+msgid "Make IMCE the default image/file browser for tinyMCE."
+msgstr "IMCE ist der Standard Dateimanager für tinyMCE."
+
+#: imce.module:657
+msgid "Enable FCKEditor support"
+msgstr "Unterstützung für FCKeditor"
+
+#: imce.module:659
+msgid "Replace the built-in file browser of FCKeditor with IMCE."
+msgstr "IMCE als Dateimanager für den FCKeditor."
+
+#: imce.module:662
+msgid "Enable inline image/file insertion into plain textareas"
+msgstr "Bilder und Dateien in Textfelder innerhalb von Zeilen einfügen als HTML - inline-Element"
+
+#: imce.module:665
+msgid "This feature allows you to add your images or files as <strong>html code into any plain textarea</strong>. This is useful especially when you dont use a wysiwyg editor such as tinyMCE or FCKeditor. Enter <strong>comma separated textarea IDs</strong> if you want to enable this feature. Otherwise, leave it blank. Hint: ID of Body fields in most node types is edit-body."
+msgstr "Bilder oder Dateien über <strong>HTML</strong> in Textfelder einfügen. Diese Option ist vor allem sinnvoll, wenn kein Wysiwyg-Editor installiert ist. Die Textfelder für die diese Option gelten soll, werden mit Komma getrennt angegeben."
+
+#: imce.module:674
+#, fuzzy
+msgid "Role precedence"
+msgstr "Prioriät für die Rolle"
+
+#: imce.module:676
+#, fuzzy
+msgid "A user having <strong>multiple roles</strong> gets the permissions of the highest one. Sort role IDs according to their <strong>precedence from higher to lower</strong> by putting > in between. Here is the id-name pairs of roles having access to IMCE:"
+msgstr "Ein Benutzer mit mehreren Rollen bekommt die Berechtigungen aus der höchst prioren Rolle."
+
+#: imce.module:681
+msgid "Settings for user #1"
+msgstr "Einstellungen für BenutzerID 1"
+
+#: imce.module:685
+msgid "Settings for the role: !role"
+msgstr "Einstellungen für die Rolle: !role"
+
+#: imce.module:688
+msgid "Save"
+msgstr "Speichern"
+
+#: imce.module:721
+msgid "The changes have been saved."
+msgstr "Die Änderungen wurden gespeichert."
+
+#: imce.module:769
+msgid "Insert !image or !link."
+msgstr "!image oder !link einfügen."
+
+#: imce.module:769
+msgid "image"
+msgstr "Bild"
+
+#: imce.module:769
+msgid "link"
+msgstr "Link"
+
+#: imce.module:782
+msgid "Browse this user's files using !yours or !his"
+msgstr "Dateien des Benutzer anzeigen mit !yours oder !his"
+
+#: imce.module:782
+msgid "your privileges"
+msgstr "Ihre Berechtigungen"
+
+#: imce.module:782
+msgid "his/her privileges"
+msgstr "seine / ihre Berechtigungen"
+
+#: imce.module:812
+msgid "<p>Here you can create sub-folders for your users. Multiple folder creation is possible at a time with the <strong>*</strong> character. For example, specifying <strong>user*/foo</strong> will create <strong>foo</strong> named folders under each folder starting with <strong>user</strong>. */foo*/bar will create bar named folders under folders starting with foo in each folder of file system path.</p>"
+msgstr "<p>Erstellen Sie Unterverzeichnisse für Benutzer. Mehrfache Verzeichnisse werden über  <strong>*</strong> erzeugt. Z. B. <strong>user*/foo</strong> wird das Verzeichnis <strong>foo</strong> in jedem Verzeichnis erstellen, das mit <strong>user</strong> beginnt. '*/foo*/bar' erzeugt erzeugt in jedem Unterverzeichnis, das mit foo beginnt das Unterverzeichnis bar.</p>"
+
+#: imce.module:813
+msgid "Folder path"
+msgstr "Pfad zum Verzeichnis "
+
+#: imce.module:814
+msgid "Create"
+msgstr "Erzeugen"
+
+#: imce.module:844
+#, fuzzy
+msgid "Specified path must be under file sytem path."
+msgstr "Der Pfad muss unterhalb des zulässigen Verzeichnis liegen."
+
+#: imce.module:856
+msgid "No matching sub-folders found."
+msgstr "Keine passenden Unterverzeichnisse gefunden."
+
+#: imce.module:28
+msgid "access imce"
+msgstr "Zugriff auf IMCE"
+
+#: imce.module:28
+msgid "administer imce"
+msgstr "Verwalten von IMCE"
+
+#: imce.module:0
+msgid "imce"
+msgstr "IMCE"
+
+#: imce.info:0
+msgid "IMCE"
+msgstr "IMCE"
+
+#: imce.info:0
+msgid "An image/file uploader and browser supporting personal directories and user quota."
+msgstr "Hochladen und Verwalten von Bildern bzw. Dateien, wobei persönliche Verzeichnisse und Größenbeschränkungen genutzt werden können."
+

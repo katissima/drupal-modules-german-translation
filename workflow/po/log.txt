@@ -1,0 +1,4 @@
+03:26:58: /home/thomas/dev/trainerakademie/workflow/po/de.po:14: keyword "Plural" unknown
+03:26:58: /home/thomas/dev/trainerakademie/workflow/po/de.po:14:23: syntax error
+03:26:58: /home/thomas/dev/trainerakademie/workflow/po/de.po:15: end-of-line within string
+03:26:58: msgfmt: found 3 fatal errors

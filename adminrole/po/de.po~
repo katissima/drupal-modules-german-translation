@@ -1,0 +1,53 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  adminrole.module,v 1.2.2.8 2008/06/25 11:56:13 jacobsingh
+#  adminrole.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-28 13:06+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: adminrole.module:16;30
+msgid "Change which role is a \"admin\" Role with full perms"
+msgstr ""
+
+#: adminrole.module:29 adminrole.info:0
+msgid "Admin Role"
+msgstr ""
+
+#: adminrole.module:38;0
+msgid "adminrole"
+msgstr ""
+
+#: adminrole.module:62
+msgid "Admin Permissions Set"
+msgstr ""
+
+#: adminrole.module:72
+msgid "Admin Roles"
+msgstr ""
+
+#: adminrole.module:74
+msgid "Which Role is Admin?"
+msgstr ""
+
+#: adminrole.module:75
+msgid "-- Please Select One --"
+msgstr ""
+
+#: adminrole.info:0
+msgid "Automatically assign all permissions to an admin role."
+msgstr ""
+

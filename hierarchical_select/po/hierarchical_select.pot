@@ -1,0 +1,891 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  hierarchical_select.admin.inc,v 1.15.2.1 2008/11/30 01:29:48 wimleers
+#  common.inc,v 1.22 2008/10/05 15:51:43 wimleers
+#  hs_book.module,v 1.7.2.2 2008/11/29 22:57:06 wimleers
+#  hs_menu.module,v 1.6.2.3 2008/11/29 22:57:06 wimleers
+#  hierarchical_select.module,v 1.137.2.6 2008/11/30 01:56:07 wimleers
+#  hierarchical_select.info,v 1.9 2008/04/28 17:54:57 wimleers
+#  hs_subscriptions_taxonomy.module,v 1.4 2008/09/17 21:36:54 wimleers
+#  hs_book.info,v 1.1 2008/07/03 21:13:30 wimleers
+#  hs_content_taxonomy.info,v 1.2 2008/06/28 18:25:28 wimleers
+#  hs_content_taxonomy_views.info,v 1.2 2008/07/15 22:09:44 wimleers
+#  hs_flatlist.info,v 1.1 2008/07/03 23:20:30 wimleers
+#  hs_menu.info,v 1.1 2008/06/28 12:24:53 wimleers
+#  modules/hs_subscriptions_taxonomy.info: n/a
+#  modules/hs_taxonomy.info: n/a
+#  hs_taxonomy_views.info,v 1.2 2008/06/28 18:25:28 wimleers
+#  hs_content_taxonomy.module,v 1.32 2008/09/19 17:11:07 wimleers
+#  hs_taxonomy.module,v 1.20.2.5 2008/11/29 22:19:14 wimleers
+#  hs_content_taxonomy_views.module,v 1.15.2.1 2008/11/20 01:04:22 wimleers
+#  hs_taxonomy_views.module,v 1.15.2.1 2008/11/20 01:04:22 wimleers
+#  hs_flatlist.module,v 1.2 2008/07/16 21:12:23 wimleers
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-29 00:37+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: hierarchical_select.admin.inc:16
+msgid "All settings below will be used as site-wide defaults."
+msgstr ""
+
+#: hierarchical_select.admin.inc:22
+msgid "Animation delay"
+msgstr ""
+
+#: hierarchical_select.admin.inc:23
+msgid "The delay that will be used for the \"drop in/out\" effect when a\n      hierarchical select is being updated (in milliseconds)."
+msgstr ""
+
+#: hierarchical_select.admin.inc:33
+msgid "Level labels style"
+msgstr ""
+
+#: hierarchical_select.admin.inc:34
+msgid "The style that will be used for level labels. This is not supported by\n      all browsers! If you want a consistent interface, choose to use no\n      style."
+msgstr ""
+
+#: hierarchical_select.admin.inc:40
+msgid "No style"
+msgstr ""
+
+#: hierarchical_select.admin.inc:41
+msgid "Bold"
+msgstr ""
+
+#: hierarchical_select.admin.inc:42
+msgid "Inversed"
+msgstr ""
+
+#: hierarchical_select.admin.inc:43
+msgid "Underlined"
+msgstr ""
+
+#: hierarchical_select.admin.inc:49
+msgid "Cache in a HTML 5 client-side database"
+msgstr ""
+
+#: hierarchical_select.admin.inc:50
+msgid "This feature only works in browsers that support the\n      <a href=\"!spec-url\">HTML 5 client-side database storage specification\n      </a> will be able to take advantage of this feature.</br>\n      After enabling this, you will notice (in supporting browsers) that\n      refreshing the hierarchical select will not require a request to the\n      server when a part is being requested that has been requested before."
+msgstr ""
+
+#: hierarchical_select.admin.inc:60 includes/common.inc:175;192;276;298 modules/hs_book.module:69 modules/hs_menu.module:65
+msgid "Disabled"
+msgstr ""
+
+#: hierarchical_select.admin.inc:61 includes/common.inc:176;193;277;299 modules/hs_book.module:70 modules/hs_menu.module:66
+msgid "Enabled"
+msgstr ""
+
+#: hierarchical_select.admin.inc:74;111
+msgid "Hierarchy type"
+msgstr ""
+
+#: hierarchical_select.admin.inc:74
+msgid "Hierarchy"
+msgstr ""
+
+#: hierarchical_select.admin.inc:74;111
+msgid "Entity type"
+msgstr ""
+
+#: hierarchical_select.admin.inc:74
+msgid "Entity"
+msgstr ""
+
+#: hierarchical_select.admin.inc:74
+msgid "Context type"
+msgstr ""
+
+#: hierarchical_select.admin.inc:74
+msgid "Context"
+msgstr ""
+
+#: hierarchical_select.admin.inc:74
+msgid "Actions"
+msgstr ""
+
+#: hierarchical_select.admin.inc:95
+msgid "Edit"
+msgstr ""
+
+#: hierarchical_select.admin.inc:96 hierarchical_select.module:75
+msgid "Export"
+msgstr ""
+
+#: hierarchical_select.admin.inc:97;193 hierarchical_select.module:82
+msgid "Import"
+msgstr ""
+
+#: hierarchical_select.admin.inc:102
+msgid "Overview of all Hierarchical Select configurations."
+msgstr ""
+
+#: hierarchical_select.admin.inc:111
+msgid "Implementation (module)"
+msgstr ""
+
+#: hierarchical_select.admin.inc:111
+msgid "Create new items"
+msgstr ""
+
+#: hierarchical_select.admin.inc:111
+msgid "Entity count"
+msgstr ""
+
+#: hierarchical_select.admin.inc:119
+msgid "unknown"
+msgstr ""
+
+#: hierarchical_select.admin.inc:130;131
+msgid "Yes"
+msgstr ""
+
+#: hierarchical_select.admin.inc:130;131
+msgid "No"
+msgstr ""
+
+#: hierarchical_select.admin.inc:136
+msgid "\n    The table below allows you to find out <strong>which Hierarchical Select\n    features are supported</strong> by the implementations of the Hierarchical\n    Select API.<br />\n    It is <strong>not a reflection of some settings</strong>.\n  "
+msgstr ""
+
+#: hierarchical_select.admin.inc:144
+msgid "Overview of all installed Hierarchical Select implementations."
+msgstr ""
+
+#: hierarchical_select.admin.inc:162
+msgid "Hierarchical Select configuration %config_id"
+msgstr ""
+
+#: hierarchical_select.admin.inc:180
+msgid "Import Hierarchical Select configuration code"
+msgstr ""
+
+#: hierarchical_select.admin.inc:183
+msgid "Copy and paste the results of an exported\n      Hierarchical Select configuration here.<br />This will override the\n      current Hierarchical Select configuration for %config_id."
+msgstr ""
+
+#: hierarchical_select.admin.inc:210
+msgid "You did not enter anything."
+msgstr ""
+
+#: hierarchical_select.admin.inc:213
+msgid "There is a syntax error in the Hierarchical Select configuration you entered."
+msgstr ""
+
+#: hierarchical_select.admin.inc:216
+msgid "Unable to import this configuration, because no Hierarchical Select <em>config id</em> is set."
+msgstr ""
+
+#: hierarchical_select.admin.inc:227
+msgid "Hierarchical Select configuration for %config_id imported!"
+msgstr ""
+
+#: hierarchical_select.module:33;234 hierarchical_select.info:0
+msgid "Hierarchical Select"
+msgstr ""
+
+#: hierarchical_select.module:34
+msgid "Configure site-wide settings for the Hierarchical Select form element."
+msgstr ""
+
+#: hierarchical_select.module:41
+msgid "Site-wide settings"
+msgstr ""
+
+#: hierarchical_select.module:47
+msgid "Configurations"
+msgstr ""
+
+#: hierarchical_select.module:48
+msgid "All available Hierarchical Select configurations."
+msgstr ""
+
+#: hierarchical_select.module:54
+msgid "Implementations"
+msgstr ""
+
+#: hierarchical_select.module:55
+msgid "Features of each Hierarchical Select implementation."
+msgstr ""
+
+#: hierarchical_select.module:122;1841
+msgid "All selections"
+msgstr ""
+
+#: hierarchical_select.module:165
+msgid "!module"
+msgstr ""
+
+#: hierarchical_select.module:174
+msgid "!module (!weight)"
+msgstr ""
+
+#: hierarchical_select.module:180
+msgid "All updates installed. jQuery Update 2.x installed. Implementation modules are installed correctly."
+msgstr ""
+
+#: hierarchical_select.module:185
+msgid "Not all updates installed!"
+msgstr ""
+
+#: hierarchical_select.module:186
+msgid "Please run update.php to install the latest updates!\n        You have installed update !installed_update, but the latest update is\n        !latest_update!"
+msgstr ""
+
+#: hierarchical_select.module:197
+msgid "jQuery Update 1.x installed!"
+msgstr ""
+
+#: hierarchical_select.module:198
+msgid "Please upgrade to jQuery Update 2.x! jQuery Update\n        1.x contains jQuery 1.1.x, which is incompatible with the Javascript\n        code of Hierarchical Select!"
+msgstr ""
+
+#: hierarchical_select.module:205
+msgid "jQuery Interface installed!"
+msgstr ""
+
+#: hierarchical_select.module:206
+msgid "Please disable and uninstall jQuery Interface, as it\n        is incompatible with jQuery Update 2. It is very buggy anyway and any\n        module that uses it should upgrade to jQuery UI."
+msgstr ""
+
+#: hierarchical_select.module:213
+msgid "Modules incorrectly installed!"
+msgstr ""
+
+#: hierarchical_select.module:214
+msgid "The following modules implement Hierarchical Select module for Drupal\n        core modules, but are installed in the wrong location. They're\n        installed in core's <code>modules</code> directory, but should be\n        installed in either the <code>sites/all/modules</code> directory or a\n        <code>sites/yoursite.com/modules</code> directory"
+msgstr ""
+
+#: hierarchical_select.module:224
+msgid "Module weight incorrectly configured!"
+msgstr ""
+
+#: hierarchical_select.module:225
+msgid "The weight of the Hierarchical Select module (!weight) is not\n        strictly higher than the weight of the following modules"
+msgstr ""
+
+#: hierarchical_select.module:488;1557;1593;1617;1644;1691
+msgid "item"
+msgstr ""
+
+#: hierarchical_select.module:494;496
+msgid "new @item"
+msgstr ""
+
+#: hierarchical_select.module:506;878
+msgid "Create"
+msgstr ""
+
+#: hierarchical_select.module:512
+msgid "Cancel"
+msgstr ""
+
+#: hierarchical_select.module:525;865
+msgid "Add"
+msgstr ""
+
+#: hierarchical_select.module:533
+msgid "You've reached the maximal number of items you can select."
+msgstr ""
+
+#: hierarchical_select.module:563
+msgid "Update"
+msgstr ""
+
+#: hierarchical_select.module:692
+msgid "You've selected %lineage-count items, but you're only allowed to select %dropbox-limit items."
+msgstr ""
+
+#: hierarchical_select.module:717
+msgid "!name field is required."
+msgstr ""
+
+#: hierarchical_select.module:1050
+msgid "Remove"
+msgstr ""
+
+#: hierarchical_select.module:1299
+msgid "<span class=\"highlight\">enable Javascript</span> in your browser and then refresh this page, for a much enhanced experience."
+msgstr ""
+
+#: hierarchical_select.module:1300
+msgid "<span class=\"highlight\">click the <em>Update</em> button</span> every time you want to update the selection"
+msgstr ""
+
+#: hierarchical_select.module:1302
+msgid ", or when you've checked some checkboxes for entries in the dropbox you'd like to remove."
+msgstr ""
+
+#: hierarchical_select.module:1305
+msgid "You don't have Javascript enabled."
+msgstr ""
+
+#: hierarchical_select.module:1308
+msgid "Hover for more information!"
+msgstr ""
+
+#: hierarchical_select.module:1310
+msgid "But don't worry: you can still use this web site! You have two options:"
+msgstr ""
+
+#: hierarchical_select.module:1558;1594;1618;1645;1696
+msgid "create new !item_type"
+msgstr ""
+
+#: hierarchical_select.module:1570 modules/hs_subscriptions_taxonomy.module:51
+msgid "none"
+msgstr ""
+
+#: hierarchical_select.module:2198
+msgid "Nothing has been selected."
+msgstr ""
+
+#: hierarchical_select.module:0
+msgid "hierarchical_select"
+msgstr ""
+
+#: hierarchical_select.info:0
+msgid "Simplifies the selection of one or multiple items in a hierarchical tree."
+msgstr ""
+
+#: hierarchical_select.info:0 modules/hs_book.info:0 modules/hs_content_taxonomy.info:0 modules/hs_content_taxonomy_views.info:0 modules/hs_flatlist.info:0 modules/hs_menu.info:0 modules/hs_subscriptions_taxonomy.info:0 modules/hs_taxonomy.info:0 modules/hs_taxonomy_views.info:0
+msgid "Form Elements"
+msgstr ""
+
+#: includes/common.inc:105 modules/hs_content_taxonomy.module:246
+msgid "Hierarchical Select configuration"
+msgstr ""
+
+#: includes/common.inc:119;127
+msgid "Preview"
+msgstr ""
+
+#: includes/common.inc:120
+msgid "This is what the Hierarchical Select will look like with your current configuration."
+msgstr ""
+
+#: includes/common.inc:128
+msgid "The description."
+msgstr ""
+
+#: includes/common.inc:136
+msgid "Save lineage"
+msgstr ""
+
+#: includes/common.inc:138
+msgid "Save !item lineage"
+msgstr ""
+
+#: includes/common.inc:139
+msgid "Save only the deepest !item"
+msgstr ""
+
+#: includes/common.inc:142
+msgid "Saving the !item lineage means saving the <em>the !item itself and all\n      its ancestors</em>."
+msgstr ""
+
+#: includes/common.inc:151
+msgid "Level choice"
+msgstr ""
+
+#: includes/common.inc:153
+msgid "Force the user to choose a !item from a <em>deepest level</em>"
+msgstr ""
+
+#: includes/common.inc:154
+msgid "Allow the user to choose a !item from <em>any level</em>"
+msgstr ""
+
+#: includes/common.inc:157
+msgid "This setting determines from which level in the !hierarchy tree a\n      user can select a !item."
+msgstr ""
+
+#: includes/common.inc:168
+msgid "Display the !entity count"
+msgstr ""
+
+#: includes/common.inc:169
+msgid "When enabled, the user will see the number of !entities that match\n        the current !item listed between brackets."
+msgstr ""
+
+#: includes/common.inc:185 modules/hs_book.module:62 modules/hs_menu.module:58
+msgid "Resizable"
+msgstr ""
+
+#: includes/common.inc:186 modules/hs_book.module:63 modules/hs_menu.module:59
+msgid "When enabled, a handle appears below the Hierarchical Select to allow\n      the user to dynamically resize it. Double clicking will toggle between\n      the smallest and a sane 'big size'."
+msgstr ""
+
+#: includes/common.inc:202
+msgid "Level labels"
+msgstr ""
+
+#: includes/common.inc:203
+msgid "When the user is allowed to choose a !item from any level in the\n      <em>Level choice</em> setting, you can enter a label for <em>each</em>\n      level.<br />\n      However, when the user is only allowed to choose a !item from the\n      deepest level, then you can only enter a label for the <em>root</em>\n      level."
+msgstr ""
+
+#: includes/common.inc:216
+msgid "Enable level labels"
+msgstr ""
+
+#: includes/common.inc:232
+msgid "Dropbox settings"
+msgstr ""
+
+#: includes/common.inc:233
+msgid "The dropbox allows the user to <strong>make multiple selections</strong>."
+msgstr ""
+
+#: includes/common.inc:238 modules/hs_content_taxonomy.module:239 modules/hs_taxonomy.module:34
+msgid "Enable the dropbox"
+msgstr ""
+
+#: includes/common.inc:244
+msgid "Title"
+msgstr ""
+
+#: includes/common.inc:245
+msgid "The title you enter here appears above the dropbox."
+msgstr ""
+
+#: includes/common.inc:253
+msgid "Limit the number of selections"
+msgstr ""
+
+#: includes/common.inc:254
+msgid "Limits the number of selections that can be added to the dropbox.\n      0 means no limit.\n      <br />\n      Note: the \"Save !item lineage\" option has no effect on this, even if\n      a lineage consists of 3 !items, this will count as only one selection\n      in the dropbox."
+msgstr ""
+
+#: includes/common.inc:270
+msgid "Reset selection of hierarchical select"
+msgstr ""
+
+#: includes/common.inc:271
+msgid "This setting determines what will happen to the hierarchical select\n      when the user has added a selection to the dropbox."
+msgstr ""
+
+#: includes/common.inc:286 modules/hs_taxonomy.module:28
+msgid "Editability settings"
+msgstr ""
+
+#: includes/common.inc:287
+msgid "You can allow the user to <strong>add new !items to this\n        !hierarchy</strong> <em>through</em> Hierarchical Select."
+msgstr ""
+
+#: includes/common.inc:296
+msgid "Allow creation of new !items"
+msgstr ""
+
+#: includes/common.inc:321
+msgid "Allow creation of new levels"
+msgstr ""
+
+#: includes/common.inc:323
+msgid "Allow the user to create child !items for !items that do not yet have\n        children."
+msgstr ""
+
+#: includes/common.inc:332
+msgid "Maximum number of levels allowed"
+msgstr ""
+
+#: includes/common.inc:334
+msgid "0 (no limit)"
+msgstr ""
+
+#: includes/common.inc:337
+msgid "When the user is allowed to create new levels, this option prevents\n        the user from creating extremely deep !hierarchies."
+msgstr ""
+
+#: includes/common.inc:362;401
+msgid "Level"
+msgstr ""
+
+#: includes/common.inc:362
+msgid "Label"
+msgstr ""
+
+#: includes/common.inc:371;410
+msgid "Root level"
+msgstr ""
+
+#: includes/common.inc:371;410
+msgid "Sublevel !depth"
+msgstr ""
+
+#: includes/common.inc:382;433
+msgid "There are no levels yet in this !hierarchy!"
+msgstr ""
+
+#: includes/common.inc:401
+msgid "Allow"
+msgstr ""
+
+#: includes/common.inc:401
+msgid "!item_type"
+msgstr ""
+
+#: includes/common.inc:417
+msgid "Per-level settings for creating new !items."
+msgstr ""
+
+#: includes/common.inc:419
+msgid "The %item_type you enter for each level is what will be used in\n      each level to replace a \"&lt;create new item&gt;\" option with a\n      \"&lt;create new %item_type&gt;\" option, which is often more\n      intuitive."
+msgstr ""
+
+#: includes/common.inc:0
+msgid "1 year"
+msgid_plural "@count years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 week"
+msgid_plural "@count weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 day"
+msgid_plural "@count days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 hour"
+msgid_plural "@count hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 min"
+msgid_plural "@count min"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/common.inc:0
+msgid "1 sec"
+msgid_plural "@count sec"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/hs_book.module:22;194
+msgid "Book"
+msgstr ""
+
+#: modules/hs_book.module:23
+msgid "Hierarchical Select configuration for Book"
+msgstr ""
+
+#: modules/hs_book.module:100
+msgid "top-level"
+msgstr ""
+
+#: modules/hs_book.module:195
+msgid "Node (!book_page)"
+msgstr ""
+
+#: modules/hs_book.module:0
+msgid "hs_book"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:41
+msgid "Hierarchical Select configuration for !field"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:72
+msgid "This setting is now managed by the Hierarchical Select widget\n        configuration!"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:131 modules/hs_content_taxonomy_views.module:242 modules/hs_taxonomy.module:75 modules/hs_taxonomy_views.module:228
+msgid "vocabulary"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:132 modules/hs_content_taxonomy_views.module:243 modules/hs_taxonomy.module:76 modules/hs_taxonomy_views.module:229
+msgid "vocabularies"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:133 modules/hs_content_taxonomy_views.module:244 modules/hs_taxonomy.module:77 modules/hs_taxonomy_views.module:230
+msgid "term"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:134 modules/hs_content_taxonomy_views.module:245 modules/hs_taxonomy.module:78 modules/hs_taxonomy_views.module:231
+msgid "terms"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:135 modules/hs_content_taxonomy_views.module:246 modules/hs_taxonomy.module:79 modules/hs_taxonomy_views.module:232
+msgid "term type"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:136 modules/hs_content_taxonomy_views.module:247 modules/hs_taxonomy.module:80 modules/hs_taxonomy_views.module:233
+msgid "node"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:137 modules/hs_content_taxonomy_views.module:248 modules/hs_taxonomy.module:81 modules/hs_taxonomy_views.module:234
+msgid "nodes"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:152 modules/hs_content_taxonomy_views.module:263 modules/hs_taxonomy_views.module:254
+msgid "Save"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:185;186
+msgid "Save field settings"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:227
+msgid "Due to limitations of CCK, there is a separate form to\n        <a href=\"!url\"> configure this Hierarchical Select widget's\n        settings.</a>"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:233
+msgid "The %multiple_values field setting is now managed by the Hierarchical\n        Select module: it will be enabled when either the %enable_the_dropbox\n        or %save_term_lineage settings (or both) are enabled."
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:238 modules/hs_taxonomy.module:52
+msgid "Multiple values"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:240
+msgid "Save term lineage"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:526;552 modules/hs_content_taxonomy_views.module:399;427
+msgid "Content Taxonomy"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:527;554 modules/hs_content_taxonomy_views.module:400;429 modules/hs_taxonomy.module:329;359 modules/hs_taxonomy_views.module:389;417
+msgid "Node"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:556 modules/hs_taxonomy.module:361
+msgid "Node form"
+msgstr ""
+
+#: modules/hs_content_taxonomy.module:0
+msgid "hs_content_taxonomy"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:28 modules/hs_taxonomy_views.module:26
+msgid "Hierarchical Select configuration for !view"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:116 modules/hs_taxonomy_views.module:107
+msgid "Configure Hierarchical Select"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:125 modules/hs_taxonomy_views.module:116
+msgid "This setting is now managed by the<br />Hierarchical Select configuration!"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:161 modules/hs_taxonomy_views.module:152
+msgid "The Views module is new enough."
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:166 modules/hs_taxonomy_views.module:157
+msgid "The Views module is outdated."
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:167 modules/hs_taxonomy_views.module:158
+msgid "The version of Views that you have installed is either\n        older than May 11, 2008, or doesn't have the obligatory patch applied.\n        Please apply the <a href=\"!patch_url\">patch</a> or update to a newer\n        version of the Views module!"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:177 modules/hs_content_taxonomy_views.info:0
+msgid "Hierarchical Select Content Taxonomy Views"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:314 modules/hs_taxonomy_views.module:306
+msgid "Could not update the view because it doesn't live in the database."
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:320 modules/hs_taxonomy_views.module:312
+msgid "Updated the View's exposed filter according to the settings you made."
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:339;370 modules/hs_taxonomy_views.module:331;361
+msgid "all"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:431 modules/hs_taxonomy_views.module:419
+msgid "Views exposed filter"
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.module:0
+msgid "hs_content_taxonomy_views"
+msgstr ""
+
+#: modules/hs_flatlist.module:64
+msgid "None: flat list"
+msgstr ""
+
+#: modules/hs_flatlist.module:65 modules/hs_menu.module:196
+msgid "N/A"
+msgstr ""
+
+#: modules/hs_flatlist.module:0
+msgid "hs_flatlist"
+msgstr ""
+
+#: modules/hs_menu.module:22;195
+msgid "Menu"
+msgstr ""
+
+#: modules/hs_menu.module:23
+msgid "Hierarchical Select configuration for Menu"
+msgstr ""
+
+#: modules/hs_menu.module:123
+msgid "disabled"
+msgstr ""
+
+#: modules/hs_menu.module:0
+msgid "hs_menu"
+msgstr ""
+
+#: modules/hs_subscriptions_taxonomy.module:69
+msgid "Subscribed to:"
+msgstr ""
+
+#: modules/hs_subscriptions_taxonomy.module:0
+msgid "hs_subscriptions_taxonomy"
+msgstr ""
+
+#: modules/hs_taxonomy.module:25
+msgid "This setting is irrelevant when you're using Hierarchical Select.\n        <br />Use Hierarchical Select's %editability-settings instead."
+msgstr ""
+
+#: modules/hs_taxonomy.module:31
+msgid "This setting is managed by the Hierarchical Select configuration, by\n        the %enable-dropbox setting."
+msgstr ""
+
+#: modules/hs_taxonomy.module:45
+msgid "Use the Hierarchical Select form element for this vocabulary."
+msgstr ""
+
+#: modules/hs_taxonomy.module:47
+msgid "When checked, the %free_tagging and %multiple_values settings will\n        be managed by the Hierarchical Select configuration."
+msgstr ""
+
+#: modules/hs_taxonomy.module:51
+msgid "Free tagging"
+msgstr ""
+
+#: modules/hs_taxonomy.module:92
+msgid "This is the vocabulary that will be used for forum navigation and it\n        <strong>always</strong> requires the %dont_save_lineage setting to be\n        set!"
+msgstr ""
+
+#: modules/hs_taxonomy.module:96
+msgid "Save only the deepest term"
+msgstr ""
+
+#: modules/hs_taxonomy.module:209
+msgid "root"
+msgstr ""
+
+#: modules/hs_taxonomy.module:328;357 modules/hs_taxonomy_views.module:388;415
+msgid "Taxonomy"
+msgstr ""
+
+#: modules/hs_taxonomy.module:448
+msgid "Only use when you have enabled the \"save lineage\" setting of Hierarchical Select. Will show the term's parent terms separated by /."
+msgstr ""
+
+#: modules/hs_taxonomy.module:449
+msgid "As [save-linage-termpath]. WARNING - raw user input."
+msgstr ""
+
+#: modules/hs_taxonomy.module:451
+msgid "Only has output when terms are present for the vocabulary with the specified vid. Only use when you have enabled the \"save lineage\" setting of Hierarchical Select. Will show the term's parent terms separated by /."
+msgstr ""
+
+#: modules/hs_taxonomy.module:452
+msgid "Only has output when terms are present for the vocabulary with the specified vid. As [save-linage-termpath]. WARNING - raw user input."
+msgstr ""
+
+#: modules/hs_taxonomy.module:0
+msgid "hs_taxonomy"
+msgstr ""
+
+#: modules/hs_taxonomy_views.module:168
+msgid "Hierarchical Select Views Taxonomy"
+msgstr ""
+
+#: modules/hs_taxonomy_views.module:239
+msgid "When you enable the %save_lineage setting, you will have to resave the\n    \"Edit view\" form as well!"
+msgstr ""
+
+#: modules/hs_taxonomy_views.module:0
+msgid "hs_taxonomy_views"
+msgstr ""
+
+#: modules/hs_book.info:0
+msgid "Hierarchical Select Book"
+msgstr ""
+
+#: modules/hs_book.info:0
+msgid "Use Hierarchical Select for selecting the parent page of a book page."
+msgstr ""
+
+#: modules/hs_content_taxonomy.info:0
+msgid "Hierarchical Select Content Taxonomy"
+msgstr ""
+
+#: modules/hs_content_taxonomy.info:0
+msgid "Use Hierarchical Select as the widget for Content Taxonomy CCK fields."
+msgstr ""
+
+#: modules/hs_content_taxonomy_views.info:0
+msgid "Use Hierarchical Select for Content Taxonomy exposed filters in Views."
+msgstr ""
+
+#: modules/hs_flatlist.info:0
+msgid "Hierarchical Select Flat List"
+msgstr ""
+
+#: modules/hs_flatlist.info:0
+msgid "Allows Hierarchical Select's dropbox to be used for selecting multiple items in a flat list of options."
+msgstr ""
+
+#: modules/hs_menu.info:0
+msgid "Hierarchical Select Menu"
+msgstr ""
+
+#: modules/hs_menu.info:0
+msgid "Use Hierarchical Select for menu parent selection."
+msgstr ""
+
+#: modules/hs_subscriptions_taxonomy.info:0
+msgid "Hierarchical Select Taxonomy Subscriptions"
+msgstr ""
+
+#: modules/hs_subscriptions_taxonomy.info:0
+msgid "Use Hierarchical Select for Taxonomy Subscriptions."
+msgstr ""
+
+#: modules/hs_taxonomy.info:0
+msgid "Hierarchical Select Taxonomy"
+msgstr ""
+
+#: modules/hs_taxonomy.info:0
+msgid "Use Hierarchical Select for Taxonomy."
+msgstr ""
+
+#: modules/hs_taxonomy_views.info:0
+msgid "Hierarchical Select Taxonomy Views"
+msgstr ""
+
+#: modules/hs_taxonomy_views.info:0
+msgid "Use Hierarchical Select for Taxonomy exposed filters in Views."
+msgstr ""
+

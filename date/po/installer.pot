@@ -1,0 +1,58 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (installer)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  date_api.install,v 1.5.2.16 2008/08/30 12:03:45 karens
+#  date_popup.install,v 1.5 2007/09/29 16:30:16 karens
+#  date_timezone.install,v 1.1.2.14 2008/09/06 14:07:47 karens
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-15 17:42+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: (duplicate) date_api.install:97 
+msgid "The Date API module requires the !link for PHP versions less than 5.2."
+msgstr ""
+
+#: (duplicate) date_api.install:97 
+msgid "Date PHP4 module"
+msgstr ""
+
+#: (duplicate) date_api.install:101 
+msgid "Date API requirements"
+msgstr ""
+
+#: (duplicate) date_popup/date_popup.install:18 
+msgid "Date Popup requirements"
+msgstr ""
+
+#: (duplicate) date_timezone/date_timezone.install:45 
+msgid "The Date Timezone module requires you to !link."
+msgstr ""
+
+#: (duplicate) date_timezone/date_timezone.install:45 
+msgid "set the site timezone name"
+msgstr ""
+
+#: (duplicate) date_timezone/date_timezone.install:51 
+msgid "The !link may not be correct."
+msgstr ""
+
+#: (duplicate) date_timezone/date_timezone.install:51 
+msgid "site timezone name"
+msgstr ""
+
+#: (duplicate) date_timezone/date_timezone.install:58 
+msgid "Date Timezone requirements"
+msgstr ""
+

@@ -1,0 +1,15 @@
+------------------------------------------------------------------------------
+Todo list
+------------------------------------------------------------------------------
+
+$Id: TODO.txt,v 1.23.2.1 2007/08/05 11:43:41 timcn Exp $
+
+ * Translation for Drupal 5.
+
+ * Use the same type of quotation marks in all po files („Wort“).
+   Read http://praegnanz.de/essays/typo-im-web-ein-sonder-zeichen-setzen to
+   learn how to use the right chars.
+   See also http://drupal.org/node/48687.
+
+ * Use neutral form whereever possible, „Sie“ otherwise. Don't use „Du“.
+

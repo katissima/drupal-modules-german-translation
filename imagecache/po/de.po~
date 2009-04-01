@@ -1,0 +1,407 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  imagecache_actions.inc,v 1.12.2.1 2008/07/09 02:58:07 dopry
+#  imagecache.module,v 1.68.2.11 2009/01/05 22:29:52 drewish
+#  imagecache_image.module: n/a
+#  imagecache_ui.module,v 1.11.2.1 2009/01/06 03:31:15 drewish
+#  imagecache.install,v 1.11.2.5 2009/01/05 22:23:31 drewish
+#  imagecache.info,v 1.4 2008/04/15 15:12:23 dopry
+#  imagecache_image.info,v 1.1.2.1 2008/07/07 02:56:49 dopry
+#  imagecache_ui.info,v 1.3 2008/04/15 15:12:23 dopry
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-26 21:26+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: drupalcenter.de - Drupal Voice Channel\n <EMAIL@ADDRESS>\n"
+"Language-Team: drupalcenter.de - Drupal Voice Channel\n <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: imagecache_actions.inc:12
+msgid "Allow Upscaling"
+msgstr "Vergrößern erlauben"
+
+
+#: imagecache_actions.inc:13
+msgid "Let scale make images larger than their original size"
+msgstr "Bilder über die Originalgröße hinaus vergrößern"
+
+#: imagecache_actions.inc:20;210
+msgid "Yes"
+msgstr "Ja"
+
+#: imagecache_actions.inc:20;210
+msgid "No"
+msgstr "Nein"
+
+#: imagecache_actions.inc:29
+msgid "imagecache_scale_image failed. image: %image, data: %data."
+msgstr "imagecache_scale_image fehlgeschlagen. Bild: %image, Daten: %data."
+
+#: imagecache_actions.inc:50
+msgid "imagecache_scale_and_crop failed. image: %image, data: %data."
+msgstr "imagecache_scale_and_crop fehlgeschlagen. Bild: %image, Daten: %data."
+
+#: imagecache_actions.inc:108
+msgid "imagecache_deprecated_scale failed. image: %image, data: %data."
+msgstr "imagecache_deprecated_scale fehlgeschlagen. Bild: %image, Daten: %data."
+
+#: imagecache_actions.inc:134
+msgid "X offset"
+msgstr "horizontaler Versatz"
+
+#: imagecache_actions.inc:136
+msgid "Enter an offset in pixels or use a keyword: <em>left</em>, <em>center</em>, or <em>right</em>."
+msgstr "Offset in Pixeln angeben oder Schlüsselword verwenden: <em>left</em>, <em>center</em>, or <em>right</em>."
+
+#: imagecache_actions.inc:140
+msgid "Y offset"
+msgstr "vertikaler Versatz"
+
+#: imagecache_actions.inc:142
+msgid "Enter an offset in pixels or use a keyword: <em>top</em>, <em>center</em>, or <em>bottom</em>."
+msgstr "Versatz in Pixeln angeben oder Schlüüselwort verwenden: <em>top</em> (dt. oben), <em>center</em> (dt. mittig), or <em>bottom</em> (dt. unten)."
+
+
+#: imagecache_actions.inc:154
+msgid "imagecache_crop failed. image: %image, data: %data."
+msgstr "imagecache_crop fehlgeschlagen. Bild: %image, Daten: %data."
+
+#: imagecache_actions.inc:175
+msgid "imagecache_desaturate failed. image: %image, data: %data."
+msgstr "imagecache_desaturate fehlgeschlagen. Bild: %image, Daten: %data."
+
+#: imagecache_actions.inc:230
+msgid "imagecache_rotate_image failed. image: %image, data: %data."
+msgstr "imagecache_rotate_image fehlgeschlagen. Bild: %image, Daten: %data."
+
+#: imagecache_actions.inc:286
+msgid "imagecache_sharpen_image failed. image: %image, data: %data."
+msgstr "imagecache_sharpen_image fehlgeschlagen. Bild: %image, Daten: %data."
+
+#: imagecache_actions.inc:29;50;108;154;175;230;286 imagecache.module:313;341;358;372;450;472;479;672;711;0
+msgid "imagecache"
+msgstr "ImageCache"
+
+#: imagecache.module:313
+msgid "Failed generating a preview image from %image using imagecache preset %preset."
+msgstr "Ein Bild konnte aus %image mit dem Parameter %preset nicht erzeugt werden."
+
+#: imagecache.module:341
+msgid "Imagecache already generating: %dst, Lock file: %tmp."
+msgstr "ImageCache erzeugt gerade: %dst, Lock file: %tmp."
+
+#: imagecache.module:358
+msgid "Failed generating an image from %image using imagecache preset %preset."
+msgstr "Ein Bild konnte aus %image mit dem Parameter %preset nicht erzeugt werden."
+
+#: imagecache.module:372
+msgid "non-existant action %action"
+msgstr "nicht-existente Aktion %action"
+
+#: imagecache.module:450
+msgid "Failed to create imagecache directory: %dir"
+msgstr "ImageCache-Verzeichnis konnte nicht erstellt werden: %dir"
+
+#: imagecache.module:472
+msgid "action(id:%id): %action failed for %src"
+msgstr "Aktion(id:%id): %action ist fehlgeschlagen für %src"
+
+#: imagecache.module:479
+msgid "Cached image file %dst already exists. There may be an issue with your rewrite configuration."
+msgstr "Datei %dst ist im Cache vorhanden. Überprüfen Sie die Konfiguraion auf die Möglichkeit zu Überschreiben."
+
+#: imagecache.module:672
+msgid "Unknown file type(%path) stat: %stat "
+msgstr "Unbekannter Dateityp %path; Ausgabe der php-Funktion stat(): %stat"
+
+#: imagecache.module:711
+msgid "imagecache_resize_image failed. image: %image, data: %data."
+msgstr "imagecache_resize_image failed. Bild: %image, Daten: %data."
+
+#: imagecache.module:42
+msgid "administer imagecache"
+msgstr "Imagecache verwalten"
+
+#: imagecache.module:42
+msgid "flush imagecache"
+msgstr "Imagecache leeren"
+
+#: imagecache.module:44
+msgid "view imagecache "
+msgstr "Imagecache ansehen"
+
+#: imagecache.module:44
+msgid "presetname"
+msgstr "Name für die Voreinstellung"
+
+#: imagecache_image.module:40
+msgid "<p>Note: 'Original' dimensions \n      will only be used to resize images when they are first uploaded. Existing \n      originals will not be modified. Choose an <a href=\"!imagecache_settings\">imagecache preset</a> \n      to use to generate this derivative image. </p>"
+msgstr "<p>Hinweis: 'Original' Maße \n      werden nur verwendet 
+will only be used to resize images when they are first uploaded. Existing \n      originals will not be modified. Choose an <a href=\"!imagecache_settings\">imagecache preset</a> \n      to use to generate this derivative image. </p>"
+
+#: imagecache_image.module:54
+msgid "Label"
+msgstr "Bezeichner"
+
+#: imagecache_image.module:54
+msgid "Imagecache Preset"
+msgstr "Imagecache Voreinstellung"
+
+#: imagecache_image.module:54
+msgid "Link"
+msgstr "Link"
+
+#: imagecache_image.module:0
+msgid "imagecache_image"
+msgstr ""
+
+#: imagecache_ui.module:11
+msgid "Manage imagecache preset."
+msgstr "Verwalten der Voreinstellungen von ImageCache"
+
+#: imagecache_ui.module:20
+msgid "Imagecache"
+msgstr "Imagecache"
+
+#: imagecache_ui.module:21
+msgid "Administer imagecache presets and actions."
+msgstr "ImageCache-Voreinstellungen und -Aktionen verwalten."
+
+#: imagecache_ui.module:28
+msgid "List"
+msgstr "Liste"
+
+#: imagecache_ui.module:34
+msgid "Add New Preset"
+msgstr "Neue Voreinstellung hinzufügen"
+
+#: imagecache_ui.module:50
+msgid "Delete Preset: !presetname"
+msgstr "Voreinstellung löschen: !presetname"
+
+#: imagecache_ui.module:57
+msgid "Flush Preset: !presetname"
+msgstr "Voreinstellung leeren: !presetname"
+
+#: imagecache_ui.module:65
+msgid "!presetname"
+msgstr "!presetname"
+
+#: imagecache_ui.module:76
+msgid "Add !action to !presetname"
+msgstr "!action zu !presetname hinzufügen"
+
+#: imagecache_ui.module:88
+msgid "!action for preset !presetname"
+msgstr "!action für !presetname"
+
+#: imagecache_ui.module:96
+msgid "Delete !action for preset !presetname"
+msgstr "Löschen von !action für !presetname"
+
+#: imagecache_ui.module:111
+msgid "Preset Name"
+msgstr "Name der Voreinstellung"
+
+#: imagecache_ui.module:111;248
+msgid "Actions"
+msgstr "Aktionen"
+
+#: imagecache_ui.module:117
+msgid "edit"
+msgstr "Bearbeiten"
+
+#: imagecache_ui.module:118
+msgid "remove"
+msgstr "Löschen"
+
+#: imagecache_ui.module:119
+msgid "flush"
+msgstr "Leeren"
+
+#: imagecache_ui.module:132;236
+msgid "Preset Namespace"
+msgstr "Namensraum der Voreinstellung"
+
+#: imagecache_ui.module:134;238
+msgid "The namespace is used in URLs for images to tell imagecache how to process an image. Please only use alphanumeric characters, underscores (_), and hyphens (-) for preset names."
+msgstr "Der Namensraum wird in URLs für Bilder verwendet um ImageCache mitzuteilen, wie ein Bild verarbeitet werden soll. Bitte nur alphanumerische Zeichen, Unterstriche (_) und Bindestriche (-) für die Namen von Voreinstellungen verwenden."
+
+#: imagecache_ui.module:139
+msgid "Create New Preset"
+msgstr "Neue Voreinstellung erstellen"
+
+#: imagecache_ui.module:147
+msgid "Preset \"%name\" (ID: @id) Created."
+msgstr "Voreinstellung %name (ID: @id) wurde erstellt."
+
+#: imagecache_ui.module:155
+msgid "The namespace you have chosen is already in use."
+msgstr "Der ausgewählte Namensraum wird bereits verwendet."
+
+#: imagecache_ui.module:160
+msgid "Please only use alphanumeric characters, underscores (_), and hyphens (-) for preset names."
+msgstr "Bitte nur alphanumerische Zeichen, Unterstriche (_) und Bindestriche (-) für die Namen von Voreinstellungen verwenden."
+
+#: imagecache_ui.module:168;196;228
+msgid "The specified preset was not found"
+msgstr "Die angegebene Voreinstellung wurde nicht gefunden"
+
+#: imagecache_ui.module:176
+msgid "Are you sure you want to delete the preset %preset?"
+msgstr "Soll die Voreinstellung %preset wirklich gelöscht werden?"
+
+#: imagecache_ui.module:180;208;453
+msgid "This action cannot be undone."
+msgstr "Diese Aktion kann nicht rückgängig gemacht werden."
+
+#: imagecache_ui.module:181;293;454
+msgid "Delete"
+msgstr "Löschen"
+
+#: imagecache_ui.module:181;209;454
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: imagecache_ui.module:188
+msgid "Preset \"%name\" (ID: @id) deleted."
+msgstr "Voreinstellung %name (ID: @id) wurde gelöscht."
+
+#: imagecache_ui.module:204
+msgid "Are you sure you want to flush the preset %preset?"
+msgstr "Soll die Voreinstellung %preset geleert werden?"
+
+#: imagecache_ui.module:209
+msgid "Flush"
+msgstr "Leeren"
+
+#: imagecache_ui.module:216
+msgid "Preset \"%name\" (ID: @id) flushed."
+msgstr "Voreinstellung %name (ID: @id) wurde geleert."
+
+#: imagecache_ui.module:290
+msgid "Configure"
+msgstr "Konfigurieren"
+
+#: imagecache_ui.module:301
+msgid "New Actions"
+msgstr "Neue Aktionen"
+
+#: imagecache_ui.module:312
+msgid "Add !action"
+msgstr "!action hinzufügen"
+
+#: imagecache_ui.module:353
+msgid "Update Preset"
+msgstr ""
+
+#: imagecache_ui.module:364
+msgid "Action"
+msgstr "Aktion"
+
+#: imagecache_ui.module:364
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: imagecache_ui.module:364;482
+msgid "Weight"
+msgstr "Gewichtung"
+
+#: imagecache_ui.module:419
+msgid "Update Action"
+msgstr "Aktion aktualisieren"
+
+#: imagecache_ui.module:449
+msgid "Are you sure you want to delete the !action action from preset !preset?"
+msgstr "Soll die Aktion !action wirklich von der Voreinstellung !preset gelöscht werden?"
+
+#: imagecache_ui.module:462
+msgid "The action has been deleted."
+msgstr "Die Aktion wurde gelöscht."
+
+#: imagecache_ui.module:488
+msgid "Add Action"
+msgstr "Aktion hinzufügen"
+
+#: imagecache_ui.module:0
+msgid "imagecache_ui"
+msgstr "ImageCache_UI"
+
+#: imagecache.install:103
+msgid "Imagecache module installed succesfully."
+msgstr "Imagecache Modul installiert."
+
+#: imagecache.install:106
+msgid "Imagecache module installation was unsuccessfull. Necessary database tables should be created by hand."
+msgstr "Imagecache Modul nicht installiert. Optional können erforderliche Tabellen manuell installiert werden."
+
+#: (duplicate) imagecache.install:15 
+msgid "ImageAPI"
+msgstr "ImageAPI"
+
+#: (duplicate) imagecache.install:16 
+msgid "Missing"
+msgstr "Fehlend"
+
+#: (duplicate) imagecache.install:18 
+msgid "Imagecache requires ImageAPI to function."
+msgstr "Imagecach setzt das Modul Image API veraus."
+
+#: (duplicate) imagecache.install:28 ;35 ;42 
+msgid "ImageCache Directory"
+msgstr "ImageCache-Verzeichnis"
+
+#: (duplicate) imagecache.install:29 
+msgid "%p does not a directory or is not readable by the webserver."
+msgstr "%p ist kein Verzeichnis oder vom Webserver nicht lesbar."
+
+
+#: (duplicate) imagecache.install:36 ;53 
+msgid "%p is not writeable by the webserver."
+msgstr "%p ist nicht durch den Webserver schreibbar"
+
+#: (duplicate) imagecache.install:43 
+msgid "An unknown error occured."
+msgstr ""
+
+#: (duplicate) imagecache.install:44 
+msgid "An unknown error occured trying to verify %p is a directory and is writable."
+msgstr "Ein unbekannter Fehler ist aufgetreten bei der Überprüfung, ob %p ein Verzeichnis und schreibbar ist."
+
+#: (duplicate) imagecache.install:52 
+msgid "ImageCache Temp Directory"
+msgstr "Temporäres ImageCache-Verzeichnis"
+
+#: imagecache.info:0;0 imagecache_image.info:0 imagecache_ui.info:0
+msgid "ImageCache"
+msgstr ""
+
+#: imagecache.info:0
+msgid "Dynamic image manipulator and cache."
+msgstr "Bild verändern und cachen."
+
+#: imagecache_image.info:0
+msgid "ImageCache 4 Image"
+msgstr "ImageCache für Bilder"
+
+#: imagecache_image.info:0
+msgid "Imagecache integration for Image module."
+msgstr "Integration des Image Moduls mit Imagecache"
+
+#: imagecache_ui.info:0
+msgid "Imagecache UI"
+msgstr "ImageCache UI"
+
+#: imagecache_ui.info:0
+msgid "ImageCache User Interface."
+msgstr "ImageCache Benutzer Interface"
+

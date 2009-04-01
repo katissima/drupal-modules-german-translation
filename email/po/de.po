@@ -1,0 +1,128 @@
+# $Id$
+# LANGUAGE translation of Drupal (general)
+# Copyright 2009 NAME <thomas@VoiceHero.net>
+# Generated from files:
+# email.module,v 1.9.2.8 2008/04/15 11:56:09 mh86
+# email.info,v 1.1.2.2 2007/06/18 23:06:37 dww
+# , fuzzy
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-08 15:43+0100\n"
+"PO-Revision-Date: 2009-04-01 11:57+0100\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Language-Team: German <thomas@voicehero.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: email.module:11
+msgid "Defines a field type for email addresses. <em>Note: Requires content.module.</em>"
+msgstr "Definiert einen E-Mail-Feld Typ für CCK, benötigt das Modul Content."
+
+#: email.module:21
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: email.module:71;200
+msgid "Email Contact Form"
+msgstr "E-Mail Kontaktformular"
+
+#: email.module:95
+msgid "Textfield"
+msgstr "Text Feld"
+
+#: email.module:111
+msgid "Size"
+msgstr "Größe"
+
+#: email.module:114
+msgid "Size of textfield"
+msgstr "Größe des Textfeldes"
+
+#: email.module:121
+msgid "\"Size\" must be a positive integer."
+msgstr "\"Größe\" muß eine postive Zahl sein."
+
+#: email.module:184
+msgid "\"%mail\" is not a valid email address"
+msgstr "\"%mail\" ist keine gültige E-Mail Adresse"
+
+#: email.module:238
+msgid "You cannot send more than %number messages per hour. Please try again later."
+msgstr "Pro·Stunde·können·nur·%number·Nachrichten·versendet·werden.·Bitte·später·noch·einmal·versuchen."
+
+#: email.module:257
+msgid "Your name"
+msgstr "Ihr Name"
+
+#: email.module:263
+msgid "Your e-mail address"
+msgstr "Ihre E-Mail Adresse"
+
+#: email.module:269
+msgid "Subject"
+msgstr "Betreff"
+
+#: email.module:274
+msgid "Message"
+msgstr "Nachricht"
+
+#: email.module:278
+msgid "Send e-mail"
+msgstr "E-Mail senden"
+
+#: email.module:288
+msgid "You must enter a valid e-mail address."
+msgstr "Bitte eine gültige E-Mail Adresse eingeben."
+
+#: email.module:291
+msgid "The subject cannot contain linebreaks."
+msgstr "Der Betreff kann keine Zeilenumbrüche enthalten."
+
+#: email.module:330
+msgid "@name sent a message using the contact form at @form."
+msgstr "@name-hat eine E-Mail gesendet und dazu das Kontaktformular auf·%form·genutzt."
+
+#: email.module:339
+msgid "[@title - @contact] @subject"
+msgstr "[@title - @contact] @subject"
+
+#: email.module:349
+msgid "%name-from sent an e-mail at %form."
+msgstr "%name-from hat eine E-Mail auf %form gesendet."
+
+#: email.module:352
+msgid "Your message has been sent."
+msgstr "Die Nachricht wurde versendet."
+
+#: email.module:367
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: email.module:292;349
+msgid "mail"
+msgstr "E-Mail"
+
+#: email.module:0
+msgid "email"
+msgstr "E-Mail"
+
+#: email.info:0
+msgid "EMail"
+msgstr "E-Mail"
+
+#: email.info:0
+msgid "Defines an email field type for cck"
+msgstr "Definiert einen E-Mail-Feld Typ für CCK"
+
+#: email.info:0
+msgid "CCK"
+msgstr "CCK"
+
