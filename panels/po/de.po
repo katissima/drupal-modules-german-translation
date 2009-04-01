@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: panels 5.x\n"
 "POT-Creation-Date: 2008-06-29 20:30+0200\n"
-"PO-Revision-Date: 2009-04-01 12:31+0100\n"
+"PO-Revision-Date: 2009-04-01 23:09+0100\n"
 "Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
 "Language-Team: Alexander Hass\n"
 "MIME-Version: 1.0\n"
@@ -60,8 +60,9 @@ msgid "Panels-nodes"
 msgstr "Panelbeiträge"
 
 #: panels.module:18
+#, fuzzy
 msgid ", is useful for creating layouts that only occupy the content area of your pages.  Frequently, it is desirable to add an area to a node layout, such as a pull quote for a newspaper or a photo block, that you don't necessarily want on every node.  Panels Nodes lets you control the layout of a single node at a time and place content such as blog posts, images, blogs in and around the post."
-msgstr ""
+msgstr ", wird für Layouts verwendet, die den gesamten Inhaltsbereich der Seite nutzen. Oft gibt es einen Bereich in einem Layout der nicht auf jeder Seite erscheinen soll. Das Layout einer jeden Seite lässt sich kontrollieren."
 
 #: panels.module:19
 msgid "Mini-panels"

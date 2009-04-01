@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pathauto\n"
 "POT-Creation-Date: 2008-06-24 18:58+0200\n"
-"PO-Revision-Date: 2009-04-01 11:57+0100\n"
+"PO-Revision-Date: 2009-04-01 16:12+0100\n"
 "Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
 "Language-Team: Alexander Hass\n"
 "MIME-Version: 1.0\n"
@@ -28,11 +28,12 @@ msgstr ""
 #: pathauto.inc:374
 #, fuzzy
 msgid "Ignoring alias %dst due to existing path conflict."
-msgstr "aufgrund vorhandenem Pfadkonflikt"
+msgstr "Alias %dst wurde aufgrund eines vorhandenen Pfadkonfliktes ignoriert."
 
 #: pathauto.inc:381
+#, fuzzy
 msgid "Ignoring alias %dst because it is the same as the internal path."
-msgstr ""
+msgstr "Alias %dst wurde ignoriert, da der interne Pfad gleich ist."
 
 #: pathauto.inc:401
 msgid "Created new alias %dst for %src, replacing %old_alias. %old_alias now redirects to %dst"
@@ -200,7 +201,7 @@ msgstr "Massenerstellung von Aliasen für alle vorhanden Beiträge ohne Alias"
 #: pathauto_node.inc:24
 #, fuzzy
 msgid "Generate aliases for all existing nodes which do not already have aliases."
-msgstr "Erstelle einen Alias für alle vorhandenen Benutzer-Tracker Seiten, welche derzeit keinen Alias haben."
+msgstr "Erstelle Aliase für alle vorhanden Nodes, welche noch keinen Alias haben."
 
 #: pathauto_node.inc:36
 msgid "Pattern for all @node_type paths"
@@ -231,7 +232,7 @@ msgstr "Massenerstellung von Aliasen für Kategorien ohne Alias"
 #: pathauto_taxonomy.inc:33
 #, fuzzy
 msgid "Generate aliases for all existing categories which do not already have aliases."
-msgstr "Erstelle einen Alias für alle vorhandenen Benutzer-Tracker Seiten, welche derzeit keinen Alias haben."
+msgstr "Erstellt Aliase fuer alle existierenden Kategorien, die noch nicht ueber Aliase verfuegen."
 
 #: pathauto_taxonomy.inc:42
 msgid "Pattern for all %vocab-name paths"
@@ -288,7 +289,7 @@ msgstr "Massenerstellung von Aliasen für Benutzer ohne Alias"
 #: pathauto_user.inc:33
 #, fuzzy
 msgid "Generate aliases for all existing user account pages which do not already have aliases."
-msgstr "Erstelle einen Alias für alle vorhandenen Benutzer-Tracker Seiten, welche derzeit keinen Alias haben."
+msgstr "Erstelle einen Alias für alle vorhandenen Benutzerkontenseiten, welche derzeit keinen Alias haben."
 
 #: pathauto_user.inc:49
 msgid "Blog path settings"
@@ -309,7 +310,7 @@ msgstr "Massenerstellung von Aliasen für Blogs ohne Alias"
 #: pathauto_user.inc:58
 #, fuzzy
 msgid "Generate aliases for all existing blog pages which do not already have aliases."
-msgstr "Erstelle einen Alias für alle vorhandenen Benutzer-Tracker Seiten, welche derzeit keinen Alias haben."
+msgstr "Erstelle einen Alias für ale vorhandenen Blogseiten, welche derzeit keinen Alias haben."
 
 #: pathauto_user.inc:74
 msgid "User-tracker path settings"
@@ -322,7 +323,7 @@ msgstr "Muster für Benutzer-Tracker-Seitenpfade"
 #: pathauto_user.inc:76
 #, fuzzy
 msgid "users/[user-raw]/track"
-msgstr "users/[user]/track"
+msgstr "users/[user-raw]/track"
 
 #: pathauto_user.inc:82
 msgid "Bulk generate aliases for user-tracker paths that are not aliased"
@@ -407,7 +408,7 @@ msgstr "URL-Alias für den Begriff."
 #: pathauto.module:179
 #, fuzzy
 msgid "URL alias for the parent book."
-msgstr "URL-Alias für die Kategorie."
+msgstr "URL-Alias für das übergeordnete Buch."
 
 #: pathauto.module:191
 msgid "users"
@@ -430,8 +431,9 @@ msgid "user trackers"
 msgstr "Benutzertracker"
 
 #: pathauto.module:202
+#, fuzzy
 msgid "forums"
-msgstr ""
+msgstr "Foren"
 
 #: pathauto.module:261
 msgid "An alias will be generated for you. If you wish to create your own alias below, untick this option."
@@ -448,7 +450,7 @@ msgstr "Automatischer Alias"
 #: pathauto.module:286
 #, fuzzy
 msgid "Update path alias"
-msgstr "Aktualisieren Aktion"
+msgstr "Pfad-Alias aktualisieren"
 
 # not literally
 #: pathauto.module:418
@@ -475,7 +477,7 @@ msgstr "Separator"
 #: pathauto.module:453
 #, fuzzy
 msgid "Character used to separate words in titles. This will replace any spaces and punctuation characters. Using a space or + character can cause unexpected results."
-msgstr "Zu verwendende Zeichen um Wörter in Titeln abzutrennen. Dies wird alle Leerzeichen und Satzzeichen ersetzten."
+msgstr "Zu verwendende Zeichen, um Wörter in Titeln abzutrennen. Dies wird alle Leerzeichen und Satzzeichen ersetzten. Die Verwendung eines Leer- oder Pluszeichens kann unerwartete Ergebnisse verursachen."
 
 #: pathauto.module:458
 msgid "Character case"
@@ -588,11 +590,12 @@ msgstr "Keine Aktion (keine Ersetzungen)"
 #: pathauto.module:635
 #, fuzzy
 msgid "Replacement patterns"
-msgstr "Mit Seperator ersetzten"
+msgstr "Muster für den Ersatz von Texten"
 
 #: pathauto.module:639
+#, fuzzy
 msgid "Use -raw replacements for text to avoid problems with HTML entities."
-msgstr ""
+msgstr "Direkter Ersatz von Text wird bevorzugt, um mögliche HTML-Fehler zu vermeiden."
 
 #: pathauto.module:672
 msgid "Internal feed alias text (leave blank to disable)"
@@ -617,13 +620,14 @@ msgid "NOTE: This field contains potentially incorrect patterns. "
 msgstr "HINWEIS: Dieses Feld enthält möglicherweise fehlerhafte Muster."
 
 #: pathauto.module:751
+#, fuzzy
 msgid "%problems"
-msgstr ""
+msgstr "%problems"
 
 #: pathauto.module:770
 #, fuzzy
 msgid "You have configured the @name to be the separator and to be removed when encountered in strings. This can cause problems with your patterns and especially with the catpath and termpath patterns. You should probably set the action for @name to be \"replace by separator\""
-msgstr "Das Trennzeichen @name wurde konfiguriert und wird bei Vorhandensein aus Zeichenketten entfernt. Dies kann mit eigenen Mustern und besonders mit Kategorie- und Begriffspfad-Mustern zu Problemen führen."
+msgstr "Das Trennzeichen @name wurde konfiguriert und wird bei Vorhandensein aus Zeichenketten entfernt. Dies kann mit eigenen Mustern und besonders mit Kategorie- und Begriffspfad-Mustern zu Problemen führen. Die Aktion für @name sollte vermutlich auf „mit Seperator ersetzten“ eingestellt werden."
 
 #: pathauto.module:795
 msgid "Choose Aliases to Delete"
@@ -633,7 +637,7 @@ msgstr "Zu löschenden Alias auswählen"
 #: pathauto.module:804
 #, fuzzy
 msgid "all aliases"
-msgstr "alle Aliase"
+msgstr "Aliase löschen"
 
 #: pathauto.module:806
 #, fuzzy
@@ -668,9 +672,10 @@ msgstr[0] "Massenerstellung von Index-Aliasen abgeschlossen, ein Alias wurde ers
 msgstr[1] "Massenerstellung von Index-Aliasen abgeschlossen, @count Aliase wurden erstellt."
 
 #: pathauto.module:750
+#, fuzzy
 msgid "Problem token: "
 msgid_plural "Problem tokens: "
-msgstr[0] ""
+msgstr[0] "Token-Ersetzung"
 msgstr[1] ""
 
 #: pathauto.module:49
@@ -678,8 +683,9 @@ msgid "administer pathauto"
 msgstr "Autopfad verwalten"
 
 #: pathauto.module:49
+#, fuzzy
 msgid "notify of path changes"
-msgstr ""
+msgstr "Über Pfadänderungen benachrichtigen"
 
 #: pathauto.module:0
 msgid "pathauto"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-03-29 00:43+0100\n"
-"PO-Revision-Date: 2009-04-01 11:57+0100\n"
+"PO-Revision-Date: 2009-04-01 16:12+0100\n"
 "Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
 "Language-Team: German <thomas@voicehero.net>\n"
 "MIME-Version: 1.0\n"
@@ -25,16 +25,19 @@ msgid "utilizes imagecache presets for user profile pictures"
 msgstr ""
 
 #: imagecache_profiles.module:43
+#, fuzzy
 msgid "@user's picture"
-msgstr ""
+msgstr "Bild des Benutzers @user"
 
 #: imagecache_profiles.module:43
+#, fuzzy
 msgid "Anonymous"
-msgstr ""
+msgstr "Gast"
 
 #: imagecache_profiles.module:60
+#, fuzzy
 msgid "View user profile."
-msgstr ""
+msgstr "Benutzerprofil"
 
 #: imagecache_profiles.module:86
 msgid "Set user profile picture size with this ImageCache preset"
@@ -61,16 +64,18 @@ msgid "This will set the default user picture size throughout the site."
 msgstr ""
 
 #: imagecache_profiles.module:107
+#, fuzzy
 msgid "Picture minimum width"
-msgstr ""
+msgstr "Breite des Audio Abspielers"
 
 #: imagecache_profiles.module:109
 msgid "Minimum width dimension for picture, in pixels."
 msgstr ""
 
 #: imagecache_profiles.module:114
+#, fuzzy
 msgid "Picture minimum height"
-msgstr ""
+msgstr "Höhe des Audio Abspielers"
 
 #: imagecache_profiles.module:116
 msgid "Minimum height dimension for picture, in pixels."
@@ -81,18 +86,21 @@ msgid "The image must be at least @min_user_picture_width pixels wide and @min_u
 msgstr ""
 
 #: imagecache_profiles.module:0
+#, fuzzy
 msgid "imagecache_profiles"
-msgstr ""
+msgstr "WYSIWYG-Profile"
 
 #: imagecache_profiles.info:0
+#, fuzzy
 msgid "Imagecache Profile Pictures"
-msgstr ""
+msgstr "Profilkategorie-Inhalte."
 
 #: imagecache_profiles.info:0
 msgid "Utilizes imagecache presets for user profile pictures."
 msgstr ""
 
 #: imagecache_profiles.info:0
+#, fuzzy
 msgid "Image"
-msgstr ""
+msgstr "Bild"
 

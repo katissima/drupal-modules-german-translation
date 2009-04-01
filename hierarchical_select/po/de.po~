@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-03-29 00:37+0100\n"
-"PO-Revision-Date: 2009-04-01 19:21+0100\n"
+"PO-Revision-Date: 2009-04-01 15:56+0100\n"
 "Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
 "Language-Team: German <thomas@voicehero.net>\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "Eingeschaltet"
 #: hierarchical_select.admin.inc:74;111
 #, fuzzy
 msgid "Hierarchy type"
-msgstr "Inhaltstyp für Hierarchie"
+msgstr "Inhaltstyp"
 
 #: hierarchical_select.admin.inc:74
 msgid "Hierarchy"
@@ -146,6 +146,7 @@ msgstr "Bearbeiten"
 
 #: hierarchical_select.admin.inc:96
 #: hierarchical_select.module:75
+#, fuzzy
 msgid "Export"
 msgstr "Exportieren"
 
@@ -161,7 +162,7 @@ msgstr "Überblick zur Konfiguration der Hierarchischen Auswahl."
 #: hierarchical_select.admin.inc:111
 #, fuzzy
 msgid "Implementation (module)"
-msgstr "Implementierung des Moduls"
+msgstr "downloaden des Moduls"
 
 #: hierarchical_select.admin.inc:111
 msgid "Create new items"
@@ -170,7 +171,7 @@ msgstr "neue Elemente erstellen"
 #: hierarchical_select.admin.inc:111
 #, fuzzy
 msgid "Entity count"
-msgstr "Anzahl von Entitäten"
+msgstr "Argument @count"
 
 #: hierarchical_select.admin.inc:119
 msgid "unknown"
@@ -191,9 +192,7 @@ msgid ""
 "    features are supported</strong> by the implementations of the Hierarchical\n"
 "    Select API.<br />\n"
 "    It is <strong>not a reflection of some settings</strong>.\n"
-msgstr ""
-"\n"
-"Die untenstehende Tabelle zeigt <strong>welche Hierarchische Auswahl Funktionen</strong> von Hierarchical Select API  unterstützt werden.\n"
+msgstr "Die untenstehende Tabelle zeigt <strong>welche Hierarchische Auswahl Funktionen</strong> von Hierarchical Select API  unterstützt werden.\n"
 
 #: hierarchical_select.admin.inc:144
 #, fuzzy
@@ -207,31 +206,31 @@ msgstr "Konfiguration der hierarchischen Auswahl  %config_id"
 #: hierarchical_select.admin.inc:180
 #, fuzzy
 msgid "Import Hierarchical Select configuration code"
-msgstr "Import einer Konfiguration für Hierarchische Auswahl"
+msgstr "Konfiguration der hierarchischen Auswahl  %config_id"
 
 #: hierarchical_select.admin.inc:183
 msgid ""
 "Copy and paste the results of an exported\n"
 "      Hierarchical Select configuration here.<br />This will override the\n"
 "      current Hierarchical Select configuration for %config_id."
-msgstr "Kopieren und Einfügen von Ergebnissen einer Konfiguration von Hierarchical Select hier. Damit wird die aktuelle Konfiguration von %config_id überschrieben."
+msgstr ""
 
 #: hierarchical_select.admin.inc:210
 #, fuzzy
 msgid "You did not enter anything."
-msgstr "Es fehlt eine Eingabe."
+msgstr "Es wurden keine gültige Umfrageauswahlmöglichkeit angegeben."
 
 #: hierarchical_select.admin.inc:213
 msgid "There is a syntax error in the Hierarchical Select configuration you entered."
-msgstr "In der eingegebenen Konfiguration von Hierarchical Select ist ein Syntax Fehler."
+msgstr ""
 
 #: hierarchical_select.admin.inc:216
 msgid "Unable to import this configuration, because no Hierarchical Select <em>config id</em> is set."
-msgstr "Die Konfiguration konnte nicht importiert werden, weil für Hierarchical Select kein <em>config id</em> gesetzt ist."
+msgstr ""
 
 #: hierarchical_select.admin.inc:227
 msgid "Hierarchical Select configuration for %config_id imported!"
-msgstr "Konfiguration für Hierarchical Select %config_id importiert."
+msgstr ""
 
 #: hierarchical_select.module:33;234
 #: hierarchical_select.info:0
@@ -240,7 +239,7 @@ msgstr "Hierarchical Select"
 
 #: hierarchical_select.module:34
 msgid "Configure site-wide settings for the Hierarchical Select form element."
-msgstr "Einstellungen für Formular Elemente von Hierarchical Select."
+msgstr ""
 
 #: hierarchical_select.module:41
 msgid "Site-wide settings"
@@ -252,37 +251,39 @@ msgstr "Konfigurationen"
 
 #: hierarchical_select.module:48
 msgid "All available Hierarchical Select configurations."
-msgstr "Alle Konfigurationen von Hierarchical Select."
+msgstr ""
 
 #: hierarchical_select.module:54
-#, fuzzy
 msgid "Implementations"
-msgstr "Implementierungen"
+msgstr ""
 
 #: hierarchical_select.module:55
 msgid "Features of each Hierarchical Select implementation."
-msgstr "Eigenschaften jeder Implementierung von Hierarchical Select."
+msgstr ""
 
 #: hierarchical_select.module:122;1841
 #, fuzzy
 msgid "All selections"
-msgstr "Alle Auswahlen"
+msgstr "Mehrfache Auswahl"
 
 #: hierarchical_select.module:165
+#, fuzzy
 msgid "!module"
-msgstr "!module"
+msgstr "Modul"
 
 #: hierarchical_select.module:174
+#, fuzzy
 msgid "!module (!weight)"
-msgstr "!module (!weight)"
+msgstr "Karteireitergewichtung"
 
 #: hierarchical_select.module:180
 msgid "All updates installed. jQuery Update 2.x installed. Implementation modules are installed correctly."
-msgstr "Allel Updates installiert. jQuery Update 2.x installiert. Implementation Module sind korrekt installiert."
+msgstr ""
 
 #: hierarchical_select.module:185
+#, fuzzy
 msgid "Not all updates installed!"
-msgstr "Nicht alle Updates wurden installiert!"
+msgstr "  %.250s ist nicht installiert.\n"
 
 #: hierarchical_select.module:186
 msgid ""
@@ -290,13 +291,11 @@ msgid ""
 "        You have installed update !installed_update, but the latest update is\n"
 "        !latest_update!"
 msgstr ""
-"Bitte update.php aufrufen, um aktuelle Updates zu installieren.\n"
-"        Installiert ist !installed_update, das letzte Update ist jedoch\n"
-"        !latest_update!"
 
 #: hierarchical_select.module:197
+#, fuzzy
 msgid "jQuery Update 1.x installed!"
-msgstr "jQuery Update 1.x installiert."
+msgstr "Drupal bereits installiert"
 
 #: hierarchical_select.module:198
 msgid ""
@@ -304,13 +303,11 @@ msgid ""
 "        1.x contains jQuery 1.1.x, which is incompatible with the Javascript\n"
 "        code of Hierarchical Select!"
 msgstr ""
-"Bitte jQuery auf die Version 2.x akualisieren!\n"
-"        Version 1.x von jQuery arbeitet nicht mit dem Javascript\n"
-"        code von  Hierarchical Select!"
 
 #: hierarchical_select.module:205
+#, fuzzy
 msgid "jQuery Interface installed!"
-msgstr "jQuery Interface installiert."
+msgstr "Drupal bereits installiert"
 
 #: hierarchical_select.module:206
 msgid ""
@@ -318,13 +315,11 @@ msgid ""
 "        is incompatible with jQuery Update 2. It is very buggy anyway and any\n"
 "        module that uses it should upgrade to jQuery UI."
 msgstr ""
-"Bitte jQuery Interface deaktivieren und deinstallieren, weil\n"
-"        es inkompatibel mit jQuery Update 2. Am besten aktualiseren\n"
-"        auf jQuery UI."
 
 #: hierarchical_select.module:213
+#, fuzzy
 msgid "Modules incorrectly installed!"
-msgstr "Module nicht korrekt installiert."
+msgstr "Drupal bereits installiert"
 
 #: hierarchical_select.module:214
 msgid ""
@@ -334,22 +329,16 @@ msgid ""
 "        installed in either the <code>sites/all/modules</code> directory or a\n"
 "        <code>sites/yoursite.com/modules</code> directory"
 msgstr ""
-"Die folgenden Module sind nicht im Verzeichnis <code>modules</code>\n"
-"        der Drupal Installation installiert. Ersatzweise könnten die Module auch\n"
-"        in <code>sites/all/modules</code> oder \n"
-"        <code>sites/Domain_Ihrer_Site.xx/modules</code> installiert sein."
 
 #: hierarchical_select.module:224
 msgid "Module weight incorrectly configured!"
-msgstr "Gewichtung der Module unzulässig konfiguriert!"
+msgstr ""
 
 #: hierarchical_select.module:225
 msgid ""
 "The weight of the Hierarchical Select module (!weight) is not\n"
 "        strictly higher than the weight of the following modules"
 msgstr ""
-"Die Gewichtung des Module  Hierarchical Select (!weight)\n"
-"        ist nicht konsequent höher als die folgender Module"
 
 #: hierarchical_select.module:488;1557;1593;1617;1644;1691
 #, fuzzy
@@ -357,88 +346,98 @@ msgid "item"
 msgstr "Artikel"
 
 #: hierarchical_select.module:494;496
+#, fuzzy
 msgid "new @item"
-msgstr "Neuer @item"
+msgstr "Neuer Eintrag"
 
 #: hierarchical_select.module:506;878
+#, fuzzy
 msgid "Create"
 msgstr "Erzeugen"
 
 #: hierarchical_select.module:512
+#, fuzzy
 msgid "Cancel"
 msgstr "Abbrechen"
 
 #: hierarchical_select.module:525;865
+#, fuzzy
 msgid "Add"
 msgstr "Hinzufügen"
 
 #: hierarchical_select.module:533
 msgid "You've reached the maximal number of items you can select."
-msgstr "Die maximale Anzahl von Items ist bereits ausgewählt."
+msgstr ""
 
 #: hierarchical_select.module:563
+#, fuzzy
 msgid "Update"
 msgstr "Aktualisieren"
 
 #: hierarchical_select.module:692
 msgid "You've selected %lineage-count items, but you're only allowed to select %dropbox-limit items."
-msgstr "Ausgewählt sind %lineage-count Items, aber es können nur %dropbox-limit Items ausgewählt werden."
+msgstr ""
 
 #: hierarchical_select.module:717
+#, fuzzy
 msgid "!name field is required."
 msgstr "!name  Field ist erforderlich."
 
 #: hierarchical_select.module:1050
+#, fuzzy
 msgid "Remove"
 msgstr "Löschen"
 
 #: hierarchical_select.module:1299
 msgid "<span class=\"highlight\">enable Javascript</span> in your browser and then refresh this page, for a much enhanced experience."
-msgstr "<span class=\"highlight\">Javascript</span> im Browser aktivieren, anschließend diese Seite neu laden."
+msgstr ""
 
 #: hierarchical_select.module:1300
-#, fuzzy
 msgid "<span class=\"highlight\">click the <em>Update</em> button</span> every time you want to update the selection"
-msgstr "<span class=\"highlight\">click the <em>Update</em> button</span> zum Aktualisieren der Auswahl"
+msgstr ""
 
 #: hierarchical_select.module:1302
 msgid ", or when you've checked some checkboxes for entries in the dropbox you'd like to remove."
-msgstr ", oder wenn Einträge in Dropbox zum Entfernen markiert sind."
+msgstr ""
 
 #: hierarchical_select.module:1305
+#, fuzzy
 msgid "You don't have Javascript enabled."
-msgstr "Javascript ist nicht aktiviert."
+msgstr "Die folgenden Anforderungen scheinen nicht erfüllt zu sein:"
 
 #: hierarchical_select.module:1308
 #, fuzzy
 msgid "Hover for more information!"
-msgstr "Mit der Maus darüber fahren für mehr Informationen."
+msgstr "Klicken Sie hier für mehr Informationen"
 
 #: hierarchical_select.module:1310
-#, fuzzy
 msgid "But don't worry: you can still use this web site! You have two options:"
-msgstr "Dennoch: diese Website kann folgendermaßen benutzt werden:"
+msgstr ""
 
 #: hierarchical_select.module:1558;1594;1618;1645;1696
+#, fuzzy
 msgid "create new !item_type"
-msgstr "!item_type erstellt"
+msgstr "Die Art der Benachrichtigung: 1 = neuer Beitrag, 0 = sonst."
 
 #: hierarchical_select.module:1570
 #: modules/hs_subscriptions_taxonomy.module:51
+#, fuzzy
 msgid "none"
 msgstr "keine"
 
 #: hierarchical_select.module:2198
+#, fuzzy
 msgid "Nothing has been selected."
-msgstr "Es wurde nichts ausgewählt."
+msgstr "Die ausgewählten Module wurden deinstalliert."
 
 #: hierarchical_select.module:0
+#, fuzzy
 msgid "hierarchical_select"
-msgstr "Hierarchical Select"
+msgstr "Einstellungen für Hierarchical Select"
 
 #: hierarchical_select.info:0
 msgid "Simplifies the selection of one or multiple items in a hierarchical tree."
-msgstr "Vereinfacht die Auswahl von einem oder mehreren Items in hierarchischen Bäumen."
+msgstr ""
 
 #: hierarchical_select.info:0
 #: modules/hs_book.info:0
@@ -449,23 +448,27 @@ msgstr "Vereinfacht die Auswahl von einem oder mehreren Items in hierarchischen 
 #: modules/hs_subscriptions_taxonomy.info:0
 #: modules/hs_taxonomy.info:0
 #: modules/hs_taxonomy_views.info:0
+#, fuzzy
 msgid "Form Elements"
-msgstr "Formular Elemente"
+msgstr "hook_elements()"
 
 #: includes/common.inc:105
 #: modules/hs_content_taxonomy.module:246
+#, fuzzy
 msgid "Hierarchical Select configuration"
 msgstr "Einstellungen für Hierarchical Select"
 
 #: includes/common.inc:119;127
+#, fuzzy
 msgid "Preview"
 msgstr "Vorschau"
 
 #: includes/common.inc:120
 msgid "This is what the Hierarchical Select will look like with your current configuration."
-msgstr "So sieht die Hierarchische Auswahl in der aktuellen Konfiguration aus."
+msgstr ""
 
 #: includes/common.inc:128
+#, fuzzy
 msgid "The description."
 msgstr "Beschreibung"
 
@@ -482,49 +485,43 @@ msgstr "Objekt speichern als..."
 #: includes/common.inc:139
 #, fuzzy
 msgid "Save only the deepest !item"
-msgstr "Nur dasjenige Element speichern, dass auf der untersten Ebene liegt."
+msgstr "Es können nur Bilder gespeichert werden."
 
 #: includes/common.inc:142
 msgid ""
 "Saving the !item lineage means saving the <em>the !item itself and all\n"
 "      its ancestors</em>."
 msgstr ""
-"Speichern von !item bedeutet speichern <em>!item sebst und all\n"
-"      seiner Vorgänger</em>."
 
 #: includes/common.inc:151
 #, fuzzy
 msgid "Level choice"
-msgstr "Ebene"
+msgstr "oberste Ebene"
 
 #: includes/common.inc:153
 msgid "Force the user to choose a !item from a <em>deepest level</em>"
-msgstr "Zwingt den Benutzer ein !item aus dem <em>untersten Level</em>"
+msgstr ""
 
 #: includes/common.inc:154
 msgid "Allow the user to choose a !item from <em>any level</em>"
-msgstr "Benutzer können ein !item aus <em>jedem Level</em> wählen."
+msgstr ""
 
 #: includes/common.inc:157
 msgid ""
 "This setting determines from which level in the !hierarchy tree a\n"
 "      user can select a !item."
 msgstr ""
-"Festlegen von welchem Level in !hierarchy Baum\n"
-"      ein Benutzer ein !item auswählen kann."
 
 #: includes/common.inc:168
+#, fuzzy
 msgid "Display the !entity count"
-msgstr "Die Anzahl von !entity"
+msgstr "Zeigt die Anzahl der Kommentare an."
 
 #: includes/common.inc:169
-#, fuzzy
 msgid ""
 "When enabled, the user will see the number of !entities that match\n"
 "        the current !item listed between brackets."
 msgstr ""
-"Der Benutzer wird eine Anzahl von !entities erhalten,\n"
-"        die !item zwischen Klammern angezeigt werden."
 
 #: includes/common.inc:185
 #: modules/hs_book.module:62
@@ -542,8 +539,9 @@ msgid ""
 msgstr ""
 
 #: includes/common.inc:202
+#, fuzzy
 msgid "Level labels"
-msgstr "Bezeichner von Ebenen"
+msgstr "Stil für Bezeichner von Ebenen"
 
 #: includes/common.inc:203
 msgid ""
@@ -556,12 +554,14 @@ msgid ""
 msgstr ""
 
 #: includes/common.inc:216
+#, fuzzy
 msgid "Enable level labels"
-msgstr "Bezeichner von Ebenen verwenden"
+msgstr "Stil für Bezeichner von Ebenen"
 
 #: includes/common.inc:232
+#, fuzzy
 msgid "Dropbox settings"
-msgstr "Einstellungen für Dropbox"
+msgstr "Erweiterte Einstellungen"
 
 #: includes/common.inc:233
 msgid "The dropbox allows the user to <strong>make multiple selections</strong>."
@@ -570,10 +570,12 @@ msgstr ""
 #: includes/common.inc:238
 #: modules/hs_content_taxonomy.module:239
 #: modules/hs_taxonomy.module:34
+#, fuzzy
 msgid "Enable the dropbox"
-msgstr "Dropbox aktivieren"
+msgstr "Extras aktivieren"
 
 #: includes/common.inc:244
+#, fuzzy
 msgid "Title"
 msgstr "Titel"
 
@@ -582,8 +584,9 @@ msgid "The title you enter here appears above the dropbox."
 msgstr ""
 
 #: includes/common.inc:253
+#, fuzzy
 msgid "Limit the number of selections"
-msgstr "Begrenzung auf eine Anzahl von Selektionen"
+msgstr "Eingabenbegrenzung muss eine Nummer sein"
 
 #: includes/common.inc:254
 msgid ""
@@ -596,8 +599,9 @@ msgid ""
 msgstr ""
 
 #: includes/common.inc:270
+#, fuzzy
 msgid "Reset selection of hierarchical select"
-msgstr "Zurücksetzen der hierarchischen Auswahl"
+msgstr "Konfiguration der hierarchischen Auswahl  %config_id"
 
 #: includes/common.inc:271
 msgid ""
@@ -607,8 +611,9 @@ msgstr ""
 
 #: includes/common.inc:286
 #: modules/hs_taxonomy.module:28
+#, fuzzy
 msgid "Editability settings"
-msgstr "Einstellungen"
+msgstr "Erweiterte Einstellungen"
 
 #: includes/common.inc:287
 msgid ""
@@ -617,8 +622,9 @@ msgid ""
 msgstr ""
 
 #: includes/common.inc:296
+#, fuzzy
 msgid "Allow creation of new !items"
-msgstr "Neue !items erstellen"
+msgstr "Die Liste neuer Newsfeed-Elemente"
 
 #: includes/common.inc:321
 msgid "Allow creation of new levels"
@@ -631,12 +637,14 @@ msgid ""
 msgstr ""
 
 #: includes/common.inc:332
+#, fuzzy
 msgid "Maximum number of levels allowed"
-msgstr "Maximale Anzahl von Ebenen"
+msgstr "_Rückgängig machbare Schritte (1 - 99):"
 
 #: includes/common.inc:334
+#, fuzzy
 msgid "0 (no limit)"
-msgstr "0 = unbegrenzt"
+msgstr "Maximale Bitrate (-1 = unbegrenzt)"
 
 #: includes/common.inc:337
 msgid ""
@@ -645,32 +653,38 @@ msgid ""
 msgstr ""
 
 #: includes/common.inc:362;401
+#, fuzzy
 msgid "Level"
-msgstr "Ebene"
+msgstr "_Grad:"
 
 #: includes/common.inc:362
+#, fuzzy
 msgid "Label"
 msgstr "Bezeichner"
 
 #: includes/common.inc:371;410
+#, fuzzy
 msgid "Root level"
 msgstr "oberste Ebene"
 
 #: includes/common.inc:371;410
+#, fuzzy
 msgid "Sublevel !depth"
-msgstr "Maximale Tiefe !depth"
+msgstr "Maximale Tiefe"
 
 #: includes/common.inc:382;433
 msgid "There are no levels yet in this !hierarchy!"
 msgstr ""
 
 #: includes/common.inc:401
+#, fuzzy
 msgid "Allow"
 msgstr "Erlauben"
 
 #: includes/common.inc:401
+#, fuzzy
 msgid "!item_type"
-msgstr "!item_type"
+msgstr "@type %item konfigurieren"
 
 #: includes/common.inc:417
 msgid "Per-level settings for creating new !items."
@@ -685,75 +699,89 @@ msgid ""
 msgstr ""
 
 #: includes/common.inc:0
+#, fuzzy
 msgid "1 year"
 msgid_plural "@count years"
 msgstr[0] "1 Jahr"
-msgstr[1] "@count Jahre"
+msgstr[1] ""
 
 #: includes/common.inc:0
+#, fuzzy
 msgid "1 week"
 msgid_plural "@count weeks"
 msgstr[0] "1 Woche"
-msgstr[1] "@count Wochen"
+msgstr[1] ""
 
 #: includes/common.inc:0
+#, fuzzy
 msgid "1 day"
 msgid_plural "@count days"
 msgstr[0] "1 Tag"
-msgstr[1] "@count Tage"
+msgstr[1] ""
 
 #: includes/common.inc:0
+#, fuzzy
 msgid "1 hour"
 msgid_plural "@count hours"
 msgstr[0] "1 Stunde"
-msgstr[1] "@count Stunden"
+msgstr[1] ""
 
 #: includes/common.inc:0
+#, fuzzy
 msgid "1 min"
 msgid_plural "@count min"
-msgstr[0] "Eine Minute"
-msgstr[1] "@count Minuten"
+msgstr[0] "1 Minute"
+msgstr[1] ""
 
 #: includes/common.inc:0
+#, fuzzy
 msgid "1 sec"
 msgid_plural "@count sec"
 msgstr[0] "Eine Sekunde"
 msgstr[1] "@count Sekunden"
 
 #: modules/hs_book.module:22;194
+#, fuzzy
 msgid "Book"
 msgstr "Buch"
 
 #: modules/hs_book.module:23
+#, fuzzy
 msgid "Hierarchical Select configuration for Book"
-msgstr "Konfiguration der hierarchischen Auswahl für Buch"
+msgstr "Konfiguration der hierarchischen Auswahl für !field"
 
 #: modules/hs_book.module:100
+#, fuzzy
 msgid "top-level"
 msgstr "oberste Ebene"
 
 #: modules/hs_book.module:195
+#, fuzzy
 msgid "Node (!book_page)"
-msgstr "Beitrag (!book_page)"
+msgstr "Die Reihenfolge der Buchseite."
 
 #: modules/hs_book.module:0
+#, fuzzy
 msgid "hs_book"
-msgstr ""
+msgstr "Buch-Navigation"
 
 #: modules/hs_content_taxonomy.module:41
+#, fuzzy
 msgid "Hierarchical Select configuration for !field"
 msgstr "Konfiguration der hierarchischen Auswahl für !field"
 
 #: modules/hs_content_taxonomy.module:72
+#, fuzzy
 msgid ""
 "This setting is now managed by the Hierarchical Select widget\n"
 "        configuration!"
-msgstr "Diese Einstellungen werden nun vom Hierarchical Select widget verwaltet."
+msgstr "Diese Einstellungen werden nun von Hierarchical Select widget verwaltet."
 
 #: modules/hs_content_taxonomy.module:131
 #: modules/hs_content_taxonomy_views.module:242
 #: modules/hs_taxonomy.module:75
 #: modules/hs_taxonomy_views.module:228
+#, fuzzy
 msgid "vocabulary"
 msgstr "Vokabular"
 
@@ -761,6 +789,7 @@ msgstr "Vokabular"
 #: modules/hs_content_taxonomy_views.module:243
 #: modules/hs_taxonomy.module:76
 #: modules/hs_taxonomy_views.module:229
+#, fuzzy
 msgid "vocabularies"
 msgstr "Vokabulare"
 
@@ -768,6 +797,7 @@ msgstr "Vokabulare"
 #: modules/hs_content_taxonomy_views.module:244
 #: modules/hs_taxonomy.module:77
 #: modules/hs_taxonomy_views.module:230
+#, fuzzy
 msgid "term"
 msgstr "Begriff"
 
@@ -775,6 +805,7 @@ msgstr "Begriff"
 #: modules/hs_content_taxonomy_views.module:245
 #: modules/hs_taxonomy.module:78
 #: modules/hs_taxonomy_views.module:231
+#, fuzzy
 msgid "terms"
 msgstr "Begriffe"
 
@@ -784,7 +815,7 @@ msgstr "Begriffe"
 #: modules/hs_taxonomy_views.module:232
 #, fuzzy
 msgid "term type"
-msgstr "Type für Begriffe"
+msgstr "Neuer @type %term wurde erstellt."
 
 #: modules/hs_content_taxonomy.module:136
 #: modules/hs_content_taxonomy_views.module:247
@@ -797,25 +828,29 @@ msgstr "Beitrag"
 #: modules/hs_content_taxonomy_views.module:248
 #: modules/hs_taxonomy.module:81
 #: modules/hs_taxonomy_views.module:234
+#, fuzzy
 msgid "nodes"
-msgstr "Beiträge"
+msgstr "Beiträge."
 
 #: modules/hs_content_taxonomy.module:152
 #: modules/hs_content_taxonomy_views.module:263
 #: modules/hs_taxonomy_views.module:254
+#, fuzzy
 msgid "Save"
 msgstr "Speichern"
 
 #: modules/hs_content_taxonomy.module:185;186
+#, fuzzy
 msgid "Save field settings"
-msgstr "Einstellungen speichern"
+msgstr "Feldeinstellungen speichern"
 
 #: modules/hs_content_taxonomy.module:227
+#, fuzzy
 msgid ""
 "Due to limitations of CCK, there is a separate form to\n"
 "        <a href=\"!url\"> configure this Hierarchical Select widget's\n"
 "        settings.</a>"
-msgstr "<a href=\"!url\"> Einstellungen des Hierarchical Select widget</a>"
+msgstr "<a href=\"!url\"> Einstellungen des Hierarchical Select widget's</a>"
 
 #: modules/hs_content_taxonomy.module:233
 #, fuzzy
@@ -827,18 +862,20 @@ msgstr "Das Feld %multiple wird vom Modul Hierarchical Select verwaltet, wenn %e
 
 #: modules/hs_content_taxonomy.module:238
 #: modules/hs_taxonomy.module:52
+#, fuzzy
 msgid "Multiple values"
 msgstr "Mehrfachwerte"
 
 #: modules/hs_content_taxonomy.module:240
 #, fuzzy
 msgid "Save term lineage"
-msgstr "Begriff speichern"
+msgstr "Diesen Begriff bearbeiten"
 
 #: modules/hs_content_taxonomy.module:526;552
 #: modules/hs_content_taxonomy_views.module:399;427
+#, fuzzy
 msgid "Content Taxonomy"
-msgstr "Content Taxonomy"
+msgstr "Content_Taxonomy"
 
 #: modules/hs_content_taxonomy.module:527;554
 #: modules/hs_content_taxonomy_views.module:400;429
@@ -849,40 +886,48 @@ msgstr "Beitrag"
 
 #: modules/hs_content_taxonomy.module:556
 #: modules/hs_taxonomy.module:361
+#, fuzzy
 msgid "Node form"
 msgstr "Beitragsformular"
 
 #: modules/hs_content_taxonomy.module:0
+#, fuzzy
 msgid "hs_content_taxonomy"
-msgstr ""
+msgstr "content_taxonomy_hs"
 
 #: modules/hs_content_taxonomy_views.module:28
 #: modules/hs_taxonomy_views.module:26
+#, fuzzy
 msgid "Hierarchical Select configuration for !view"
 msgstr "Einstellungen von Hierarchical Select für Views"
 
 #: modules/hs_content_taxonomy_views.module:116
 #: modules/hs_taxonomy_views.module:107
+#, fuzzy
 msgid "Configure Hierarchical Select"
 msgstr "Einstellungen·von·Hierarchical·Select"
 
 #: modules/hs_content_taxonomy_views.module:125
 #: modules/hs_taxonomy_views.module:116
+#, fuzzy
 msgid "This setting is now managed by the<br />Hierarchical Select configuration!"
 msgstr "Diese Einstellungen werden nun von Hierarchical Select widget verwaltet."
 
 #: modules/hs_content_taxonomy_views.module:161
 #: modules/hs_taxonomy_views.module:152
+#, fuzzy
 msgid "The Views module is new enough."
-msgstr "Die vorliegende Version des  Views Moduls ist ausreichend aktuell."
+msgstr "Die vorliegende Version des  Views Moduls ist verwendbar."
 
 #: modules/hs_content_taxonomy_views.module:166
 #: modules/hs_taxonomy_views.module:157
+#, fuzzy
 msgid "The Views module is outdated."
 msgstr "Die Version des Views Moduls ist zu alt zur Verwendung."
 
 #: modules/hs_content_taxonomy_views.module:167
 #: modules/hs_taxonomy_views.module:158
+#, fuzzy
 msgid ""
 "The version of Views that you have installed is either\n"
 "        older than May 11, 2008, or doesn't have the obligatory patch applied.\n"
@@ -892,6 +937,7 @@ msgstr "Das Modul Views ist wahrscheinlich vor dem 11.05.2008 erstellt worden, b
 
 #: modules/hs_content_taxonomy_views.module:177
 #: modules/hs_content_taxonomy_views.info:0
+#, fuzzy
 msgid "Hierarchical Select Content Taxonomy Views"
 msgstr "Hierarchical Select Content Taxonomy Views"
 
@@ -907,22 +953,25 @@ msgstr ""
 
 #: modules/hs_content_taxonomy_views.module:339;370
 #: modules/hs_taxonomy_views.module:331;361
+#, fuzzy
 msgid "all"
 msgstr "alle"
 
 #: modules/hs_content_taxonomy_views.module:431
 #: modules/hs_taxonomy_views.module:419
+#, fuzzy
 msgid "Views exposed filter"
-msgstr "Filtereinstellungen für Benutzer"
+msgstr "Filtereinstellungen (Standard)"
 
 #: modules/hs_content_taxonomy_views.module:0
+#, fuzzy
 msgid "hs_content_taxonomy_views"
-msgstr ""
+msgstr "content_taxonomy_views_hs"
 
 #: modules/hs_flatlist.module:64
 #, fuzzy
 msgid "None: flat list"
-msgstr "Keine: einfache Liste"
+msgstr "Chronologische Liste - nur Titel"
 
 #: modules/hs_flatlist.module:65
 #: modules/hs_menu.module:196
@@ -931,32 +980,39 @@ msgid "N/A"
 msgstr "k.A."
 
 #: modules/hs_flatlist.module:0
+#, fuzzy
 msgid "hs_flatlist"
-msgstr ""
+msgstr "_Pfade"
 
 #: modules/hs_menu.module:22;195
+#, fuzzy
 msgid "Menu"
 msgstr "Menü"
 
 #: modules/hs_menu.module:23
+#, fuzzy
 msgid "Hierarchical Select configuration for Menu"
-msgstr "Konfiguration der hierarchischen Auswahl für Menü"
+msgstr "Konfiguration der hierarchischen Auswahl für !field"
 
 #: modules/hs_menu.module:123
+#, fuzzy
 msgid "disabled"
 msgstr "deaktiviert"
 
 #: modules/hs_menu.module:0
+#, fuzzy
 msgid "hs_menu"
-msgstr ""
+msgstr "i18n - menu"
 
 #: modules/hs_subscriptions_taxonomy.module:69
+#, fuzzy
 msgid "Subscribed to:"
-msgstr "Abonniert:"
+msgstr "Abonniert"
 
 #: modules/hs_subscriptions_taxonomy.module:0
+#, fuzzy
 msgid "hs_subscriptions_taxonomy"
-msgstr ""
+msgstr "content_taxonomy_hs"
 
 #: modules/hs_taxonomy.module:25
 msgid ""
@@ -965,6 +1021,7 @@ msgid ""
 msgstr ""
 
 #: modules/hs_taxonomy.module:31
+#, fuzzy
 msgid ""
 "This setting is managed by the Hierarchical Select configuration, by\n"
 "        the %enable-dropbox setting."
@@ -981,8 +1038,9 @@ msgid ""
 msgstr ""
 
 #: modules/hs_taxonomy.module:51
+#, fuzzy
 msgid "Free tagging"
-msgstr "„Free Tagging“ Freies Zuweisen von Kategorien"
+msgstr "„Free Tagging“ (Freies Zuweisen von Kategorien)"
 
 #: modules/hs_taxonomy.module:92
 msgid ""
@@ -992,8 +1050,9 @@ msgid ""
 msgstr ""
 
 #: modules/hs_taxonomy.module:96
+#, fuzzy
 msgid "Save only the deepest term"
-msgstr "Nur den Begiff auf der untersten Ebene speichern"
+msgstr "Es können nur Bilder gespeichert werden."
 
 #: modules/hs_taxonomy.module:209
 #, fuzzy
@@ -1002,6 +1061,7 @@ msgstr "Hauptebene"
 
 #: modules/hs_taxonomy.module:328;357
 #: modules/hs_taxonomy_views.module:388;415
+#, fuzzy
 msgid "Taxonomy"
 msgstr "Taxonomie"
 
@@ -1022,12 +1082,14 @@ msgid "Only has output when terms are present for the vocabulary with the specif
 msgstr ""
 
 #: modules/hs_taxonomy.module:0
+#, fuzzy
 msgid "hs_taxonomy"
-msgstr ""
+msgstr "content_taxonomy_hs"
 
 #: modules/hs_taxonomy_views.module:168
+#, fuzzy
 msgid "Hierarchical Select Views Taxonomy"
-msgstr "Hierarchical Select Views Taxonomy"
+msgstr "Hierarchical Select Content Taxonomy Views"
 
 #: modules/hs_taxonomy_views.module:239
 msgid ""
@@ -1036,64 +1098,75 @@ msgid ""
 msgstr ""
 
 #: modules/hs_taxonomy_views.module:0
+#, fuzzy
 msgid "hs_taxonomy_views"
-msgstr ""
+msgstr "content_taxonomy_views_hs"
 
 #: modules/hs_book.info:0
+#, fuzzy
 msgid "Hierarchical Select Book"
-msgstr "Hierarchical Select Book"
+msgstr "Einstellungen für Hierarchical Select"
 
 #: modules/hs_book.info:0
 msgid "Use Hierarchical Select for selecting the parent page of a book page."
 msgstr ""
 
 #: modules/hs_content_taxonomy.info:0
+#, fuzzy
 msgid "Hierarchical Select Content Taxonomy"
-msgstr "Hierarchical Select Content Taxonomy"
+msgstr "Hierarchical Select Content Taxonomy Views"
 
 #: modules/hs_content_taxonomy.info:0
+#, fuzzy
 msgid "Use Hierarchical Select as the widget for Content Taxonomy CCK fields."
-msgstr "Hierarchical Select Widget für Content Taxonomy CCK Felder verwenden."
+msgstr "Hierarchical Select als Widget für Content Taxonomy CCK Felder verwenden."
 
 #: modules/hs_content_taxonomy_views.info:0
+#, fuzzy
 msgid "Use Hierarchical Select for Content Taxonomy exposed filters in Views."
-msgstr "Hierarchical Select für Content Taxonomy als Filter Ansichten für Benutzer verwenden."
+msgstr "Hierarchical Select für Content Taxonomy als Filter in Views für Anwender verfügbar."
 
 #: modules/hs_flatlist.info:0
+#, fuzzy
 msgid "Hierarchical Select Flat List"
-msgstr "Hierarchical Select Flat List"
+msgstr "Auswahl eines Inhaltstyps"
 
 #: modules/hs_flatlist.info:0
 msgid "Allows Hierarchical Select's dropbox to be used for selecting multiple items in a flat list of options."
 msgstr ""
 
 #: modules/hs_menu.info:0
+#, fuzzy
 msgid "Hierarchical Select Menu"
-msgstr "Hierarchical Select Menu"
+msgstr "Einstellungen für Hierarchical Select"
 
 #: modules/hs_menu.info:0
 msgid "Use Hierarchical Select for menu parent selection."
 msgstr ""
 
 #: modules/hs_subscriptions_taxonomy.info:0
+#, fuzzy
 msgid "Hierarchical Select Taxonomy Subscriptions"
-msgstr "Hierarchical Select Taxonomy Subscriptions"
+msgstr "Hierarchical Select Content Taxonomy Views"
 
 #: modules/hs_subscriptions_taxonomy.info:0
 msgid "Use Hierarchical Select for Taxonomy Subscriptions."
 msgstr ""
 
 #: modules/hs_taxonomy.info:0
+#, fuzzy
 msgid "Hierarchical Select Taxonomy"
-msgstr "Hierarchical Select Taxonomy"
+msgstr "Hierarchical Select Content Taxonomy Views"
 
 #: modules/hs_taxonomy.info:0
+#, fuzzy
 msgid "Use Hierarchical Select for Taxonomy."
-msgstr "Use Hierarchical Select für Taxonomie."
+msgstr "Hierarchical Select Content Taxonomy Views"
 
 #: modules/hs_taxonomy_views.info:0
+#, fuzzy
 msgid "Hierarchical Select Taxonomy Views"
-msgstr "Hierarchical Select Taxonomy Views"
+msgstr "Hierarchical Select Content Taxonomy Views"
 
 #: modules/hs_taxonomy_views.info:0
 #, fuzzy

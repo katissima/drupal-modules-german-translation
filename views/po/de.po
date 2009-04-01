@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: German translation for views module\n"
 "POT-Creation-Date: 2007-04-18 19:33+0200\n"
-"PO-Revision-Date: 2009-04-01 11:57+0100\n"
+"PO-Revision-Date: 2009-04-01 16:12+0100\n"
 "Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
 "Language-Team: Alexander Hass\n"
 "MIME-Version: 1.0\n"
@@ -207,8 +207,9 @@ msgid "As Custom Date"
 msgstr "als angepasstes Datumsformat"
 
 #: views.module:1626
+#, fuzzy
 msgid "As Time Ago"
-msgstr ""
+msgstr "Als vergangene Zeit"
 
 #: views.module:1635
 msgid "Granularity: minute"
@@ -303,8 +304,9 @@ msgid "Does Not Contain"
 msgstr "enthält nicht"
 
 #: views.module:1990
+#, fuzzy
 msgid "@filter must have a value!"
-msgstr ""
+msgstr "Der Benutzer muss einen Wert eingeben."
 
 #: views.module:2053
 msgid "The \"Value\" can either be a date in the format: CCYY-MM-DD HH:MM:SS or the word \"now\" to use the current time. You may enter a positive or negative number in the \"Option\" field that will represent the amount of seconds that will be added or substracted to the time; this is most useful when combined with \"now\". If you have the jscalendar module from jstools installed, you can use a popup date picker here."
@@ -312,7 +314,7 @@ msgstr ""
 
 #: views.module:258
 msgid "access all views"
-msgstr ""
+msgstr "Zugriff auf alle Ansichten"
 
 #: views.module:0
 #: views.info:0
@@ -564,11 +566,11 @@ msgstr "Node: Bearbeiten Verweis"
 
 #: modules/views_node.inc:87
 msgid "Return To View"
-msgstr ""
+msgstr "Zur Ansicht verlinken"
 
 #: modules/views_node.inc:88
 msgid "Return to Node"
-msgstr ""
+msgstr "Zurück zum Beitrag"
 
 #: modules/views_node.inc:93
 msgid "Display a link to edit the node. Enter the text of this link into the option field; if blank the default \"Edit\" will be used."
@@ -703,8 +705,9 @@ msgid "Including this filter will reduce the node set to nodes that have been up
 msgstr ""
 
 #: modules/views_node.inc:279
+#, fuzzy
 msgid "The node type argument allows users to filter a view by specifying the type of node."
-msgstr ""
+msgstr "Filtern nach dem Anbieter von Audiomaterial."
 
 #: modules/views_node.inc:285
 msgid "The argument will filter by the node title. For this argument, set the option to the number of characters, using 0 for full term; use 1 for an A/B/C style glossary."
@@ -743,8 +746,9 @@ msgid "This argument combines Month and Year into a single argument, specified i
 msgstr ""
 
 #: modules/views_node.inc:308
+#, fuzzy
 msgid "Node: Posted Full Date"
-msgstr ""
+msgstr "Der Zeitpunkt zu dem der Beitrag gespeichert wurde."
 
 #: modules/views_node.inc:310
 msgid "This argument is a complete date in the form of CCYYMMDD."
@@ -863,9 +867,8 @@ msgid "Created"
 msgstr "Erstellt"
 
 #: modules/views_statistics.inc:137
-#, fuzzy
 msgid "Recent hits"
-msgstr "Neue Beiträge"
+msgstr "Letzte Abrufe"
 
 #: modules/views_statistics.inc:157
 msgid "Nodes sorted by total page-views"
@@ -953,14 +956,13 @@ msgstr "Taxonomie"
 
 #: modules/views_taxonomy.inc:237
 msgid "A comma-separated list of terms describing this content. Example: funny, bungee jumping, \"Company, Inc.\"."
-msgstr ""
+msgstr "Eine Liste von Begriffen, durch Kommas getrennt, die den Inhalt beschreibt."
 
 #: modules/views_taxonomy.inc:345;349;353
 msgid "Uncategorized"
 msgstr "Nicht kategorisiert"
 
 #: modules/views_taxonomy.inc:387
-#, fuzzy
 msgid "Uncatgorized"
 msgstr "Nicht kategorisiert"
 
@@ -1111,7 +1113,7 @@ msgstr "Ansichten"
 
 #: views_ui.module:99
 msgid "Views are customized lists of content on your system; they are highly configurable and give you control over how lists of content are presented."
-msgstr ""
+msgstr "Ansichten sind benutzerdefinierte Listen von Inhalt in dem System. Diese sind hochgradig Konfigurierbar und ermöglichen die Kontrolle, wie Listen von Inhalten präsentiert werden."
 
 #: views_ui.module:102
 msgid "List"
@@ -1127,7 +1129,7 @@ msgstr "Importieren"
 
 #: views_ui.module:118
 msgid "Tools"
-msgstr ""
+msgstr "Werkzeuge"
 
 #: views_ui.module:124
 msgid "Edit view"
@@ -1155,7 +1157,7 @@ msgstr "Beschreibung"
 
 #: views_ui.module:237;308
 msgid "Provides"
-msgstr ""
+msgstr "Bereitstellen"
 
 #: views_ui.module:237;308;829
 msgid "URL"
@@ -1227,7 +1229,7 @@ msgstr ""
 
 #: views_ui.module:324;331
 msgid "Clear views cache"
-msgstr ""
+msgstr "Cache des Moduls leeren"
 
 #: views_ui.module:384
 msgid "Import View Code"
@@ -1247,7 +1249,7 @@ msgstr "Die folgenden Anforderungen scheinen nicht erfüllt zu sein:"
 
 #: views_ui.module:421
 msgid "Unable to get a view out of that."
-msgstr ""
+msgstr "Aus den Daten konnte keine Ansicht erzeugt werden."
 
 #: views_ui.module:448;466;488;520;1140
 msgid "Cancel"
@@ -1342,8 +1344,9 @@ msgid "Access"
 msgstr "Zugriff"
 
 #: views_ui.module:798
+#, fuzzy
 msgid "Only the checked roles will be able to see this view in any form; if no roles are checked, access will not be restricted."
-msgstr ""
+msgstr "Nur die aktivierten Rollen können dieses Panel in jeglicher Art sehen; Wenn keine Rollen aktiviert sind, wird der Zugriff nicht beschränkt."
 
 #: views_ui.module:807
 msgid "A description of the view for the admin list."
@@ -1418,25 +1421,27 @@ msgid "Empty Text"
 msgstr "Leerer Text"
 
 #: views_ui.module:919
+#, fuzzy
 msgid "Text to display if a view returns no nodes. Optional."
-msgstr ""
+msgstr "Der anzuzeigende Text, wenn die Ansicht keine Ergebnisse zurückliefert. (Optional)"
 
 #: views_ui.module:933
-#, fuzzy
 msgid "Provide Menu"
 msgstr "Menü bereitstellen"
 
 #: views_ui.module:936
+#, fuzzy
 msgid "If checked this view be given a menu entry in the Drupal menu system. If not checked the data in this group will be ignored."
-msgstr ""
+msgstr "Falls aktiviert, wird ein Eintrag im Menüsystem für dieses Panel erstellt. Falls nicht, werden die Angaben in dieser Gruppe ignoriert."
 
 #: views_ui.module:941
 msgid "Provide Menu as Tab"
 msgstr "Menü als Karteireiter bereitstellen"
 
 #: views_ui.module:944
+#, fuzzy
 msgid "If checked this view's menu entry will be provided as a tab rather than in the main menu system."
-msgstr ""
+msgstr "Falls aktiviert, wird der Menüpunkt als Reiter anstatt als regulärer Menüpunkt bereitgestellt."
 
 #: views_ui.module:949
 msgid "Make Default Menu Tab"
@@ -1451,19 +1456,20 @@ msgid "Tab Weight"
 msgstr "Karteireitergewichtung"
 
 #: views_ui.module:960
+#, fuzzy
 msgid "If this is a menu tab, select the weight; lower numbers will be further to the left."
-msgstr ""
+msgstr "Falls dies ein Menüreiter ist, die Reihenfolge auswählen. Kleinere Zahlen erscheinen weiter links."
 
 #: views_ui.module:965
 msgid "Menu Title"
 msgstr "Menütitel"
 
 #: views_ui.module:969
+#, fuzzy
 msgid "Enter the title to use for the menu entry or tab. If blank, the page title will be used."
-msgstr ""
+msgstr "Einen Titel für den Menüpunkt oder Reiter eingeben. Falls nicht gesetzt, wird der Seitentitel verwendet."
 
 #: views_ui.module:983
-#, fuzzy
 msgid "Provide Block"
 msgstr "Block bereitstellen"
 
@@ -1524,8 +1530,9 @@ msgid "Text to display if a view results in no nodes. Optional."
 msgstr ""
 
 #: views_ui.module:1105
+#, fuzzy
 msgid "Argument Handling Code"
-msgstr ""
+msgstr "PHP-Argumentcode"
 
 #: views_ui.module:1110
 msgid "Argument Code"
@@ -1588,8 +1595,9 @@ msgid "Label"
 msgstr "Bezeichnung"
 
 #: views_ui.module:1570
+#, fuzzy
 msgid "Handler"
-msgstr ""
+msgstr "Handler"
 
 #: views_ui.module:1570;1580;1592;1615
 msgid "Option"
@@ -1664,8 +1672,9 @@ msgid "Filter settings Default"
 msgstr "Filtereinstellungen (Standard)"
 
 #: views_ui.module:1603
+#, fuzzy
 msgid "Force Single"
-msgstr ""
+msgstr "Eine Option erzwingen"
 
 #: views_ui.module:1603
 msgid "Lock Operator"
@@ -1797,17 +1806,19 @@ msgid "Listed files"
 msgstr "Aufgelistete Dateien"
 
 #: modules/views_upload.inc:74
+#, fuzzy
 msgid "File names with links"
-msgstr ""
+msgstr " enthält ein fehlerhaftes Dateisystem"
 
 #: modules/views_upload.inc:75
 #, fuzzy
 msgid "File names without links"
-msgstr "Ohne Verweise"
+msgstr "Präfix für Backup-Dateinamen"
 
 #: modules/views_upload.inc:76
+#, fuzzy
 msgid "File descriptions with links"
-msgstr ""
+msgstr " enthält ein fehlerhaftes Dateisystem"
 
 #: modules/views_upload.inc:77
 msgid "File descriptions without links"
@@ -1912,7 +1923,7 @@ msgstr "Dies ermöglicht eine Filterung nach einem bestimmten Benutzer. Bei viel
 #: modules/views_user.inc:74
 #, fuzzy
 msgid "Node: Authors in role %role-name"
-msgstr "Node: Autor ist der aktuelle Benutzer"
+msgstr "Beitrag: Autoren mit der Rolle %role-name"
 
 #: modules/views_user.inc:79
 msgid "Only users in role %role-name will appear in the select box for this filter."

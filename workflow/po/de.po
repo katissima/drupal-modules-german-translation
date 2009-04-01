@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: German\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-01 11:57+0100\n"
+"PO-Revision-Date: 2009-04-01 22:56+0100\n"
 "Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
 "Language-Team: Gemany <thomas@voicehero.net>\n"
 "MIME-Version: 1.0\n"
@@ -20,19 +20,19 @@ msgstr "Erlaubt es den Benutzer Inhalte mit Arbeitsablauf-Status zu verwalten"
 
 #: workflow.module:15
 msgid "You are currently viewing the possible transitions to and from workflow states. The state is shown in the left column; the state to be moved to is to the right. For each transition, check the box next to the role(s) that may initiate the transition. For example, if only the hulking_editor role may move a node from Review state to the Published state, check the box next to hulking_editor. The author role is built in and refers to the user who authored the node."
-msgstr ""
+msgstr "Hier werden die möglichen Übergänge von und zu Arbeitsablauf-Stati angezeigt. Der jeweils aktuelle Status wird in der linken Spalte angezeigt; der Status, zu dem gewechselt werden soll, steht rechts. Für jeden Übergang muss das Kontrollkästchen für jede Rolle ausgewählt werden, die den Übergang vornehmen darf. Wenn zum Beispiel nur die Rolle ‚Chefredaktion‘ einen Beitrag vom Status ‚Durchsehen‘ zum Status ‚Veröffentlicht‘ wechseln darf, muss das Kästchen bei ‚Chefredaktion‘ ausgewählt werden. Die Rolle ‚Autor‘ ist eingebaut und bezieht sich auf den Benutzer, der den Beitrag erstellt hat."
 
 #: workflow.module:17
 msgid "To get started, provide a name for your workflow. This name will be used as a label when the workflow status is shown during node editing."
-msgstr ""
+msgstr "Zunächst muss der Arbeitsablauf einen Namen erhalten. Der Name wird als Bezeichnung verwendet, wenn der Arbeitsablauf-Status beim Bearbeiten des Beitrags angezeigt wird."
 
 #: workflow.module:19
 msgid "Enter the name for a state in your workflow. For example, if you were doing a meal workflow it may include states like <em>shop</em>, <em>prepare food</em>, <em>eat</em>, and <em>clean up</em>."
-msgstr ""
+msgstr "Geben Sie den Namen des Status Ihres Arbeitsablauf ein. Z.B. ein Ablauf für ein Gericht: <em>einkaufen</em>, <em>Gericht kochen</em>, <em>Essen</em>, und <em>aufräumen</em>."
 
 #: workflow.module:21
 msgid "Use this page to set actions to happen when transitions occur. To %conf_actions, use the actions module."
-msgstr ""
+msgstr "Auf dieser Seite können Aktionen festgelegt werden, die ausgelöst werden, wenn Übergänge stattfinden. MIt %conf_actions  werden Aktionen konfiguriert."
 
 #: workflow.module:41;99;113;311;315;334;353;1047;1253;0
 msgid "workflow"
@@ -44,19 +44,19 @@ msgstr "Arbeitsablauf bearbeiten"
 
 #: workflow.module:52
 msgid "List"
-msgstr ""
+msgstr "Liste"
 
 #: workflow.module:59;496
 msgid "Add workflow"
-msgstr "Arbeitsablauf hinzufÃ¼gen"
+msgstr "Arbeitsablauf hinzufügen"
 
 #: workflow.module:66
 msgid "Add state"
-msgstr "Status hinzufÃ¼gen"
+msgstr "Status hinzufügen"
 
 #: workflow.module:72
 msgid "Delete workflow"
-msgstr "Arbeitsablauf lÃ¶schen"
+msgstr "Arbeitsablauf löschen"
 
 #: workflow.module:78;84
 msgid "Workflow actions"
@@ -72,7 +72,7 @@ msgstr "Derzeitiger Status:"
 
 #: workflow.module:130
 msgid "Change %s state"
-msgstr "Ãndere Status von %s"
+msgstr "Ändere Status von %s"
 
 #: workflow.module:138
 msgid "Submit"
@@ -104,11 +104,11 @@ msgstr "Arbeitsablauf-Log"
 
 #: workflow.module:247
 msgid "A comment to put in the workflow log."
-msgstr "Ein Kommentar fÃ¼r das Arbeitsablauf-Log"
+msgstr "Ein Kommentar für das Arbeitsablauf-Log"
 
 #: workflow.module:311
 msgid "Attempt to go to nonexistent transition. (from %old to %new)"
-msgstr ""
+msgstr "Versuch einen nicht bestehenden Übergangs (von %old nach %new) zu nutzen"
 
 #: workflow.module:315
 msgid "User %user not allowed to go from state %old to %new."
@@ -120,11 +120,11 @@ msgstr "Status von %type %node_title auf %state_name gesetzt."
 
 #: workflow.module:353
 msgid "Unable to get current workflow state of node %nid."
-msgstr ""
+msgstr "Der aktuelle Status im Arbeitsablauf für Beitrag %nid kann nicht ermittelt werden."
 
 #: workflow.module:376
 msgid "Changing workflow state of node id %id to %state."
-msgstr ""
+msgstr "Der Arbeitsablauf-Status des Beitrags mit der Nummer %id wurde auf %state gesetzt."
 
 #: workflow.module:378
 msgid "Changed workflow state of node id %id to %state."
@@ -132,7 +132,7 @@ msgstr "Der Arbeitsablauf-Status des Beitrags mit der Nummer %id wurde auf %stat
 
 #: workflow.module:383
 msgid "Change workflow state of a node to next state."
-msgstr "Ãndere den Arbeitsablauf Status eines Beitrages zum nÃ¤chsten Status."
+msgstr "Ändere den Status im Arbeitsablauf eines Beitrages zum nächsten Status."
 
 #: workflow.module:384;1011
 msgid "Workflow"
@@ -144,23 +144,23 @@ msgstr "Arbeitsablauf Name"
 
 #: workflow.module:503
 msgid "Please provide a nonblank name for the new workflow."
-msgstr ""
+msgstr "Es muss ein nicht-leerer Name für den Arbeitsablauf angegeben werden."
 
 #: workflow.module:511
 msgid "The workflow %wf was created. You should now add states to your workflow."
-msgstr "Der Arbeitsablauf %wf wurde erstellt. Sie sollten nun Status zu Ihrem Arbeitsablauf hinzufÃ¼gen."
+msgstr "Der Arbeitsablauf %wf wurde erstellt. Sie sollten nun Status zu Ihrem Arbeitsablauf hinzufügen."
 
 #: workflow.module:533
 msgid "Are you sure you want to delete %title? All nodes that have a workflow state associated with this workflow will have those workflow states removed."
-msgstr ""
+msgstr "Soll %title wirklich gelöscht werden? Bei allen Beiträgen, die für diesen Arbeitsablauf einen Status zugewiesen haben, wird der Status entfernt."
 
 #: workflow.module:533;961
 msgid "This action cannot be undone."
-msgstr "Dieser Vorgang kann nicht rÃ¼ckgÃ¤ngig gemacht werden."
+msgstr "Dieser Vorgang kann nicht rückgängig gemacht werden."
 
 #: workflow.module:533;961;1038
 msgid "Delete"
-msgstr "LÃ¶schen"
+msgstr "Löschen"
 
 #: workflow.module:533;961;1038
 msgid "Cancel"
@@ -168,23 +168,23 @@ msgstr "Abbrechen"
 
 #: workflow.module:542
 msgid "The workflow %wf was deleted."
-msgstr "Der Arbeitsablauf %wf wurde gelÃ¶scht."
+msgstr "Der Arbeitsablauf %wf wurde gelöscht."
 
 #: workflow.module:573
 msgid "From"
-msgstr ""
+msgstr "Von"
 
 #: workflow.module:573
 msgid "To"
-msgstr ""
+msgstr "An"
 
 #: workflow.module:581
 msgid "%role may do these transitions:"
-msgstr "%role kann folgende ÃbergÃ¤nge machen:"
+msgstr "%role kann folgende Übergänge machen:"
 
 #: workflow.module:586;980;1091;1135
 msgid "None"
-msgstr ""
+msgstr "Kein"
 
 #: workflow.module:614
 msgid "Workflow tab permissions"
@@ -192,7 +192,7 @@ msgstr "Arbeitsablauf Karteireiter Zugriffsregeln"
 
 #: workflow.module:623
 msgid "Select any roles that should have access to the workflow tab on nodes that have a workflow."
-msgstr ""
+msgstr "Die Rollen müssen ausgewählt werden, die Zugriff auf den Reiter ‚Arbeitsablauf‘ haben, wenn ein Beitrag einen Arbeitsablauf hat."
 
 #: workflow.module:627;732
 msgid "Save"
@@ -200,19 +200,19 @@ msgstr "Speichern"
 
 #: workflow.module:643
 msgid "From / To "
-msgstr ""
+msgstr "Von / Nach"
 
 #: workflow.module:686
 msgid "Warning: Another workflow with this name already exists."
-msgstr ""
+msgstr "Es gibt schon einen Arbeitsablauf mit diesem Namen."
 
 #: workflow.module:700
 msgid "Warning: Please give the author permission to go from (creation) to at least one state."
-msgstr ""
+msgstr "Hinweis: Dem Autor mindestens die Berechtigung geben den ersten Status zu setzen, nachdem der Beitrag erstellt wurde."
 
 #: workflow.module:704
 msgid "Please provide a name for the workflow."
-msgstr ""
+msgstr "Es muss ein Name für den Arbeitsablauf angegeben werden."
 
 #: workflow.module:711
 msgid "Workflow updated."
@@ -224,7 +224,7 @@ msgstr "Status Name"
 
 #: workflow.module:740
 msgid "Please provide a nonblank name for the new state."
-msgstr ""
+msgstr "Ein Name muss für den neuen Status eingegeben werden."
 
 #: workflow.module:746
 msgid "The workflow state was created."
@@ -240,7 +240,7 @@ msgstr "Name"
 
 #: workflow.module:897
 msgid "add state"
-msgstr "Status hinzufÃ¼gen"
+msgstr "Status hinzufügen"
 
 #: workflow.module:898
 msgid "actions"
@@ -252,31 +252,31 @@ msgstr "Bearbeiten"
 
 #: workflow.module:900;908
 msgid "delete"
-msgstr "LÃ¶schen"
+msgstr "Löschen"
 
 #: workflow.module:916
 msgid "No workflows have been added. Would you like to %add_a_workflow?"
-msgstr ""
+msgstr "Es wurden keine neuen Arbeitsabläufe hinzugefügt. Soll <a href=\"%add_a_workflow\">ein Arbeitsablauf hinzugefügt</a> werden?"
 
 #: workflow.module:916
 msgid "add a workflow"
-msgstr ""
+msgstr "Arbeitsablauf hinzufügen"
 
 #: workflow.module:961
 msgid "Are you sure you want to delete %title (and all its transitions)?"
-msgstr ""
+msgstr "Soll %title und alle zugehörigen Übergänge / Stati gelöscht werden?"
 
 #: workflow.module:970
 msgid "The workflow state %title was deleted."
-msgstr "Der Arbeitsablauf Status %title wurde gelÃ¶scht."
+msgstr "Der Arbeitsablauf Status %title wurde gelöscht."
 
 #: workflow.module:1002
 msgid "Save Workflow Mapping"
-msgstr ""
+msgstr "Arbeitsablauf-Zuordnung speichern"
 
 #: workflow.module:1008
 msgid "Each node type may have a separate workflow:"
-msgstr ""
+msgstr "Jeder Inhaltstyp kann einen separaten Arbeitsfluss haben:"
 
 #: workflow.module:1010
 msgid "Node Type"
@@ -284,27 +284,27 @@ msgstr "Inhaltstyp"
 
 #: workflow.module:1028
 msgid "The workflow mapping was saved."
-msgstr ""
+msgstr "Die Arbeitsablauf-Zuordnung wurde gespeichert."
 
 #: workflow.module:1038
 msgid "Are you sure you want to delete the action %title?"
-msgstr "Sind Sie sich sicher, dass Sie die Aktion %title lÃ¶schen wollen?"
+msgstr "Sind Sie sich sicher, dass Sie die Aktion %title löschen wollen?"
 
 #: workflow.module:1038
 msgid "You can add it again later if you wish."
-msgstr "Sie kÃ¶nnen sie spÃ¤ter wieder hinzufÃ¼gen, falls gewÃ¼nscht."
+msgstr "Sie können sie später wieder hinzufügen, falls gewünscht."
 
 #: workflow.module:1047;1048
 msgid "Action %action deleted."
-msgstr "Aktion %action wurde gelÃ¶scht."
+msgstr "Aktion %action wurde gelöscht."
 
 #: workflow.module:1055
 msgid "Before you can assign actions you must install and enable the actions module."
-msgstr "Bevor Sie Aktionen hinzufÃ¼gen kÃ¶nnen mussen Sie das Aktionen Modul installieren und aktivieren."
+msgstr "Aktionen können hinzu gefügt werden, wenn Sie das Modul actions installieren und aktivieren."
 
 #: workflow.module:1096
 msgid "Transition"
-msgstr "Ãbergang"
+msgstr "Übergang"
 
 #: workflow.module:1097
 msgid "Actions"
@@ -312,23 +312,23 @@ msgstr "Aktionen"
 
 #: workflow.module:1117
 msgid "remove"
-msgstr "LÃ¶schen"
+msgstr "Löschen"
 
 #: workflow.module:1141
 msgid "Add"
-msgstr "HinzufÃ¼gen"
+msgstr "Hinzufügen"
 
 #: workflow.module:1157
 msgid "You must first %link before you can assign actions."
-msgstr "Sie mÃ¼ssen zuerst %link, bevor Sie Aktionen wÃ¤hlen kÃ¶nnen."
+msgstr "Sie müssen zuerst %link, bevor Sie Aktionen wählen können."
 
 #: workflow.module:1157
 msgid "set up transitions"
-msgstr "ÃbergÃ¤nge definieren"
+msgstr "Übergänge definieren"
 
 #: workflow.module:1253
 msgid "Deleted workflow"
-msgstr "Arbeitsablauf gelÃ¶scht"
+msgstr "Arbeitsablauf gelöscht"
 
 #: workflow.module:1494;1517;1524;1541
 msgid "Workflow: state"
@@ -336,7 +336,7 @@ msgstr "Arbeitsablauf: Status"
 
 #: workflow.module:1497
 msgid "Include only nodes in the selected workflow states."
-msgstr ""
+msgstr "Nur Beiträge einschließen, die den gewählten Status im Arbeitsfluss haben."
 
 #: workflow.module:1519
 msgid "Order nodes by workflow state."
@@ -348,7 +348,7 @@ msgstr "Den Arbeitsablauf Status des Beitrages anzeigen."
 
 #: workflow.module:1543
 msgid "The work flow argument allows users to filter a view by workflow state."
-msgstr ""
+msgstr "Der Status eines Beitrags in einem Arbeitsablauf kann als Argument für eine Ansicht genutzt werden."
 
 #: workflow.module:376;378
 msgid "action"
@@ -360,9 +360,9 @@ msgstr "Arbeitsablauf verwalten"
 
 #: workflow.install:89
 msgid "The workflow module has successfully added tables to the MySQL database."
-msgstr ""
+msgstr "Das actions Modul hat Tabellen zur Datenbank hinzugefügt."
 
 #: workflow.install:92
 msgid "Drupal was unable to install the database tables for the workflow module."
-msgstr ""
+msgstr "Es war nicht möglich die Datenbank-Tabellen für das actions Modul anzulegen."
 
