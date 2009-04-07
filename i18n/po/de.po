@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: i18n-module\n"
 "POT-Creation-Date: 2007-07-04 18:50+0100\n"
 "PO-Revision-Date: 2009-04-07 11:45+0100\n"
-"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.net>\n"
 "Language-Team: Deutsch <benedikt.meuthrath@hifroeco.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr "Sprachen"
 
 #: i18n.module:110
 msgid "This module provides support for multilingual content in Drupal sites:"
-msgstr "Dieses Modul ist Teil von i18n und unterstützt Übersetzungen."
+msgstr "Dieses Modul unterstützt mehrsprachigen Inhalt:"
 
 #: i18n.module:112
 msgid "Translation of the user interface for anonymous users (combined with locale)"
@@ -34,7 +34,7 @@ msgstr "Übersetzung der Benutzerschnittstelle für anonyme Benutzer (unter Nutz
 
 #: i18n.module:113
 msgid "Multi-language for content. Adds a language field for nodes and taxonomy vocabularies and terms"
-msgstr ""
+msgstr "Mehrsprachigkeit für Inhalte, fügt ein Feld für die Sprache des Inhaltes, des Vokabulars und des Begriffes hinzu."
 
 #: i18n.module:114;264
 msgid "Browser language detection"
@@ -42,11 +42,11 @@ msgstr "Erkenne die im Browser eingestellte Sprache"
 
 #: i18n.module:115
 msgid "Keeps the language setting accross consecutive requests using URL rewriting"
-msgstr ""
+msgstr "Behält die Spracheinstellung über aufeinanderfolgende Requests hinweg mittels URL rewrite"
 
 #: i18n.module:116
 msgid "Provides a block for language selection and two theme functions: <i>i18n_flags</i> and <i>i18n_links</i>"
-msgstr ""
+msgstr "Provides a block for language selection and two theme functions: <i>i18n_flags</i> and <i>i18n_links</i>"
 
 #: i18n.module:117
 msgid "Support for long locale names"
@@ -371,7 +371,7 @@ msgstr "Die Zeichenketten wurden aktualisiert."
 
 #: experimental/i18nstrings.module:0
 msgid "i18nstrings"
-msgstr ""
+msgstr "i18nstrings"
 
 #: experimental/i18nsync.module:24
 msgid "Synchronize node translations"
@@ -466,7 +466,7 @@ msgstr "Übersetzung von !title"
 
 #: i18nblocks/i18nblocks.module:208
 msgid " -- "
-msgstr ""
+msgstr " -- "
 
 #: i18nblocks/i18nblocks.module:218
 msgid "Block description"
@@ -506,7 +506,7 @@ msgstr "Der neue Block %name wurde angelegt."
 
 #: i18nblocks/i18nblocks.module:0
 msgid "i18nblocks"
-msgstr ""
+msgstr "i18nblocks"
 
 #: i18nblocks/i18nblocks.info:0
 msgid "i18n - blocks"
@@ -624,7 +624,7 @@ msgstr "Das Profilfeld wurde aktualisiert."
 
 #: i18nprofile/i18nprofile.module:0
 msgid "i18nprofile"
-msgstr ""
+msgstr "i18nprofile"
 
 #: i18nprofile/i18nprofile.info:0
 msgid "i18n - profile"
@@ -632,7 +632,7 @@ msgstr "i18n-Profile"
 
 #: i18nprofile/i18nprofile.info:0
 msgid "Enables multilingual profile fields."
-msgstr "mehrsprachige Profilfelder"
+msgstr "mehrsprachige Profilfelder verwenden"
 
 #: i18nviews/i18nviews.module:30;35
 msgid "Internationalization: Language"

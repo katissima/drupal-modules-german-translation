@@ -1946,8 +1946,8 @@ msgid "Feed %feed added."
 msgstr "Feed %feed hinzugefügt."
 
 #: modules/aggregator/aggregator.module:530
-msgid "The feed %feed has been added.\n"
-msgstr "Der Feed %feed wurde hinzugefügt.\n"
+msgid "The feed %feed has been added."
+msgstr "Der Feed %feed wurde hinzugefügt."
 
 #: modules/aggregator/aggregator.module:583
 msgid "The news items from %site have been removed."
@@ -10203,7 +10203,7 @@ msgid ""
 "\n"
 "This is a one-time login, so it can be used only once. It expires after one day and nothing will happen if it's not used.\n"
 "\n"
-"After logging in, you will be redirected to !edit_uri so you can change your password.\n"
+"After logging in, you will be redirected to !edit_uri so you can change your password."
 msgstr ""
 "!username,\n"
 "\n"
@@ -10215,7 +10215,7 @@ msgstr ""
 "\n"
 "Dies ist ein einmaliger Anmeldelink, der entsprechend nur ein einziges Mal verwendet werden kann. Er läuft nach einem Tag aus. Wenn er nicht verwendet wird, passiert nichts.\n"
 "\n"
-"Nach dem Anmelden werden Sie zu !edit_uri weitergeleitet, wo Sie Ihr Passwort ändern können.\n"
+"Nach dem Anmelden werden Sie zu !edit_uri weitergeleitet, wo Sie Ihr Passwort ändern können."
 
 #: modules/user/user.module:1585
 msgid "Enter a username to check if it will be denied or allowed."

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-03-29 00:43+0100\n"
 "PO-Revision-Date: 2009-04-07 11:45+0100\n"
-"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.net>\n"
 "Language-Team: German <thomas@voicehero.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -37,7 +37,7 @@ msgstr "Gast"
 #: imagecache_profiles.module:60
 #, fuzzy
 msgid "View user profile."
-msgstr "Benutzerprofil"
+msgstr "Benutzerprofil anzeigen."
 
 #: imagecache_profiles.module:86
 msgid "Set user profile picture size with this ImageCache preset"
@@ -66,7 +66,7 @@ msgstr ""
 #: imagecache_profiles.module:107
 #, fuzzy
 msgid "Picture minimum width"
-msgstr "Breite des Audio Abspielers"
+msgstr "Mindestbeite des Bildes"
 
 #: imagecache_profiles.module:109
 msgid "Minimum width dimension for picture, in pixels."
@@ -75,7 +75,7 @@ msgstr ""
 #: imagecache_profiles.module:114
 #, fuzzy
 msgid "Picture minimum height"
-msgstr "Höhe des Audio Abspielers"
+msgstr "Minimum für die Höhe des Bildes"
 
 #: imagecache_profiles.module:116
 msgid "Minimum height dimension for picture, in pixels."
@@ -88,12 +88,11 @@ msgstr ""
 #: imagecache_profiles.module:0
 #, fuzzy
 msgid "imagecache_profiles"
-msgstr "WYSIWYG-Profile"
-
+msgstr "imagecache_profiles"
 #: imagecache_profiles.info:0
 #, fuzzy
 msgid "Imagecache Profile Pictures"
-msgstr "Profilkategorie-Inhalte."
+msgstr "Imagecache Profile Pictures"
 
 #: imagecache_profiles.info:0
 msgid "Utilizes imagecache presets for user profile pictures."

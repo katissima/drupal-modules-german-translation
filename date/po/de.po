@@ -37,7 +37,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-15 17:42+0100\n"
 "PO-Revision-Date: 2009-04-07 11:45+0100\n"
-"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Last-Translator: Thomas Zahreddin Drupalvoicechannel: Schnittmenge und Th. Zahreddin\n"
 "Language-Team: German <thomas@VoiceHero.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -130,9 +130,8 @@ msgstr "Sekunde"
 #: Thomas Zahreddin:
 #: ToDo am/pm kann nicht übersetzt werden, daher prüfen, ob eine 24h Möglichkeit besteht
 #: date_api_elements.inc:777
-#, fuzzy
 msgid "am/pm"
-msgstr ""
+msgstr "am/pm"
 
 #: date_api_elements.inc:780
 msgid "Timezone"
@@ -293,9 +292,8 @@ msgid "Years back and forward must be in the format -9:+9."
 msgstr "Jahre zurück oder vor muss im Format -Zahl / +Zahl angegeben werden."
 
 #: date/date_admin.inc:47
-#, fuzzy
 msgid "The Date Popup widget will not work unless granularity includes year, month, and day."
-msgstr "Das Popup widget für Datum braucht eine Granularität inkl. Jahr, Monat und Tag."
+msgstr "Damit das Popup widget für das Datum funktioniert, müssen das Jahr, Monat und Tag angegeben werden."
 
 #: date/date_admin.inc:66
 msgid "Default value"
@@ -431,9 +429,8 @@ msgid "Unlimited"
 msgstr "Unbeschränkt"
 
 #: date/date_admin.inc:329
-#, fuzzy
 msgid "Choose an option for handling multiple values. Unlimited will allow the user to manually create unlimited multiple dates one date at a time."
-msgstr "Umgang mit mehrfach vorhandenen Werten: Unbeschränkt erlaubt es den Benutzern beliebig viele Daten (Plural von Datum) zu erzeugen."
+msgstr "Umgang mit mehrfach vorhandenen Werten: Für eine Termin Serie unbegrenzt viele Termine eintragen."
 
 #: date/date_admin.inc:332
 msgid "Repeating"
@@ -502,7 +499,7 @@ msgstr "Anzeige Wiederholung"
 
 #: date/date_admin.inc:404
 msgid "If set to use repeating dates, should the repeat options form start out expanded or collapsed? Set to 'Collapsed' to make those options less obtrusive."
-msgstr ""
+msgstr "Soll für Wiederholengen von Terminen der Startzeitpunkt eingefaltet dargestellt werden, damit diese Option nicht so aufdringlich erscheint?"
 
 #: date/date_admin.inc:407
 msgid "<div class=\"form-item\"><div class=\"description\">* The custom format, if provided, will override the selected display or input options. Define a php date format string like 'm-d-Y H:i' (see !link for more details).</div></div>"
@@ -534,7 +531,7 @@ msgstr "Vorgabe"
 
 #: date/date_admin.inc:448
 msgid "Date display"
-msgstr ""
+msgstr "Datums-Anzeige"
 
 #: date/date_admin.inc:454
 msgid "*Custom display format"
@@ -546,7 +543,7 @@ msgstr "Zeitzone der Site"
 
 #: date/date_admin.inc:471
 msgid "Date's time zone"
-msgstr ""
+msgstr "Zeitzone des Datums"
 
 #: date/date_admin.inc:472
 msgid "User's time zone"
@@ -562,7 +559,7 @@ msgstr "Ein Beginn ist erforderlich für ·%field ·%delta."
 
 #: date/date_elements.inc:34
 msgid "A 'To date' is required for %field %delta"
-msgstr ""
+msgstr "Ein 'Ende' wird für %field %delta benötigt"
 
 #: date/date_elements.inc:331
 msgid "From date"
@@ -570,11 +567,11 @@ msgstr "Beginn"
 
 #: date/date_elements.inc:333
 msgid "To date"
-msgstr "Heute"
+msgstr "'Ende'"
 
 #: date/date_elements.inc:338
 msgid "Empty 'To date' values will use the 'From date' values."
-msgstr "Für ein fehlendes Ende wird der Beginnzeitpunkt ersatzweise verwendet."
+msgstr "Für ein fehlendes 'Ende' wird der Beginnzeitpunkt ersatzweise verwendet."
 
 #: date/date_elements.inc:405
 msgid "Some value must be entered in the To date."
@@ -582,11 +579,11 @@ msgstr "Einen Wert eintragen."
 
 #: date/date_elements.inc:423
 msgid "The To date must be greater than the From date."
-msgstr ""
+msgstr "Das 'Ende' muss nach dem Beginn liegen."
 
 #: date/date_repeat.inc:77
 msgid "The UNTIL value is required for repeating dates."
-msgstr ""
+msgstr "Für Wiederholungen wird ein Ende benötigt."
 
 #: date/date_token.inc:12
 msgid "The raw date value."
@@ -602,55 +599,56 @@ msgstr "Der Zeitstempel."
 
 #: date/date_token.inc:15
 msgid "Date year (four digit)"
-msgstr ""
+msgstr "Jahr (4 Ziffern)"
 
 #: date/date_token.inc:16
 msgid "Date year (two digit)"
-msgstr ""
+msgstr "Jahr (2 Ziffern)"
 
 #: date/date_token.inc:17
 msgid "Date month (full word)"
-msgstr ""
+msgstr "Monat (ganzes Wort)"
 
 #: date/date_token.inc:18
 msgid "Date month (abbreviated)"
-msgstr ""
+msgstr "Monat (abgekürzt)"
 
 #: date/date_token.inc:19
 msgid "Date month (two digit, zero padded)"
-msgstr ""
+msgstr "Monat (Zwei Ziffern, kein Abstand)"
 
 #: date/date_token.inc:20
 msgid "Date month (one or two digit)"
-msgstr ""
+msgstr "Monat (ein oder zwei Ziffern)"
 
 #: date/date_token.inc:21
 msgid "Date week (two digit)"
-msgstr ""
+msgstr "Woche (zwei Ziffern)"
 
 #: date/date_token.inc:22
+#, fuzzy
 msgid "Date date (day of month)"
-msgstr "zweistellig Tag (des Monats)"
+msgstr "Tag des Monats, in Ziffern"
 
 #: date/date_token.inc:23
 msgid "Date day (full word)"
-msgstr ""
+msgstr "Tag (ganzes Wort)"
 
 #: date/date_token.inc:24
 msgid "Date day (abbreviation)"
-msgstr ""
+msgstr "Tag (Abkürzung)"
 
 #: date/date_token.inc:25
 msgid "Date day (two digit, zero-padded)"
-msgstr ""
+msgstr "Tag (zwei Ziffern, kein Abstand)"
 
 #: date/date_token.inc:26
 msgid "Date day (one or two digit)"
-msgstr ""
+msgstr "Tag (ein oder zwei Zeichen)"
 
 #: date/date_token.inc:28
 msgid "If the field has a to-date defined, the same tokens exist in the form: [to-????], where ???? is the normal token."
-msgstr ""
+msgstr "Wenn das Feld ein Ende hat, existiert dasselbe Token in der Form: [to-????], wobei ???? das normale Token ist."
 
 #: date/date_views.inc:10
 msgid "Date: Date Browser"
@@ -725,7 +723,7 @@ msgstr "Monat"
 
 #: date/date_views.inc:177
 msgid "day"
-msgstr ""
+msgstr "Tag"
 
 #: date/date_views.inc:187
 msgid "To Year"
@@ -745,7 +743,7 @@ msgstr ": Von"
 
 #: date/date_views.inc:209
 msgid "Defines an argument to filter for dates within a range, in the format 'YYYY-MM-DD--YYYY-MM-DD'. Many other options can be used in arguments. See !link for other examples."
-msgstr "Filtern mit einem Zeitbereich 'JJJJ-MM-TT--JJJJ-MM-TT', mehr unter !link."
+msgstr "Filtern mit einem Zeitraum 'JJJJ-MM-TT--JJJJ-MM-TT', mehr unter !link."
 
 #: date/date_views.inc:209
 msgid "help"
@@ -761,15 +759,15 @@ msgstr "Kein gültiges Datum."
 
 #: date/date_views.inc:503
 msgid "N/A"
-msgstr "--"
+msgstr "N/V"
 
 #: date/date_views.inc:533
 msgid "summarize by year"
-msgstr "Zusammenfassung·eines·Jahres"
+msgstr "Zusammenfassung eines Jahres"
 
 #: date/date_views.inc:534
 msgid "summarize by month"
-msgstr "Zusammenfassung·eines·Monats"
+msgstr "Zusammenfassung eines Monats"
 
 #: date/date_views.inc:535
 msgid "summarize by day"
@@ -777,15 +775,15 @@ msgstr "Zusammenfassung eines Tages"
 
 #: date/date_views.inc:536
 msgid "summarize by week"
-msgstr "Zusammenfassung·einer Woche"
+msgstr "Zusammenfassung einer Woche"
 
 #: date/date_views.inc:537
 msgid "summarize by hour"
-msgstr "Zusammenfassung·einer Stunde"
+msgstr "Zusammenfassung einer Stunde"
 
 #: date/date_views.inc:550
 msgid "The Date Browser requires at least one field."
-msgstr "Mindestens ein Feld ist erforderlich."
+msgstr "Mindestens ein Feld wird benötigt."
 
 #: date/date_views.inc:560
 msgid "Date Browser arguments must be set to 'Display All Values'."
@@ -798,7 +796,7 @@ msgstr "Ein Datum wird als Argument benötigt."
 #: date/date.module:30
 #: date_repeat/date_repeat.module:163
 msgid "Repeats"
-msgstr "Wiederholung"
+msgstr "Wiederholungen"
 
 #: date/date.module:94
 msgid "Select List"
@@ -831,23 +829,21 @@ msgstr "iCal"
 
 #: date/date.module:144
 msgid "As Time Ago"
-msgstr ""
+msgstr "vor"
 
 #: date/date.module:320
 msgid "<p>Complete documentation for the Date and Date API modules is available at !link.</p>"
-msgstr ""
+msgstr "Vervollständige Dokumentation für das Date und Date API Modul ist unter folgendem Link herhältlich: !link"
 
 #: date/date.theme:134
-#, fuzzy
 msgid "!time from now"
-msgstr "seit !time"
+msgstr "!time alt"
 
 #: date/date.theme:139
 msgid "ongoing"
 msgstr "andauernd"
 
 #: date/date.theme:187
-#, fuzzy
 msgid "%period of %date"
 msgstr "%period von %date"
 
@@ -868,7 +864,6 @@ msgid "All date fields using the jscalendar widget have been changed to use the 
 msgstr "Alle Felder mit Kalenderdaten wurden auf das Textwidget umgestellt. Mit dem Date Popup Modul kann die Eingabe vereinfacht werden."
 
 #: date/date.install:553
-#, fuzzy
 msgid "The database has been updated to correct the stored timezone for fields using timezone 'none'."
 msgstr "Die Datenbank wurde aktualisiert: für die Zeitzone wurde 'Keine' eingetragen."
 
@@ -930,7 +925,7 @@ msgstr "Hinzufügen"
 
 #: date_copy/date_copy.module:119
 msgid "If your desired target type does not already have a date field, follow this link and select a content type to add a date field to that type."
-msgstr ""
+msgstr "Wenn der gewünschte Inhaltstyp noch kein Feld für das Datum hat, so nutzen Sie diesen Link, um ein Feld für diesen Zweck hinzuzufügen"
 
 #: date_copy/date_copy.module:125
 msgid "Add new date field"
@@ -945,9 +940,8 @@ msgid "Date field"
 msgstr "Datumsfeld"
 
 #: date_copy/date_copy.module:171
-#, fuzzy
 msgid "The field which will contain the source dates in target content type."
-msgstr "Das Feld mit dem Datum für den geplanten Inhaltstyp."
+msgstr "Im Feld wird das Ursprungs-Datum für den gewählten Inhaltstyp angezeigt."
 
 #: date_copy/date_copy.module:176
 msgid "Description field"
@@ -955,7 +949,7 @@ msgstr "Beschreibung"
 
 #: date_copy/date_copy.module:178
 msgid "The text or body field which will contain the source description in the target content type."
-msgstr ""
+msgstr "Der Text oder das Feld mit dem Textkörpber, der die Beschreibung für den geplanten Inhaltstyp enthält. "
 
 #: date_copy/date_copy.module:184
 msgid "Url field"
@@ -963,7 +957,7 @@ msgstr "Feld mit URL"
 
 #: date_copy/date_copy.module:186
 msgid "The text or link field which will contain the source url in the target content type."
-msgstr ""
+msgstr "Das Text- oder Link-Feld, das die Quellen URL in dem geplanten Inhaltstyp enthält."
 
 #: date_copy/date_copy.module:191
 msgid "Location field"
@@ -971,7 +965,7 @@ msgstr "Feld für Location (dt. Ort)"
 
 #: date_copy/date_copy.module:193
 msgid "The text field which will contain the source location text in the target content type."
-msgstr ""
+msgstr "Das Text Feld, das die Ortsangabe in dem geplanten Inhaltstyp enthält."
 
 #: date_copy/date_copy.module:198
 msgid "Uid field"
@@ -979,7 +973,7 @@ msgstr "Uid Feld"
 
 #: date_copy/date_copy.module:200
 msgid "The text field which will contain the source uid in the target content type."
-msgstr ""
+msgstr "Das Text Feld, das die UID in dem geplanten Inhaltstyp enthält."
 
 #: date_copy/date_copy.module:227
 msgid "Categories"
@@ -1031,7 +1025,7 @@ msgstr "Import·von·Daten·nach·CCK·aus·einer kommaseparierten Liste <a href
 
 #: date_copy/date_copy.module:314
 msgid "<p>Create a new CCK content type to import your events into. Make sure it has a date field that can allows a To date so it can accept the From date and To date of the iCal feed. If you are importing dates that have their own timezones, make sure you set the timezone handling of the date to 'date'. Test the new type by trying to create a node manually and make sure all the right options are available in the form before attempting an import.</p><p><strong>The import will create new nodes and trigger all related hooks, so you may want to turn off automatic email messaging for this node type while performing the import!</strong></p>"
-msgstr ""
+msgstr "<p>Erstellen eines neuen Inhaltstyps mit CCK, um Termine zu importieren. Dieser benötigt ein Datumsfeld für den Beginn und das Ende. Falls Termine mit einer eigenen Zeitzone importiert werden sollen, muss die Zeitzonenverwaltung für Date akiviert worden sein. Vor dem Import empfiehlt es sich den erzeugten Inhaltstyp mit eigenen Daten zu befüllen und zu testen.</p><p><strong>Der Import erzeugt möglicherweise viele neue Beiträge und löst alle damit verbundenen Aktionen aus, sollte dies für die importierten Termine nicht gewünscht sein, dann deaktivieren Sie die Automatic während des Imports.</strong></p>"
 
 #: date_copy/date_copy.module:317
 msgid "Source file"
@@ -1083,7 +1077,7 @@ msgstr "Es gibt keine Tabelle für Termine in der Datenbank, daher ist kein Impo
 
 #: date_copy/date_copy.module:479
 msgid "<p>Create a new CCK content type to import your events into, or, if you do not want to create new nodes for your events, add a date field to the existing event type. Make sure the target content type has a date field that has an optional or required To date so it can accept the From date and To date of the event. If your source event has its own timezone field, make sure you set the target date timezone handling to 'date'. Test the target type by trying to create a node manually and make sure all the right options are available in the form before attempting an import. </p><p><strong>The import will create new nodes and trigger all related hooks, so you may want to turn off automatic email messaging for this node type while performing the import!</strong></p>"
-msgstr ""
+msgstr "<p>Erstellen eines neuen Inhaltstyps mit CCK, um Termine zu importieren. Dieser benötigt ein Datumsfeld für den Beginn und das Ende. Falls Termine mit einer eigenen Zeitzone importiert werden sollen, muss die Zeitzonenverwaltung für Date akiviert worden sein. Vor dem Import empfiehlt es sich den erzeugten Inhaltstyp mit eigenen Daten zu befüllen und zu testen.</p><p><strong>Der Import erzeugt möglicherweise viele neue Beiträge und löst alle damit verbundenen Aktionen aus, sollte dies für die importierten Termine nicht gewünscht sein, dann deaktivieren Sie die Automatic während des Imports.</strong></p>"
 
 #: date_copy/date_copy.module:486
 msgid "There are no event nodes in this database. No event import options are available."
@@ -1152,11 +1146,11 @@ msgstr "Import und Export CCK Daten."
 #: date_php4/date_php4.module:31
 #: date_php4/date_php4.info:0
 msgid "Date PHP4"
-msgstr ""
+msgstr "Date PHP4"
 
 #: date_php4/date_php4.module:32
 msgid "Date PHP4 setup."
-msgstr ""
+msgstr "Date PHP4 Instalation"
 
 #: date_php4/date_php4.module:47
 msgid "Date PHP4 Settings"
@@ -1176,7 +1170,7 @@ msgstr "Zeitzone von PHP nutzen"
 
 #: date_php4/date_php4.module:53
 msgid "Getting date computations working correctly in PHP versions earlier than PHP 5.2 involves extra computations that add a lot of overhead. These computations are needed because the timezone PHP uses on date computations may not match the site or user timezone or other date-specific timezones. We can speed processing up if we assume that PHP is using the correct timezone, but need to do more time-intensive processing if it is not. If timezone adjustments do not seem to be working correctly in your setup, you can set this option to FALSE to force the system to use the more accurate, but slower, timezone computations."
-msgstr ""
+msgstr "Die Zeitberechnung in PHP vor der Version 5.2 ist sehr rechenaufwendig, v.a. wen Zeitzonen berücksichtigt werden. Es wird angenommen, dass PHP die korrekte Zeitzone benutzt, sollten Sie Fehler feststellen, dann setzen Sie diese Option auf 'FALSE' für eine aufwendigere und genauere Berechnung von Zeitangaben mit Berücksichtigung der jeweiligen Zeitzonen."
 
 #: date_php4/date_php4.module:57
 msgid "Save"
@@ -1188,7 +1182,7 @@ msgstr "Einstellungen für date_php4"
 
 #: date_php4/date_php4.module:0
 msgid "date_php4"
-msgstr ""
+msgstr "date php4"
 
 #: date_php4/date_php4.info:0
 msgid "Emulate PHP 5.2 date functions in PHP 4.x, PHP 5.0, and PHP 5.1. Required when using the Date API with PHP versions less than PHP 5.2."
@@ -1228,11 +1222,11 @@ msgstr "Nächstes Feld"
 
 #: date_popup/date_popup.module:270
 msgid "Increment"
-msgstr ""
+msgstr "Wachsend"
 
 #: date_popup/date_popup.module:270
 msgid "Decrement"
-msgstr ""
+msgstr "Fallend"
 
 #: date_popup/date_popup.module:292
 msgid "  @date"
@@ -1248,19 +1242,19 @@ msgstr "%field ist ungültig."
 
 #: date_popup/date_popup.module:0
 msgid "date_popup"
-msgstr ""
+msgstr "date popup"
 
 #: date_popup/date_popup.install:14
 msgid "<p>Download jquery.timeentry.pack.js and jquery.timeentry.css from the jquery-timeentry home page at !link and install them in the /lib/ folder of the Date Popup module.</p>"
-msgstr ""
+msgstr "Laden Sie jquery.timeentry.pack.js und jquery.timeentry.css von der jquery-timeentry Website !link und installisieren Sie diese in das /lib/ Archive des Date Popup module. "
 
 #: (duplicate) date_popup/date_popup.install:18
 msgid "Date Popup requirements"
-msgstr ""
+msgstr "Date Popup Voraussetzungen"
 
 #: date_popup/date_popup.info:0
 msgid "Date Popup"
-msgstr ""
+msgstr "Date Popup"
 
 #: date_popup/date_popup.info:0
 msgid "Enables jquery popup calendars and time entry widgets for selecting dates and times."
@@ -1288,7 +1282,7 @@ msgstr "Fortgeschritten"
 
 #: date_repeat/date_repeat_form.inc:127
 msgid "If no advanced options are selected, the date will repeat on the day of week of the start date for weekly repeats, otherwise on the month and day of the start date. Use the options below to override that behavior to select specific months and days to repeat on. Use the 'Except' box to input dates that should be omitted from the results."
-msgstr ""
+msgstr "Wenn keine erweiterten Optionen gewählt wurde, wird sich der Termn am Tag der Woche wiederhlen, andem eine wöchentliche Wiederholung gestartet wurde, wenn nicht am Monat und Tag des ersten Termins. Benutzen Sie die untere Option, um dieses Verhalten spezifische Monate und Tage zu wiederholen. Benutzen Sie das 'Ausnahme' Eingabefeld, um die Termine einzugeben, die von diesem Ergebnis ausgenommen werden sollen."
 
 #: date_repeat/date_repeat_form.inc:134;145;156
 msgid "-- Any"
@@ -1308,7 +1302,7 @@ msgstr "Außer"
 
 #: date_repeat/date_repeat_form.inc:169
 msgid "Dates to omit from the list of repeating dates."
-msgstr ""
+msgstr "Termine aus der Liste der wiederholenden Termine herausnehmen."
 
 #: date_repeat/date_repeat_form.inc:197
 msgid "Help"
@@ -1316,7 +1310,7 @@ msgstr "Hilfe"
 
 #: date_repeat/date_repeat_form.inc:200
 msgid "<p>Dates will match any selection within the same box [January OR June]. When more than one box has criteria selected, all of them are combined to create repeats [[January OR June] AND [Day 1 OR Day 15]]. Positive numbers count from the beginning of the period. Negative numbers count from the end of the period, i.e. -1 is the last, -2 is the next to last, etc.</p><ul><li>If you select 'Every Year' above, and 'March' from 'Month' and '1' and '15' from 'Day of Month' in the Advanced options you will be selecting the 1st and 15th days of March of every year.</li><li>If you select 'Every other Month' above, and 'Second Tuesday' in the Advanced options you will be selecting the second Tuesday of every other month.</li><li>If you select 'Every Year' above, and 'Second Tuesday' in the Advanced options you will be selecting the second Tuesday of every year.</li><li>If you select 'Every Month' above, and 'January' and 'June' and 'First Saturday' in the Advanced options, you will be selecting the first Saturday in January or June.</li><li>If you select 'Every Month' above, and '-1' from 'Day of Month' in the Advanced options you will be selecting the last day of every month.</li></ul>"
-msgstr ""
+msgstr "<p>Es werden nur Termine angezeigt, auf die alle Kriterien zutreffen: In der Box [Januar OR Juni] werden Termine dieser beiden Monate gewählt, wenn dies mit einer Tageszahl kombiniert wird z.B. [Day 1 OR Day 15], so werden 1.1, 15.1., 1.6. und 15.6. gewählt. Positive Zahlen zählen vom Beginn der Periode, negative Zahlen zählen vom Ende der Periode rückwärts.</p><ul><li>Die Auswahl des Tages kann um das Jahr erweitert werden, dann wird der Tag / die Tage der gewählten Monate für alle gewählten Jahre als Wiederholung verwendet.</li><li>Gleiches gilt, wenn der Tag über eine verbale Regel definiert ist wie jeder erste Dienstag, verbunden mit jedem Jahr wird jeder erst Dienstag im Januar als Wiederholung verwendet.</li><li>Dies läst sich auch mit Monatsangaben kombinierten.</li><li>Termine, die immer am Ende eines Monats stattfinden sollen, werden über 'Jeden Monat' und '-1' für den Tag des Monats festgelegt.</li></ul>"
 
 #: date_repeat/date_repeat_form.inc:267
 msgid "Delete"
@@ -1332,7 +1326,7 @@ msgstr "-- Periode"
 
 #: date_repeat/date_repeat.module:35
 msgid "Day(s)"
-msgstr ""
+msgstr "Tag(e)"
 
 #: date_repeat/date_repeat.module:36
 msgid "Week(s)"
@@ -1380,7 +1374,7 @@ msgstr "Letzter"
 
 #: date_repeat/date_repeat.module:95
 msgid "Next to last"
-msgstr ""
+msgstr "Nächster bis zum Letzten"
 
 #: date_repeat/date_repeat.module:96
 msgid "Second from last"
@@ -1448,7 +1442,7 @@ msgstr "täglich"
 
 #: date_repeat/date_repeat.module:0
 msgid "date_repeat"
-msgstr ""
+msgstr "Terminwiederholung"
 
 #: date_repeat/date_repeat.info:0
 msgid "Date Repeat API"
@@ -1460,9 +1454,8 @@ msgstr "Die Date·Repeat·API berechnet Wiederholungen für Termine auf der Basi
 
 #: (duplicate) date_timezone/date_timezone.module:22
 #: date_timezone/date_timezone.install:45
-#, fuzzy
 msgid "The Date Timezone module requires you to !link."
-msgstr "Das Date Timezone module schickt Sie zu !link."
+msgstr "Das Date Timezone module erfordert, dass Sie !link besuchen."
 
 #: (duplicate) date_timezone/date_timezone.module:22
 #: date_timezone/date_timezone.install:45
@@ -1491,7 +1484,7 @@ msgstr "Zeitzone"
 
 #: date_timezone/date_timezone.module:0
 msgid "date_timezone"
-msgstr ""
+msgstr "Termin-Zeitzone"
 
 #: date_timezone/date_timezone.install:220
 msgid "Africa/Algiers"

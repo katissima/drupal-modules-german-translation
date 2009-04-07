@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Pathauto\n"
 "POT-Creation-Date: 2008-06-24 18:58+0200\n"
 "PO-Revision-Date: 2009-04-07 11:45+0100\n"
-"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.net>\n"
 "Language-Team: Alexander Hass\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -23,17 +23,15 @@ msgstr ""
 
 #: pathauto.inc:308
 msgid "The automatically generated alias %original_alias conflicted with an existing alias. Alias changed to %alias."
-msgstr ""
-
+msgstr "Der automatisch erzeugte Alias  %original_alias kollidiert mit einem bestehenden, der Alias wurde geändert auf  %alias."
 #: pathauto.inc:374
 #, fuzzy
 msgid "Ignoring alias %dst due to existing path conflict."
-msgstr "Alias %dst wurde aufgrund eines vorhandenen Pfadkonfliktes ignoriert."
-
+msgstr "Alias %dst wird ignoriert, weil er mit einem vorhandenem Pfad kollidiert."
 #: pathauto.inc:381
 #, fuzzy
 msgid "Ignoring alias %dst because it is the same as the internal path."
-msgstr "Alias %dst wurde ignoriert, da der interne Pfad gleich ist."
+msgstr "Der Alias %dst wird ignoriert, weil es mit einem bestehenden Pfad kollidiert."
 
 #: pathauto.inc:401
 msgid "Created new alias %dst for %src, replacing %old_alias. %old_alias now redirects to %dst"
@@ -49,7 +47,7 @@ msgstr "Neuer Alias %dst für %src erstellt"
 
 #: pathauto.inc:430
 msgid "It appears that you have installed Pathauto, which depends on token, but token is either not installed or not installed properly."
-msgstr ""
+msgstr "Es scheint als wäre das Modul Pathauto installiert, aber das dazu erforderliche Modul Token scheint nicht oder nicht korrekt installiert zu sein."
 
 #: pathauto.inc:470
 msgid "Double quotes \""
@@ -201,7 +199,7 @@ msgstr "Massenerstellung von Aliasen für alle vorhanden Beiträge ohne Alias"
 #: pathauto_node.inc:24
 #, fuzzy
 msgid "Generate aliases for all existing nodes which do not already have aliases."
-msgstr "Erstelle Aliase für alle vorhanden Nodes, welche noch keinen Alias haben."
+msgstr "Erstelle einen Alias für alle vorhandenen Beiträge, die noch keinen Alias haben."
 
 #: pathauto_node.inc:36
 msgid "Pattern for all @node_type paths"
@@ -232,7 +230,7 @@ msgstr "Massenerstellung von Aliasen für Kategorien ohne Alias"
 #: pathauto_taxonomy.inc:33
 #, fuzzy
 msgid "Generate aliases for all existing categories which do not already have aliases."
-msgstr "Erstellt Aliase fuer alle existierenden Kategorien, die noch nicht ueber Aliase verfuegen."
+msgstr "Erstelle einen Alias für alle vorhandenen Kategorien, die noch keinen Alias haben."
 
 #: pathauto_taxonomy.inc:42
 msgid "Pattern for all %vocab-name paths"
@@ -287,9 +285,8 @@ msgid "Bulk generate aliases for users that are not aliased"
 msgstr "Massenerstellung von Aliasen für Benutzer ohne Alias"
 
 #: pathauto_user.inc:33
-#, fuzzy
 msgid "Generate aliases for all existing user account pages which do not already have aliases."
-msgstr "Erstelle einen Alias für alle vorhandenen Benutzerkontenseiten, welche derzeit keinen Alias haben."
+msgstr "Erstelle einen Alias für alle vorhandenen Benutzer, die noch keinen Alias haben."
 
 #: pathauto_user.inc:49
 msgid "Blog path settings"
@@ -308,9 +305,8 @@ msgid "Bulk generate aliases for blogs that are not aliased"
 msgstr "Massenerstellung von Aliasen für Blogs ohne Alias"
 
 #: pathauto_user.inc:58
-#, fuzzy
 msgid "Generate aliases for all existing blog pages which do not already have aliases."
-msgstr "Erstelle einen Alias für ale vorhandenen Blogseiten, welche derzeit keinen Alias haben."
+msgstr "Erstelle einen Alias für alle vorhandenen Blog Seiten, die noch keinen Alias haben."
 
 #: pathauto_user.inc:74
 msgid "User-tracker path settings"
@@ -321,7 +317,6 @@ msgid "Pattern for user-tracker page paths"
 msgstr "Muster für Benutzer-Tracker-Seitenpfade"
 
 #: pathauto_user.inc:76
-#, fuzzy
 msgid "users/[user-raw]/track"
 msgstr "users/[user-raw]/track"
 
@@ -431,7 +426,6 @@ msgid "user trackers"
 msgstr "Benutzertracker"
 
 #: pathauto.module:202
-#, fuzzy
 msgid "forums"
 msgstr "Foren"
 
@@ -448,9 +442,8 @@ msgid "Automatic alias"
 msgstr "Automatischer Alias"
 
 #: pathauto.module:286
-#, fuzzy
 msgid "Update path alias"
-msgstr "Pfad-Alias aktualisieren"
+msgstr "Aktualisieren des Pfad-Aliases"
 
 # not literally
 #: pathauto.module:418
@@ -545,10 +538,12 @@ msgstr "Was soll Autopfad beim Aktualisierungen von vorhandenen Inhalten machen,
 #: pathauto.module:514
 msgid "When a pattern includes certain characters (such as those with accents) should Pathauto attempt to transliterate them into the ASCII-96 alphabet? Transliteration is determined by the i18n-ascii.txt file in the Pathauto directory. <strong>This option is disabled on your site because you do not have an i18n-ascii.txt file in the Pathauto directory.</strong>"
 msgstr ""
+"<strong>Datei i18n-ascii.txt nicht gefunden.</strong>\n"
+"Wenn ein Muster Buchstaben mit Umlauten, Akzenten etc. enthält, sollen diese Buchstaben in das ASCII-96 Alphabet transkodiert werden? Dazu wird die Datei i18n-ascii.txt aus dem Verzeichnis von Pathauto genutzt. Dazu muss die Datei i18n-ascii.example.txt umbenannt werden nach i18-ascii.txt - möglichweise ist dies noch nicht geschen."
 
 #: pathauto.module:517
 msgid "When a pattern includes certain characters (such as those with accents) should Pathauto attempt to transliterate them into the ASCII-96 alphabet? Transliteration is determined by the i18n-ascii.txt file in the Pathauto directory."
-msgstr ""
+msgstr "Wenn ein Muster Buchstaben mit Umlauten, Akzenten etc. enthält, sollen diese Buchstaben in das ASCII-96 Alphabet transkodiert werden? Dazu wird die Datei i18n-ascii.txt aus dem Verzeichnis von Pathauto genutzt."
 
 #: pathauto.module:525
 msgid "Transliterate prior to creating alias"
@@ -556,11 +551,11 @@ msgstr "Umcodieren, bevor der Alias erstellt wird"
 
 #: pathauto.module:532
 msgid "Reduce strings to letters and numbers from ASCII-96"
-msgstr ""
+msgstr "Einschränken der Zeichen auf den ASCII-96 Zeichensatz"
 
 #: pathauto.module:534
 msgid "Filters the new alias to only letters and numbers found in the ASCII-96 set."
-msgstr ""
+msgstr "Einschränken der Zeichen auf den ASCII-96 Zeichensatz"
 
 #: pathauto.module:539
 msgid "Strings to Remove"
@@ -598,12 +593,14 @@ msgid "Use -raw replacements for text to avoid problems with HTML entities."
 msgstr "Direkter Ersatz von Text wird bevorzugt, um mögliche HTML-Fehler zu vermeiden."
 
 #: pathauto.module:672
+#, fuzzy
 msgid "Internal feed alias text (leave blank to disable)"
-msgstr ""
+msgstr "Interner Alias für einen RSS-Newsfeed, deaktiviert, falls leer"
 
 #: pathauto.module:676
+#, fuzzy
 msgid "The text to use for aliases for RSS feeds. Examples are \"feed\" and \"0/feed\"."
-msgstr ""
+msgstr "Interner Alias für einen RSS-Newsfeed, zum Beispiel 'feed'."
 
 #: pathauto.module:731
 msgid "You are using the token [%token] which is not valid within the scope of tokens where you are using it."
@@ -620,7 +617,6 @@ msgid "NOTE: This field contains potentially incorrect patterns. "
 msgstr "HINWEIS: Dieses Feld enthält möglicherweise fehlerhafte Muster."
 
 #: pathauto.module:751
-#, fuzzy
 msgid "%problems"
 msgstr "%problems"
 
@@ -635,12 +631,10 @@ msgstr "Zu löschenden Alias auswählen"
 
 # starting case?
 #: pathauto.module:804
-#, fuzzy
 msgid "all aliases"
-msgstr "Aliase löschen"
+msgstr "alle Aliase"
 
 #: pathauto.module:806
-#, fuzzy
 msgid "Delete all aliases. Number of aliases which will be deleted: %count."
 msgstr "Alle Aliase löschen. Die Anzahl der zu löschenden Aliase beträgt: %count."
 
@@ -672,20 +666,18 @@ msgstr[0] "Massenerstellung von Index-Aliasen abgeschlossen, ein Alias wurde ers
 msgstr[1] "Massenerstellung von Index-Aliasen abgeschlossen, @count Aliase wurden erstellt."
 
 #: pathauto.module:750
-#, fuzzy
 msgid "Problem token: "
 msgid_plural "Problem tokens: "
-msgstr[0] "Token-Ersetzung"
-msgstr[1] ""
+msgstr[0] "Problem token: "
+msgstr[1] "Problem tokens: "
 
 #: pathauto.module:49
 msgid "administer pathauto"
 msgstr "Autopfad verwalten"
 
 #: pathauto.module:49
-#, fuzzy
 msgid "notify of path changes"
-msgstr "Über Pfadänderungen benachrichtigen"
+msgstr "Benachrichtigung über die Änderung des Pfades"
 
 #: pathauto.module:0
 msgid "pathauto"

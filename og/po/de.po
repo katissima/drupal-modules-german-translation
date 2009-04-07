@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: German translation of OG\n"
 "POT-Creation-Date: 2009-03-30 19:32+0200\n"
 "PO-Revision-Date: 2009-04-07 11:45+0100\n"
-"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.net>\n"
 "Language-Team: DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,7 +64,7 @@ msgstr "Normal"
 
 #: og_views.inc:64
 msgid "With new mark"
-msgstr "Mit Aktualisierungsmarkierung"
+msgstr "Mit neuer Markierung"
 
 #: og_views.inc:69;111
 msgid "OG: Group: Selective"
@@ -80,7 +80,7 @@ msgstr "OG: Gruppe: Beitrittsverweis"
 
 #: og_views.inc:80
 msgid "Displays a links for joining a group when a user is not already a member."
-msgstr ""
+msgstr "Anzeigen eines Links zum Beitritt für Benutzer, die noch keine Mitglieder der Gruppe sind."
 
 #: og_views.inc:83
 msgid "OG: Group: Notification"
@@ -128,7 +128,7 @@ msgstr "Geschlossen"
 
 #: og_views.inc:115
 msgid "The group preference which determines how membership requests are managed (moderated, invite only, etc.)."
-msgstr ""
+msgstr "Die Einstellungen zur Aufnahme neuer MItglieder: Moderiert, nur auf Einladung usw."
 
 #: og_views.inc:127
 msgid "Restrict groups to specific languages."
@@ -140,7 +140,7 @@ msgstr "OG: Beitrag in angegebener Gruppe (nach Zahl)"
 
 #: og_views.inc:147
 msgid "Filter for posts in specified organic groups. <em>Value</em> should be a one or more node ids (i.e. integers), separated by commas or pluses. Like taxonomy, pluses indicate that the post must appear in one of the specified groups, whereas commas indicate that the post must appear in every specified group. The page context (if View is a page) will be set to the first listed group. That means that blocks and breadcrumbs (and theme and locale, if applicable) will be based upon the first specified node id."
-msgstr ""
+msgstr "Filter für Beiträge in spezifischen Gruppen.  <em>Werte</em> ein oder mehrere IDs von Beiträgen (als ganze Zahlen, durch Komma oder '+'-Zeichen getrennt). '+'-Zeichen verlangen, dass der Beitrag in einer der Gruppen steht; Trennung mit Kommata verlangt, dass der Beitrag in allen angegebenen Gruppen steht. Der Kontext der Seite wird auf die erste angeführte Gruppe gesetzt. Blöcke und Brotkrumenpfad richten sich nach dem ersten Eintrag."
 
 #: og_views.inc:152
 msgid "OG: Post in specified groups (by name)"
@@ -148,7 +148,7 @@ msgstr "OG: Beitrag in angegebenen Gruppen (nach Name)"
 
 #: og_views.inc:155
 msgid "Filter for posts in specified organic groups. Value should be a one or more group names (partial name is supported), separated by commas or pluses. Like taxonomy, pluses indicate that the post must appear in one of the specified groups, whereas commas indicate that the post must appear in every specified group. The page context is <strong>not</strong> be set the the first specified group (unfortunately, you must use <em>OG: Post in specified group (by number)</em> for that)."
-msgstr ""
+msgstr "Filter für Beiträge in spezifischen Gruppen.  <em>Werte</em> ein oder mehrere IDs von Beiträgen (als ganze Zahlen, durch Komma oder '+'-Zeichen getrennt). '+'-Zeichen verlangen, dass der Beitrag in einer der Gruppen steht; Trennung mit Kommata verlangt, dass der Beitrag in allen angegebenen Gruppen steht. Der Kontext der Seite wird <strong>nicht</strong>auf die erste angeführte Gruppe gesetzt."
 
 #: og_views.inc:158
 msgid "OG: Post in specified group type"
@@ -238,8 +238,9 @@ msgid "OG: type"
 msgstr "OG: Typ"
 
 #: og_views.inc:312
+#, fuzzy
 msgid "Restrict to node types which have been designated behave as groups."
-msgstr ""
+msgstr "Einschränken der Inhaltstypen, die für Gruppen vorgesehen sind."
 
 #: og_views.inc:322
 msgid "OG: Group nid(s)"
@@ -247,15 +248,16 @@ msgstr "OG: Gruppenbeitrags-ID(s)"
 
 #: og_views.inc:324
 msgid "Filter for the one or more organic groups. Groups should be specified as a comma or plus delimited list of node ids, like taxonomy URLs. "
-msgstr ""
+msgstr "Filter für eine oder mehrere  Gruppen, Gruppen als ganze Zahlen, durch Komma oder '+'-Zeichen getrennt angeben. '+'-Zeichen verlangen, dass der Beitrag in einer der Gruppen steht; Trennung mit Kommata verlangt, dass der Beitrag in allen angegebenen Gruppen steht. "
 
 #: og_views.inc:327
 msgid "OG: Group name"
 msgstr "OG: Gruppenname"
 
 #: og_views.inc:333
+#, fuzzy
 msgid "Filter for the one or more organic groups. Groups should be specified by name, or part of a name. Use the <em>Option</em> field to specify how to match the supplied name."
-msgstr ""
+msgstr "Filter für eine oder mehrere  Gruppen, Gruppen werden über den Namen oder Teile des Namens angegeben. Mit dem <em>Optionsfeld</em> kann angegeben werden, wie der Vergleich durchgeführt wird."
 
 #: og_views.inc:353;382
 msgid "All posts"
@@ -267,7 +269,7 @@ msgstr "Alle Aktivität in den abonnierten Gruppen anzeigen."
 
 #: og_views.inc:433
 msgid "Recent posts in my groups"
-msgstr "Neueste Beiträge in meinen Gruppen"
+msgstr "Neueste Beiträge in meinen Gruppen."
 
 #: og_views.inc:438
 msgid "There are no posts in your subscribed groups."
@@ -301,7 +303,7 @@ msgstr "Ungelesene Beiträge in abonnierten Gruppen anzeigen."
 
 #: og_views.inc:537
 msgid "Unread posts in my groups"
-msgstr "Ungelesene Beiträge in meiner Gruppe"
+msgstr "Ungelesene Beiträge in meinen Gruppen"
 
 #: og_views.inc:542
 msgid "There are no new posts in your subscribed groups."
@@ -327,11 +329,11 @@ msgstr "Typ"
 
 #: og_views.inc:646
 msgid "OG: Group home page - River of news. Default"
-msgstr ""
+msgstr "Startseite der Gruppe - Quelle der Nachrichten"
 
 #: og_views.inc:701
 msgid "List user's subscribed groups and provide link to manage subscription"
-msgstr ""
+msgstr "Mitgliedschaften eines Benutzers und Links zur Verwaltung der Mitgliedschaften"
 
 #: og_views.inc:707
 #: og.module:1733;1760
@@ -340,7 +342,7 @@ msgstr "Meine Gruppen"
 
 #: og_views.inc:708
 msgid "You may edit all your email subscriptions using this convenient page. Also, you might be interested in an <a href=\"!url\" rel=\"nofollow\">OPML feed containing feeds from all your subscribed groups</a>."
-msgstr ""
+msgstr "Alle EMail Benachrichtigungen verwalten; Hinweis: <a href=\"!url\" rel=\"nofollow\">Liste mit RSS-Newsfeeds aller abonnierten Guppen (OPML - Format) </a> kann in viele RSS-Reader importiert werden."
 
 #: og_views.inc:717
 msgid "No subscribed groups"
@@ -358,7 +360,7 @@ msgstr "Mitglieder"
 
 #: og_views.inc:771
 msgid "Email"
-msgstr "eMail"
+msgstr "E-Mail"
 
 #: og_views.inc:776
 msgid "Manage"
@@ -386,7 +388,7 @@ msgstr "Beitreten"
 # not literally
 #: og_views.inc:912
 msgid "Search for a group by name"
-msgstr "Nach einer Gruppe über den Namen suchen"
+msgstr "Über den Namen nach einer Gruppe suchen"
 
 #: og_views.inc:926
 msgid "Shows active posts across the whole site"
@@ -436,7 +438,7 @@ msgstr "Neue Kommentare"
 
 #: og_views.inc:1173
 msgid "Recent posts for current term filtered by node type and/or taxonomy term"
-msgstr ""
+msgstr "Neue Beiträge für den aktuellen Begriff gefiltert nach Inhaltstypen oder Begriffen aus einer Taxonomie"
 
 #: og_views.inc:1315
 msgid "Invite only"
@@ -464,11 +466,11 @@ msgstr "OG"
 
 #: og_workflow_ng.inc:20
 msgid "User approved to group by admin"
-msgstr "Benutzer wurde vom Administrator für die Gruppe akzeptiert"
+msgstr "Benutzer wurde vom Verwalter für die Gruppe akzeptiert"
 
 #: og_workflow_ng.inc:22
 msgid "A pending member is approved by a group administrator."
-msgstr "Ein neues Mitglied wurde von einem Gruppen-Administrator akzeptiert."
+msgstr "Ein anfragender Benutzer wurde von einem Gruppen-Verwalter akzeptiert."
 
 #: og_workflow_ng.inc:26
 msgid "User leaves group"
@@ -500,7 +502,7 @@ msgstr "Gruppenspezifische Blöcke sind nur auf Gruppenseiten und nicht auf syst
 
 #: og.module:32
 msgid "In order to let group admins determine their own group theme, you must enable multiple themes using !page."
-msgstr ""
+msgstr "Damit Verwalter in Gruppen ein eigenes Theme für die Gruppe festlegen können, müssen diese Themes aktiviert sein auf !page."
 
 #: og.module:32
 msgid "theme configuration page"
@@ -560,6 +562,7 @@ msgstr "Gruppenaktivität"
 msgid "Organic groups"
 msgstr "Organische-Gruppen"
 
+
 #: og.module:68
 msgid "Administer the suite of organic groups modules."
 msgstr "Verwalten der Suite von Organischen-Gruppen-Modulen."
@@ -570,7 +573,7 @@ msgstr "Einstellungen für organische Gruppen"
 
 #: og.module:74
 msgid "Configure the main Organic groups module (og)"
-msgstr ""
+msgstr "Konfigurieren der Hauptmodule von Organic Groups (og)"
 
 #: og.module:86
 #: og_panels.module:40
@@ -620,7 +623,7 @@ msgstr "E-Mail senden"
 
 #: og.module:371
 msgid "You may not leave this group because it is a %closed group. You should request removal from a group administrator."
-msgstr ""
+msgstr "Eine %closed Gruppe wird über eine Anfrage an den Verwalter verlassen."
 
 #: og.module:371;2640
 msgid "closed"
@@ -652,11 +655,11 @@ msgstr "Möchten Sie per Mail benachrichtigt werden, wenn eine Nachricht an dies
 
 #: og.module:390
 msgid "Your <a href=\"!prof\">personal profile</a> is configured to: <em>Always receive email notifications</em>."
-msgstr ""
+msgstr "<a href=\"!prof\">Ihr Profil </a> besagt: <em>Email Benachrichtigungen versenden</em>."
 
 #: og.module:393
 msgid "Your <a href=\"!prof\">personal profile</a> is configured to: <em>Never receive email notifications</em>."
-msgstr ""
+msgstr "<a href=\"!prof\">Ihr Profil </a> besagt: <em>Keine Email Benachrichtigungen versenden</em>."
 
 #: og.module:397;898
 msgid "Submit"
@@ -667,8 +670,9 @@ msgid "Membership saved."
 msgstr "Die Mitgliedschaft wurde gespeichert."
 
 #: og.module:468
+#, fuzzy
 msgid "User approval failed, user no longer available on website."
-msgstr ""
+msgstr "Benutzeranmeldung fehlgeschlagen."
 
 #: og.module:472
 msgid "!name already approved to group %group."
@@ -696,6 +700,7 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #: og.module:549
+#, fuzzy
 msgid "%name was promoted to %ga."
 msgstr "%name wurde befördert zu %ga."
 
@@ -712,6 +717,7 @@ msgid "Remove"
 msgstr "Entfernen"
 
 #: og.module:594
+#, fuzzy
 msgid "%name is no longer a %ga."
 msgstr "%name ist nicht länger ein %ga."
 
@@ -721,7 +727,7 @@ msgstr "E-Mail-Adressen oder Benutzernamen"
 
 #: og.module:612
 msgid "Enter up to %max email addresses or usernames. Separate multiple addresses by commas or new lines. Each person will receive an invitation message from you."
-msgstr ""
+msgstr "Bis zu %max Email Adressen oder Benutzernamen eingeben, getrennt durch Komma oder Zeilenschaltungen. Jede Person erhält eine Einladung."
 
 #: og.module:613
 msgid "Personal message"
@@ -729,7 +735,7 @@ msgstr "Persönliche Nachricht"
 
 #: og.module:613
 msgid "Optional. Enter a message which will become part of the invitation email."
-msgstr ""
+msgstr "Optional: Eine Nachricht eingeben, die in die Einladung aufgenommen wird."
 
 #: og.module:629
 msgid "You may not specify more than %max email addresses or usernames."
@@ -740,12 +746,13 @@ msgid "You may not invite yourself - @self"
 msgstr "Sie können sich nicht selbst einladen - @self"
 
 #: og.module:656
+#, fuzzy
 msgid "Invalid email address or username:"
 msgstr "Ungültige E-Mail-Adresse oder Benutzername:"
 
 #: og.module:692
 msgid "In order to join this group, you must login or register a new account. After you have successfully done so, you will need to request membership again."
-msgstr ""
+msgstr "Um der Gruppe beizutreten, bitte erst eine Benutzerkennung anlegen."
 
 #: og.module:712
 msgid "@user is already a member the group @group"
@@ -788,8 +795,9 @@ msgid "You are now a member of the %group."
 msgstr "Sie sind jetzt ein Mitglied von %group."
 
 #: og.module:798
+#, fuzzy
 msgid "Membership request to the @group group was rejected, only group administrators can add users to this group."
-msgstr ""
+msgstr "Nur Verwalter können Mitglieder in die Gruppe @group aufnehmen."
 
 #: og.module:836
 msgid "Are you sure you want to remove !name from the group %title?"
@@ -822,23 +830,25 @@ msgstr "(Bestätigung erforderlich)"
 
 #: og.module:954
 msgid "Administrator"
-msgstr "Administrator"
+msgstr "Verwalter"
 
 #: og.module:960
+#, fuzzy
 msgid "Admin: Remove"
-msgstr "Admin: Entfernen"
+msgstr "Verwalter: Entfernen"
 
 #: og.module:963
+#, fuzzy
 msgid "Admin: Create"
-msgstr "Admin: Erstellen"
+msgstr "Verwalter: Erstellen"
 
 #: og.module:967
 msgid "Approve"
-msgstr "Bestätigen"
+msgstr "zustimmen"
 
 #: og.module:968
 msgid "Deny"
-msgstr "Sperren"
+msgstr "ablehnen"
 
 #: og.module:1013;1016
 msgid "admin"
@@ -930,7 +940,7 @@ msgstr "Sprache"
 
 #: og.module:1247
 msgid "Selecting a different locale will change the interface language of the group. Users who have chosen a preferred language always see their chosen language."
-msgstr ""
+msgstr "Umschalten der Sprache für das Benutzerinterface der Gruppe, Benutzer können unabhängig davon ihre bevorzugte Sprache haben."
 
 #: og.module:1252
 msgid "Selecting a different theme will change the look and feel of the group."
@@ -942,11 +952,11 @@ msgstr "Der Gruppenmanager %name, muss eine E-Mail-Adresse in seinem <a href=\"!
 
 #: og.module:1368
 msgid "You must use the default input format when authoring a group node."
-msgstr ""
+msgstr "Für Beiträge in Gruppen das Standardeingabeformat verwenden."
 
 #: og.module:1375
 msgid "You must !join before posting on this web site."
-msgstr ""
+msgstr "Bitte zuerst der Gruppe beitreten !join, und dann Beiträge schreiben."
 
 #: og.module:1375;1837
 msgid "join a group"
@@ -970,15 +980,18 @@ msgstr "Gruppenmanager"
 
 #: og.module:1503
 msgid "Sticky at top of group home page and other lists"
-msgstr ""
+msgstr "Auf der Startseite der Gruppe und in Listen immer oben."
 
 #: og.module:1510
 msgid "Create foo"
 msgstr "Foo anlegen"
 
+
 #: og.module:1532
 msgid "To display a View as a tab on your Organic Groups group home pages, set the url to 'node/$group/custom' (where <em>custom</em> is whatever you wish). Then open Page >> Menu and check <em>Provide Menu</em> and <em>Provide Menu as Tab</em>; also make the first argument in the View be the <em>OG: Group nid(s)</em> argument. The <em>$group</em> path element is a placeholder for the group nid and it ensures that the tab <strong>only</strong> appears on OG group nodes."
 msgstr ""
+"Um eine Ansicht als Reiter in die Startseite der Gruppe zu integrieren, setzen Sie den Pfad auf  'node/$group/xxx'. Ersetzten Sie xxx mit einem beliebigen Text.\n"
+"Um einen Menüeintrag zu erstellen, prüfen Sie <em>Menü erstellen</em> and <em>Menüpunkt erstellen</em>, dabei die Gruppen ID als erstes Argument übergeben, $group kann als Platzhalter für die ID der Gruppe verwendet werden."
 
 #: og.module:1552
 msgid "Organic groups usage"
@@ -990,7 +1003,7 @@ msgstr "Geben Sie an, wie organische Gruppen diesen Beitragstyp behandeln sollen
 
 #: og.module:1586
 msgid "The node access table was rebuilt for %type posts."
-msgstr ""
+msgstr "Die Tabelle für die Zugriffsberechtigungen wurde für %type Beiträge erneuert."
 
 #: og.module:1592
 msgid "Do nothing."
@@ -1018,7 +1031,7 @@ msgstr "Zielgruppe"
 
 #: og.module:1601
 msgid "If you chose <b>Move all group posts</b> above, specify a destination group."
-msgstr ""
+msgstr "Zum Verschieben aller Beiträge in der Gruppe eine Gruppe als Ziel angeben."
 
 #: og.module:1605
 msgid "Delete group"
@@ -1037,6 +1050,7 @@ msgid "You must !join before posting a %type."
 msgstr "Sie müssen !join um einen %type zu speichern."
 
 #: og.module:1861
+#, fuzzy
 msgid "OG: Notify group members about comment %id on !link."
 msgstr "OG: Gruppenmitglieder über Kommentar %id auf !link benachrichtigen."
 
@@ -1051,6 +1065,7 @@ msgstr "Orginal ansehen"
 #: og.module:2109
 msgid "@group: '@title' at @site"
 msgstr "@group: ‚@title‘ auf @site"
+
 
 #: og.module:2111
 msgid ""
@@ -1077,6 +1092,7 @@ msgstr ""
 "Besuchen Sie !group_url, um Ihre Mitgliedschaft zu verwalten."
 
 #: og.module:2113
+#, fuzzy
 msgid ""
 "@body\n"
 "\n"
@@ -1086,17 +1102,19 @@ msgstr ""
 "@body\n"
 "\n"
 "--\n"
-"Diese Nachricht wurde von einem Administrator der Gruppe ‚@group‘ auf @site abgeschickt. Um diese Gruppe zu besuchen, klicken Sie auf !url_group. Um diese Nachrichten nicht mehr zu erhalten, klicken Sie auf !url_unsubscribe."
+"Diese Nachricht wurde von einem Verwalter der Gruppe ‚@group‘ auf @site geschickt. Um diese Gruppe zu besuchen, klicken Sie auf !url_group. Um diese Nachrichten nicht mehr zu erhalten, klicken Sie auf !url_unsubscribe."
 
 #: og.module:2115
 msgid "Membership request approved for '@title'"
 msgstr "Der Antrag auf Mitgliedschaft für ‚%title‘ wurde akzeptiert."
 
 #: og.module:2117
+#, fuzzy
 msgid "You may now post messages in this group located at !group_url."
 msgstr "Sie dürfen jetzt Beiträge in dieser Gruppe verfassen, die sich unter !group_url befindet."
 
 #: og.module:2119
+#, fuzzy
 msgid "Membership request denied for '@title'."
 msgstr "Der Antrag auf Mitgliedschaft für ‚@title‘ wurde abgelehnt."
 
@@ -1105,8 +1123,9 @@ msgid "Sorry, your membership request was denied."
 msgstr "Der Antrag auf Mitgliederschaft wurde leider abgelehnt."
 
 #: og.module:2123
+#, fuzzy
 msgid "Invitation to join the group '@group' at @site."
-msgstr "Einladung der Gruppe „@group“ auf @site beizutreten."
+msgstr "Eine Einladung der Gruppe „@group“ auf @site beizutreten."
 
 #: og.module:2125
 msgid ""
@@ -1125,6 +1144,7 @@ msgstr ""
 "@body"
 
 #: og.module:2127
+#, fuzzy
 msgid "Membership request for '@group' from '@username'."
 msgstr "Mitgliedschaftsanfrage von „@username“ für „@group“."
 
@@ -1133,6 +1153,9 @@ msgid ""
 "To instantly approve this request, visit !approve_url.\n"
 "You may deny this request or manage members at !group_url."
 msgstr ""
+"Der Anfrage zuzustimmen:  !approve_url.\n"
+"Die Anfrage ablehnen: !group_url."
+
 
 #: og.module:2131
 msgid "You are now an administrator for the group '@group'."
@@ -1167,6 +1190,7 @@ msgid "Always send email notifications"
 msgstr "Immer E-Mail-Benachrichtigungen verschicken"
 
 #: og.module:2202
+#, fuzzy
 msgid "Selectively send email notification based on the checkbox for each of my group's <em>My Membership</em> page."
 msgstr "Ausgewählte E-Mail-Benachrichtigungen verschicken, basierend auf dem Kontrollkästchen für jede der Gruppen auf der <em>Meine Mitgliedschaft</em>-Seite."
 
@@ -1263,6 +1287,7 @@ msgid "email subscription"
 msgstr "E-Mail-Mitgliedschaft"
 
 #: og.module:2456
+#, fuzzy
 msgid "Or subscribe to these personalized, sitewide feeds:"
 msgstr "Oder diese personalisierten allgemeinen Newsfeeds abonnieren:"
 
@@ -1376,6 +1401,7 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: og.module:2753
+#, fuzzy
 msgid "New groups don't appear in the groups directory. Administrators control the directory exclusively."
 msgstr "Neue Gruppen erscheinen nicht im Gruppen-Verzeichnis. Ausschließlich Administratoren steuern das Verzeichnis."
 
@@ -1412,6 +1438,7 @@ msgid "groups directory"
 msgstr "Gruppenverzeichnis"
 
 #: og.module:2761
+#, fuzzy
 msgid "New groups don't appear on the registration form. Administrators control the form exclusively."
 msgstr "Neue Gruppen erscheinen nicht im Registrierungsformular. Ausschließlich Administratoren steuern das Formular."
 
@@ -1436,6 +1463,7 @@ msgid "not on form"
 msgstr "nicht im Formular"
 
 #: og.module:2766
+#, fuzzy
 msgid "Registration form control"
 msgstr "Verwaltung des Registrierungsformulars"
 
@@ -1489,7 +1517,7 @@ msgstr ""
 
 #: og.module:2784
 msgid "typical Views themeing techniques"
-msgstr ""
+msgstr "typische Techniken Ansichten zu gestalten (Theme)"
 
 #: og.module:2787
 msgid "Member pictures"
@@ -1521,7 +1549,7 @@ msgstr "Neuer Inhaltsbetreff"
 
 #: og.module:2797
 msgid "Subject of email for new content. Available variables: @group, !group_url, @type, @site, !content_url, !reply_url, @title, @subject, @node_full, @node_teaser, @username. %subject contains the comment title in the case of a comment but the node title in the case of a new post. @title is always the node title."
-msgstr "Der Textkörper der E-Mail für neuem Inhalt. Verfügbare Variablen: @group, !group_url, @type, @site, !content_url, !reply_url, @title, @subject, @node_full, @node_teaser und @username. %subject enthält für einen Kommentar den Kommentartitel und bei einem neuen Beitrag den Beitragstitel. %title enthält immer den Titel des Beitrags."
+msgstr "Betreff der E-Mail für neuem Inhalt. Verfügbare Variablen: @group, !group_url, @type, @site, !content_url, !reply_url, @title, @subject, @node_full, @node_teaser und @username. %subject enthält  für einen  Kommentar den Kommentartitel und bei einem neuen Beitrag den Beitragstitel. %title enthält immer den Titel des Beitrags."
 
 #: og.module:2798
 msgid "New content body"
@@ -1585,7 +1613,7 @@ msgstr "Textkörper der Einladungs-E-Mail an Benutzer"
 
 #: og.module:2805
 msgid "The body of the email sent to users invited to join a group. Available variables: @group, @site, @description, !group_url, @body"
-msgstr "Der Betreff der E-Mail, die an eingeladenen Benutzer zum Beitritt in die Gruppe verschickt wird. Verfügbare Variablen: @group, @site, @description, !group_url, @body"
+msgstr "Der Textkörper der E-Mail, die an eingeladene Benutzer zum Beitritt in die Gruppe verschickt wird. Verfügbare Variablen: @group, @site, @description, !group_url, @body"
 
 #: og.module:2806
 msgid "Request user email subject"
@@ -1593,7 +1621,7 @@ msgstr "Betreff der E-Mail für die Anfrage eines Benutzers"
 
 #: og.module:2806
 msgid "The subject of the email sent to a user's request to join a group. Available variables: @group, @username, !approve_url, !group_url"
-msgstr ""
+msgstr "Der Betreff der E-Mail, die an anfragnde Benutzer zum Beitritt in die Gruppe verschickt wird. Verfügbare Variablen: @group, @username, !approve_url, !group_url"
 
 #: og.module:2807
 msgid "Request user email body"
@@ -1601,7 +1629,7 @@ msgstr "Textkörper der E-Mail für den Antrag eines Benutzers"
 
 #: og.module:2807
 msgid "The body of the email sent to a user's request to join a group. Available variables: @group, @username, !approve_url, !group_url"
-msgstr ""
+msgstr "Der Textkörper der E-Mail, die an anfragende Benutzer zum Beitritt in die Gruppe verschickt wird. Verfügbare Variablen:  @group, @username, !approve_url, !group_url"
 
 #: og.module:2808
 msgid "New admin user email subject"
@@ -1624,6 +1652,7 @@ msgid "(pending approval)"
 msgstr "(wartet auf Bestätigung)"
 
 #: og.module:2859
+#, fuzzy
 msgid "Add a user to a group."
 msgstr "Einen Benutzer zu einer Gruppe hinzufügen."
 
@@ -1641,7 +1670,7 @@ msgstr "[ogname]"
 
 #: og.module:2880
 msgid "The name of the organic group this post belongs to."
-msgstr ""
+msgstr "Der Name der Gruppe zu der dieser Beitrag gehört."
 
 #: og.module:2904
 msgid "Title of top group"
@@ -1660,6 +1689,7 @@ msgid "README file"
 msgstr "LIESMICH-Datei"
 
 #: (duplicate) og.module:2977
+#, fuzzy
 msgid "Organic groups group type"
 msgstr "Gruppentyp von organischen Gruppen"
 
@@ -1668,6 +1698,7 @@ msgid "You have no node types which are acting as groups. See the Notes section 
 msgstr "Es gibt keine Inhaltstypen, die als Gruppen dienen. Nähere Informationen gibt es im Hinweisbereich der !readme und bei den Inhaltstypen in den <a href=\"!settings\">OG-Einstellungen</a>."
 
 #: (duplicate) og.module:2985
+#, fuzzy
 msgid "Organic groups modules"
 msgstr "Module für organischen Gruppen"
 
@@ -1677,8 +1708,10 @@ msgstr "Organische Gruppen funktioniert am besten, wenn das !job_queue aktiviert
 
 #: (duplicate) og.module:2993
 #: og_access.info:0
+#, fuzzy
 msgid "Organic groups access control"
 msgstr "Zugriffskontrolle für organischen Gruppen"
+
 
 #: (duplicate) og.module:2994
 msgid "Organic groups access control module is disabled. See the !modules"
@@ -1739,6 +1772,7 @@ msgid "og"
 msgstr "og"
 
 #: og_access.module:20
+#, fuzzy
 msgid "Organic groups access configuration"
 msgstr "Zugriffskonfiguration für organische Gruppen"
 
@@ -1747,14 +1781,17 @@ msgid "Choose whether new groups should be private or public"
 msgstr "Auswählen, ob neue Gruppen privat oder öffentlich sind"
 
 #: og_access.module:33
+#, fuzzy
 msgid "Visible only within the targeted groups."
 msgstr "Nur in den ausgewählten Gruppen sichtbar."
 
 #: og_access.module:33
+#, fuzzy
 msgid "Visible within the targeted groups and on other pages."
 msgstr "Sowohl in den ausgewählten Gruppen, als auch auf anderen Seiten sichtbar."
 
 #: og_access.module:33
+#, fuzzy
 msgid "Visibility chosen by author/editor using a checkbox on the posting form."
 msgstr "Die vom Autor/Bearbeiter über ein Kontrollkästchen im Beitragsformular ausgewählte Sichtbarkeit. "
 
@@ -1788,13 +1825,14 @@ msgstr ""
 
 # Standardzielgruppe(n) ?
 #: og_access.module:37
+#, fuzzy
 msgid "New group home pages and default audience are always public."
-msgstr "Neue Gruppen und Gruppenhauptseiten sind immer öffentlich."
+msgstr "Neue Gruppen und Standardgruppen sind immer öffentlich."
 
 # Standardzielgruppe(n) ?
 #: og_access.module:38
 msgid "New group home pages and default audience are always private."
-msgstr "Neue Gruppen und Gruppenhauptseiten sind immer privat."
+msgstr "Neue Gruppenhauptseiten und die Standardgruppen sind immer privat."
 
 #: og_access.module:39
 msgid "Group administrator chooses whether her group homepage and audience are private or not. Defaults to %yes."
@@ -1829,6 +1867,7 @@ msgid "Private group"
 msgstr "Private Gruppe"
 
 #: og_access.module:86
+#, fuzzy
 msgid "Should this group be visible only to its members? Disabled if the group is set to <em>List in Directory</em> or <em>Membership requests: open</em>."
 msgstr "Soll diese Gruppe nur für deren Mitglieder sichtbar sein? Deaktiviert, sobald die Gruppe auf <em>\"Im Verzeichnis anzeigen\"</em> oder <em>\"Mitgliedschaftsanfragen: offen\"</em> eingestellt ist."
 
@@ -1855,6 +1894,7 @@ msgid "After enabling this module, visit the new Pages tab on any group. There, 
 msgstr ""
 
 #: og_panels.module:9
+#, fuzzy
 msgid "Create custom pages for your group. Use custom pages to organize your content in a pretty and informative manner. Your group can group to be a whole website within a web site. Each custom page becomes a tab when viewing your group. One of your custom pages should be designated as your <em>group home page</em>. That page will then display when visitors first arrive at your group."
 msgstr "Benutzerdefinierte Seiten für die Gruppe erstellen. Benutzerdefinierte Seiten können verwendet werden, um Inhalt zu gliedern. Die Gruppe kann so gruppiert werden, dass diese eine ganze Website innerhalb einer Website darstellt. Jede benutzerdefinierte Seite wird in der Gruppenansicht als Reiter dargestellt. Eine der benutzerdefinierten Seiten sollte als <em>Gruppen-Startseite</em> festgelegt werden. Diese Seite wird angezeigt, wenn Besucher das erste Mal bei der Gruppe ankommen."
 
@@ -2031,6 +2071,7 @@ msgid "Group search"
 msgstr "Gruppensuche"
 
 #: og_panels.module:604
+#, fuzzy
 msgid "OG faces"
 msgstr "OG-Gesichter"
 
@@ -2080,6 +2121,7 @@ msgid "Welcome message"
 msgstr "Willkommensmitteilung"
 
 #: includes/groupcontent.inc:8
+#, fuzzy
 msgid "The welcome message for the group. Specified on group edit form."
 msgstr "Die Willkommensmeldung für die Gruppe. Diese wird auf dem „Bearbeiten“-Formular der Gruppe angegeben."
 
@@ -2117,14 +2159,17 @@ msgstr "Willkommen"
 
 # not literally
 #: includes/groupcontent.inc:83
+#, fuzzy
 msgid "Welcome statement goes here."
 msgstr "Die Willkommensmeldung wird hier angezeigt."
 
 #: includes/groupcontent.inc:100
+#, fuzzy
 msgid "Description goes here."
 msgstr "Die Beschreibung wird hier angezeigt."
 
 #: includes/groupcontent.inc:117
+#, fuzzy
 msgid "Member list goes here."
 msgstr "Die Mitgliederliste wird hier angezeigt."
 
@@ -2134,10 +2179,12 @@ msgstr "Gruppensuche"
 
 # not literally
 #: includes/groupcontent.inc:136
+#, fuzzy
 msgid "Search form goes here."
 msgstr "Das Suchformular wird hier angezeigt."
 
 #: includes/groupcontent.inc:153
+#, fuzzy
 msgid "Faces go here."
 msgstr "Die Gesichter werden hier angezeigt."
 
@@ -2158,8 +2205,9 @@ msgid "Number of members"
 msgstr "Anzahl von Mitgliedern"
 
 #: includes/groupcontent.inc:186
+#, fuzzy
 msgid "Maximum number of members that should appear on the list."
-msgstr "Die maximale Anzahl an Mitgliedern, die in der Liste erscheinen sollen."
+msgstr "Die maximale Anzahl an Mitgliedern, die in der Liste angezeigt werden sollen"
 
 #: includes/groupcontent.inc:195
 msgid "You may specify which types of group members appear in this listing."
@@ -2227,11 +2275,11 @@ msgstr "Der Beitrag vom Typ %type ist kein Gruppentyp."
 #: og_notifications/og_notifications.module:60
 #, fuzzy
 msgid "Group subscriptions"
-msgstr "Meine Abonnements"
+msgstr "Abonnements der Gruppe"
 
 #: og_notifications/og_notifications.module:74
 msgid "Allowed content types"
-msgstr "Erlaubte Inhaltstypen"
+msgstr "Zugelassene Inhaltstypen"
 
 #: og_notifications/og_notifications.module:77
 msgid "Select specific content types which should be <em>allowed</em> for subscriptions to <em>group + content type</em>."
@@ -2239,7 +2287,7 @@ msgstr ""
 
 #: og_notifications/og_notifications.module:89
 msgid "Automatically enable notifications for any organic groups that I join."
-msgstr ""
+msgstr "Für alle Gruppen, denen ich beitrete, die automatische Benachrichtigung aktivieren."
 
 #: og_notifications/og_notifications.module:90
 msgid "Group notifications can be <a href=\"!manage-url\">customised</a> in greater detail if necessary."
@@ -2263,11 +2311,11 @@ msgstr "Inhaltstyp in der Gruppe"
 
 #: og_notifications/og_notifications.module:238
 msgid "Group Type"
-msgstr "Gruppentyp von organischen Gruppen"
+msgstr "Gruppentyp"
 
 #: og_notifications/og_notifications.module:289
 msgid "Send interval"
-msgstr "Intervall für Versand"
+msgstr "Intervall für das Versenden"
 
 #: og_notifications/og_notifications.module:289
 msgid "Send method"
@@ -2276,7 +2324,7 @@ msgstr "Sendemethode"
 #: og_notifications/og_notifications.module:298;498;514
 #, fuzzy
 msgid "%type posts in this group"
-msgstr "Keine Beiträge in dieser Gruppe."
+msgstr "%type-Beiträge in dieser Gruppe"
 
 #: og_notifications/og_notifications.module:316
 msgid "There are no active group subscriptions available."
@@ -2285,31 +2333,31 @@ msgstr ""
 #: og_notifications/og_notifications.module:491
 #, fuzzy
 msgid "To all posts in this group"
-msgstr "Keine öffentlichen Beiträge in dieser Gruppe."
+msgstr "Zu allen Beiträgen in dieser Gruppe"
 
 #: og_notifications/og_notifications.module:509
 #, fuzzy
 msgid "Posts in group %name"
-msgstr "OG: Beiträge in der aktuellen Gruppe"
+msgstr "Beiträge in der Gruppe %name"
 
 #: og_notifications/og_notifications.module:49
 #, fuzzy
 msgid "subscribe to content in groups"
-msgstr "Inhalt in @layout verschieben nach"
+msgstr "abonnieren von Beiträgen der Gruppen"
 
 #: og_notifications/og_notifications.module:0
 #, fuzzy
 msgid "og_notifications"
-msgstr "E-Mail-Benachrichtigungen"
+msgstr "Gruppenbenachrichtigungen"
 
 #: og_notifications/og_notifications.info:0
 msgid "Organic Groups Notifications"
-msgstr "Benachrichtungen für organische Gruppen"
+msgstr "Benachrichtigungen für organische Gruppen"
 
 #: og_notifications/og_notifications.info:0
 #, fuzzy
 msgid "Allows users to subscribe to content in groups."
-msgstr "Ermöglicht Benutzern, inhaltsbezogene Ereignisse zu abonnieren."
+msgstr "Benutzer können die Beiträge von Gruppen abonnieren."
 
 # Not literally
 #: tests/og_testcase.php:21

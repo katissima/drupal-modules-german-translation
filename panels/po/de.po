@@ -193,6 +193,7 @@ msgstr "Falls aktiviert, und das Argument vorhanden ist, verwendet es eine eigen
 #: arguments/node_edit.inc:77
 #: arguments/term.inc:115
 #: arguments/vid.inc:56
+#, fuzzy
 msgid "Own display"
 msgstr "Eigene Anzeige"
 
