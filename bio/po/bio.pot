@@ -1,0 +1,175 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  bio_panels.inc,v 1.1.2.3 2008/01/25 07:33:54 webchick
+#  bio_views.inc,v 1.1.2.5 2008/01/25 07:33:54 webchick
+#  bio.module,v 1.2.2.25 2008/01/28 08:30:13 webchick
+#  bio.info,v 1.1 2007/01/30 06:25:59 vauxia
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-01 21:59+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: bio_panels.inc:15
+msgid "User @type"
+msgstr ""
+
+#: bio_panels.inc:17
+msgid "Adds a user's @type node."
+msgstr ""
+
+#: bio_panels.inc:18
+msgid "User"
+msgstr ""
+
+#: bio_views.inc:161
+msgid "Node: Type is Bio node"
+msgstr ""
+
+#: bio_views.inc:162
+msgid "Is"
+msgstr ""
+
+#: bio_views.inc:162
+msgid "Is not"
+msgstr ""
+
+#: bio_views.inc:164
+msgid "This allows you to filter by whether or not the node is a bio node. Select \"Is\" to limit to bio nodes, select \"is not\" to limit to all other content types"
+msgstr ""
+
+#: bio_views.inc:171
+msgid "Bio: Author has a Bio"
+msgstr ""
+
+#: bio_views.inc:172
+msgid "Does"
+msgstr ""
+
+#: bio_views.inc:172
+msgid "Does not"
+msgstr ""
+
+#: bio_views.inc:173
+msgid "Have a bio node"
+msgstr ""
+
+#: bio_views.inc:174
+msgid "Filter in only nodes for which the author has or does not have a bio node."
+msgstr ""
+
+#: bio.module:45;46
+msgid "User biographies"
+msgstr ""
+
+#: bio.module:100
+msgid "This field is disabled. You cannot alter the author of this entry from within the user area."
+msgstr ""
+
+#: bio.module:186
+msgid "Bio: added %user bio upon registration."
+msgstr ""
+
+#: bio.module:186
+msgid "view"
+msgstr ""
+
+#: bio.module:215
+msgid "Biography"
+msgstr ""
+
+#: bio.module:239
+msgid "This user already has a @bio. Edit it <a href=\"@link\">here</a> or assign this entry to another user."
+msgstr ""
+
+#: bio.module:288
+msgid "by @user"
+msgstr ""
+
+#: bio.module:291
+msgid "View @user's @bio."
+msgstr ""
+
+#: bio.module:327
+msgid "Content type for user biographies"
+msgstr ""
+
+#: bio.module:328
+msgid "The content type for user biographies. Each user may create only one node of this type"
+msgstr ""
+
+#: bio.module:336
+msgid "Display bio link"
+msgstr ""
+
+#: bio.module:337
+msgid "Display a link to author's bio if it is available."
+msgstr ""
+
+#: bio.module:345
+msgid "Use bio for user profiles"
+msgstr ""
+
+#: bio.module:346
+msgid "View, edit, and display biography information on the user account page."
+msgstr ""
+
+#: bio.module:351
+msgid "Takeover profile."
+msgstr ""
+
+#: bio.module:352
+msgid "Display nothing but the bio node on the user profile page."
+msgstr ""
+
+#: bio.module:360
+msgid "Show fields on registration form"
+msgstr ""
+
+#: bio.module:361
+msgid "Disabled"
+msgstr ""
+
+#: bio.module:361
+msgid "Enabled"
+msgstr ""
+
+#: bio.module:363
+msgid "Enable this option to display bio fields on the user registration form. This will automatically create a bio record for a user when they register."
+msgstr ""
+
+#: bio.module:382
+msgid "Registration form fields"
+msgstr ""
+
+#: bio.module:385
+msgid "Fields checked here will be displayed on the user registration form. Required fields are always shown."
+msgstr ""
+
+#: bio.module:186
+msgid "content"
+msgstr ""
+
+#: bio.module:0
+msgid "bio"
+msgstr ""
+
+#: bio.info:0
+msgid "Bio"
+msgstr ""
+
+#: bio.info:0
+msgid "Use a custom node type for user bios"
+msgstr ""
+

@@ -1,0 +1,176 @@
+# $Id$
+# LANGUAGE translation of Drupal (general)
+# Copyright 2009 NAME <>
+# Generated from files:
+# bio_panels.inc,v 1.1.2.3 2008/01/25 07:33:54 webchick
+# bio_views.inc,v 1.1.2.5 2008/01/25 07:33:54 webchick
+# bio.module,v 1.2.2.25 2008/01/28 08:30:13 webchick
+# bio.info,v 1.1 2007/01/30 06:25:59 vauxia
+# , fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-01 21:59+0100\n"
+"PO-Revision-Date: 2009-03-01 23:46+0100\n"
+"Last-Translator: NAME <Thomas Zahreddin>\n"
+"Language-Team:  <thomas@VoiceHero.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: bio_panels.inc:15
+msgid "User @type"
+msgstr "Benutzer @type"
+
+#: bio_panels.inc:17
+#, fuzzy
+msgid "Adds a user's @type node."
+msgstr "Hinzufügen von @type (Inhaltstyp)."
+
+#: bio_panels.inc:18
+msgid "User"
+msgstr "Benutzer"
+
+#: bio_views.inc:161
+msgid "Node: Type is Bio node"
+msgstr "Inhaltstyp: Biografie"
+
+#: bio_views.inc:162
+msgid "Is"
+msgstr "Ja"
+
+#: bio_views.inc:162
+msgid "Is not"
+msgstr "Nein"
+
+#: bio_views.inc:164
+msgid "This allows you to filter by whether or not the node is a bio node. Select \"Is\" to limit to bio nodes, select \"is not\" to limit to all other content types"
+msgstr "Filtern nach der Eigenschaft, ob einei Boigrafie vorhanden ist."
+
+#: bio_views.inc:171
+msgid "Bio: Author has a Bio"
+msgstr "Bio: Biografie des Autors"
+
+#: bio_views.inc:172
+msgid "Does"
+msgstr "Vorhanden"
+
+#: bio_views.inc:172
+msgid "Does not"
+msgstr "Nicht vorhanden."
+
+#: bio_views.inc:173
+msgid "Have a bio node"
+msgstr "Biografie vorhanden"
+
+#: bio_views.inc:174
+msgid "Filter in only nodes for which the author has or does not have a bio node."
+msgstr "Filtern nach Benutzern, die eine Biografie oder eben keine Biografie haben."
+
+#: bio.module:45;46
+msgid "User biographies"
+msgstr "Benutzer Biografie"
+
+#: bio.module:100
+msgid "This field is disabled. You cannot alter the author of this entry from within the user area."
+msgstr "Das Feld ist deaktiviert. Der Autor des Beitrags kann hier nicht geändert werden."
+
+#: bio.module:186
+msgid "Bio: added %user bio upon registration."
+msgstr "Bio: hinzufügen von %user bei der Registrierung."
+
+#: bio.module:186
+msgid "view"
+msgstr "Ansicht"
+
+#: bio.module:215
+msgid "Biography"
+msgstr "Biografie"
+
+#: bio.module:239
+msgid "This user already has a @bio. Edit it <a href=\"@link\">here</a> or assign this entry to another user."
+msgstr "Der Bentutzer hat bereits @bio. <a·href=\"@link\">Ändern</a> oder diesen Beitrag einem anderen Benutzer zuordnen."
+
+#: bio.module:288
+msgid "by @user"
+msgstr "von @user"
+
+#: bio.module:291
+msgid "View @user's @bio."
+msgstr "Biografie ·@user·@bio"
+
+#: bio.module:327
+msgid "Content type for user biographies"
+msgstr "Inhaltstyp für die Biografie der Benutzer"
+
+#: bio.module:328
+msgid "The content type for user biographies. Each user may create only one node of this type"
+msgstr "Der Inhaltstyp für die Biografie des Benutzers. Jeder Benutzer kann nur eine Beitrag dieses Inhaltstyps erzeugen."
+
+#: bio.module:336
+msgid "Display bio link"
+msgstr "Link zur Biografie"
+
+#: bio.module:337
+msgid "Display a link to author's bio if it is available."
+msgstr "Einen Link auf die Biografie des Autors anzeigen, falls eine Biografie vorhanden ist."
+
+#: bio.module:345
+msgid "Use bio for user profiles"
+msgstr "Biografie als Profil für Benutzer verwenden"
+
+#: bio.module:346
+msgid "View, edit, and display biography information on the user account page."
+msgstr "Anzeigen und ändern der Biografie auf der Seite des Benutzerkontos."
+
+#: bio.module:351
+#, fuzzy
+msgid "Takeover profile."
+msgstr "Biografie als Profil"
+
+#: bio.module:352
+msgid "Display nothing but the bio node on the user profile page."
+msgstr "Auf der Profilseite des Benutzer ausschließlich den Inhaltstyp der Biografie anzeigen."
+
+#: bio.module:360
+msgid "Show fields on registration form"
+msgstr "Anzeige des Feldes während der Registrierung"
+
+#: bio.module:361
+msgid "Disabled"
+msgstr "deaktiviert"
+
+#: bio.module:361
+msgid "Enabled"
+msgstr "Aktiv"
+
+#: bio.module:363
+msgid "Enable this option to display bio fields on the user registration form. This will automatically create a bio record for a user when they register."
+msgstr "Dieses Option aktivieren, um Felder des Inhaltstyps Biografie während der Regisrierung zu verwenden."
+
+#: bio.module:382
+msgid "Registration form fields"
+msgstr "Felder für die Registrierung"
+
+#: bio.module:385
+msgid "Fields checked here will be displayed on the user registration form. Required fields are always shown."
+msgstr "Markierte Felder werden auf dem Registrierungsformular angezeigt."
+
+#: bio.module:186
+msgid "content"
+msgstr "Inhalt"
+
+#: bio.module:0
+msgid "bio"
+msgstr "bio"
+
+#: bio.info:0
+msgid "Bio"
+msgstr "Bio"
+
+#: bio.info:0
+msgid "Use a custom node type for user bios"
+msgstr "Einen eigenen Inhaltstyp für die Biografie des Benutzers verwenden."
+

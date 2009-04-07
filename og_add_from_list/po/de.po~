@@ -1,0 +1,61 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  og_add_from_list.module: n/a
+#  og_add_from_list.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-27 20:39+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: og_add_from_list.module:18
+msgid "Add from user listing"
+msgstr ""
+
+#: og_add_from_list.module:44
+msgid "Authenticated user"
+msgstr ""
+
+#: og_add_from_list.module:50
+msgid "User"
+msgstr ""
+
+#: og_add_from_list.module:50
+msgid "Role"
+msgstr ""
+
+#: og_add_from_list.module:67
+msgid "Add Selected Users"
+msgstr ""
+
+#: og_add_from_list.module:85
+msgid "The selected users were added to this group"
+msgstr ""
+
+#: og_add_from_list.module:0
+msgid "og_add_from_list"
+msgstr ""
+
+#: og_add_from_list.info:0
+msgid "OG add from list"
+msgstr ""
+
+#: og_add_from_list.info:0
+msgid "Add users from lists of existing users rather than having to enter the names from memory."
+msgstr ""
+
+#: og_add_from_list.info:0
+msgid "Organic groups"
+msgstr ""
+

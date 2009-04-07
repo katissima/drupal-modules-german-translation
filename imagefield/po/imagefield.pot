@@ -1,0 +1,235 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  imagefield.module,v 1.30.2.6.2.70 2009/02/09 21:01:38 drewish
+#  imagefield.info,v 1.4.4.3 2008/04/19 23:17:02 dopry
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-15 13:18+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: imagefield.module:125
+msgid "Default image"
+msgstr ""
+
+#: imagefield.module:130
+msgid "Use default image"
+msgstr ""
+
+#: imagefield.module:132
+msgid "Check here if you want to use a image as default."
+msgstr ""
+
+#: imagefield.module:142
+msgid "Upload image"
+msgstr ""
+
+#: imagefield.module:143
+msgid "Choose a image that will be used as default."
+msgstr ""
+
+#: imagefield.module:168
+msgid "The default image could not be uploaded. The destination(%d) does not exist or is not writable by the webserver."
+msgstr ""
+
+#: imagefield.module:173
+msgid "The default image could not be uploaded. Failed saving to destination(%d)."
+msgstr ""
+
+#: imagefield.module:195
+msgid "Has Image"
+msgstr ""
+
+#: imagefield.module:263
+msgid "Image upload was unsuccessful."
+msgstr ""
+
+#: imagefield.module:422
+msgid "Maximum resolution for Images"
+msgstr ""
+
+#: imagefield.module:427
+msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction. If a larger image is uploaded, it will be resized to reflect the given width and height."
+msgstr ""
+
+#: imagefield.module:431
+msgid "Maximum filesize for Images"
+msgstr ""
+
+#: imagefield.module:434
+msgid "The maximum allowed image file size expressed in kilobytes. Set to 0 for no restriction."
+msgstr ""
+
+#: imagefield.module:438
+msgid "Maximum number of images"
+msgstr ""
+
+#: imagefield.module:441
+msgid "The maximum number of images allowed. Set to 0 for no restriction. This only applies if multiple values are enabled."
+msgstr ""
+
+#: imagefield.module:445
+msgid "Image path"
+msgstr ""
+
+#: imagefield.module:447
+msgid "Optional subdirectory within the \"%dir\" directory where images will be stored. Do not include trailing slash."
+msgstr ""
+
+#: imagefield.module:450
+msgid "You can use the following tokens in the image path."
+msgstr ""
+
+#: imagefield.module:455
+msgid "Permitted upload file extensions."
+msgstr ""
+
+#: imagefield.module:459
+msgid "Extensions a user can upload to this field. Seperate extensions with a space and do not include the leading dot."
+msgstr ""
+
+#: imagefield.module:464
+msgid "Enable custom alternate text"
+msgstr ""
+
+#: imagefield.module:466
+msgid "Enable custom alternate text for images. Filename will be used if not checked."
+msgstr ""
+
+#: imagefield.module:470
+msgid "Enable custom title text"
+msgstr ""
+
+#: imagefield.module:472
+msgid "Enable custom title text for images. Filename will be used if not checked."
+msgstr ""
+
+#: imagefield.module:511
+msgid "Imagefield failed to create directory(%d) at (%p)."
+msgstr ""
+
+#: imagefield.module:526
+msgid "The image %filename was resized to fit within the maximum allowed resolution of %resolution pixels"
+msgstr ""
+
+#: imagefield.module:671
+msgid "Images are not saved until the form is submitted."
+msgstr ""
+
+#: imagefield.module:703
+msgid "<br />Allowed extensions: %ext"
+msgstr ""
+
+#: imagefield.module:709
+msgid "Upload a new image"
+msgstr ""
+
+#: imagefield.module:718
+msgid "Upload"
+msgstr ""
+
+#: imagefield.module:739
+msgid "Delete"
+msgstr ""
+
+#: imagefield.module:758
+msgid "Filename: "
+msgstr ""
+
+#: imagefield.module:769
+msgid "Alternate text"
+msgstr ""
+
+#: imagefield.module:771
+msgid "Alternate text to be displayed if the image cannot be displayed."
+msgstr ""
+
+#: imagefield.module:785
+msgid "Title"
+msgstr ""
+
+#: imagefield.module:787
+msgid "Text to be displayed on mouse overs."
+msgstr ""
+
+#: imagefield.module:797
+msgid "If a new image is chosen, the current image will be replaced upon submitting the form."
+msgstr ""
+
+#: imagefield.module:856
+msgid "@field is required. Please upload an image."
+msgstr ""
+
+#: imagefield.module:859
+msgid "@field is required. Please uncheck at least one delete checkbox or upload another image."
+msgstr ""
+
+#: imagefield.module:876
+msgid "Files with the extension %ext are not allowed. Please upload a file with an extension from the following list: %allowed_extensions"
+msgstr ""
+
+#: imagefield.module:884
+msgid "The file you uploaded has a filesize greater than the maximum allowed filesize of %sizekb."
+msgstr ""
+
+#: imagefield.module:892
+msgid "Mime Type mismatch. Only image files may be upload. You uploaded a file with mime type: %mime"
+msgstr ""
+
+#: imagefield.module:900
+msgid "You are only allowed to upload up to %maximages images."
+msgstr ""
+
+#: imagefield.module:920
+msgid "link to node"
+msgstr ""
+
+#: imagefield.module:924
+msgid "link to image"
+msgstr ""
+
+#: imagefield.module:928
+msgid "path to image"
+msgstr ""
+
+#: imagefield.module:932
+msgid "url to image"
+msgstr ""
+
+#: imagefield.module:511;0
+msgid "imagefield"
+msgstr ""
+
+#: imagefield.module:690
+msgid "You can only attach one image to this field. Delete the image if you wish to be able to upload a different one."
+msgid_plural "You can only attach @count images to this field. Delete an image if you wish to be able to upload different images."
+msgstr[0] ""
+msgstr[1] ""
+
+#: imagefield.module:101
+msgid "view imagefield uploads"
+msgstr ""
+
+#: imagefield.info:0
+msgid "ImageField"
+msgstr ""
+
+#: imagefield.info:0
+msgid "Defines an image field type."
+msgstr ""
+
+#: imagefield.info:0
+msgid "CCK"
+msgstr ""
+

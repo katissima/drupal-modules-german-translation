@@ -1,0 +1,61 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  acl.module,v 1.1.2.18 2008/03/12 21:47:59 salvis
+#  acl.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-23 14:14+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: acl.module:92
+msgid "Remove Checked"
+msgstr ""
+
+#: acl.module:97
+msgid "Add user"
+msgstr ""
+
+#: acl.module:104
+msgid "Add User"
+msgstr ""
+
+#: acl.module:155
+msgid "Current users"
+msgstr ""
+
+#: acl.module:275
+msgid "You have disabled the ACL module&mdash;to avoid permission problems you should now go to !link and click on the [!button] button!"
+msgstr ""
+
+#: acl.module:277
+msgid "Rebuild permissions"
+msgstr ""
+
+#: acl.module:0
+msgid "acl"
+msgstr ""
+
+#: acl.info:0
+msgid "ACL"
+msgstr ""
+
+#: acl.info:0
+msgid "Access control list API. Has no features on its own."
+msgstr ""
+
+#: acl.info:0
+msgid "Access control"
+msgstr ""
+

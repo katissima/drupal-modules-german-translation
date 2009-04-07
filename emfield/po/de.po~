@@ -1,0 +1,1862 @@
+# $Id$
+# LANGUAGE translation of Drupal (general)
+# Copyright 2009 NAME <>
+# Generated from files:
+# emfield.module,v 1.25 2008/06/20 17:04:54 aaron
+# emaudio.module,v 1.6 2008/06/04 12:05:15 alexua
+# video_cck.module,v 1.14 2008/06/04 12:05:16 alexua
+# emimport.module,v 1.4 2008/05/12 04:10:53 alexua
+# emfield.info,v 1.1 2007/06/26 01:15:26 aaron
+# flickr.inc,v 1.8 2008/07/02 18:06:14 aaron
+# emaudio.info,v 1.1 2008/01/08 21:23:17 aaron
+# emimport.info,v 1.1 2007/10/08 15:45:55 aaron
+# emthumb.info,v 1.1 2008/01/04 18:25:19 aaron
+# image_ncck.info,v 1.1 2007/06/26 01:15:26 aaron
+# video_cck.info,v 1.1 2007/06/26 01:15:27 aaron
+# image_ncck.module,v 1.8 2008/08/19 14:16:51 alexua
+# odeo.inc,v 1.2 2008/05/12 04:10:53 alexua
+# podcastalley.inc,v 1.1 2008/01/30 17:13:44 alexua
+# podomatic.inc,v 1.2 2008/05/12 04:10:53 alexua
+# soundclick.inc,v 1.1 2008/05/30 18:02:27 aaron
+# zzz_custom_url.inc,v 1.2 2008/05/30 18:35:37 aaron
+# bliptv.inc,v 1.10 2008/05/12 04:10:54 alexua
+# brightcove.inc,v 1.6 2008/05/12 04:10:54 alexua
+# dailymotion.inc,v 1.5 2008/05/12 04:10:54 alexua
+# google.inc,v 1.8 2008/05/12 04:10:54 alexua
+# guba.inc,v 1.2 2008/05/12 04:10:54 alexua
+# imeem.inc,v 1.2 2008/05/12 04:10:54 alexua
+# jumpcut.inc,v 1.4 2008/05/12 04:10:54 alexua
+# lastfm.inc,v 1.2 2008/05/12 04:10:54 alexua
+# livevideo.inc,v 1.4 2008/05/12 04:10:54 alexua
+# metacafe.inc,v 1.4 2008/05/12 04:10:54 alexua
+# myspace.inc,v 1.6 2008/05/12 04:10:54 alexua
+# revver.inc,v 1.5 2008/05/12 04:10:54 alexua
+# sevenload.inc,v 1.4 2008/05/12 04:10:54 alexua
+# spike.inc,v 1.4 2008/06/23 15:22:43 aaron
+# tudou.inc,v 1.3 2008/05/12 04:10:54 alexua
+# veoh.inc,v 1.2 2008/05/12 04:10:54 alexua
+# youtube.inc,v 1.18 2008/08/07 19:00:01 aaron
+# zzz_custom_url.inc,v 1.4 2008/05/12 04:10:54 alexua
+# picasa.inc,v 1.4 2008/05/12 04:10:53 alexua
+# vimeo.inc,v 1.3 2008/05/12 04:10:54 alexua
+# emthumb.module,v 1.10 2008/05/12 04:10:53 alexua
+# imageshack.inc,v 1.2 2008/05/12 04:10:53 alexua
+# photobucket.inc,v 1.2 2008/05/12 04:10:53 alexua
+# video_cck.install,v 1.6 2008/05/12 04:10:54 alexua
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-09 16:19+0100\n"
+"PO-Revision-Date: 2009-03-11 01:35+0100\n"
+"Last-Translator: NAME <Thomas Zahreddin>\n"
+"Language-Team:  <thomas@VoiceHero.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: emfield.module:12
+msgid "Embedded Media Field configuration"
+msgstr "Konfiguration für Embedded Media Field"
+
+#: emfield.module:13;21
+msgid "Configure Embedded Media Field: Allow content types to use various 3rd party providers, enter API keys, etc."
+msgstr "Embedded Media Field Konfiguration: Erlaubnis für verschiedene Inhaltstypen Funktionen Dritter zu nutzen, API Schlüssel verwalten usw."
+
+#: emfield.module:20
+#, fuzzy
+msgid "Media settings"
+msgstr "Einstellungen für Medien"
+
+#: emfield.module:36
+msgid "The Embedded Media Field module does nothing on its own. You should also install the Embedded Video Field, Embedded Image Field, and/or Embedded Audio Field modules from the !modules. (If you do not see them listed there, under the CCK section, you may need to !download from its project page. They are all in the same package.)"
+msgstr "Das Embedded Media Field Modul ist nur zusammen mit weiteren Modulen sinnvoll wie ·Embedded·Video·Field,·Embedded·Image·Field oder·Embedded·Audio·Field. Diese sollten unter !modules aufgelistet sein, andernfalls installieren Sie mindestens eines von der jeweiligen Projektseite !download."
+
+#: emfield.module:36
+msgid "download the module"
+msgstr "downloaden des Moduls"
+
+#: emfield.module:36
+msgid "modules administration page"
+msgstr "Verwalten des Moduls"
+
+#: emfield.module:41
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: emfield.module:42
+#, fuzzy
+msgid "These features will be generally available for use by related modules as needed."
+msgstr "Funktionen für verbundene Module"
+
+#: emfield.module:47
+msgid "As you have the !swfobject_api module installed, Embedded Media Field will use those settings, assuming you've configured them properly. Visit its !settings for more information."
+msgstr "Wenn !swfobject_api module installiert ist, dann benutzt Embedded Media Field dessen Einstellungen von !settings."
+
+#: emfield.module:47;50
+msgid "SWFObject API"
+msgstr "SWFObject API"
+
+#: emfield.module:47 contrib/emaudio/emaudio.module:221 contrib/video_cck/video_cck.module:224
+msgid "settings page"
+msgstr "Einstellungen"
+
+#: emfield.module:50
+#, fuzzy
+msgid "If you have the swfobject.js file installed on your system, you can make it available to Embedded Media Field and its related modules by entering the information here. You can download and find out more about !here. You may also choose to install the !swfobject_api module, which will integrate automatically with this module.."
+msgstr "Wenn Sie swfobject.js auf Ihrem System installiert haben, dann verbinden Sie es hier mit  Embedded Media Field und verbundenen Modulen Automatisch erfolgt die Integration beider Module durch !swfobject_api. Mehr unter !here."
+
+#: emfield.module:50
+msgid "SWFObject here"
+msgstr "SWFObject hier"
+
+#: emfield.module:54
+msgid "SWF Object"
+msgstr "SWF Object"
+
+#: emfield.module:60
+#, fuzzy
+msgid "Use SWFObject"
+msgstr "SWFObject nutzen"
+
+#: emfield.module:62
+msgid "When checked, then Embedded Media Field will use the SWFObject javascript library when it is able."
+msgstr "Embedded Media Field soll SWFObject Javascript Bibliothek benutzen (dazu muss diese installiert sein)."
+
+#: emfield.module:67
+msgid "SWFObject location"
+msgstr "Pfad zu SWFObject"
+
+#: emfield.module:69
+msgid "Enter the relative path to the swfobject.js file, without the preceding slash (/)."
+msgstr "Relativer Pfad zu swfobject.js (ohne führenden Schrägstrich /)"
+
+#: emfield.module:72
+#, fuzzy
+msgid "Feature"
+msgstr "Eigenschaft"
+
+#: emfield.module:72
+msgid "Supported"
+msgstr "Unterstützt"
+
+#: emfield.module:72
+msgid "Notes"
+msgstr "Notizen"
+
+#: emfield.module:78
+msgid "@neighborhood"
+msgstr "@neighborhood"
+
+#: emfield.module:85;371
+msgid "Providers"
+msgstr "Anbieter"
+
+#: emfield.module:86
+#, fuzzy
+msgid "The following settings determine what providers are allowed, and what provider-specific options, if any, are set."
+msgstr "Einstellungen für Anbieter allgemein und spezifische Optionen soweit vorhanden."
+
+#: emfield.module:94
+msgid "@provider configuration"
+msgstr "Einstellungen für @provider"
+
+#: emfield.module:102
+msgid "Supported features"
+msgstr "Unterstützte Eigenschaften"
+
+#: emfield.module:103
+msgid "This is a list of the current state of support for the following features by %provider:"
+msgstr "Unterstützte Funktionen dieser Anbieter %provider:"
+
+#: emfield.module:114
+msgid "Allow content from %provider"
+msgstr "Inhalt von %provider zulassen"
+
+#: emfield.module:115
+msgid "If checked, then content types may be created that allow content to be provided by %provider."
+msgstr "Inhalte von %provider übernehmen."
+
+#: emfield.module:301
+msgid "You have specified an invalid media URL or embed code."
+msgstr "URL zum Medium angeben oder embed Code hier eingeben."
+
+#: emfield.module:364
+msgid "Providers Supported"
+msgstr "Unterstützte Anbieter"
+
+#: emfield.module:365
+msgid "Select which third party providers you wish to allow for this content type from the list below. If no checkboxes are checked, then all providers will be supported. When a user submits new content, the URL they enter will be matched to the provider, assuming that provider is allowed here."
+msgstr "Auswahl von Anbietern, die diesen Inhaltstyp nutzen können. Falls keiner ausgewählt wird, steht er für alle zur Verfügung."
+
+#: emfield.module:430
+#, fuzzy
+msgid "Enter the URL or Embed Code here. The embedded third party content will be parsed and displayed appropriately from this."
+msgstr "URL oder embed Code hier eingeben, um den zugehörigen Inhalt zu verknüpfen."
+
+#: emfield.module:432 contrib/emimport/emimport.module:403
+msgid "The following services are provided: !urls"
+msgstr "Die folgenden Anbieter werden unterstützt: !urls"
+
+#: emfield.module:461;517
+msgid "(@provider ID: !value)"
+msgstr "(@provider ID: !value)"
+
+#: emfield.module:537
+msgid "Reload Embedded Media Data"
+msgstr "Embedded Media Daten erneut laden"
+
+#: emfield.module:553
+msgid "Reloading %node-title's %field."
+msgstr "Lade %node-Titel %field."
+
+#: emfield.module:745;827
+msgid "Could not connect to @provider, HTTP error @error"
+msgstr "Verbindung zu @provider fehlgeschlagen mit dieser HTTP Fehlermeldung @error"
+
+#: emfield.module:760
+msgid "The response from @provider was corrupted and could not be unserialized."
+msgstr "Die Antwort von @provider konnte nicht verarbeitet werden."
+
+#: emfield.module:869;0
+msgid "emfield"
+msgstr "emfield"
+
+#: emfield.info:0 contrib/image_ncck/providers/flickr.inc:157
+msgid "Embedded Media Field"
+msgstr "Embedded Media Field"
+
+#: emfield.info:0
+msgid "Provides an engine for modules to integrate various 3rd party content providers, such as Video Neighborhood, Image Neighborhood, and Audio Neighborhood."
+msgstr "Eine Plattform für Module, um Multimediainhalte anderer Anbieter einzubinden."
+
+#: emfield.info:0 contrib/emaudio/emaudio.info:0 contrib/emimport/emimport.info:0 contrib/emthumb/emthumb.info:0 contrib/image_ncck/image_ncck.info:0 contrib/video_cck/video_cck.info:0
+msgid "CCK"
+msgstr "CCK"
+
+#: contrib/emaudio/emaudio.module:15 contrib/emaudio/emaudio.info:0
+msgid "Embedded Audio Field"
+msgstr "Embedded Audio Field"
+
+#: contrib/emaudio/emaudio.module:18 contrib/video_cck/video_cck.module:18
+msgid "The following settings configure content with any fields controlled by @name."
+msgstr "Konfiguration für Inhalte von @name."
+
+#: contrib/emaudio/emaudio.module:34
+msgid "Embedded Audio"
+msgstr "Embedded Audio"
+
+#: contrib/emaudio/emaudio.module:59;60
+msgid "Has Embedded Audio"
+msgstr "Mit eingebundenem Audio"
+
+#: contrib/emaudio/emaudio.module:64
+msgid "Selecting yes will choose only nodes with this field that successfully provide embedded audio."
+msgstr "Auswahl von Beiträgen mit Eingebundenem Audiomaterial"
+
+#: contrib/emaudio/emaudio.module:67
+msgid "Audio Provider"
+msgstr "Anbieter von Audiomaterial"
+
+#: contrib/emaudio/emaudio.module:73
+msgid "Include or exclude audio from the selected provider."
+msgstr "Audio vom ausgewählten Anbieter"
+
+#: contrib/emaudio/emaudio.module:80
+msgid "Embedded Audio: @widget (@field)"
+msgstr "Eingebettetes Audio: @widget (@field)"
+
+#: contrib/emaudio/emaudio.module:82 contrib/image_ncck/image_ncck.module:75 contrib/video_cck/video_cck.module:83
+#, fuzzy
+msgid "This is the default argument handler provided by CCK. It uses the original embed code or URL pasted into the field."
+msgstr "Argumente werden von CCK verarbeitet, in der Regel die eingegeben URLs bzw. embed Codes."
+
+#: contrib/emaudio/emaudio.module:85
+#, fuzzy
+msgid "Embedded Audio Provider: @widget (@field)"
+msgstr "Embedded Audio Anbieter: @widget (@field)"
+
+#: contrib/emaudio/emaudio.module:87
+msgid "The Embedded Audio Provider argument allows users to filter a view by specifying the audio provider."
+msgstr "Filtern nach dem Anbieter von Audiomaterial."
+
+#: contrib/emaudio/emaudio.module:110 contrib/image_ncck/image_ncck.module:103 contrib/video_cck/video_cck.module:107
+#, fuzzy
+msgid "Default"
+msgstr "Vorgabe"
+
+#: contrib/emaudio/emaudio.module:114
+#, fuzzy
+msgid "Full Size Audio Player"
+msgstr "Kompletter Audio Abspieler"
+
+#: contrib/emaudio/emaudio.module:118
+#, fuzzy
+msgid "Preview Size Audio Player"
+msgstr "Vorschau Audio Abspieler"
+
+#: contrib/emaudio/emaudio.module:122 contrib/image_ncck/image_ncck.module:115 contrib/video_cck/video_cck.module:119
+msgid "Image Thumbnail"
+msgstr "Vorschaubild"
+
+#: contrib/emaudio/emaudio.module:126;301 contrib/image_ncck/image_ncck.module:119;295 contrib/video_cck/video_cck.module:123;304
+#, fuzzy
+msgid "Embed Code"
+msgstr "Embed Code"
+
+#: contrib/emaudio/emaudio.module:145
+#, fuzzy
+msgid "3rd Party Audio"
+msgstr "Audiomaterial von einem Anbieter"
+
+#: contrib/emaudio/emaudio.module:160
+#, fuzzy
+msgid "Audio Display Settings"
+msgstr "Einstellungen für die Repräsentation von Audio"
+
+#: contrib/emaudio/emaudio.module:161
+msgid "These settings control how this audio player is displayed in its full size, which defaults to @widthx@height."
+msgstr "Volle Größe des Audio·Abspielers ist (B x H): @width x @height."
+
+#: contrib/emaudio/emaudio.module:167
+msgid "Audio display width"
+msgstr "Breite des Audio Abspielers"
+
+#: contrib/emaudio/emaudio.module:170
+msgid "The width of the audio. It defaults to @width."
+msgstr "Breite des Audio Abspielers, Vorgabewert ist @width."
+
+#: contrib/emaudio/emaudio.module:174
+msgid "Audio display height"
+msgstr "Höhe des Audio Abspielers"
+
+#: contrib/emaudio/emaudio.module:177
+msgid "The height of the audio. It defaults to @height."
+msgstr "Höhe des Audio Abspielers, Vorgabewert ist @height."
+
+#: contrib/emaudio/emaudio.module:181;211 contrib/emaudio/providers/odeo.inc:18 contrib/emaudio/providers/podcastalley.inc:17 contrib/emaudio/providers/podomatic.inc:20 contrib/emaudio/providers/soundclick.inc:18 contrib/emaudio/providers/zzz_custom_url.inc:12 contrib/video_cck/video_cck.module:184;214 contrib/video_cck/providers/bliptv.inc:9 contrib/video_cck/providers/brightcove.inc:18 contrib/video_cck/providers/dailymotion.inc:20 contrib/video_cck/providers/google.inc:11 contrib/video_cck/providers/guba.inc:11 contrib/video_cck/providers/imeem.inc:12 contrib/video_cck/providers/jumpcut.inc:9 contrib/video_cck/providers/lastfm.inc:20 contrib/video_cck/providers/livevideo.inc:23 contrib/video_cck/providers/metacafe.inc:9 contrib/video_cck/providers/myspace.inc:9 contrib/video_cck/providers/revver.inc:11 contrib/video_cck/providers/sevenload.inc:18 contrib/video_cck/providers/spike.inc:9 contrib/video_cck/providers/tudou.inc:20 contrib/video_cck/providers/veoh.inc:12 contrib/video_cck/providers/youtube.inc:25 contrib/video_cck/providers/zzz_custom_url.inc:12
+msgid "Autoplay"
+msgstr "Automatisch abspielen"
+
+#: contrib/emaudio/emaudio.module:183
+msgid "If supported by the provider, checking this box will cause the audio player to automatically begin after it loads when in its full size."
+msgstr "Abspielen beginnen, wenn der Audio Abspieler in voller Größe angzeigt wird."
+
+#: contrib/emaudio/emaudio.module:190
+msgid "Audio Preview Settings"
+msgstr "Einstellungen für die Vorschauf von Audiomaterial"
+
+#: contrib/emaudio/emaudio.module:191
+msgid "These settings control how this audio is displayed in its preview size, which defaults to @widthx@height."
+msgstr "Größe des Audio Abspielers in der Vorschau, Vorgbewerte sind (B x H) @width x @height."
+
+#: contrib/emaudio/emaudio.module:197
+msgid "Audio preview width"
+msgstr "Breite der Audio Vorschau"
+
+#: contrib/emaudio/emaudio.module:200
+msgid "The width of the preview audio. It defaults to @width."
+msgstr "Breite für die Audio in der Vorschau, Vorgabewert ist @width."
+
+#: contrib/emaudio/emaudio.module:204
+msgid "Audio preview height"
+msgstr "Höhe für Audio in der Vorschau"
+
+#: contrib/emaudio/emaudio.module:207
+msgid "The height of the preview audio. It defaults to @height."
+msgstr "Höhe für Audio in der Vorschau, Vorgabewert ist @height."
+
+#: contrib/emaudio/emaudio.module:213
+msgid "If supported by the provider, checking this box will cause the audio player to automatically begin after it loads when in its preview size."
+msgstr "Audiomaterial automatisch abspielen, wenn dieses Teil der Vorschau ist."
+
+#: contrib/emaudio/emaudio.module:220 contrib/image_ncck/image_ncck.module:219 contrib/video_cck/video_cck.module:223
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: contrib/emaudio/emaudio.module:221
+msgid "When displayed as a thumbnail, these settings control the image returned. Note that not all 3rd party audio content providers offer thumbnails, and others may require an API key or other requirements. More information from the !settings. The default size for thumbnails is @widthx@height."
+msgstr "Größe von Vorschaubildern für Audiomaterial. Ncht alle Anbieter unterstützen diese Funktion, siehe !settings. Der Vorgabewert für das Vorschaubild ist (B x H) @width x height."
+
+#: contrib/emaudio/emaudio.module:227
+msgid "Audio width"
+msgstr "Breite für Audiorepräsentation"
+
+#: contrib/emaudio/emaudio.module:230 contrib/video_cck/video_cck.module:233
+msgid "The width of the thumbnail. It defaults to @width."
+msgstr "Breite·für das Vorschaubild, der Vorgabewert ist @width."
+
+#: contrib/emaudio/emaudio.module:234 contrib/video_cck/video_cck.module:237
+msgid "Thumbnail height"
+msgstr "Höhe des Vorschaubilds"
+
+#: contrib/emaudio/emaudio.module:237 contrib/video_cck/video_cck.module:240
+msgid "The height of the thumbnail. It defaults to @height."
+msgstr "Höhe des Vorschaubilds, Vorgabewert ist @height."
+
+#: contrib/emaudio/emaudio.module:240 contrib/video_cck/video_cck.module:243
+msgid " You may be interested in activating the Embedded Media Thumbnails module as well, which will allow you to specify custom thumbnails on a per-node basis."
+msgstr "Das Embedded Media Thumbnails Modul bietet sich für Vorschaubilder an."
+
+#: contrib/emaudio/emaudio.module:244 contrib/video_cck/video_cck.module:247
+#, fuzzy
+msgid "Default thumbnail path"
+msgstr "Vorgabe für den Pfad zu Vorschaubildern"
+
+#: contrib/emaudio/emaudio.module:246 contrib/video_cck/video_cck.module:249
+msgid "Path to a local default thumbnail image for cases when a thumbnail can't be found. For example, you might have a default thumbnail at %files."
+msgstr "Pfad für ein Standardvorschaubild, beispielsweise %files."
+
+#: contrib/emaudio/emaudio.module:254
+msgid "\"Audio width\" must be a positive integer."
+msgstr "\"Breite\" muss eine positive ganze Zahl sein."
+
+#: contrib/emaudio/emaudio.module:257
+msgid "\"Audio height\" must be a positive integer."
+msgstr "Höhe muss eine positive ganze Zahl sein."
+
+#: contrib/emaudio/emaudio.module:260 contrib/video_cck/video_cck.module:263
+msgid "\"Preview width\" must be a positive integer."
+msgstr "Breite muss eine positive ganze Zahl sein."
+
+#: contrib/emaudio/emaudio.module:263 contrib/video_cck/video_cck.module:266
+msgid "\"Preview height\" must be a positive integer."
+msgstr "Höhe muss eine positive ganze Zahl sein."
+
+#: contrib/emaudio/emaudio.module:266 contrib/video_cck/video_cck.module:269
+msgid "\"Thumbnail width\" must be a positive integer."
+msgstr "\"Breite\" muss eine positive ganze Zahl sein."
+
+#: contrib/emaudio/emaudio.module:269 contrib/video_cck/video_cck.module:272
+msgid "\"Thumbnail height\" must be a positive integer."
+msgstr "\"Höhe\" muss eine positive ganze Zahl sein."
+
+#: contrib/emaudio/emaudio.module:302
+msgid "To embed this audio on your own site, simply copy and paste the html code from this text area."
+msgstr "Um diese Audiodatei auf Ihrer eigenen Site einzubetten, kopieren Sie diesen HTML Code und fügen ihn auf Ihrer Site ein."
+
+#: contrib/emaudio/emaudio.module:357;357;361
+msgid "Hear Audio"
+msgstr "Audio anhören"
+
+#: contrib/emaudio/emaudio.module:0
+msgid "emaudio"
+msgstr "emaudio"
+
+#: contrib/emaudio/emaudio.info:0
+#, fuzzy
+msgid "Defines a field type for displaying third party music, podcasts, and other audio, such as podOmatic and Odeo."
+msgstr "Ein Feld Typ für Audiomaterial bzw. entsprechende Links oder embed Code."
+
+#: contrib/emaudio/providers/odeo.inc:16
+msgid "odeo"
+msgstr "odeo"
+
+#: contrib/emaudio/providers/odeo.inc:18;19;20 contrib/emaudio/providers/podcastalley.inc:17;18;19 contrib/emaudio/providers/podomatic.inc:20;21;22 contrib/emaudio/providers/soundclick.inc:19;20 contrib/emaudio/providers/zzz_custom_url.inc:11;12 contrib/image_ncck/providers/picasa.inc:23 contrib/video_cck/providers/brightcove.inc:19;20 contrib/video_cck/providers/dailymotion.inc:21;22 contrib/video_cck/providers/guba.inc:12;13 contrib/video_cck/providers/imeem.inc:13;14 contrib/video_cck/providers/jumpcut.inc:9;10;11 contrib/video_cck/providers/lastfm.inc:20;21;22 contrib/video_cck/providers/livevideo.inc:24 contrib/video_cck/providers/metacafe.inc:10 contrib/video_cck/providers/myspace.inc:9;10 contrib/video_cck/providers/revver.inc:12 contrib/video_cck/providers/sevenload.inc:18;19;20 contrib/video_cck/providers/spike.inc:9;10 contrib/video_cck/providers/tudou.inc:20;21;22 contrib/video_cck/providers/veoh.inc:13;14 contrib/video_cck/providers/zzz_custom_url.inc:11;13
+msgid "No"
+msgstr "Nein"
+
+#: contrib/emaudio/providers/odeo.inc:19 contrib/emaudio/providers/podcastalley.inc:18 contrib/emaudio/providers/podomatic.inc:21 contrib/emaudio/providers/soundclick.inc:19 contrib/video_cck/providers/brightcove.inc:19 contrib/video_cck/providers/dailymotion.inc:21 contrib/video_cck/providers/google.inc:12 contrib/video_cck/providers/guba.inc:12 contrib/video_cck/providers/imeem.inc:13 contrib/video_cck/providers/jumpcut.inc:10 contrib/video_cck/providers/lastfm.inc:21 contrib/video_cck/providers/livevideo.inc:24 contrib/video_cck/providers/metacafe.inc:10 contrib/video_cck/providers/myspace.inc:10 contrib/video_cck/providers/revver.inc:12 contrib/video_cck/providers/sevenload.inc:19 contrib/video_cck/providers/spike.inc:10 contrib/video_cck/providers/tudou.inc:21 contrib/video_cck/providers/veoh.inc:13 contrib/video_cck/providers/youtube.inc:26
+msgid "RSS Attachment"
+msgstr "RSS-Newsfeed Anhang"
+
+#: contrib/emaudio/providers/odeo.inc:20 contrib/emaudio/providers/podcastalley.inc:19 contrib/emaudio/providers/podomatic.inc:22 contrib/emaudio/providers/soundclick.inc:20 contrib/emaudio/providers/zzz_custom_url.inc:11 contrib/video_cck/providers/bliptv.inc:11 contrib/video_cck/providers/brightcove.inc:20 contrib/video_cck/providers/dailymotion.inc:22 contrib/video_cck/providers/google.inc:13 contrib/video_cck/providers/guba.inc:14 contrib/video_cck/providers/imeem.inc:15 contrib/video_cck/providers/jumpcut.inc:11 contrib/video_cck/providers/lastfm.inc:22 contrib/video_cck/providers/livevideo.inc:25 contrib/video_cck/providers/metacafe.inc:11 contrib/video_cck/providers/myspace.inc:11 contrib/video_cck/providers/revver.inc:13 contrib/video_cck/providers/sevenload.inc:20 contrib/video_cck/providers/spike.inc:11 contrib/video_cck/providers/tudou.inc:22 contrib/video_cck/providers/veoh.inc:15 contrib/video_cck/providers/vimeo.inc:23 contrib/video_cck/providers/youtube.inc:28 contrib/video_cck/providers/zzz_custom_url.inc:11
+msgid "Thumbnails"
+msgstr "Vorschaubilder"
+
+#: contrib/emaudio/providers/odeo.inc:20 contrib/emaudio/providers/podcastalley.inc:19 contrib/emaudio/providers/podomatic.inc:22 contrib/emaudio/providers/soundclick.inc:20 contrib/video_cck/providers/dailymotion.inc:22 contrib/video_cck/providers/lastfm.inc:22 contrib/video_cck/providers/tudou.inc:22 contrib/video_cck/providers/youtube.inc:28
+msgid ""
+msgstr ""
+
+#: contrib/emaudio/providers/odeo.inc:26
+msgid "These settings specifically affect audio podcasts displayed from !odeo."
+msgstr "Einstellungen für die visuelle Repräsentation von Podcasts (Audio) des Anbieters !odeo."
+
+#: contrib/emaudio/providers/podcastalley.inc:15
+msgid "Podcast Alley"
+msgstr "Podcast Alley"
+
+#: contrib/emaudio/providers/podcastalley.inc:25
+msgid "These settings specifically affect audio podcasts displayed from !podcastalley."
+msgstr "Einstellungen für die visuelle Repräsentation von Podcasts (Audio) des Anbieters !podcastalley."
+
+#: contrib/emaudio/providers/podomatic.inc:18
+msgid "podOmatic"
+msgstr "podOmatic"
+
+#: contrib/emaudio/providers/podomatic.inc:28
+msgid "These settings specifically affect audio podcasts displayed from !podomatic."
+msgstr "Einstellungen für die visuelle Repräsentation von Pocasts (Audio) des Anbieters !podomatic."
+
+#: contrib/emaudio/providers/soundclick.inc:16
+msgid "SoundClick"
+msgstr "SoundClick"
+
+#: contrib/emaudio/providers/soundclick.inc:18 contrib/emaudio/providers/zzz_custom_url.inc:13 contrib/image_ncck/providers/flickr.inc:24 contrib/video_cck/providers/bliptv.inc:9;10;11 contrib/video_cck/providers/brightcove.inc:18 contrib/video_cck/providers/dailymotion.inc:20 contrib/video_cck/providers/google.inc:11;12;13 contrib/video_cck/providers/guba.inc:11;14 contrib/video_cck/providers/imeem.inc:12;15 contrib/video_cck/providers/livevideo.inc:23;25 contrib/video_cck/providers/metacafe.inc:9;11 contrib/video_cck/providers/myspace.inc:11 contrib/video_cck/providers/revver.inc:10;11;13 contrib/video_cck/providers/veoh.inc:12;15 contrib/video_cck/providers/vimeo.inc:22;23;24 contrib/video_cck/providers/youtube.inc:25;26;27;28;29 contrib/video_cck/providers/zzz_custom_url.inc:12
+msgid "Yes"
+msgstr "Ja"
+
+#: contrib/emaudio/providers/soundclick.inc:26
+msgid "These settings specifically affect audio podcasts displayed from !soundclick."
+msgstr "Einstellungen für die visuelle Repräsentation von Podcasts (Audio) des Anbieters !soundclick."
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:9 contrib/video_cck/providers/zzz_custom_url.inc:9
+msgid "Custom URL"
+msgstr "eigene URL"
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:13 contrib/video_cck/providers/bliptv.inc:10 contrib/video_cck/providers/zzz_custom_url.inc:13
+msgid "RSS attachment"
+msgstr "RSS-Newsfeed Anhang"
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:19
+#, fuzzy
+msgid "These settings specifically affect audio media displayed from custom URL's. When a field uses a URL it determines to be a link directly to an audio file, it will embed that file into the content."
+msgstr "Einstellungen für Audiomaterial, das per URL referenziert wird, dazu wird direkt auf die Audiodatei verlinkt und so das Audiomaterial als Inhalt eingebettet."
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:27 contrib/video_cck/providers/bliptv.inc:24
+msgid "MP3"
+msgstr "MP3"
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:28
+msgid "Wav"
+msgstr "Wav"
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:29 contrib/video_cck/providers/zzz_custom_url.inc:32
+msgid "Real Media (rm)"
+msgstr "Real Media (rm)"
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:34 contrib/video_cck/providers/zzz_custom_url.inc:37
+#, fuzzy
+msgid "Supported Types"
+msgstr "Unterstützte Typen"
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:37
+msgid "Select the audio types you wish to support. When a custom url with that type is entered into an embedded audio field, it will be parsed and displayed appropriately. If a type is not supported, then it will be ignored."
+msgstr "Audioformate auswählen ·für·Audiomaterial,·das·per·URL·referenziert·wird,·dazu·wird·direkt·auf·die·Audiodatei·verlinkt·und·so·das·Audiomaterial·als·Inhalt·eingebettet."
+
+#: contrib/emaudio/providers/zzz_custom_url.inc:108
+#, fuzzy
+msgid "Download audio"
+msgstr "Audio download"
+
+#: contrib/emimport/emimport.module:17
+msgid "Import settings"
+msgstr "Einstellungen für Import"
+
+#: contrib/emimport/emimport.module:18
+msgid "Configure Embedded Media Import: Allow importing 3rd party provider playlists; set content types and taxonomy; etc."
+msgstr "Einstellungen für den Import von eingebetteten Medien: Playlists von Drittanbietern, Inahltstypen, Taxonomie usw."
+
+#: contrib/emimport/emimport.module:27
+#, fuzzy
+msgid "Import media set"
+msgstr "Importieren von Medien Sets"
+
+#: contrib/emimport/emimport.module:40
+msgid "Import @type set"
+msgstr "Importieren von @type"
+
+#: contrib/emimport/emimport.module:64
+msgid "Embedded Media Import settings"
+msgstr "Einstellungen für den Import von eingebettenten Mediendateien"
+
+#: contrib/emimport/emimport.module:72
+msgid "Global settings"
+msgstr "Allgemeine Einstellungen"
+
+#: contrib/emimport/emimport.module:73
+msgid "These settings apply to all importing of third party sets, but may be overridden in the individual Provider settings."
+msgstr "Die allgemeinen Einstellungen dienen als Vorgabewerte und  können jeden Anbieter abgeändert werden."
+
+#: contrib/emimport/emimport.module:79;122;166;215
+#, fuzzy
+msgid "Import display limit"
+msgstr "Importieren des Anzeigelimits"
+
+#: contrib/emimport/emimport.module:80
+msgid "This will limit how many titles/thumbnails will be displayed on the actual import page, when checking the individual set items to import. Leave at to 0 for unlimited, or to allow individual provider/types to override. If this value is greater than 0, then it may not be overridden below."
+msgstr "Beschränkung der Anzahl von Titeln / Vorschaubildern auf der Importseite. 0 steht dabei für keine Beschränkung als Vorgbewert, der für einzelne Anbieter geändert werden kann, ein Wert größer 0 dient als Obergrenze, die nicht überschritten werden kann."
+
+#: contrib/emimport/emimport.module:91;134;178;227
+#, fuzzy
+msgid "Tags vocabulary"
+msgstr "Vokabular für Tags / Bezeichner / Labels"
+
+#: contrib/emimport/emimport.module:92
+#, fuzzy
+msgid "When importing an individual set, any tags imported (or overridden) for an item will be saved into this vocabulary, if allowed for that node type. This value may always be overridden below."
+msgstr "Vorgabeeinstellung für Sets: Alle improtierten Bezeichner für Medien werden in diesem Vokabular gespeichert (wenn dies für den Inhaltstyp zulässig ist)"
+
+#: contrib/emimport/emimport.module:116;160
+msgid "Allow import"
+msgstr "Import zulassen"
+
+#: contrib/emimport/emimport.module:117
+#, fuzzy
+msgid "When checked, this will allow importing into certain node types that include at least one %module."
+msgstr "Import ist möglich in Inhaltstypen, die mindestens ein %module beinhalten."
+
+#: contrib/emimport/emimport.module:123;167
+msgid "This will limit how many titles/thumbnails will be displayed on the actual import page for %module types, when checking the individual set items to import. Keep at 0 to allow individual providers to override, assuming the global value is also 0."
+msgstr "Beschränkung der Anzahl von Titeln / Vorschaubildern auf der Importseite für %module. 0 steht für keine Beschränkung (setzt keine Beschränkung in den allgemeinen Einstellungen voraus)."
+
+#: contrib/emimport/emimport.module:135
+msgid "When importing an individual set, any tags imported (or overridden) for an item will be saved into this vocabulary, if allowed for that node type. If selected, this will override the global value."
+msgstr ""
+
+#: contrib/emimport/emimport.module:143
+msgid "Content types"
+msgstr "Inhaltstypen"
+
+#: contrib/emimport/emimport.module:144
+msgid "Settings affecting sets imported into types defining %module fields."
+msgstr ""
+
+#: contrib/emimport/emimport.module:154
+msgid "Settings affecting %module sets imported into !type nodes."
+msgstr ""
+
+#: contrib/emimport/emimport.module:161
+msgid "When checked, this will allow importing %module sets into this node type."
+msgstr ""
+
+#: contrib/emimport/emimport.module:179
+msgid "When importing an individual set, any tags imported (or overridden) for an item will be saved into this vocabulary, if allowed for that node type. If selected, this will override the %module value."
+msgstr ""
+
+#: contrib/emimport/emimport.module:188
+msgid "Provider settings"
+msgstr ""
+
+#: contrib/emimport/emimport.module:189
+msgid "If a provider allowed on the !media also allows importing content from sets, such as photosets or playlists, then it will be listed below. You may change specific settings for those providers here. If you don't see an expected provider here, first make sure that it is enabled on the !media page, and also make sure there that the provider allows that feature."
+msgstr ""
+
+#: contrib/emimport/emimport.module:189
+msgid "media settings page"
+msgstr ""
+
+#: contrib/emimport/emimport.module:210
+msgid "Allow importing @sets from %provider."
+msgstr ""
+
+#: contrib/emimport/emimport.module:210;396
+msgid "sets"
+msgstr ""
+
+#: contrib/emimport/emimport.module:216
+msgid "This will limit how many titles/thumbnails will be displayed on the actual import page, when checking the individual set items to import."
+msgstr ""
+
+#: contrib/emimport/emimport.module:228
+msgid "When importing an individual set, any tags imported (or overridden) from %provider for an item will be saved into this vocabulary, if allowed for that node type. If selected, this will override the global, %module, and node type values."
+msgstr ""
+
+#: contrib/emimport/emimport.module:303 contrib/emimport/emimport.info:0
+msgid "Embedded Media Import"
+msgstr ""
+
+#: contrib/emimport/emimport.module:309
+msgid "Allow set import into this field"
+msgstr ""
+
+#: contrib/emimport/emimport.module:310
+msgid "If checked, then as otherwise allowed, sets from allowed providers may be imported into this field, creating new nodes as needed."
+msgstr ""
+
+#: contrib/emimport/emimport.module:349
+msgid "There are currently no content types that may import media sets from third party providers."
+msgstr ""
+
+#: contrib/emimport/emimport.module:355
+msgid "Select a type from the following list"
+msgstr ""
+
+#: contrib/emimport/emimport.module:381
+msgid "Set import"
+msgstr ""
+
+#: contrib/emimport/emimport.module:396
+msgid "@name @sets"
+msgstr ""
+
+#: contrib/emimport/emimport.module:401
+msgid "@label set"
+msgstr ""
+
+#: contrib/emimport/emimport.module:402
+msgid "Enter the URL or Embed Code of the media set here. The embedded third party content will be parsed and displayed appropriately from this."
+msgstr ""
+
+#: contrib/emimport/emimport.module:427;479;543
+msgid "Cancel"
+msgstr ""
+
+#: contrib/emimport/emimport.module:431
+msgid "Parse"
+msgstr ""
+
+#: contrib/emimport/emimport.module:449;686
+msgid "Import"
+msgstr ""
+
+#: contrib/emimport/emimport.module:500
+msgid "Saved !node"
+msgstr ""
+
+#: contrib/emimport/emimport.module:562
+msgid "The @field set doesn't evaluate to a valid set."
+msgstr ""
+
+#: contrib/emimport/emimport.module:622
+msgid "Matched sets for @field"
+msgstr ""
+
+#: contrib/emimport/emimport.module:630
+msgid "Item - @title"
+msgstr ""
+
+#: contrib/emimport/emimport.module:631
+msgid "Parsed from !link"
+msgstr ""
+
+#: contrib/emimport/emimport.module:641
+msgid "Import this item"
+msgstr ""
+
+#: contrib/emimport/emimport.module:648
+msgid "Overrides"
+msgstr ""
+
+#: contrib/emimport/emimport.module:649
+msgid "You may override the title and body of the imported node here."
+msgstr ""
+
+#: contrib/emimport/emimport.module:655 contrib/emthumb/emthumb.module:388
+msgid "Title"
+msgstr ""
+
+#: contrib/emimport/emimport.module:656
+msgid "This will be the title of this item, if imported."
+msgstr ""
+
+#: contrib/emimport/emimport.module:661
+msgid "Body"
+msgstr ""
+
+#: contrib/emimport/emimport.module:662
+msgid "This will be the body of this item, if imported."
+msgstr ""
+
+#: contrib/emimport/emimport.module:702
+msgid "A comma-separated list of terms describing this content. Example: funny, bungee jumping, \"Company, Inc.\"."
+msgstr ""
+
+#: contrib/emimport/emimport.module:52
+msgid "import media sets"
+msgstr ""
+
+#: contrib/emimport/emimport.module:0
+msgid "emimport"
+msgstr ""
+
+#: contrib/emimport/emimport.info:0
+msgid "Imports media from certain third providers, such as FlickR."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:73
+msgid "Thumbnail upload was unsuccessful."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:183
+msgid "Embedded Custom Thumbnails"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:189
+msgid "Allow custom thumbnails for this field"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:190
+msgid "If checked, then editors may specify a custom thumbnail to be used, overriding any automatic thumbnails otherwise created."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:195
+msgid "Custom thumbnail label"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:196;311
+msgid "@field custom thumbnail"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:197
+msgid "This label will be displayed when uploading a custom thumbnail."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:201
+msgid "Custom thumbnail description"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:202;322
+msgid "If you upload a custom thumbnail, then this will be displayed when the @field thumbnail is called for, overriding any automatic thumbnails by custom providers."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:203
+msgid "This description will be displayed when uploading a custom thumbnail."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:208
+msgid "Maximum resolution for Images"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:213
+msgid "The maximum allowed custom thumbnail size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:217
+msgid "Image path"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:219
+msgid "Optional subdirectory within the \"%dir\" directory where images will be stored. Do not include trailing slash."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:224
+msgid "Enable custom alternate text"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:226
+msgid "Enable custom alternate text for custom thumbnails. Filename will be used if not checked."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:230
+msgid "Enable custom title text"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:232
+msgid "Enable custom title text for custom thumbnails. Filename will be used if not checked."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:329
+msgid "Upload"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:347
+msgid "Delete"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:361
+msgid "Filename: "
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:372
+msgid "Alternate text"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:374
+msgid "Alternate text to be displayed if the image cannot be displayed."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:390
+msgid "Text to be displayed on mouse overs."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:406
+msgid "If a new custom thumbnail is chosen, the current custom thumbnail will be replaced upon submitting the form."
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:461
+msgid "The thumbnail was resized to fit within the maximum allowed resolution of %resolution pixels"
+msgstr ""
+
+#: contrib/emthumb/emthumb.module:0
+msgid "emthumb"
+msgstr ""
+
+#: contrib/emthumb/emthumb.info:0
+msgid "Embedded Media Thumbnail"
+msgstr ""
+
+#: contrib/emthumb/emthumb.info:0
+msgid "Allows custom thumbnails for Embedded Media Fields."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:22 contrib/image_ncck/image_ncck.info:0
+msgid "Embedded Image Field"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:23
+msgid "The following settings configure content with any fields controlled by Embedded Image Field."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:39
+msgid "External Image"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:52;53
+msgid "Has Embedded Image"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:57
+msgid "Selecting yes will choose only nodes with this field that successfully provide an embedded image."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:60
+msgid "Image Provider"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:66
+msgid "Include or exclude images from the selected provider."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:73
+msgid "Embedded Image: @widget (@field)"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:78
+msgid "Embedded Image Provider: @widget (@field)"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:80
+msgid "The Embedded Image Provider argument allows users to filter a view by specifying the image provider."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:107
+msgid "Full Size Image"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:111
+msgid "Preview Size Image"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:136
+msgid "3rd Party Image"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:148
+msgid "No link"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:149
+msgid "Link to content"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:150
+msgid "Link to provider"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:156
+msgid "Full size display settings"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:157
+msgid "These settings control how this image is displayed in its full size, which defaults to @widthx@height. Note that if one of the dimensions is 0, then the image will be resized to be no larger than the other dimension."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:163
+msgid "Full size display width"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:166
+msgid "The width of the image. It defaults to @width. Set it to 0 if you want to leave the image at its original aspect ratio."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:170
+msgid "Full size display height"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:173
+msgid "The height of the image. It defaults to @height. Set it to 0 if you want to leave the image at its original aspect ratio."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:177
+msgid "Full size link"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:178
+msgid "Where the image will link when displayed in its full size. 'Content' links to the content page, 'provider' links to the provider's image page, and 'none' displays the image with no link."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:187
+msgid "Image Preview Settings"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:188
+msgid "These settings control how this image is displayed in its preview size, which defaults to @widthx@height. Note that if one of the dimensions is 0, then the image will be resized to be no larger than the other dimension."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:194
+msgid "Image preview width"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:197
+msgid "The width of the image preview. It defaults to @width. Set it to 0 if you want to leave the image at its original aspect ratio."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:201
+msgid "Image preview height"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:204
+msgid "The height of the image preview. It defaults to @height. Set it to 0 if you want to leave the image at its original aspect ratio."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:208
+msgid "Preview size link"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:209
+msgid "Where the image will link when displayed in its preview size. 'Content' links to the content page, 'provider' links to the provider's image page, and 'none' displays the image with no link."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:220
+msgid "When displayed as a thumbnail, these settings control the image returned. The default size for thumbnails is @widthx@height. Note that if one of the dimensions is 0, then the image will be resized to be no larger than the other dimension."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:226
+msgid "Image thumbnail width"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:229
+msgid "The width of the image thumbnail. It defaults to @width. Set it to 0 if you want to leave the image at its original aspect ratio."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:233
+msgid "Image thumbnail height"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:236
+msgid "The height of the image thumbnail. It defaults to @height. Set it to 0 if you want to leave the image at its original aspect ratio."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:240
+msgid "Image thumbnail link"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:241
+msgid "Where the image will link when displayed as a thumbnail. 'Content' links to the content page, 'provider' links to the provider's image page, and 'none' displays the image with no link."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:251
+msgid "\"Full size width\" must be an integer."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:254
+msgid "\"Full size height\" must be an integer."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:257
+msgid "\"Preview width\" must be an integer."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:260
+msgid "\"Preview height\" must be an integer."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:263
+msgid "\"Thumbnail width\" must be an integer."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:266
+msgid "\"Thumbnail height\" must be an integer."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:296
+msgid "To embed this image on your own site, simply copy and paste the html code from this text area."
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.module:0
+msgid "image_ncck"
+msgstr ""
+
+#: contrib/image_ncck/image_ncck.info:0
+msgid "Defines a field type for displaying images from third party providers, such as Flickr."
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:22
+msgid "Flickr"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:24 contrib/image_ncck/providers/picasa.inc:23
+msgid "Import photosets"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:24
+msgid "If you have the Embedded Media Import module activated, you may allow @name photosets to be imported into content."
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:30
+msgid "These settings specifically affect images displayed from !flickr."
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:30 contrib/image_ncck/providers/picasa.inc:29 contrib/video_cck/providers/dailymotion.inc:28 contrib/video_cck/providers/guba.inc:20 contrib/video_cck/providers/imeem.inc:21 contrib/video_cck/providers/livevideo.inc:31 contrib/video_cck/providers/veoh.inc:21 contrib/video_cck/providers/vimeo.inc:30 contrib/video_cck/providers/youtube.inc:35
+msgid "API"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:32 contrib/image_ncck/providers/picasa.inc:31
+msgid "photosets"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:88
+msgid "Flickr API"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:89
+msgid "You will first need to apply for an API Developer Key from the !flickr."
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:89
+msgid "Flickr Developer Profile page"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:95
+msgid "Flickr API Key"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:97
+msgid "Please enter your Flickr Developer Key here."
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:101
+msgid "Flickr API Secret"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:103
+msgid "If you have a secret for the Flickr API, enter it here."
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:153
+msgid "You do not yet have a Flickr API key set. You will need to !apply and enter your key at the !settings before Flickr images may be displayed."
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:153
+msgid "apply for a Flickr API key"
+msgstr ""
+
+#: contrib/image_ncck/providers/flickr.inc:153
+msgid "settings administration page"
+msgstr ""
+
+#: contrib/image_ncck/providers/imageshack.inc:19
+msgid "ImageShack"
+msgstr ""
+
+#: contrib/image_ncck/providers/imageshack.inc:25
+msgid "These settings specifically affect images displayed from !imageshack."
+msgstr ""
+
+#: contrib/image_ncck/providers/photobucket.inc:19
+msgid "Photobucket"
+msgstr ""
+
+#: contrib/image_ncck/providers/photobucket.inc:25
+msgid "These settings specifically affect images displayed from !photobucket."
+msgstr ""
+
+#: contrib/image_ncck/providers/picasa.inc:21
+msgid "Picasa"
+msgstr ""
+
+#: contrib/image_ncck/providers/picasa.inc:29
+msgid "These settings specifically affect images displayed from !picasa."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:15 contrib/video_cck/video_cck.info:0
+msgid "Embedded Video Field"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:34
+msgid "Embedded Video"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:60;61
+msgid "Has Embedded Video"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:65
+msgid "Selecting yes will choose only nodes with this field that successfully provide an embedded video."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:68
+msgid "Video Provider"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:74
+msgid "Include or exclude videos from the selected provider."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:81
+msgid "Embedded Video: @widget (@field)"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:86
+msgid "Embedded Video Provider: @widget (@field)"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:88
+msgid "The Embedded Video Provider argument allows users to filter a view by specifying the video provider."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:111
+msgid "Full Size Video"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:115
+msgid "Preview Video"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:130
+msgid "Thickbox: Image Thumbnail -> Full Size Video"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:148
+msgid "3rd Party Video"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:163
+msgid "Video Display Settings"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:164
+msgid "These settings control how this video is displayed in its full size, which defaults to @widthx@height."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:170
+msgid "Video display width"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:173
+msgid "The width of the video. It defaults to @width."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:177
+msgid "Video display height"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:180
+msgid "The height of the video. It defaults to @height."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:186
+msgid "If supported by the provider, checking this box will cause the video to automatically begin after the video loads when in its full size."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:193
+msgid "Video Preview Settings"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:194
+msgid "These settings control how this video is displayed in its preview size, which defaults to @widthx@height."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:200
+msgid "Video preview width"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:203
+msgid "The width of the preview video. It defaults to @width."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:207
+msgid "Video preview height"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:210
+msgid "The height of the preview video. It defaults to @height."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:216
+msgid "If supported by the provider, checking this box will cause the video to automatically begin after the video loads when in its preview size."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:224
+msgid "When displayed as a thumbnail, these settings control the image returned. Note that not all 3rd party video content providers offer thumbnails, and others may require an API key or other requirements. More information from the !settings. The default size for thumbnails is @widthx@height."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:230
+msgid "Thumbnail width"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:257
+msgid "\"Video width\" must be a positive integer."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:260
+msgid "\"Video height\" must be a positive integer."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:305
+msgid "To embed this video on your own site, simply copy and paste the html code from this text area."
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:396
+msgid "See video"
+msgstr ""
+
+#: contrib/video_cck/video_cck.module:0
+msgid "video_cck"
+msgstr ""
+
+#: contrib/video_cck/video_cck.install:65
+msgid "The Embedded Video Field allowed provider variables have been updated."
+msgstr ""
+
+#: contrib/video_cck/video_cck.install:89
+msgid "The old Embedded Video Field allowed provider variables have been cleaned up."
+msgstr ""
+
+#: contrib/video_cck/video_cck.info:0
+msgid "Defines a field type for displaying third party videos, such as YouTube and Google Video."
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:7
+msgid "Blip.tv"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:10
+msgid "When displaying in an RSS feed, these videos will be attached to the feed. (The feed reader or aggregator must support enclosure tags.)"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:17 contrib/video_cck/providers/jumpcut.inc:17 contrib/video_cck/providers/metacafe.inc:17 contrib/video_cck/providers/myspace.inc:17 contrib/video_cck/providers/revver.inc:19 contrib/video_cck/providers/sevenload.inc:26
+msgid "These settings specifically affect videos displayed from !provider."
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23;24
+msgid "No video"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Flash Video"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Override tag"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Web"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Web High Resolution"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Portable (iPod)"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Portable (other)"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Television"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "HDTV"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Cell Phone"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:23
+msgid "Source"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:24
+msgid "Flash video (flv)"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:24
+msgid "Quicktime Movie (mov)"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:24
+msgid "m4a"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:24
+msgid "MPEG"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:24
+msgid "mp4"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:24
+msgid "m4v"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:24 contrib/video_cck/providers/zzz_custom_url.inc:27
+msgid "Windows Media (wmv)"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:29
+msgid "Video formats"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:30
+msgid "Blip.TV allows users to upload videos of various formats, sizes, and qualities. These options will allow the administrator to choose the default video formats to display. Blip.TV uses 'tags' to determine this, such as 'Web' for a standard web resolution, and 'HDTV' for a high definition. If you select a tag, then the video format provided by Blip.TV for that tag will be displayed. If you select 'Override tag', then you may specify that the first available video of the given format will be displayed instead, which may or may not have your desired resolution. If a tag or format is not available for a specific video, the module will display the Flash video format instead, which is always present."
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:36
+msgid "RSS"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:37
+msgid "This will determine the preferred video format for RSS feeds."
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:44
+msgid "RSS full page tag"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:45
+msgid "When RSS feeds are displayed, and this tag is available for a video, then the clip for that tag will be displayed as an enclosure tag in the feed. Select 'Override tag' if you wish to control the format displayed. Select 'No video' if you do not wish a video to be displayed in RSS feeds."
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:51
+msgid "RSS full page format override"
+msgstr ""
+
+#: contrib/video_cck/providers/bliptv.inc:52
+msgid "When RSS feeds are displayed, and the 'Override tag' option is selected above, then this format will be displayed as an enclosure tag in the feed."
+msgstr ""
+
+#: contrib/video_cck/providers/brightcove.inc:16
+msgid "Brightcove"
+msgstr ""
+
+#: contrib/video_cck/providers/brightcove.inc:26
+msgid "These settings specifically affect videos displayed from !brightcove."
+msgstr ""
+
+#: contrib/video_cck/providers/dailymotion.inc:18
+msgid "Dailymotion"
+msgstr ""
+
+#: contrib/video_cck/providers/dailymotion.inc:28
+msgid "These settings specifically affect videos displayed from !dailymotion. You can learn more about its !api here."
+msgstr ""
+
+#: contrib/video_cck/providers/google.inc:9
+msgid "Google"
+msgstr ""
+
+#: contrib/video_cck/providers/google.inc:19
+msgid "These settings specifically affect videos displayed from !google."
+msgstr ""
+
+#: contrib/video_cck/providers/google.inc:28
+msgid "Google video domain"
+msgstr ""
+
+#: contrib/video_cck/providers/google.inc:30
+msgid "Google hosts their videos on various servers throughout the world. By default, videos from Google will be displayed from the United States, at their google.<b><em>com</em></b> servers. If you wish to display the video from another Google server, please enter the domain here, without the initial dot. For instance, you might enter <b><em>it</em></b> for the Italian Google servers at google.it, or <b><em>ca</em></b> for their Canadian servers."
+msgstr ""
+
+#: contrib/video_cck/providers/google.inc:80
+msgid "Your browser is not able to display this multimedia content."
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:9
+msgid "GUBA"
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:13 contrib/video_cck/providers/imeem.inc:14 contrib/video_cck/providers/veoh.inc:14 contrib/video_cck/providers/youtube.inc:27;49
+msgid "Show related videos"
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:13 contrib/video_cck/providers/imeem.inc:14 contrib/video_cck/providers/veoh.inc:14 contrib/video_cck/providers/youtube.inc:27
+msgid "This is embedded in the video itself when enabled; currently not available with other providers. Set the feature above."
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:14 contrib/video_cck/providers/imeem.inc:15 contrib/video_cck/providers/veoh.inc:15
+msgid "May not currently resize thumbnails. Must have an API key for thumbnails at the moment, although research is underway to determine an alternative to this. Set your API key above."
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:20
+msgid "These settings specifically affect videos displayed from !guba. You can learn more about its !api here."
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:28
+msgid "GUBA API"
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:29
+msgid "If you wish to be able to display GUBA thumbnails automatically, you will first need to apply for an API Developer Key from the !guba. Note that you do not need this key to display GUBA videos themselves."
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:35
+msgid "GUBA API Key"
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:37
+msgid "Please enter your GUBA Developer Key here."
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:41
+msgid "GUBA API Secret"
+msgstr ""
+
+#: contrib/video_cck/providers/guba.inc:43
+msgid "If you have a secret for the GUBA API, enter it here."
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:10
+msgid "IMEEM"
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:21
+msgid "These settings specifically affect videos displayed from !imeem. You can learn more about its !api here."
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:29
+msgid "IMEEM API"
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:30
+msgid "If you wish to be able to display IMEEM thumbnails automatically, you will first need to apply for an API Developer Key from the !imeem. Note that you do not need this key to display IMEEM videos themselves."
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:36
+msgid "IMEEM API Key"
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:38
+msgid "Please enter your IMEEM Developer Key here."
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:42
+msgid "IMEEM API Secret"
+msgstr ""
+
+#: contrib/video_cck/providers/imeem.inc:44
+msgid "If you have a secret for the IMEEM API, enter it here."
+msgstr ""
+
+#: contrib/video_cck/providers/jumpcut.inc:7
+msgid "JumpCut"
+msgstr ""
+
+#: contrib/video_cck/providers/lastfm.inc:18
+msgid "Last.fm"
+msgstr ""
+
+#: contrib/video_cck/providers/lastfm.inc:28
+msgid "These settings specifically affect videos displayed from !lastfm."
+msgstr ""
+
+#: contrib/video_cck/providers/livevideo.inc:21
+msgid "Live Video"
+msgstr ""
+
+#: contrib/video_cck/providers/livevideo.inc:31
+msgid "These settings specifically affect videos displayed from !livevideo. You can learn more about its !api here."
+msgstr ""
+
+#: contrib/video_cck/providers/livevideo.inc:45
+msgid "Live Video API"
+msgstr ""
+
+#: contrib/video_cck/providers/livevideo.inc:46
+msgid "If you wish to be able to display Live Video thumbnails automatically, you will first need to apply for an API Developer Key from the !livevideo. Note that you do not need this key to display Live Video videos themselves."
+msgstr ""
+
+#: contrib/video_cck/providers/livevideo.inc:52
+msgid "Live Video API Key"
+msgstr ""
+
+#: contrib/video_cck/providers/livevideo.inc:54
+msgid "Please enter your Live Video Developer Key here."
+msgstr ""
+
+#: contrib/video_cck/providers/metacafe.inc:7
+msgid "MetaCafe"
+msgstr ""
+
+#: contrib/video_cck/providers/myspace.inc:7
+msgid "MySpace"
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:8
+msgid "Revver"
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:10
+msgid "Affliate program"
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:10
+msgid "Not currently supported by other providers. Set affiliate ID above."
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:13
+msgid "May not currently resize thumbnails, but this will be easy to add. Meanwhile, you can override theme_video_cck_revver_thumbnail if you have a pressing need for this and know how to theme."
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:28
+msgid "Revver affiliate program"
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:29
+msgid "You may share ad revenue if you publish Revver videos through their !program."
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:35
+msgid "Revver associate key"
+msgstr ""
+
+#: contrib/video_cck/providers/revver.inc:37
+msgid "If you have a Revver Affiliate ID, you may enter it here. This is not required for viewing videos, but will give you proper credit when doing so. You can find your Affiliate ID by examining the URL of a video while logged into their site."
+msgstr ""
+
+#: contrib/video_cck/providers/sevenload.inc:16
+msgid "Sevenload"
+msgstr ""
+
+#: contrib/video_cck/providers/spike.inc:7
+msgid "Spike TV"
+msgstr ""
+
+#: contrib/video_cck/providers/spike.inc:9;11
+msgid "In the works..."
+msgstr ""
+
+#: contrib/video_cck/providers/spike.inc:17
+msgid "These settings specifically affect videos displayed from !spike."
+msgstr ""
+
+#: contrib/video_cck/providers/tudou.inc:18
+msgid "Tudou"
+msgstr ""
+
+#: contrib/video_cck/providers/tudou.inc:28
+msgid "These settings specifically affect videos displayed from !tudou."
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:10
+msgid "Veoh"
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:21
+msgid "These settings specifically affect videos displayed from !veoh. You can learn more about its !api here."
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:29
+msgid "Veoh API"
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:30
+msgid "If you wish to be able to display Veoh thumbnails automatically, you will first need to apply for an API Developer Key from the !veoh. Note that you do not need this key to display Veoh videos themselves."
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:36
+msgid "Veoh API Key"
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:38
+msgid "Please enter your Veoh Developer Key here."
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:42
+msgid "Veoh API Secret"
+msgstr ""
+
+#: contrib/video_cck/providers/veoh.inc:44
+msgid "If you have a secret for the Veoh API, enter it here."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:20
+msgid "Vimeo"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:22
+msgid "Custom player color"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:22
+msgid "You may customize the player's skin by choosing your own color."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:23
+msgid "You may select the size of thumbnail to request from Vimeo."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:24
+msgid "Full screen mode"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:24
+msgid "You may customize the player to enable or disable full screen playback. Full screen mode is enabled by default."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:30
+msgid "These settings specifically affect videos displayed from !provider. You can learn more about its !api here."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:44
+msgid "Embedded video player color"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:45
+msgid "If allowed, this color, in hexidecimal form (#RRGGBB), will be used to change the skin of the Vimeo player."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:51
+msgid "Override player color"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:56
+msgid "Color"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:61
+msgid "Embedded video player options"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:67
+msgid "On-screen info"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:70
+msgid "Show video author's portrait"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:71
+msgid "Show video title"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:72
+msgid "Show byline"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:74
+msgid "Provide additional video information on the Vimeo player."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:78
+msgid "Allow fullscreen"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:80
+msgid "Allow users to view video using the entire computer screen."
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:84
+msgid "Vimeo API Key"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:89
+msgid "Vimeo API Shared Secret"
+msgstr ""
+
+#: contrib/video_cck/providers/vimeo.inc:94
+msgid "Vimeo Thumbnail Size"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:23
+msgid "YouTube"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:29
+msgid "Custom player colors"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:29
+msgid "You may customize the player's skin by choosing your own colors, and/or border in that setting field set."
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:35
+msgid "These settings specifically affect videos displayed from !youtube. You can learn more about its !api here."
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:51
+msgid "If checked, then when playing a video from YouTube, users may hover over the video to see thumbnails & links to related videos."
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:53
+msgid "Please make sure to enter your YouTube API key here."
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:53
+msgid "You will have access to more advanced features if you install and enable the !youtube_api module."
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:53;56
+msgid "YouTube API"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:83
+msgid "Embedded Video Player Colors"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:84
+msgid "If allowed, these two colors, in hexidecimal form (#RRGGBB), will be used to skin the YouTube player."
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:90
+msgid "Override player colors"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:95
+msgid "Display border around player"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:100
+msgid "Color 1"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:105
+msgid "Color 2"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:115
+msgid "Color 1 picker"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:116;121
+msgid "Click in this textfield to start picking your color"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:120
+msgid "Color 2 picker"
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:125
+msgid " The !colorpicker, if active, gives an easy way to select these colors."
+msgstr ""
+
+#: contrib/video_cck/providers/youtube.inc:125
+msgid "Colorpicker module"
+msgstr ""
+
+#: contrib/video_cck/providers/zzz_custom_url.inc:19
+msgid "These settings specifically affect videos displayed from custom URL's. When a field uses a URL it determines to be a link directly to a video file, it will embed that file into the content."
+msgstr ""
+
+#: contrib/video_cck/providers/zzz_custom_url.inc:28
+msgid "Windows Media (wma)"
+msgstr ""
+
+#: contrib/video_cck/providers/zzz_custom_url.inc:29
+msgid "Flash (swf)"
+msgstr ""
+
+#: contrib/video_cck/providers/zzz_custom_url.inc:30
+msgid "Flash Video (flv)"
+msgstr ""
+
+#: contrib/video_cck/providers/zzz_custom_url.inc:31
+msgid "Quicktime (mov)"
+msgstr ""
+
+#: contrib/video_cck/providers/zzz_custom_url.inc:40
+msgid "Select the video types you wish to support. When a custom url with that type is entered into an embedded video field, it will be parsed and displayed appropriately. If a type is not supported, then it will be ignored."
+msgstr ""
+

@@ -1,0 +1,626 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  buddy_api.token.inc,v 1.2 2008/02/22 08:11:02 nodestroy
+#  buddy_api.views.inc,v 1.9.4.4 2008/08/01 17:44:49 nodestroy
+#  buddylist_ui.module,v 1.6.4.7 2008/08/02 09:04:54 nodestroy
+#  buddy_api.module,v 1.3.4.1 2008/03/28 10:44:38 nodestroy
+#  buddy_api.workflowng.configurations.inc,v 1.2 2008/02/22 08:11:02 nodestroy
+#  buddy_api.workflowng.inc,v 1.3 2008/02/22 08:11:02 nodestroy
+#  buddy_api.install,v 1.2.4.1 2008/06/25 13:12:28 nodestroy
+#  buddy_api/buddy_api.info: n/a
+#  buddy_api_invite/buddy_api_invite.info: n/a
+#  buddy_api_shortestroute/buddy_api_shortestroute.info: n/a
+#  buddylist_ui/buddylist_ui.info: n/a
+#  buddy_api_invite.module,v 1.4.4.2 2008/07/02 15:38:07 nodestroy
+#  buddy_api_shortestroute.module,v 1.4.4.7 2008/06/25 20:33:07 nodestroy
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-02 17:39+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: buddy_api/buddy_api.token.inc:25
+msgid "Message which is send by userA who requests to userB"
+msgstr ""
+
+#: buddy_api/buddy_api.token.inc:26
+msgid "Notification message to display and/or log"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:61
+msgid "Buddylist: Users buddies"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:62;101;134;155
+msgid "helptext"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:100
+msgid "Buddylist: Requestees"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:107
+msgid "Buddylist: Cancel Link"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:109
+msgid "Cancel link"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:113
+msgid "Display a link to cancel the request."
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:133
+msgid "Buddylist: Message"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:154
+msgid "Buddylist: Requesters"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:161
+msgid "Buddylist: Accept Link"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:163
+msgid "Accept link"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:167
+msgid "Display a link to accept the request."
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:170
+msgid "Buddylist: Deny Link"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:172
+msgid "Deny link"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:176
+msgid "Display a link to deny the request."
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:212
+msgid "Buddylist: Actionlink"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:214
+msgid "Action link"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:217
+msgid "Display a action link to add/delete buddy."
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:223
+msgid "Buddylist: Author Is A Buddy Of Username"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:227
+msgid "This allows you to filter by buddies of a particular user."
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:231
+msgid "Buddylist: Author Is A Buddy Of Current User"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:234
+msgid "This allows you to filter by buddies of the current user."
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:265 buddylist_ui/buddylist_ui.module:120;305
+msgid "Cancel Request"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:273 buddylist_ui/buddylist_ui.module:100;245
+msgid "Accept Request"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:281 buddylist_ui/buddylist_ui.module:110;211
+msgid "Deny Request"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:305
+msgid "Buddylist2: Nodes author is buddy of UID"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:307
+msgid "This will filter nodes of all users, which are buddies of the given uid."
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:356
+msgid "list of buddies (shows buddies of logged user - except on a other users page - integrated in the userpage)"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:368 buddy_api/buddy_api.module:43
+msgid "Buddylist"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:418
+msgid "list of received requests (integrated in the buddylist page)"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:428
+msgid "Received requests"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:485
+msgid "list of sent requests (integrated in the buddylist page)"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:495
+msgid "Sent Requests"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:550
+msgid "list of my buddies (for block use - shows everytime the buddies of the logged user)"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:567
+msgid "My Buddylist"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:616
+msgid "lists content which is created by a users buddy"
+msgstr ""
+
+#: buddy_api/buddy_api.views.inc:633
+msgid "My Buddies Content"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.configurations.inc:21;113;179;245;311;358;405;471 buddy_api/buddy_api.workflowng.inc:16;25;34;43;52;61
+msgid "buddy-api"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:15
+msgid "UserA adds UserB to his buddylist"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:18;27;36;45;63
+msgid "UserA, current User"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:19;28
+msgid "UserB, user to add"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:20;29;38;47;56;65
+msgid "Buddyinfo"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:24
+msgid "UserA requests to add UserB"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:33
+msgid "UserA deletes UserB from his buddylist"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:37
+msgid "UserB, user to delete"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:42
+msgid "UserA cancels his own request to UserB"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:46
+msgid "UserB, potential buddy"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:51
+msgid "UserB accepts request from UserA"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:54
+msgid "UserA, new buddy"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:55
+msgid "UserB, current User"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:60
+msgid "UserA denys accept from UserB"
+msgstr ""
+
+#: buddy_api/buddy_api.workflowng.inc:64
+msgid "UserB, user which has requested"
+msgstr ""
+
+#: buddy_api/buddy_api.module:40
+msgid "buddy"
+msgstr ""
+
+#: buddy_api/buddy_api.module:41
+msgid "Buddy"
+msgstr ""
+
+#: buddy_api/buddy_api.module:42
+msgid "buddylist"
+msgstr ""
+
+#: buddy_api/buddy_api.module:44
+msgid "buddies"
+msgstr ""
+
+#: buddy_api/buddy_api.module:45
+msgid "Buddies"
+msgstr ""
+
+#: buddy_api/buddy_api.module:375
+msgid "@username has been removed from your @buddylist."
+msgstr ""
+
+#: buddy_api/buddy_api.module:376
+msgid "@username has been added to your @buddylist."
+msgstr ""
+
+#: buddy_api/buddy_api.module:377
+msgid "Your request to add @username to your @buddylist has been submitted. @username will be notified."
+msgstr ""
+
+#: buddy_api/buddy_api.module:378
+msgid "The request to add @username has been cancelled."
+msgstr ""
+
+#: buddy_api/buddy_api.module:379
+msgid "Congratulations! @username is now your buddy."
+msgstr ""
+
+#: buddy_api/buddy_api.module:380
+msgid "The request from @username to be your @buddy has been denied."
+msgstr ""
+
+#: buddy_api/buddy_api.module:0
+msgid "buddy_api"
+msgstr ""
+
+#: buddy_api/buddy_api.install:128
+msgid "buddy_api module installed successfully."
+msgstr ""
+
+#: buddy_api/buddy_api.install:132
+msgid "Table installation for the buddy_api module was unsuccessful. The tables may need to be installed by hand. See the README.txt file for a list of the installation queries."
+msgstr ""
+
+#: buddy_api/buddy_api.info:0
+msgid "Buddy API"
+msgstr ""
+
+#: buddy_api/buddy_api.info:0
+msgid "API which provides functions to create buddy connections, for example: buddylist"
+msgstr ""
+
+#: buddy_api/buddy_api.info:0 buddy_api_invite/buddy_api_invite.info:0 buddy_api_shortestroute/buddy_api_shortestroute.info:0 buddylist_ui/buddylist_ui.info:0
+msgid "Buddylist2 Package"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:18
+msgid "Whenever a person responds to an invitation from the invite module and joins the site, the inviter and invitee are added to each other's @buddylist."
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:32
+msgid "Buddy API Invite Settings"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:33
+msgid "Buddy API Invite Admin Settings"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:48 buddy_api_shortestroute/buddy_api_shortestroute.module:52 buddylist_ui/buddylist_ui.module:137
+msgid "General settings"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:54
+msgid "Inviter and Invitee are becoming buddies"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:55
+msgid "If checked, a two-way buddy connection will be created between Inviter and Invitee."
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:94
+msgid "UserB joins site after userA invited him"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:95 buddy_api_invite/buddy_api_invite.info:0
+msgid "Buddy API Invite"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:97
+msgid "UserA, which invites userB."
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:98
+msgid "UserB, joins site after userA invited him."
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.module:0
+msgid "buddy_api_invite"
+msgstr ""
+
+#: buddy_api_invite/buddy_api_invite.info:0
+msgid "Integrates Invite with Buddy API"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:17
+msgid "Displays shortest path relations between users"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:36 buddy_api_shortestroute/buddy_api_shortestroute.info:0
+msgid "Buddy API Shortest Route"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:37
+msgid "Buddy API configuration options for Shortest Route"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:57
+msgid "Maximum steps to buddy"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:61
+msgid "Defines how many steps between two users should be calculated"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:67
+msgid "Show message when there is no connection"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:68
+msgid "if not checked, the shortest route block will not be shown"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:82;105
+msgid "Shortest Route"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:161
+msgid "Size not shrinking!"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:179
+msgid "Too many links!"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:187
+msgid "You are not in !user_link_name's social network. (No path from !user_name to !user_link_name)"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:290
+msgid "@user's picture"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:290
+msgid "Anonymous"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:299
+msgid "Arrow"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.module:0
+msgid "buddy_api_shortestroute"
+msgstr ""
+
+#: buddy_api_shortestroute/buddy_api_shortestroute.info:0
+msgid "Displays the shortest route between two users"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:17
+msgid "Buddylist UI is an user-interface for Buddy API"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:42
+msgid "My @buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:53
+msgid "My @Buddies"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:61
+msgid "My @Buddy Requests"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:72
+msgid "Buddylist UI Settings"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:73
+msgid "Buddylist UI Admin Settings"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:82
+msgid "Add to @buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:91
+msgid "Delete from @buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:143
+msgid "One way connection mode"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:144
+msgid "oneway means, that userA can add userB without approval. in the case of twoway a request to userB is sent, which can be denied or approved."
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:149
+msgid "User Interface"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:155
+msgid "Show buddylist on a users page (user/x)"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:156
+msgid "if checked, a users buddies will be shown on his users page"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:162
+msgid "Show action links on a users page (user/x)"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:163
+msgid "if checked, action links like 'add to buddylist' will be shown on a users page"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:177;183
+msgid "My @buddy stats"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:212
+msgid "Are you sure you want to deny the request from !name?"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:214;248;308
+msgid "Yes"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:214;248;308
+msgid "No"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:246
+msgid "Are you sure you want to accept the request from !name?"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:306
+msgid "Are you sure you want to cancel the request to !name?"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:399;556
+msgid "@Buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:423;483
+msgid "This user does not exist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:426
+msgid "This user is already on your @buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:429
+msgid "Cannot add yourself to @buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:445
+msgid "Message"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:446
+msgid "Message, which is sent by mail and shown at pending requests."
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:451
+msgid "Add user !name to your @buddylist?"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:452
+msgid "Add"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:452;500
+msgid "Cancel"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:499
+msgid "Remove user !name from your @buddylist?"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:500
+msgid "Remove"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:519
+msgid "Add to my @buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:527
+msgid "Remove from my @buddylist"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:535
+msgid "You have requested to add !name to your @buddylist. (See !your_pending_requests)"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:537;546
+msgid "your pending requests"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:544
+msgid "!name has requested to add you to your @buddylist. (See !your_pending_requests)"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:561;581;589;612
+msgid "NONE"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:575
+msgid "Pending Requests"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:616
+msgid "@Buddies"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:633
+msgid "@Buddy actions"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:652
+msgid "buddy"
+msgid_plural "buddies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddylist_ui/buddylist_ui.module:655
+msgid "incoming request"
+msgid_plural "incoming requests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddylist_ui/buddylist_ui.module:658
+msgid "sent request"
+msgid_plural "sent requests"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddylist_ui/buddylist_ui.module:26
+msgid "view buddy lists"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:26
+msgid "maintain buddy list"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.module:0
+msgid "buddylist_ui"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.info:0
+msgid "Buddylist UI"
+msgstr ""
+
+#: buddylist_ui/buddylist_ui.info:0
+msgid "Userinterface for Buddy API"
+msgstr ""
+

@@ -1,0 +1,235 @@
+# $Id$
+# LANGUAGE translation of Drupal (general)
+# Copyright 2009 NAME <Thomas Zahreddin>
+# Generated from files:
+# imagefield.module,v 1.30.2.6.2.70 2009/02/09 21:01:38 drewish
+# imagefield.info,v 1.4.4.3 2008/04/19 23:17:02 dopry
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-15 13:18+0100\n"
+"PO-Revision-Date: 2009-04-07 11:45+0100\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Language-Team: German <thomas@VoiceHero.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: imagefield.module:125
+msgid "Default image"
+msgstr "Standardmäßiges Bild"
+
+#: imagefield.module:130
+msgid "Use default image"
+msgstr "Standardmäßiges Bild verwenden"
+
+#: imagefield.module:132
+msgid "Check here if you want to use a image as default."
+msgstr "Aktivieren, um ein Bild als Standard zu verwenden."
+
+#: imagefield.module:142
+msgid "Upload image"
+msgstr "Bild hochladen"
+
+#: imagefield.module:143
+msgid "Choose a image that will be used as default."
+msgstr "Ein Bild auswählen, das standardmäßig verwendet wird."
+
+#: imagefield.module:195
+msgid "Has Image"
+msgstr "Bild vorhanden"
+
+#: imagefield.module:168
+msgid "The default image could not be uploaded. The destination(%d) does not exist or is not writable by the webserver."
+msgstr "Das standardmäßige Bild konnte nicht hochgeladen werden. Das Ziel (%d) ist nicht vorhanden oder vom Webserver nicht beschreibbar."
+
+#: imagefield.module:173
+msgid "The default image could not be uploaded. Failed saving to destination(%d)."
+msgstr "Das Standardbild konnte nicht auf %d gespeichert werden."
+
+#: imagefield.module:427
+msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction. If a larger image is uploaded, it will be resized to reflect the given width and height."
+msgstr "Die maximale zulässige Auflösung für Bilder im Format BREITExHÖHE (z.B. 640x480). Für keine Beschränkungen auf 0 einstellen. Sollte ein größeres Bild hochgeladen werden, wird dieses in der Größe angepasst, um die vorgegebene Breite und Höhe wiederzuspiegeln."
+
+#: imagefield.module:263
+msgid "Image upload was unsuccessful."
+msgstr "Bild konnte nicht gespeichert werden."
+
+#: imagefield.module:422
+msgid "Maximum resolution for Images"
+msgstr "Maximale Auflösung für Bilder"
+
+#: imagefield.module:455
+msgid "Permitted upload file extensions."
+msgstr "Unzulässige Dateierweiterungen."
+
+#: imagefield.module:459
+msgid "Extensions a user can upload to this field. Seperate extensions with a space and do not include the leading dot."
+msgstr "Die zulässigen Dateiendungen eingeben, die ein Benutzer hochladen darf. Die Dateierweiterungen ohne führenden Punkt mit einem Leerzeichen voneinander trennen."
+
+#: imagefield.module:431
+msgid "Maximum filesize for Images"
+msgstr "Maximale Dateigröße für Bilder"
+
+#: imagefield.module:434
+msgid "The maximum allowed image file size expressed in kilobytes. Set to 0 for no restriction."
+msgstr "Maximale Dateigröße für Bilder in KB, die Zahl 0 steht für keine Beschränkung (bzw. die Beschränkung durch php.ini)"
+
+#: imagefield.module:438
+msgid "Maximum number of images"
+msgstr "Maximale Zahl der Bilder"
+
+#: imagefield.module:441
+msgid "The maximum number of images allowed. Set to 0 for no restriction. This only applies if multiple values are enabled."
+msgstr "Maximale Zahl der Bilder, die Zahl 0 steht für keine Beschränkung."
+
+#: imagefield.module:464
+msgid "Enable custom alternate text"
+msgstr "Alternativtext"
+
+#: imagefield.module:445
+#, fuzzy
+msgid "Image path"
+msgstr "Pfad für Bild"
+
+#: imagefield.module:447
+msgid "Optional subdirectory within the \"%dir\" directory where images will be stored. Do not include trailing slash."
+msgstr "Optionales Unterverzeichnis in \"%dir\" zum Speichern in Bildern"
+
+#: imagefield.module:450
+msgid "You can use the following tokens in the image path."
+msgstr "Die folgenden Token können für den Pfad von Bildern verwendet werden."
+
+#: imagefield.module:466
+msgid "Enable custom alternate text for images. Filename will be used if not checked."
+msgstr "Alternativtext für Bider zulassen, ersatzweise den Dateinamen verwenden."
+
+#: imagefield.module:470
+msgid "Enable custom title text"
+msgstr "Benutzerdefinierter Titel-Text"
+
+#: imagefield.module:472
+msgid "Enable custom title text for images. Filename will be used if not checked."
+msgstr "Benutzerdefinierter Titel-Text, ersatzweise den Dateinamen verwenden."
+
+#: imagefield.module:511
+msgid "Imagefield failed to create directory(%d) at (%p)."
+msgstr "Das Unterverzeichnis %d konnte im Verzeichnis %p nicht erzeugt werden."
+
+#: imagefield.module:526
+msgid "The image %filename was resized to fit within the maximum allowed resolution of %resolution pixels"
+msgstr "Die Größe des Bildes wurde verändert, damit die maximal zulässige Auflösung von %resolution Pixeln nicht überschritten wird."
+
+#: imagefield.module:671
+msgid "Images are not saved until the form is submitted."
+msgstr "Bilder werden erst mit dem Formular gespeichert."
+
+#: imagefield.module:703
+msgid "<br />Allowed extensions: %ext"
+msgstr "<br />Zulässige Dateierweiterungen: %ext"
+
+#: imagefield.module:709
+msgid "Upload a new image"
+msgstr "Speichern eines neuen Bildes"
+
+#: imagefield.module:718
+msgid "Upload"
+msgstr "Speichern"
+
+#: imagefield.module:739
+msgid "Delete"
+msgstr "Löschen"
+
+#: imagefield.module:758
+msgid "Filename: "
+msgstr "Dateiname"
+
+#: imagefield.module:769
+msgid "Alternate text"
+msgstr "Alternativtext"
+
+#: imagefield.module:771
+msgid "Alternate text to be displayed if the image cannot be displayed."
+msgstr "Der Alternativtext wird angezeigt, wenn das Bild nicht angezeigt werden kann."
+
+#: imagefield.module:785
+msgid "Title"
+msgstr "Titel"
+
+#: imagefield.module:787
+msgid "Text to be displayed on mouse overs."
+msgstr "Text zur Anzeige, wenn der Mauscurser darübersteht."
+
+#: imagefield.module:797
+msgid "If a new image is chosen, the current image will be replaced upon submitting the form."
+msgstr "Falls ein neues Bild ausgewählt wurde, werden die vorhandenen Bilder erst nach dem Speichern ersetzt."
+
+#: imagefield.module:856
+msgid "@field is required. Please upload an image."
+msgstr "Laden Sie in Bild in @field."
+
+#: imagefield.module:859
+msgid "@field is required. Please uncheck at least one delete checkbox or upload another image."
+msgstr "@field benötigt ein Bild."
+
+#: imagefield.module:876
+msgid "Files with the extension %ext are not allowed. Please upload a file with an extension from the following list: %allowed_extensions"
+msgstr "Dateien mit der Endung %ext ist hier nicht zulässig, speichern Sie eine Datei mit einer dieser Erweiterungen: %allowed_extensions"
+
+#: imagefield.module:884
+msgid "The file you uploaded has a filesize greater than the maximum allowed filesize of %sizekb."
+msgstr "Die Datei war zu groß, Dateien können nur bis zu Größe %sizekb gespeichert werden."
+
+#: imagefield.module:892
+msgid "Mime Type mismatch. Only image files may be upload. You uploaded a file with mime type: %mime"
+msgstr "%mime Mime Type wurde hochgeladen, dies wurde nicht als  Bild erkannt."
+
+#: imagefield.module:900
+msgid "You are only allowed to upload up to %maximages images."
+msgstr "Speichern Sie maximal %maximages images."
+
+#: imagefield.module:920
+msgid "link to node"
+msgstr "Link zum Beitrag"
+
+#: imagefield.module:924
+msgid "link to image"
+msgstr "Link zum Bild"
+
+#: imagefield.module:928
+msgid "path to image"
+msgstr "Pfad zum Bild"
+
+#: imagefield.module:932
+msgid "url to image"
+msgstr "URL des Bildes"
+
+#: imagefield.module:101
+msgid "view imagefield uploads"
+msgstr "Gespeicherte Bilder anzeigen."
+
+#: imagefield.module:511;0
+msgid "imagefield"
+msgstr "imagefield"
+
+#: imagefield.module:690
+msgid "You can only attach one image to this field. Delete the image if you wish to be able to upload a different one."
+msgstr "Hier kann nur ein Bild angefügt werden."
+
+#: imagefield.info:0
+msgid "ImageField"
+msgstr "Bildfeld"
+
+#: imagefield.info:0
+msgid "Defines an image field type."
+msgstr "Definiert einen „Bild“-Feldtyp."
+
+#: imagefield.info:0
+msgid "CCK"
+msgstr "CCK"
+

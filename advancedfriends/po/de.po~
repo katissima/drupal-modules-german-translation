@@ -1,0 +1,193 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  advancedfriends.module: n/a
+#  advancedfriends.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-25 19:42+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: advancedfriends.module:30
+msgid "Received Friend Request"
+msgstr ""
+
+#: advancedfriends.module:35
+msgid "View friend request that you have received."
+msgstr ""
+
+#: advancedfriends.module:38
+msgid "Sent Friend Request"
+msgstr ""
+
+#: advancedfriends.module:43
+msgid "View friend request that you have sent."
+msgstr ""
+
+#: advancedfriends.module:46;54
+msgid "Friends"
+msgstr ""
+
+#: advancedfriends.module:51
+msgid "View friends."
+msgstr ""
+
+#: advancedfriends.module:58
+msgid "Accept request."
+msgstr ""
+
+#: advancedfriends.module:61
+msgid "Remove Friend"
+msgstr ""
+
+#: advancedfriends.module:65;73
+msgid "Remove Friend."
+msgstr ""
+
+#: advancedfriends.module:68
+msgid "Add Friend"
+msgstr ""
+
+#: advancedfriends.module:76
+msgid "Cancel"
+msgstr ""
+
+#: advancedfriends.module:80
+msgid "Cancel Request."
+msgstr ""
+
+#: advancedfriends.module:88
+msgid "Sent Request"
+msgstr ""
+
+#: advancedfriends.module:93;120;238
+msgid "User"
+msgstr ""
+
+#: advancedfriends.module:93;120;238
+msgid "Action"
+msgstr ""
+
+#: advancedfriends.module:105
+msgid "Cancel Request"
+msgstr ""
+
+#: advancedfriends.module:111
+msgid "You have no pending request at this time."
+msgstr ""
+
+#: advancedfriends.module:115
+msgid "Received Request"
+msgstr ""
+
+#: advancedfriends.module:130;175
+msgid "Message"
+msgstr ""
+
+#: advancedfriends.module:137
+msgid "You have no pending friend request at this time."
+msgstr ""
+
+#: advancedfriends.module:149
+msgid "Sorry %user cancelled this friend request"
+msgstr ""
+
+#: advancedfriends.module:176
+msgid "Send a message with your friend request."
+msgstr ""
+
+#: advancedfriends.module:186
+msgid "Send request"
+msgstr ""
+
+#: advancedfriends.module:229
+msgid "Friend List"
+msgstr ""
+
+#: advancedfriends.module:271
+msgid "You have not added any friends yet."
+msgstr ""
+
+#: advancedfriends.module:276
+msgid "@user's picture"
+msgstr ""
+
+#: advancedfriends.module:276
+msgid "Anonymous"
+msgstr ""
+
+#: advancedfriends.module:279
+msgid "View user profile."
+msgstr ""
+
+#: advancedfriends.module:300
+msgid "Edit Account"
+msgstr ""
+
+#: advancedfriends.module:303
+msgid "Edit Profile"
+msgstr ""
+
+#: advancedfriends.module:317
+msgid "Add to friends"
+msgstr ""
+
+#: advancedfriends.module:320
+msgid "Accept Friend Request"
+msgstr ""
+
+#: advancedfriends.module:323
+msgid "Friend request pending"
+msgstr ""
+
+#: advancedfriends.module:326
+msgid "@name is your friend"
+msgstr ""
+
+#: advancedfriends.module:394
+msgid "Inbox: @count"
+msgstr ""
+
+#: advancedfriends.module:396
+msgid "Friends: @count"
+msgstr ""
+
+#: advancedfriends.module:398
+msgid "Received Request: @count"
+msgstr ""
+
+#: advancedfriends.module:401
+msgid "Sent Request: @count"
+msgstr ""
+
+#: advancedfriends.module:404
+msgid "Files: @count"
+msgstr ""
+
+#: advancedfriends.module:6
+msgid "use friend system"
+msgstr ""
+
+#: advancedfriends.module:0
+msgid "advancedfriends"
+msgstr ""
+
+#: advancedfriends.info:0
+msgid "Advanced Friends"
+msgstr ""
+
+#: advancedfriends.info:0
+msgid "An alternate way of handling friends list."
+msgstr ""
+

@@ -1,0 +1,145 @@
+# $Id$
+# LANGUAGE translation of Drupal (general)
+# Copyright 2009 NAME <>
+# Generated from files:
+# contemplate.module,v 1.8.2.25 2008/11/14 06:42:12 jrglasgow
+# contemplate.info,v 1.2.2.3 2008/02/28 18:25:41 jrglasgow
+# contemplate.install,v 1.4.2.15 2008/02/28 19:05:18 jrglasgow
+# , fuzzy
+# NAME <Thomas Zahreddin>, 2009.
+# NAME <Thomas Zahreddin>, 2009.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Content Templates 5.x-2.04\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-08-31 20:57+0200\n"
+"PO-Revision-Date: 2009-03-28 17:52+0100\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.net>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);"
+
+#: contemplate.module:25
+#: contemplate.module:55
+msgid "<p>The Content Templates (a.k.a. contemplate) module allows modification of the teaser and body fields using administrator defined templates. These templates use PHP code and all of the node object variables are available for use in the template. An example node object is displayed and it is as simple as clicking on its properties to add them to the current template.</p>\n\n<p>This module was written to solve a need with the Content Construction Kit (CCK), where it had a tendency toward outputting content in a not-very-pretty way. And as such, it dovetails nicely with CCK, adding a \"template\" tab to CCK content-type editing pages and pre-populating the templates with CCK's default layout. This makes it easy to rearrange fields, output different fields for teaser and body, remove the field title headers, output fields wrapped for use with tabs.module (part of JSTools), or anything you need.</p>\n\n<p>But Content Templates can actually be used on any content type and allows modification of the teaser and body properties before they go out in an RSS feed or are handed off to the theme.</p>\n\n<h3>Creating templates</h3>\n\n<p>Enter PHP code similar to <a href=\"http://drupal.org/node/11816\">PHPTemplate</a>. The main difference is that you only have access to the $node object. However, PHPTemplate templates only affect output to the page. Contemplate affects display in all site themes as well as RSS feeds and search results.</p>\n\n<h3 id=\"disk-based\">Disk-based templates</h3>\n<p>It is also possible to create disk-based template files. To do this, copy the contents of a contemplate textarea and paste it into a file called \"node-<em>nodetype</em>-<em>field</em>.tpl.php\" where <em>nodetype</em> is the content type and <em>field</em> is either \"body\", \"teaser\", or \"rss\". It is also possible to create a template called \"node-<em>nodetype</em>.tpl.php\" which will affect all cases, and \"node.tpl.php\" which will affect all node types.</p>\n\n<p>Place these files into a directory called \"contemplates\" inside of either your \"sites/all\" directory or \"sites/<em>yoursite</em>\" depending on your setup. It is also possible to have multiple \"contemplate\" directories with \"sites/all/contemplates\" being the fallback for templates the contemplate does not find in the more specific site directory.</p>\n\n<p>When adding or removing template files, you will need to visit the <a href=\"!link\">Content Templates admin page</a> to refresh the template list cache. You do not need to do this again when making changes to the content of the templates.</p>\n"
+msgstr "<p>Das Content Template Module (auch contemplate) erlaubt die Veränderung von Anriss- und Textkörperfeld und deren Vorlagen. Für die Vorlagen können PHP Code und alle Variablen des Beitrags genutzt werden. Für die Illustration der Vorlage wir ein Beitrag dieses Typs angezeigt. Durch das Klicken auf die Eigenschaften können diese zur aktuellen Vorlage hinzugefügt werden.</p>\n\n<p>Dieses Modul arbeitet mit dem Content Construction Kit (CCK) zusammen, damit der Inhalt formatiert werden kann. Dazu wird ein Reiter in das Formular zum Bearbeiten des CCK-Inhaltstyps eingefügt, das ein Beispiel zeigt. Damit wird es einfach das Beispiel anzupassen und zu formatieren.</p>\n\n<p>Dabei können auch RSS-Newsfeeds bearbeitet werden oder der Inhalt bevor er an das Theming übergeben wird..</p>\n\n<h3>Erstellen von Vorlagen</h3>\n\n<p>PHP Code ähnlich diesem eingeben <a href=\"http://drupal.org/node/11816\">PHPTemplate</a>. Wesentlicher Unterschied ist, dass nur $node zur Verfügung stehet.</p>\n\n<h3 id=\"disk-based\">Vorlagen in Dateien</h3>\n<p>Dazu wird der Inhalt des ConTemplate Textfeldes in einer Datei gespeichert, mit dem Namen \"node-<em>Inhaltstyp</em>-<em>Feld</em>.tpl.php\" wobei <em>Inhaltstyp</em> der entsprechende Inhaltstyp ist und <em>Feld</em> wird mit \"body\" (dt. Textkörper), \"teaser\" (dt. Anrisstext) oder \"rss\" für den RSS-Newsfeed ersetzt. Die Datei \"node-<em>Inhaltstyp</em>.tpl.php\" gilt für alle obigen Felder.\"node.tpl.php\" beeinflusst alle Inhaltstypen.</p>\n\n<p>Diese Datei(en) werden im Verzeichnis \"contemplates\", dass in \"sites/all\" oder \"sites/<em>URL-der Site</em>\" als spezifischere Vorlage für die Site, abhängig von Ihrer Konfiguration. Es ist auch mögich mehrere \"contemplate\" Verzeichnisse innerhalb von \"sites/all/contemplates\" zu speichern.</p>\n\n<p>Wenn eine Vorlagedatei hinzugefügt oder entfernt wird, muss <a href=\"!link\">Content Templates Verwaltung</a> aktualisiert werden. </p>\n"
+
+
+#: contemplate.module:56 contemplate.info:0
+msgid "Create templates to customize output of teaser and body content."
+msgstr "Vorlagen erstellen, um das Aussehen von Anriss- und Volltexten zu gestalten."
+
+#: contemplate.module:62
+msgid "Content Template Settings"
+msgstr "Einstellungen"
+
+#: contemplate.module:75
+msgid "Template"
+msgstr "Vorlage"
+
+#: contemplate.module:163
+msgid "edit template"
+msgstr "Vorlage bearbeiten"
+
+#: contemplate.module:163
+msgid "create template"
+msgstr "Vorlage erstellen"
+
+#: contemplate.module:164
+#: contemplate.module:168
+msgid "delete templatecontent type"
+msgstr "Inhaltstyp"
+
+#: contemplate.module:184
+#: contemplate.module:186
+#: contemplate.module:187
+#: contemplate.module:187
+msgid "Are you sure you want to delete the template for %type?This action cannot be undone.DeleteCancel"
+msgstr "Abbrechen"
+
+#: contemplate.module:206
+#: contemplate.module:210
+#: contemplate.module:222
+msgid "\n    <p>An example node has been loaded and its properties appear below. Click on the the property names to add them to your template.</p>\n  Click property to add to your template. Fields marked with <span style=\"color:red\">**</span> are insecure and need to be wrapped with either <a href=\"http://api.drupal.org/api/5/function/check_plain\">check_plain()</a> or <a href=\"http://api.drupal.org/api/5/function/check_markup\">check_markup()</a>Teaser"
+msgstr "Anrisstext"
+
+#: contemplate.module:231
+#, fuzzy
+msgid "Affect teaser output"
+msgstr "Anrisstext"
+
+#: contemplate.module:238
+#: contemplate.module:241
+msgid "Teaser TemplateLeave this field blank to leave teaser unaffected."
+msgstr "Dieses Feld leer lassen, um den Anrisstext im Original zu belassen oder HTML bzw. PHP-Code eingeben."
+
+#: contemplate.module:249;294;341
+msgid "<p>This template is being read from<br />%file<br />Please make changes to this file or remove it to continue editing here.</p>"
+msgstr "<p>Diese Vorlage wurde aus <br />%file gelesen.<br />"
+
+#: contemplate.module:255
+#: contemplate.module:267
+#: contemplate.module:275
+#: contemplate.module:282
+#: contemplate.module:285
+#: contemplate.module:300
+#: contemplate.module:314
+msgid "Teaser VariablesBodyAffect body outputBody TemplateLeave this field blank to leave body unaffected.Body VariablesRSS"
+msgstr "RSS-Newsfeed"
+
+#: contemplate.module:322
+#, fuzzy
+msgid "Affect RSS output"
+msgstr "RSS-Newsfeed steuern"
+
+#: contemplate.module:325
+#: contemplate.module:330
+#: contemplate.module:333
+#: contemplate.module:347
+#: contemplate.module:366
+#: contemplate.module:369
+#: contemplate.module:384;471
+#: contemplate.module:385
+#: contemplate.module:390
+msgid "Note that if you do not enable this, Drupal will use either the teaser or body as specified in your <a href=\"@url\">RSS publishing settings</a>.RSS TemplateLeave this field blank to leave RSS unaffected. To add <a href=\"!link\">XML elements</a> create an array $xml_elements.RSS Variables&lt;none&gt; (other modules may add)RSS enclosuresResetAre you sure you want to reset this form?\\nAny customizations will be lost.Submit"
+msgstr "RSS-Newsfeeds formatieren: kein Eintrag bedeutet <a href=\"@url\">RSS-Newsfeed Einstellungen</a> wirken. <a href=\"!link\">XML Elemente </a> über das Array $xml_elements hinzufügen. RSS-Newsfeed Variablen&lt;Keine&gt; (Module können hier einfügen) Anhänge für RSS-Newsfeeds Zurücksetzen: Sind Sie sicher, dass Sie die Einträge dieses Formulars löschen wollen.\\nAlle Eintragungen darin werden gelöscht. Speichern"
+
+#: contemplate.module:404
+#: contemplate.module:407
+msgid "Template for %typeTemplates"
+msgstr "Vorlagen"
+
+#: contemplate.module:411
+#: contemplate.module:473
+#: contemplate.module:477
+#: contemplate.module:607
+#: contemplate.module:676
+msgid "Are you sure you want to delete template for %type?%type template has been reset.%type template saved.No %type content items exist to use as an example. Please create a %type item and then come back here to see an output of its parts. <span style='color:red;font-weight:bold'>**</span>"
+msgstr " <span style='color:red;font-weight:bold'>**</span>"
+
+#: contemplate.module:684
+#: contemplate.module:93
+msgid "insert this variable intoadminister templates"
+msgstr "Vorlagen verwalten"
+
+#: contemplate.module:0
+msgid "contemplate"
+msgstr "contemplate"
+
+#: contemplate.install:44
+#: contemplate.install:83
+msgid "Database tables for ConTemplate module have been installed.The ConTemplate tables have been removed from the database"
+msgstr "Die Tabellen von ConTemplate wurden aus der Datenbank entfernt"
+
+#: contemplate.info:0
+msgid "Content Templates"
+msgstr "Content Templates"
+
+#: contemplate.info:0
+msgid "CCK"
+msgstr "CCK"
+

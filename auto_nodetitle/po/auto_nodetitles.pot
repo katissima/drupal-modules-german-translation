@@ -1,0 +1,97 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  auto_nodetitle.module,v 1.4.2.21 2009/02/10 10:31:34 fago
+#  auto_nodetitle.info: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-28 15:53+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: auto_nodetitle.module:50
+msgid "Preview"
+msgstr ""
+
+#: auto_nodetitle.module:78
+msgid "@type @node-id"
+msgstr ""
+
+#: auto_nodetitle.module:81
+msgid "@type"
+msgstr ""
+
+#: auto_nodetitle.module:93
+msgid "Update automatic nodetitles"
+msgstr ""
+
+#: auto_nodetitle.module:143
+msgid "Automatic title generation"
+msgstr ""
+
+#: auto_nodetitle.module:152
+msgid "Disabled"
+msgstr ""
+
+#: auto_nodetitle.module:153
+msgid "Automatically generate the title and hide the title field"
+msgstr ""
+
+#: auto_nodetitle.module:154
+msgid "Automatically generate the title if the title field is left empty"
+msgstr ""
+
+#: auto_nodetitle.module:160
+msgid "Leave blank for using the per default generated title. Otherwise this string will be used as title."
+msgstr ""
+
+#: auto_nodetitle.module:162
+msgid "Use the syntax [token] if you want to insert a replacement pattern."
+msgstr ""
+
+#: auto_nodetitle.module:166
+msgid "Pattern for the title"
+msgstr ""
+
+#: auto_nodetitle.module:174
+msgid "Replacement patterns"
+msgstr ""
+
+#: auto_nodetitle.module:178
+msgid "Prefer raw-text replacements for text to avoid problems with HTML entities!"
+msgstr ""
+
+#: auto_nodetitle.module:187
+msgid "Evaluate PHP in pattern."
+msgstr ""
+
+#: auto_nodetitle.module:188
+msgid "Put PHP code above that returns your string, but make sure you surround code in &lt;?php and ?&gt;. Note that $node is available and can be used by your code."
+msgstr ""
+
+#: auto_nodetitle.module:17
+msgid "use PHP for title patterns"
+msgstr ""
+
+#: auto_nodetitle.module:0
+msgid "auto_nodetitle"
+msgstr ""
+
+#: auto_nodetitle.info:0
+msgid "Automatic Nodetitles"
+msgstr ""
+
+#: auto_nodetitle.info:0
+msgid "Allows hiding of the node title field and automatic title creation."
+msgstr ""
+

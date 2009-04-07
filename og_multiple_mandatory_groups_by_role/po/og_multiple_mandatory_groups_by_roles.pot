@@ -1,0 +1,302 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  og_multiple_mandatory_groups_by_role.module,v 1.1.2.6 2008/07/19 16:59:07 rconstantine
+#  og_multiple_mandatory_groups_by_role.info,v 1.1.2.1 2007/06/18 23:06:55 dww
+#  og_multiple_mandatory_groups_by_role.install,v 1.1.2.1 2007/10/15 22:42:18 rconstantine
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-03-25 23:50+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: og_multiple_mandatory_groups_by_role.module:32
+msgid "Choose one or more group that all new users will be put into. You can chose either an open or a closed group. The user will be auto-approved as a member of the group."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:33
+msgid "You may also choose to require the new user to join one group in addition to any mandatory group. This setting will only have an effect if there are groups listed in the user registration form."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:34
+msgid "Additionally, you may specify mandatory groups for those who are assigned certain roles."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:35
+msgid "Lastly, you can specify mandatory groups for Group admins."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:64 og_multiple_mandatory_groups_by_role.info:0
+msgid "Multiple mandatory groups by role"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:65
+msgid "Make one or more groups mandatory for new users, group admins, specific roles and/or require new users to pick an additional group to join at registration."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:74
+msgid "Overview"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:82
+msgid "Assign Groups"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:83
+msgid "Assign which groups you'd like to be mandatory for each role."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:92;266;306;719;766
+msgid "Delete"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:101
+msgid "Delete Role and Unsubscribe All Users"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:110
+msgid "Available Groups"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:111
+msgid "Decide which groups are available to make mandatory."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:120
+msgid "Delete group from availability list"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:129
+msgid "Delete group from availability list and unsubscribe users"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:161
+msgid "Roles"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:166;182;201
+msgid "Add role"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:184
+msgid "The role name %name is already added. Please choose another role name."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:189
+msgid "You must specify a valid role name."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:205
+msgid "The role has been added."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:220
+msgid "Role"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:220;686
+msgid "Operations"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:224;228;233
+msgid "assign groups"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:234;689
+msgid "delete"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:235;690
+msgid "delete and unsubscribe"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:263;303
+msgid "Are you sure you want to delete the role %name from the mandatory group manager?"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:265
+msgid "Deleting a role here will make groups previously associated with that role no longer mandatory. Users will not be unsubscribed from the group(s). This action cannot be undone."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:266;306;719;766
+msgid "Cancel"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:280;358
+msgid "The role %rid has been removed from the mandatory groups admin table."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:281;359
+msgid "og_multiple_mandatory_groups_by_role: deleted %rid."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:305
+msgid "Deleting a role here will make groups previously associated with that role no longer mandatory. Users will be unsubscribed from the group(s). This action cannot be undone."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:352;554;783;1176
+msgid "The user %uid has been unsubscribed from group %gid."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:397;413 og_multiple_mandatory_groups_by_role.install:54
+msgid "All users"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:400 og_multiple_mandatory_groups_by_role.install:57
+msgid "Group admins"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:401
+msgid "For the Group admins section only, make sure that mandatory groups from this section are not used in the other role sections!!!"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:416
+msgid "Require One Additional Group"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:417
+msgid "Require new users to join at least one group in addition to any mandatory group(s)."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:425
+msgid "Unsubscribe all members of this role from the unchecked groups as indicated above at next save."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:435
+msgid "Subscribe or unsubscribe all members of each role to the groups as indicated above at next save.<br />\n                          WARNING: This is potentially a VERY expensive procedure. It is best to save any changes first, then check this and save again.<br />\n                          This will update users who existed prior to your use of this module and synchronize them with the above settings."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:443
+msgid "Save assignments"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:548;1170
+msgid "The user %uid has been subscribed to group %gid."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:581
+msgid "There was an error processing the data. Try again, or contact your site administrator."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:584
+msgid "The changes have been saved."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:603
+msgid "Open group, users can unsubscribe."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:606
+msgid "Closed group, users can not leave."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:619
+msgid "Open or Closed Groups"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:620
+msgid "Any group added from this list will be automatically subscribed or unsubscribed as required with each change<br />\n                        a) on the multiple user edit page (admin/user/user)<br />\n                        b) on the user edit page (user/X/edit)<br />\n                        c) on the user registration page (admin/user/user/create)<br />\n                        Do not add any groups to the list for which you do not want this automatic feature."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:629;645;664
+msgid "Add group"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:647
+msgid "The group name %name is already added. Please choose another group name."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:652
+msgid "You must specify a valid group name."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:671
+msgid "The group has been added."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:686
+msgid "Group"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:717;764
+msgid "Are you sure you want to delete the group %name from the mandatory group availability list?"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:719
+msgid "Deleting a group here will make that group no longer mandatory under any role. Users will NOT be unsubscribed from the group(s). This action cannot be undone."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:741;795;880
+msgid "The group %gid has been removed from the mandatory group availability table."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:742;796;881
+msgid "og_multiple_mandatory_groups_by_role_groups: deleted %gid."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:766
+msgid "Deleting a group here will make that group no longer mandatory under any role. Users will be unsubscribed from the group(s). This action cannot be undone."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:908
+msgid "The following groups are mandatory:"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:923
+msgid "(This group is mandatory)"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:940
+msgid "You must join at least one additional (non-mandatory) group."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:943
+msgid "You must join at least one group."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:281;359;742;796;881
+msgid "content"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:47
+msgid "administer og mandatory groups by role"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.module:0
+msgid "og_multiple_mandatory_groups_by_role"
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.install:62
+msgid "Found previously used Mandatory Group variables..."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.install:63
+msgid "using existing Mandatory Groups for new <em>All Users</em> category..."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.install:65
+msgid "using existing Mandatory Groups for new <em>Available Groups</em> table..."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.install:70
+msgid "added <em>%name</em> to the group availability table..."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.info:0
+msgid "Allows a site admin to make one or more groups mandatory to new site subscribers, to group owners, or by role."
+msgstr ""
+
+#: og_multiple_mandatory_groups_by_role.info:0
+msgid "Organic groups"
+msgstr ""
+
