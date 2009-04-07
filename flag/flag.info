@@ -1,9 +1,0 @@
-; $Id: flag.info,v 1.1 2008/06/09 09:22:26 quicksketch Exp $
-name = Flag
-description = Create customized flags that users can set on nodes.
-
-; Information added by drupal.org packaging script on 2008-11-07
-version = "5.x-1.0-beta6"
-project = "flag"
-datestamp = "1226097914"
-
