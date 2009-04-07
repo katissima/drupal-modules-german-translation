@@ -1,0 +1,4 @@
+# ignore generated .mo translation-files
+*.mo
+# ignore backup-files
+*.autosave

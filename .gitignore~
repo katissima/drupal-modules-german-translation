@@ -1,0 +1,2 @@
+# ignore generated .mo translation-files
+*.mo
