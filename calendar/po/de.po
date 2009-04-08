@@ -14,516 +14,548 @@
 #  jcalendar.info,v 1.1.2.1 2008/06/23 14:53:59 karens
 #  jcalendar.module,v 1.1.2.12 2008/11/17 18:01:44 karens
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: Calendar\n"
 "POT-Creation-Date: 2009-04-07 10:31+0200\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2009-04-08 18:13+0100\n"
+"Last-Translator: Thomas Zahreddin <thomas@voicehero.com>\n"
+"Language-Team: Thomas Zaherddin <thomas@voicehero.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
 
-#: calendar_admin.inc:18;402;578;629;641 calendar.module:488 calendar.info:0
+#: calendar_admin.inc:18;402;578;629;641
+#: calendar.module:488
+#: calendar.info:0
 msgid "Calendar"
-msgstr ""
+msgstr "Calendar"
 
 #: calendar_admin.inc:262
 msgid "The Calendar View requires at least one date field."
-msgstr ""
+msgstr "Für eine Ansicht mit Terminen ist mindestens ein Feld mit einem Datum erforderlich"
 
 #: calendar_admin.inc:270
 msgid "You can only set on Default Sort on one field."
-msgstr ""
+msgstr "Eine Standardsortierung kann nur für ein Feld festgelegt werden."
 
 #: calendar_admin.inc:284
 msgid "Calendar arguments must be set to 'Display All Values'."
-msgstr ""
+msgstr "'Display All Values' (dt. Anzeige aller Werte) muss die Einstellung für Argumente des Kalenders sein."
 
 #: calendar_admin.inc:291
+#, fuzzy
 msgid "The Calendar requires as arguments Calendar: Year, Calendar: Month, and Calendar: Day, or Calendar: Year and Calendar: Week"
-msgstr ""
+msgstr "Für einen Kalender sind folgende Argumente erforderlich: Jahr, Monat und Tag oder Calender:Jahr und Calendar:Woche"
 
 #: calendar_admin.inc:308
+#, fuzzy
 msgid "Calendar CCK Date fields must be set to 'Do not group multiple values'."
-msgstr ""
+msgstr "Mehrfache Werte dürfen für Kalender nicht gruppiert werden, Calendar CCK Datumsfelder sind entsprechend zu konfigurieren."
 
 #: calendar_admin.inc:345
 msgid "Time format"
-msgstr ""
+msgstr "Zeitformat"
 
 #: calendar_admin.inc:349
+#, fuzzy
 msgid "The format to use for the time-only date display."
-msgstr ""
+msgstr "Das Format zur Anzeige der Uhrzeit."
 
 #: calendar_admin.inc:352
+#, fuzzy
 msgid "Mini day name size"
-msgstr ""
+msgstr "Platz für den Wochentag in der Miniansicht"
 
 #: calendar_admin.inc:355;362
 msgid "First letter of name"
-msgstr ""
+msgstr "Ersten Buchstaben des Namens"
 
 #: calendar_admin.inc:355;362
 msgid "First two letters of name"
-msgstr ""
+msgstr "Die ersten beiden Buchstaben des Namens"
 
 #: calendar_admin.inc:355;362
 msgid "Abbreviated name"
-msgstr ""
+msgstr "Abgekürzter Name"
 
 #: calendar_admin.inc:355;362
 msgid "Full name"
-msgstr ""
+msgstr "Voller Name"
 
 #: calendar_admin.inc:356
 msgid "The way day of week names should be displayed in a mini calendar."
-msgstr ""
+msgstr "Die Art und Weise, wie die Namen von Wochentagen in Minikalendern angezeigt werden."
 
 #: calendar_admin.inc:359
+#, fuzzy
 msgid "Full day name size"
-msgstr ""
+msgstr "Größe für den Tag in voller Länge"
 
 #: calendar_admin.inc:363
 msgid "The way day of week names should be displayed in a full size calendar."
-msgstr ""
+msgstr "Die Art und Weise, wie die Namen von Wochentagen in einem Vollbildkalender angezeigt werden."
 
 #: calendar_admin.inc:366
 msgid "Show week numbers"
-msgstr ""
+msgstr "Wochennummer anzeigen"
 
 #: calendar_admin.inc:368;375
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #: calendar_admin.inc:368;375
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: calendar_admin.inc:370
 msgid "Whether or not to display a clickable week number link on the left side of each calendar week."
-msgstr ""
+msgstr "Soll die Wochennummer verlinkt werden?"
 
 #: calendar_admin.inc:373
 msgid "Popup date selector"
-msgstr ""
+msgstr "Auswahl eines Datums"
 
 #: calendar_admin.inc:377
+#, fuzzy
 msgid "Whether or not to display a popup date selector to change the calendar period. (Only works when the Date Popup module is enabled.)"
-msgstr ""
+msgstr "Soll ein Popup zur Auswahl eines Datums angzeigt werden (setzt das Modul Date Popup voraus)?"
 
 #: calendar_admin.inc:380
+#, fuzzy
 msgid "Maximum items"
-msgstr ""
+msgstr "Maximum an Items"
 
 #: calendar_admin.inc:382
 msgid "Unlimited"
-msgstr ""
+msgstr "Unbeschränkt"
 
 #: calendar_admin.inc:382
 msgid "3 items"
-msgstr ""
+msgstr "3 Einträge"
 
 #: calendar_admin.inc:382
 msgid "5 items"
-msgstr ""
+msgstr "5 Einträge"
 
 #: calendar_admin.inc:382
 msgid "10 items"
-msgstr ""
+msgstr "10 Einträge"
 
 #: calendar_admin.inc:384
 msgid "Maximum number of items to show in calendar cells, used to keep the calendar from expanding to a huge size when there are lots of items in one day. "
-msgstr ""
+msgstr "Maximale Anzahl von Einträgen für eine Zelle des Kalenders."
 
 #: calendar_admin.inc:387
 msgid "Too many items"
-msgstr ""
+msgstr "Zu viele Einträge"
 
 #: calendar_admin.inc:389
 msgid "Show maximum, add 'more' link"
-msgstr ""
+msgstr "Das Maximum und einen Link für weitere anzeigen"
 
 #: calendar_admin.inc:389
+#, fuzzy
 msgid "Hide all, add link to day"
-msgstr ""
+msgstr "Alles verbergen, einen Link für den Tag hinzufügen"
 
 #: calendar_admin.inc:391
 msgid "Behavior when there are more than the above number of items in a single day. When there more items than this limit, a link to the day view will be displayed."
-msgstr ""
+msgstr "Wenn mehr Einträge für einen Tag vorhanden sind, als das Maximum vorsieht, so wir ein Link für den Tag eingeblendet."
 
 #: calendar_admin.inc:394
+#, fuzzy
 msgid "Truncate length"
-msgstr ""
+msgstr "Maximallänge"
 
 #: calendar_admin.inc:397
 msgid "Truncate size for titles in month and week view so things fit better into the calendar cell. For instance, change the title from 'Very Very Very Long Name' to something like 'Very Very...'."
-msgstr ""
+msgstr "Größe für Titel in der Ansicht Monat oder Woche festlegen, diese werden abgeschnitten, damit sie besser in die Kalenderzelle passen."
 
-#: calendar_admin.inc:402 calendar.module:492
+#: calendar_admin.inc:402
+#: calendar.module:492
 msgid "Table"
-msgstr ""
+msgstr "Tabelle"
 
-#: calendar_admin.inc:402 calendar.module:490
+#: calendar_admin.inc:402
+#: calendar.module:490
 msgid "Teasers"
-msgstr ""
+msgstr "Anrißtext"
 
 #: calendar_admin.inc:402
 msgid "Full Nodes"
-msgstr ""
+msgstr "Vollständige Beiträge"
 
-#: calendar_admin.inc:402 calendar.module:489
+#: calendar_admin.inc:402
+#: calendar.module:489
 msgid "List"
-msgstr ""
+msgstr "Liste"
 
 #: calendar_admin.inc:402
 msgid "None"
-msgstr ""
+msgstr "Kein"
 
 #: calendar_admin.inc:406
 msgid "Display options"
-msgstr ""
+msgstr "Anzeige-Optionen"
 
 #: calendar_admin.inc:407
+#, fuzzy
 msgid "Choose the way the calendar entries should be displayed. Selecting 'None' will hide links to that option."
-msgstr ""
+msgstr "Anzeige von Kalendereinträgen, 'Keine' blendet die Links für diese Option aus."
 
 #: calendar_admin.inc:410
 msgid "Year display"
-msgstr ""
+msgstr "Jahr anzeigen"
 
 #: calendar_admin.inc:416
 msgid "Month display"
-msgstr ""
+msgstr "Monat anzeigen"
 
 #: calendar_admin.inc:422
 msgid "Week display"
-msgstr ""
+msgstr "Woche anzeigen"
 
 #: calendar_admin.inc:428
 msgid "Day display"
-msgstr ""
+msgstr "Tag anzeigen"
 
 #: calendar_admin.inc:434
 msgid "Block display"
-msgstr ""
+msgstr "Im Block anzeigen"
 
 #: calendar_admin.inc:440
 msgid "Date year range"
-msgstr ""
+msgstr "Datum: Jahresbereich"
 
 #: calendar_admin.inc:443
 msgid "Set the allowable minimum and maximum year range for this view, either a -X:+X offset from the current year, like '-3:+3' or an absolute minimum and maximum year, like '2005:2010'.  When the argument is set to a date outside the range, the page will be returned as 'Page not found (404)'."
-msgstr ""
+msgstr "Einstellen der Grenzen für die Jahreszahl für Ansichten, z.B. als Versatz zum aktuellen Jahr:  '-3:+3' oder als absolute Zahlen '2005:2015'. Wenn eine als Argument übergebene Jahreszahl außerhalb des angegebenen Bereiches liegt, wird 'Seite nicht gefunden (404)' zurückgegeben."
 
 #: calendar_admin.inc:447
 msgid "Wildcard argument"
-msgstr ""
+msgstr "Platzhalter"
 
 #: calendar_admin.inc:450
 msgid "A character or short text string to use for empty calendar arguments. For instance, 'all' would create the url 2007/12/all to show all days in December of 2007. Note that non-ASCII characters will not display correctly in urls."
-msgstr ""
+msgstr "Ein Buchstabe oder ein kurzer Text für fehlende Argumente, z.B. 'alle' würde für die URL 2009/1/alle alle Tage des Januar 2009 anzeigen, beachten Sie dass dafür nur ASCII-Buchstaben verwendet werden können."
 
-#: calendar_admin.inc:458;507 calendar_ical_admin.inc:92
+#: calendar_admin.inc:458;507
+#: calendar_ical_admin.inc:92
 msgid "Submit"
-msgstr ""
+msgstr "Speichern"
 
 #: calendar_admin.inc:471
 msgid "<h3>Content Type</h3><p>Set a hex color value (like #ffffff) to use in the calendar legend for each content type. Types with empty values will have no stripe in the calendar and will not be added to the legend.</p>"
-msgstr ""
+msgstr "<h3>Inhaltstyp</h3><p>Eine Farbe für jeden Inhaltstyp hexadezimal angeben (z.B. #ffffff) für die Legende des Kalenders. Inhaltstypen ohne Farbwert haben keinen Streifen und werden auch nicht zur Legende hinzugefügt.</p>"
 
 #: calendar_admin.inc:479
 msgid "Legend colors"
-msgstr ""
+msgstr "Farben in der Legende"
 
 #: calendar_admin.inc:517
 msgid "Date year range must be in the format -9:+9 or 2005:2010."
-msgstr ""
+msgstr "Jahresangaben müssen im Format -9:+9 oder 2005:2010 angegeben werden."
 
 #: calendar_admin.inc:560
 msgid "Calendar settings have been updated."
-msgstr ""
+msgstr "Die Einstellungen von Calendar wurden gespeichert."
 
 #: calendar_admin.inc:569
 msgid "Calendar legend settings have been updated."
-msgstr ""
+msgstr "Die Einstellungen für die Legende von Calendar wurden aktualisiert."
 
 #: calendar_admin.inc:599
 msgid "Calendar: Year"
-msgstr ""
+msgstr "Calendar: Jahr"
 
 #: calendar_admin.inc:601
 msgid "Filter by the calendar year (YYYY)."
-msgstr ""
+msgstr "Filtern nach  dem Jahr (JJJJ)."
 
 #: calendar_admin.inc:604
 msgid "Calendar: Month"
-msgstr ""
+msgstr "Calendar: Monat"
 
 #: calendar_admin.inc:606
 msgid "Filter by the calendar month (1-12). Place this argument after a 'Year' argument."
-msgstr ""
+msgstr "Nach Monat (1-12) filtern. Dieses Argument kommt nach dem 'Jahr' Argument"
 
 #: calendar_admin.inc:609
 msgid "Calendar: Day"
-msgstr ""
+msgstr "Calendar: Tag"
 
 #: calendar_admin.inc:611
 msgid "Filter by the calendar day (1-31). Place this argument after a 'Year' and a 'Month' argument."
-msgstr ""
+msgstr "Nach dem Tag (1-31) filtern. Dieses Argument kommt nach dem 'Jahr' und 'Monat'."
 
 #: calendar_admin.inc:614
 msgid "Calendar: Week"
-msgstr ""
+msgstr "Calendar: Woche"
 
 #: calendar_admin.inc:616
 msgid "Filter by the week number (1-52). Place this argument after a 'Year' argument and use a 'W' in front of the week number in the url."
-msgstr ""
+msgstr "Filtern über die Wochennummer. Dieses Argument nach dem Jahr in die URL einfügen. Achtung: Die Wochennummern werden amerikanisch gezählt."
 
-#: calendar_admin.inc:624;637 calendar.module:0 calendar.theme:0
+#: calendar_admin.inc:624;637
+#: calendar.module:0
+#: calendar.theme:0
 msgid "calendar"
-msgstr ""
+msgstr "Kalender"
 
 #: calendar_admin.inc:625
+#, fuzzy
 msgid "Calendar view of any date field, add a date field to the view to use it."
-msgstr ""
+msgstr "Ansicht eines Kalenders: Ein Feld mit einem Datum hinzufügen, um die Ansicht zu nutzen."
 
 #: calendar_ical_admin.inc:28
 msgid "Expire iCal cache"
-msgstr ""
+msgstr "Gültigkeit des iCal Cache"
 
 #: calendar_ical_admin.inc:30
 msgid "iCal feeds are cached to improve performance. Set an expiration time for cached feeds."
-msgstr ""
+msgstr "RSS-Newsfeeds mit iCal Daten werden gecached, um die Geschwindigkeit zu verbessern. Setzen Sie einen Gültigkeitszeitraum für den Cache der RSS-Newsfeeds."
 
 #: calendar_ical_admin.inc:36
 msgid "iCal Feeds"
-msgstr ""
+msgstr "RSS-Newsfeeds mit iCal-Dateien"
 
 #: calendar_ical_admin.inc:37
+#, fuzzy
 msgid "Use this section to set up iCal feeds that should be displayed in this calendar. They will be shown along with any internal items that match the calendar criteria."
-msgstr ""
+msgstr "Konfiguration von iCal RSS-Newsfeeds, die im Kalender angezeigt werden. "
 
 #: calendar_ical_admin.inc:46
 msgid "Feed @delta"
-msgstr ""
+msgstr "RSS-Newsfeed"
 
 #: calendar_ical_admin.inc:50
 msgid "Feed type"
-msgstr ""
+msgstr "Typ des RSS-Newsfeed"
 
 #: calendar_ical_admin.inc:55
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: calendar_ical_admin.inc:58
 msgid "The name of a feed to include in this calendar."
-msgstr ""
+msgstr "Der Name eines RSS-Newsfeeds, der in einen Kalender aufgenommen wird."
 
 #: calendar_ical_admin.inc:61
 msgid "iCal url"
-msgstr ""
+msgstr "URL für iCal"
 
 #: calendar_ical_admin.inc:65
+#, fuzzy
 msgid "The ical url, either an external feed url or internal file path and name. Change 'webcal://' to 'http://'."
-msgstr ""
+msgstr "Die URL einer iCal-Datei, entweder aus einem externen RSS-Newsfeeds oder eines internen Dateinamens bzw. -pfads. Dazu 'webcal://' zu 'http://' ändern."
 
 #: calendar_ical_admin.inc:68
 msgid "Default link"
-msgstr ""
+msgstr "Standard Link"
 
 #: calendar_ical_admin.inc:72
+#, fuzzy
 msgid "A url to use to link back to ical items without a url, generally the public link to the calendar these items are coming from."
-msgstr ""
+msgstr "Eine URL für eine iCal-Datei, wenn diese keine URL hat, im allgemeinen ein öffentlicher Link zurück zu dem Kalender aus dem diese Datei entstammt."
 
 #: calendar_ical_admin.inc:76
+#, fuzzy
 msgid "Stripe color"
-msgstr ""
+msgstr "Farbe"
 
 #: calendar_ical_admin.inc:82
 msgid "The hex color value (like #ffffff) to use for this feed's calendar stripe."
-msgstr ""
+msgstr "Eine Farbe hexadezimal z.B. #ffffff angegeben, um einen RSS-Newsfeed eines Kalenders mit Streifen zu versehen."
 
 #: calendar.module:15
 msgid "<p>View complete documentation at !link.</p>"
-msgstr ""
+msgstr "<p> <a href=\"!link\"> Komplette Dokumentation</a></p>"
 
 #: calendar.module:35
 msgid "Calendar Setup"
-msgstr ""
+msgstr "Einstellung von Calendar"
 
 #: calendar.module:36
+#, fuzzy
 msgid "Customize calendar settings options."
-msgstr ""
+msgstr "Anpassen der Einstellmöglichkeiten für Kalender."
 
 #: calendar.module:53
 msgid "Setup"
-msgstr ""
+msgstr "Einstellungen"
 
 #: calendar.module:62
 msgid "Legend"
-msgstr ""
+msgstr "Legende"
 
 #: calendar.module:463
 msgid "Calendar Legend."
-msgstr ""
+msgstr "Calendar Legende."
 
 #: calendar.module:464
 msgid "Calendar Switcher."
-msgstr ""
+msgstr "Block für die Umschaltung des Kalenders."
 
 #: calendar.module:470
 msgid "Calendar Legend"
-msgstr ""
+msgstr "Calendar Legende"
 
 #: calendar.module:475
 msgid "Calendar Switcher"
-msgstr ""
+msgstr "Block für die Umschaltung des Kalenders."
 
 #: calendar.module:491
 msgid "Nodes"
-msgstr ""
+msgstr "Beiträge"
 
 #: calendar.module:505
 msgid "Switch"
-msgstr ""
+msgstr "Umschalten"
 
 #: calendar.module:954
 msgid "Change date"
-msgstr ""
+msgstr "Datum ändern"
 
 #: calendar.module:1050
 msgid " is not a valid hex color"
-msgstr ""
+msgstr "Keine gültige Farbe (im Hex-Format)"
 
 #: calendar_ical.module:20
 msgid "iCal"
-msgstr ""
+msgstr "iCal"
 
 #: calendar_ical.module:21
 msgid "iCal setup."
-msgstr ""
+msgstr "Einstellung für iCal."
 
 #: calendar_ical.module:86;171;187
 msgid "Calendar: iCal Feed"
-msgstr ""
+msgstr "Calendar: iCal Feed"
 
 #: calendar_ical.module:189
 msgid "Add this as the last argument to a calendar view to provide an iCal feed of the view."
-msgstr ""
+msgstr "Dieses Argument als letztes zu einer Ansicht eines Kalenders hinzufügen, um einen iCal RSS-Newsfeed zu erhalten."
 
 #: calendar_ical.module:303;303
 msgid "Add to calendar"
-msgstr ""
+msgstr "Zu Kalender hinzufügen"
 
 #: calendar_ical.module:370
 msgid "Dates"
-msgstr ""
+msgstr "Termine"
 
 #: calendar_ical.module:0
 msgid "calendar_ical"
-msgstr ""
+msgstr "calendar_ical"
 
 #: calendar.theme:253;343
 msgid "Week of @date"
-msgstr ""
+msgstr "Woche @date"
 
 #: calendar.theme:292
 msgid "prev"
-msgstr ""
+msgstr "Vor"
 
 #: calendar.theme:294
 msgid "‹ !period  "
-msgstr ""
+msgstr "‹ !period  "
 
 #: calendar.theme:305
 msgid "next"
-msgstr ""
+msgstr "Weiter"
 
 #: calendar.theme:307
 msgid "  !period  ›"
-msgstr ""
+msgstr "  !period  ›"
 
 #: calendar.theme:382;403
 msgid "Year"
-msgstr ""
+msgstr "Jahr"
 
 #: calendar.theme:385;407
 msgid "Month"
-msgstr ""
+msgstr "Monat"
 
 #: calendar.theme:388;411
 msgid "Week"
-msgstr ""
+msgstr "Woche"
 
 #: calendar.theme:391;415
 msgid "Day"
-msgstr ""
+msgstr "Tag"
 
 #: calendar.theme:436
+#, fuzzy
 msgid "Item"
-msgstr ""
+msgstr "Termin"
 
 #: calendar.theme:437
+#, fuzzy
 msgid "Key"
-msgstr ""
+msgstr "Schlüssel"
 
 #: calendar.theme:636;675
 msgid "Click to see all @count events"
-msgstr ""
+msgstr "Für @count Termine anklicken"
 
 #: calendar.theme:639;678
 msgid "more»"
-msgstr ""
+msgstr "mehr»"
 
-#: (duplicate) calendar.install:26 ;35 
+#: (duplicate) calendar.install:26
+#: ;35
 msgid "Calendar requirements"
-msgstr ""
+msgstr "Anforderungen des Moduls Calendar"
 
-#: (duplicate) calendar.install:27 
+#: (duplicate) calendar.install:27
 msgid "The Calendar module requires a more current version of the Date API. Please check for a newer version."
-msgstr ""
+msgstr "Das Calendar Modul ist auf eine aktuelle Version des Moduls Date API angewiesen. Bitte prüfen Sie die  Version beider Module."
 
-#: (duplicate) calendar.install:36 
+#: (duplicate) calendar.install:36
 msgid "The Calendar module requires the latest version of the Date API, be sure you are installing the latest versions of both modules."
-msgstr ""
+msgstr "Das Calendar Modul ist auf eine aktuelle Version des Moduls Date API angewiesen. Bitte prüfen Sie die  Version beider Module."
 
 #: calendar.info:0
 msgid "Views plugin to display views containing dates as Calendars."
-msgstr ""
+msgstr "Plugin für Views zur Anzeige von Kalendern."
 
-#: calendar.info:0 calendar_ical.info:0 jcalendar/jcalendar.info:0
+#: calendar.info:0
+#: calendar_ical.info:0
+#: jcalendar/jcalendar.info:0
 msgid "Date/Time"
-msgstr ""
+msgstr "Datum / Uhrzeit"
 
 #: calendar_ical.info:0
+#, fuzzy
 msgid "Calendar iCal"
-msgstr ""
+msgstr "iCal-Datum"
 
 #: calendar_ical.info:0
 msgid "Adds ical functionality to Calendar views."
-msgstr ""
+msgstr "iCals zu Kalenderansichten hinzufügen."
 
 #: jcalendar/jcalendar.module:18
 msgid "Creates a popup for calendar dates."
-msgstr ""
+msgstr "Ein Popup für Kalenderdaten erstellen."
 
 #: jcalendar/jcalendar.module:83
+#, fuzzy
 msgid "more"
-msgstr ""
+msgstr "mehr"
 
 #: jcalendar/jcalendar.module:0
 msgid "jcalendar"
-msgstr ""
+msgstr "jcalendar"
 
 #: jcalendar/jcalendar.info:0
 msgid "Calendar Popup"
-msgstr ""
+msgstr "Popup Kalender"
 
 #: jcalendar/jcalendar.info:0
 msgid "Replaces the links to calendar items with a javascript popup that gracefully regresses if javascript is not enabled"
-msgstr ""
+msgstr "Wenn Javascript verfügbar ist, werden Links zu Kalendereinträgen mit einem Javascript-Popup, ersetzt. Ist Javascript nicht verfügbar wird auf reguläre Links zurückgefallen."
 
